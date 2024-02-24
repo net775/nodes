@@ -101,6 +101,7 @@ proxies:
   - {name: 04-044-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: e29339a9-8f6e-3ff3-b76b-db67787ffa73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-143-JP, server: 54.95.145.74, port: 443, type: trojan, password: 6077fde9-5b48-3763-9caa-6e4323c148e7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-144-JP, server: 43.206.113.108, port: 443, type: trojan, password: 6077fde9-5b48-3763-9caa-6e4323c148e7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-145-US, server: 34.213.222.122, port: 443, type: trojan, password: 6077fde9-5b48-3763-9caa-6e4323c148e7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-146-US, server: 103.136.185.27, port: 5476, type: trojan, password: 6077fde9-5b48-3763-9caa-6e4323c148e7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-147-US, server: 103.136.185.28, port: 3494, type: trojan, password: 6077fde9-5b48-3763-9caa-6e4323c148e7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-148-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -640,7 +641,6 @@ proxies:
   - {name: 12-684-AT, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-685-RELAY, server: 172.64.128.180, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-686-RELAY, server: 104.21.225.141, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-687-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-688-RELAY, server: 172.67.253.130, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-689-ES, server: 5.188.181.201, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
   - {name: 12-690-US, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2, udp: true}
@@ -963,6 +963,7 @@ proxy-groups:
       - 04-044-CN
       - 04-143-JP
       - 04-144-JP
+      - 04-145-US
       - 04-146-US
       - 04-147-US
       - 04-148-CN
@@ -1502,7 +1503,6 @@ proxy-groups:
       - 12-684-AT
       - 12-685-RELAY
       - 12-686-RELAY
-      - 12-687-US
       - 12-688-RELAY
       - 12-689-ES
       - 12-690-US
@@ -2075,7 +2075,6 @@ proxy-groups:
       - 12-672-US
       - 12-677-RELAY
       - 12-682-RELAY
-      - 12-687-US
       - 12-692-RELAY
       - 12-697-RELAY
       - 12-702-CN
@@ -2493,6 +2492,7 @@ proxy-groups:
       - 04-030-HK
       - 04-035-CN
       - 04-040-CN
+      - 04-145-US
       - 04-150-CN
       - 04-155-CN
       - 04-160-CN
