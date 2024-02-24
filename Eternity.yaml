@@ -617,6 +617,7 @@ proxies:
   - {name: 12-659-US, server: 18.217.92.108, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 12-660-RELAY, server: 104.21.233.67, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-661-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
+  - {name: 12-662-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 12-663-RELAY, server: 104.21.236.82, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-664-RELAY, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-665-RELAY, server: 104.21.233.68, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -661,11 +662,9 @@ proxies:
   - {name: 12-704-JP, server: jp.mjt000.com, port: 443, type: trojan, password: e418915e-6459-414d-bc76-bbcbda621f0f, sni: jp.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 12-705-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 12-706-RELAY, server: 104.21.225.156, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-707-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-708-CN, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 12-709-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-710-RELAY, server: 104.21.237.69, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
-  - {name: 12-711-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 12-712-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 12-713-GB, server: 51.142.173.103, port: 51899, type: ss, cipher: chacha20-ietf-poly1305, password: gcpVehVytslepmkHHRLXYx, udp: true}
   - {name: 12-714-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -831,7 +830,7 @@ proxies:
   - {name: 24-878-FR, server: 15.237.119.97, port: 17398, type: trojan, password: fGktGa8gIwOF, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-879-RELAY, server: 172.67.132.6, port: 2096, type: trojan, password: 8dff76ef-4b6f-42e0-b21e-28dfaab03b53, sni: channel.v2bamdad.tech, skip-cert-verify: true, udp: true}
   - {name: 24-880-GB, server: 3.10.121.127, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 24-881-CA, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-881-CA, server: 15.157.171.188, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-882-DE, server: 3.68.92.29, port: 12408, type: trojan, password: vlQxfIPOOGtO, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-883-AE, server: 139.185.37.183, port: 37902, type: trojan, password: 3ed0726d-b965-4c81-80da-0539936d3723, sni: ua01.bsawc.shop, skip-cert-verify: true, udp: true}
   - {name: 24-884-AU, server: 172.105.254.162, port: 443, type: trojan, password: 4f3e6fcf-0a5f-47d3-80bf-2655a70d15d5, skip-cert-verify: true, udp: true}
@@ -1497,6 +1496,7 @@ proxy-groups:
       - 12-659-US
       - 12-660-RELAY
       - 12-661-RELAY
+      - 12-662-RELAY
       - 12-663-RELAY
       - 12-664-RELAY
       - 12-665-RELAY
@@ -1541,11 +1541,9 @@ proxy-groups:
       - 12-704-JP
       - 12-705-NL
       - 12-706-RELAY
-      - 12-707-US
       - 12-708-CN
       - 12-709-FR
       - 12-710-RELAY
-      - 12-711-RELAY
       - 12-712-US
       - 12-713-GB
       - 12-714-VN
@@ -1940,7 +1938,6 @@ proxy-groups:
       - 12-696-JP
       - 12-701-JP
       - 12-706-RELAY
-      - 12-711-RELAY
       - 12-716-JP
       - 12-721-RELAY
       - 12-726-KR
@@ -2110,6 +2107,7 @@ proxy-groups:
       - 12-647-RELAY
       - 12-652-DE
       - 12-657-RELAY
+      - 12-662-RELAY
       - 12-667-RELAY
       - 12-672-RELAY
       - 12-677-JP
@@ -2118,7 +2116,6 @@ proxy-groups:
       - 12-692-US
       - 12-697-US
       - 12-702-ES
-      - 12-707-US
       - 12-712-US
       - 12-717-RELAY
       - 12-722-CN
