@@ -79,6 +79,7 @@ proxies:
   - {name: 04-022-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-023-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-024-HK, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
+  - {name: 04-025-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-026-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-027-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-028-HK, server: hkvip103.qlgq1.pw, port: 10444, type: trojan, password: 8ad6ebf6-8d23-3988-9f6a-6b6e58cafab1, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -101,7 +102,6 @@ proxies:
   - {name: 04-045-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: af7cacdb-dc49-3bd7-ab7b-2b31fb04c07f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-144-JP, server: 54.95.145.74, port: 443, type: trojan, password: 56fde94c-a3a3-3a9c-96bf-28b1c62f8080, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-145-JP, server: 43.206.113.108, port: 443, type: trojan, password: 56fde94c-a3a3-3a9c-96bf-28b1c62f8080, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-146-US, server: 34.213.222.122, port: 443, type: trojan, password: 56fde94c-a3a3-3a9c-96bf-28b1c62f8080, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-147-US, server: 103.136.185.27, port: 5477, type: trojan, password: 56fde94c-a3a3-3a9c-96bf-28b1c62f8080, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-148-US, server: 103.136.185.28, port: 3494, type: trojan, password: 56fde94c-a3a3-3a9c-96bf-28b1c62f8080, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-149-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -668,6 +668,7 @@ proxies:
   - {name: 12-712-RELAY, server: 188.114.96.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-713-CN, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123, udp: true}
   - {name: 12-714-RELAY, server: 172.67.253.158, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
+  - {name: 12-715-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-716-US, server: 35.90.9.236, port: 14978, type: trojan, password: prfHUEwMu52R, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 12-717-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-718-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -764,7 +765,6 @@ proxies:
   - {name: 22-811-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-812-TW, server: 114.37.158.127, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-813-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 22-814-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-815-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 22-816-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-817-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -948,6 +948,7 @@ proxy-groups:
       - 04-022-US
       - 04-023-HK
       - 04-024-HK
+      - 04-025-HK
       - 04-026-HK
       - 04-027-HK
       - 04-028-HK
@@ -970,7 +971,6 @@ proxy-groups:
       - 04-045-CN
       - 04-144-JP
       - 04-145-JP
-      - 04-146-US
       - 04-147-US
       - 04-148-US
       - 04-149-CN
@@ -1537,6 +1537,7 @@ proxy-groups:
       - 12-712-RELAY
       - 12-713-CN
       - 12-714-RELAY
+      - 12-715-US
       - 12-716-US
       - 12-717-GB
       - 12-718-FR
@@ -1633,7 +1634,6 @@ proxy-groups:
       - 22-811-TW
       - 22-812-TW
       - 22-813-TW
-      - 22-814-TW
       - 22-815-RELAY
       - 22-816-TW
       - 22-817-TW
@@ -1806,7 +1806,6 @@ proxy-groups:
       - 04-031-HK
       - 04-036-CN
       - 04-041-CN
-      - 04-146-US
       - 04-151-CN
       - 04-156-CN
       - 04-161-CN
@@ -2469,7 +2468,6 @@ proxy-groups:
       - 16-799-CN
       - 22-804-GOOGLE
       - 22-809-TW
-      - 22-814-TW
       - 22-819-TW
       - 22-824-TW
       - 22-829-CA
@@ -2509,6 +2507,7 @@ proxy-groups:
       - 04-010-SG
       - 04-015-JP
       - 04-020-US
+      - 04-025-HK
       - 04-030-HK
       - 04-035-KR
       - 04-040-CN
@@ -2627,6 +2626,7 @@ proxy-groups:
       - 12-700-CN
       - 12-705-NL
       - 12-710-SG
+      - 12-715-US
       - 12-720-RELAY
       - 12-725-JP
       - 12-730-RELAY
