@@ -716,7 +716,6 @@ proxies:
   - {name: 12-758-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 12-759-CN, server: gdyd.xiaow.cc, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: b5d41e0b-0761-4c48-b696-8f882c3c2cd4, udp: true}
   - {name: 12-760-RELAY, server: 172.67.229.39, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-761-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-762-SG, server: 103.172.116.103, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
   - {name: 12-763-RELAY, server: 23.227.39.23, port: 8080, type: vmess, uuid: ac750859-79e7-4507-ba93-e92584ac49e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-764-RELAY, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
@@ -749,6 +748,7 @@ proxies:
   - {name: 12-791-RELAY, server: 188.114.96.25, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-792-FR, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, udp: true}
   - {name: 12-793-RELAY, server: 104.21.229.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
+  - {name: 12-794-US, server: passconf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN, udp: true}
   - {name: 12-795-GB, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 12-796-US, server: 205.134.180.137, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: g13S7doXar0A, udp: true}
   - {name: 12-797-RELAY, server: 188.114.97.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1617,7 +1617,6 @@ proxy-groups:
       - 12-758-US
       - 12-759-CN
       - 12-760-RELAY
-      - 12-761-US
       - 12-762-SG
       - 12-763-RELAY
       - 12-764-RELAY
@@ -1650,6 +1649,7 @@ proxy-groups:
       - 12-791-RELAY
       - 12-792-FR
       - 12-793-RELAY
+      - 12-794-US
       - 12-795-GB
       - 12-796-US
       - 12-797-RELAY
@@ -1992,7 +1992,6 @@ proxy-groups:
       - 12-746-RELAY
       - 12-751-RELAY
       - 12-756-RELAY
-      - 12-761-US
       - 12-766-SG
       - 12-771-GB
       - 12-776-RELAY
@@ -2547,6 +2546,7 @@ proxy-groups:
       - 12-779-RELAY
       - 12-784-RELAY
       - 12-789-RELAY
+      - 12-794-US
       - 15-799-CN
       - 15-804-CN
       - 15-809-CN
