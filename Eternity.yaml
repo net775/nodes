@@ -366,6 +366,7 @@ proxies:
   - {name: 11-0407-CN, server: gy.58n.net, port: 20076, type: trojan, password: d180f72d-df2e-3db2-8324-a9a49a30cefb, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 11-0408-US, server: www.flybar.top, port: 10086, type: trojan, password: VqKLTmUl1ZhJQVGp, skip-cert-verify: true, udp: true}
   - {name: 11-0409-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: f41404d6-2169-4eb8-932e-fcf9d83afd08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
+  - {name: 11-0410-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 11-0411-DE, server: 38.54.13.212, port: 23026, type: vmess, uuid: ef4d0930-3788-4410-9305-fae4ba652ede, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef4d0930}, udp: true}
   - {name: 11-0412-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-0413-RELAY, server: 104.21.225.153, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -703,7 +704,6 @@ proxies:
   - {name: 12-0745-RELAY, server: 104.21.235.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-0746-RELAY, server: 172.67.241.154, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 12-0747-RELAY, server: 104.21.225.81, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-0748-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0749-RELAY, server: 104.21.226.117, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"}, udp: true}
   - {name: 12-0750-RELAY, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: waynn.makeup}}, udp: true}
   - {name: 12-0751-CN, server: zscm.xiaow.cc, port: 20008, type: ss, cipher: aes-128-gcm, password: b5d41e0b-0761-4c48-b696-8f882c3c2cd4, udp: true}
@@ -1284,6 +1284,7 @@ proxy-groups:
       - 11-0407-CN
       - 11-0408-US
       - 11-0409-SG
+      - 11-0410-RELAY
       - 11-0411-DE
       - 11-0412-RELAY
       - 11-0413-RELAY
@@ -1621,7 +1622,6 @@ proxy-groups:
       - 12-0745-RELAY
       - 12-0746-RELAY
       - 12-0747-RELAY
-      - 12-0748-RELAY
       - 12-0749-RELAY
       - 12-0750-RELAY
       - 12-0751-CN
@@ -2400,7 +2400,6 @@ proxy-groups:
       - 12-0733-RELAY
       - 12-0738-US
       - 12-0743-CA
-      - 12-0748-RELAY
       - 12-0753-US
       - 12-0758-NOWHERE
       - 12-0763-RELAY
@@ -2705,6 +2704,7 @@ proxy-groups:
       - 11-0395-CN
       - 11-0400-CN
       - 11-0405-CN
+      - 11-0410-RELAY
       - 11-0415-RELAY
       - 11-0420-RELAY
       - 11-0425-RELAY
