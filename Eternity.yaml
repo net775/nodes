@@ -104,7 +104,7 @@ proxies:
   - {name: 04-0146-JP, server: 43.206.113.108, port: 443, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0147-US, server: 34.213.222.122, port: 443, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0148-US, server: 103.136.185.27, port: 5478, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0149-US, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0149-US, server: 103.136.185.28, port: 3494, type: trojan, password: eebff59a-5092-37c2-b867-6a0ed99c4bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0150-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0151-CN, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-0152-CN, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -395,7 +395,6 @@ proxies:
   - {name: 12-0437-RELAY, server: 104.21.225.122, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0438-RELAY, server: 104.21.237.87, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0439-RELAY, server: 172.67.136.12, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-0440-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0441-RELAY, server: 172.67.254.171, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-0442-RELAY, server: 104.21.225.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-0443-RELAY, server: 104.21.224.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
@@ -673,7 +672,7 @@ proxies:
   - {name: 12-0715-RELAY, server: 104.21.236.61, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 12-0716-US, server: 38.75.136.135, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 12-0717-US, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 12-0720-US, server: 205.134.180.137, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: g13S7doXar0A, udp: true}
+  - {name: 12-0718-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 12-0721-US, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 12-0722-LU, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0723-RELAY, server: 198.41.207.116, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1306,7 +1305,6 @@ proxy-groups:
       - 12-0437-RELAY
       - 12-0438-RELAY
       - 12-0439-RELAY
-      - 12-0440-RELAY
       - 12-0441-RELAY
       - 12-0442-RELAY
       - 12-0443-RELAY
@@ -1584,7 +1582,7 @@ proxy-groups:
       - 12-0715-RELAY
       - 12-0716-US
       - 12-0717-US
-      - 12-0720-US
+      - 12-0718-RELAY
       - 12-0721-US
       - 12-0722-LU
       - 12-0723-RELAY
@@ -2375,6 +2373,7 @@ proxy-groups:
       - 12-0703-US
       - 12-0708-CN
       - 12-0713-RELAY
+      - 12-0718-RELAY
       - 12-0723-RELAY
       - 12-0728-RELAY
       - 12-0733-PL
@@ -2690,7 +2689,6 @@ proxy-groups:
       - 11-0425-RELAY
       - 11-0430-TR
       - 12-0435-RELAY
-      - 12-0440-RELAY
       - 12-0445-RELAY
       - 12-0450-RELAY
       - 12-0455-RELAY
@@ -2746,7 +2744,6 @@ proxy-groups:
       - 12-0705-RELAY
       - 12-0710-CN
       - 12-0715-RELAY
-      - 12-0720-US
       - 12-0725-GB
       - 12-0730-CN
       - 12-0735-LU
