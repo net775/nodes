@@ -366,7 +366,6 @@ proxies:
   - {name: 11-407-CN, server: gy.58n.net, port: 20076, type: trojan, password: 88162b23-5e95-3f01-87cc-08844fa10e47, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 11-408-KR, server: www.flybar.top, port: 10086, type: trojan, password: uswCmybLnTYHqQTV, skip-cert-verify: true, udp: true}
   - {name: 11-409-JP, server: cdn.chigua.tk, port: 80, type: vmess, uuid: bf91d1f1-a6ed-4f15-89b4-18ceb0c067c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
-  - {name: 11-410-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 11-411-TR, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 11-412-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-413-RELAY, server: 104.20.231.30, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -531,6 +530,7 @@ proxies:
   - {name: 12-572-TR, server: 45.89.52.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
   - {name: 12-573-TW, server: ty12t.twty.dynu.net, port: 18912, type: trojan, password: ff0a98ef-e829-4a62-b625-998593df5249, sni: ty12t.twty.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 12-574-SG, server: 103.172.116.103, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 12-575-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
   - {name: 12-576-US, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 12-577-FASTLY, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /77848824, headers: {Host: gov.uk}}, udp: true}
   - {name: 12-578-CN, server: cmcm.yam168.com, port: 42000, type: ss, cipher: chacha20-ietf-poly1305, password: 9109e709-6926-4299-a6c1-cda9cdca8b33, udp: true}
@@ -1013,7 +1013,6 @@ proxy-groups:
       - 11-407-CN
       - 11-408-KR
       - 11-409-JP
-      - 11-410-RELAY
       - 11-411-TR
       - 11-412-RELAY
       - 11-413-RELAY
@@ -1178,6 +1177,7 @@ proxy-groups:
       - 12-572-TR
       - 12-573-TW
       - 12-574-SG
+      - 12-575-RELAY
       - 12-576-US
       - 12-577-FASTLY
       - 12-578-CN
@@ -1945,7 +1945,6 @@ proxy-groups:
       - 11-395-CN
       - 11-400-CN
       - 11-405-CN
-      - 11-410-RELAY
       - 11-415-RELAY
       - 11-420-RELAY
       - 11-425-RELAY
@@ -1978,6 +1977,7 @@ proxy-groups:
       - 12-560-RELAY
       - 12-565-AT
       - 12-570-KE
+      - 12-575-RELAY
       - 12-580-RELAY
       - 12-585-US
       - 12-590-HK
