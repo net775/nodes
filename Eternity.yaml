@@ -82,7 +82,6 @@ proxies:
   - {name: 04-025-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-026-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-027-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 04-028-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-029-HK, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-030-HK, server: hkvip102.qlgq1.pw, port: 30443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-031-HK, server: hkvip102.qlgq1.pw, port: 40443, type: trojan, password: 79609a98-4314-3dfe-8bc5-f35f7e809032, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -710,7 +709,7 @@ proxies:
   - {name: 16-756-RELAY, server: lxcus.inekokkk.top, port: 80, type: vmess, uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lxcus.inekokkk.top}}, udp: true}
   - {name: 16-757-SG, server: 47.129.47.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-758-SG, server: 18.143.132.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 16-759-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#12-680-US, server: 13.250.104.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 16-759-SG, server: 13.250.104.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 22-760-GOOGLE, server: speedo4602000.buzz, port: 443, type: vmess, uuid: 28288d58-10b8-4b7d-a12e-56e25c6fb670, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yfgevws, headers: {Host: speedo4602000.buzz}}, udp: true}
   - {name: 22-761-GOOGLE, server: speedo4602000.buzz, port: 443, type: trojan, password: 28288d58-10b8-4b7d-a12e-56e25c6fb670, sni: speedo4602000.buzz, skip-cert-verify: true, udp: true}
   - {name: 22-762-GOOGLE, server: speedo4602000.buzz, port: 443, type: trojan, password: 28288d58-10b8-4b7d-a12e-56e25c6fb670, sni: speedo4602000.buzz, skip-cert-verify: true, udp: true}
@@ -817,7 +816,6 @@ proxy-groups:
       - 04-025-US
       - 04-026-US
       - 04-027-US
-      - 04-028-HK
       - 04-029-HK
       - 04-030-HK
       - 04-031-HK
@@ -1445,7 +1443,7 @@ proxy-groups:
       - 16-756-RELAY
       - 16-757-SG
       - 16-758-SG
-      - 16-759-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#12-680-US
+      - 16-759-SG
       - 22-760-GOOGLE
       - 22-761-GOOGLE
       - 22-762-GOOGLE
@@ -1834,7 +1832,6 @@ proxy-groups:
       - 04-013-DE
       - 04-018-SG
       - 04-023-JP
-      - 04-028-HK
       - 04-033-HK
       - 04-038-JP
       - 04-043-CN
@@ -2111,7 +2108,7 @@ proxy-groups:
       - 15-744-CN
       - 16-749-CN
       - 16-754-CN
-      - 16-759-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#12-680-US
+      - 16-759-SG
       - 22-764-RU
       - 22-769-TW
       - 22-774-TW
@@ -2260,7 +2257,6 @@ proxy-groups:
       - 15-745-CN
       - 16-750-HK
       - 16-755-CN
-      - 16-759-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#12-680-US
       - 22-760-GOOGLE
       - 22-765-TW
       - 22-770-TW
