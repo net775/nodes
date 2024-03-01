@@ -107,7 +107,6 @@ proxies:
   - {name: 04-050-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 7baad75a-2036-3a14-a546-d51747d71561, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
   - {name: 04-149-JP, server: 54.95.145.74, port: 443, type: trojan, password: 3ec23ab3-3966-37ba-a9c9-e8b600b5d73f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 43.206.113.108, port: 443, type: trojan, password: 3ec23ab3-3966-37ba-a9c9-e8b600b5d73f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-151-US, server: 34.213.222.122, port: 443, type: trojan, password: 3ec23ab3-3966-37ba-a9c9-e8b600b5d73f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-152-US, server: 103.136.185.27, port: 5478, type: trojan, password: 3ec23ab3-3966-37ba-a9c9-e8b600b5d73f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-153-US, server: 103.136.185.28, port: 3494, type: trojan, password: 3ec23ab3-3966-37ba-a9c9-e8b600b5d73f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-154-CN, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -572,6 +571,7 @@ proxies:
   - {name: 12-614-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-615-CN, server: 231103level3.unclemanco.com, port: 20003, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com, udp: true}
   - {name: 12-616-JP, server: 185.172.113.182, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 12-617-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 12-618-CN, server: sdv3-sg.04xvkr9ed1.com, port: 6613, type: ss, cipher: aes-128-gcm, password: e29cb863-da5f-4ba9-955e-b3a777b0b7cd, udp: true}
   - {name: 12-619-JP, server: 18.181.194.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 12-620-HK, server: cb56dd690da64a74880b91e1224f5ec6.7.ss03.net, port: 12377, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
@@ -588,6 +588,7 @@ proxies:
   - {name: 12-631-FR, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 12-632-CN, server: 231103level3.unclemanco.com, port: 20029, type: ssr, cipher: aes-256-cfb, password: QHPy2u, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com, udp: true}
   - {name: 12-633-GB, server: 51.142.173.103, port: 51899, type: ss, cipher: chacha20-ietf-poly1305, password: gcpVehVytslepmkHHRLXYx, udp: true}
+  - {name: 12-634-US, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 12-635-US, server: 38.75.136.135, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 12-636-HK, server: cb56dd690da64a74880b91e1224f5ec6.4.ss03.net, port: 22370, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-637-HK, server: cb56dd690da64a74880b91e1224f5ec6.4.ss03.net, port: 22375, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
@@ -644,7 +645,6 @@ proxies:
   - {name: 12-689-HK, server: cb56dd690da64a74880b91e1224f5ec6.7.ss03.net, port: 12388, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-690-HK, server: cb56dd690da64a74880b91e1224f5ec6.4.ss03.net, port: 22372, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-691-CLOUDFRONT, server: sgcft01.xqc.best, port: 443, type: vmess, uuid: d52ac80d-4bf9-4505-b67a-e0b781b3b2bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: sgcft01.xqc.best}}, udp: true}
-  - {name: 12-692-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
   - {name: 12-693-HK, server: cb56dd690da64a74880b91e1224f5ec6.4.ss03.net, port: 22409, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-694-HK, server: cb56dd690da64a74880b91e1224f5ec6.1.ss03.net, port: 22355, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
   - {name: 12-695-HK, server: cb56dd690da64a74880b91e1224f5ec6.5.ss03.net, port: 22382, type: ss, cipher: chacha20-ietf-poly1305, password: b66e5bb3-d8cb-4213-9683-cdba40e53b93, udp: true}
@@ -832,7 +832,6 @@ proxy-groups:
       - 04-050-CN
       - 04-149-JP
       - 04-150-JP
-      - 04-151-US
       - 04-152-US
       - 04-153-US
       - 04-154-CN
@@ -1297,6 +1296,7 @@ proxy-groups:
       - 12-614-NL
       - 12-615-CN
       - 12-616-JP
+      - 12-617-RELAY
       - 12-618-CN
       - 12-619-JP
       - 12-620-HK
@@ -1313,6 +1313,7 @@ proxy-groups:
       - 12-631-FR
       - 12-632-CN
       - 12-633-GB
+      - 12-634-US
       - 12-635-US
       - 12-636-HK
       - 12-637-HK
@@ -1369,7 +1370,6 @@ proxy-groups:
       - 12-689-HK
       - 12-690-HK
       - 12-691-CLOUDFRONT
-      - 12-692-RELAY
       - 12-693-HK
       - 12-694-HK
       - 12-695-HK
@@ -1519,7 +1519,6 @@ proxy-groups:
       - 04-036-HK
       - 04-041-CN
       - 04-046-CN
-      - 04-151-US
       - 04-156-CN
       - 04-161-CN
       - 04-166-CN
@@ -1758,6 +1757,7 @@ proxy-groups:
       - 12-602-CLOUDFRONT
       - 12-607-CN
       - 12-612-HK
+      - 12-617-RELAY
       - 12-622-US
       - 12-627-CA
       - 12-632-CN
@@ -1772,7 +1772,6 @@ proxy-groups:
       - 12-677-CLOUDFRONT
       - 12-682-CN
       - 12-687-HK
-      - 12-692-RELAY
       - 12-697-HK
       - 15-702-CN
       - 15-707-CN
@@ -2058,6 +2057,7 @@ proxy-groups:
       - 12-619-JP
       - 12-624-RELAY
       - 12-629-RELAY
+      - 12-634-US
       - 12-639-CN
       - 12-644-CN
       - 12-649-US
