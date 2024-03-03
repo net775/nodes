@@ -678,7 +678,7 @@ proxies:
   - {name: 24-725-JP, server: 35.77.105.189, port: 12373, type: trojan, password: A82Iyw1hcEnX, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
   - {name: 24-726-IT, server: it-full.privateip.net, port: 443, type: trojan, password: 31583130-de1f-44ce-a433-1dbb108e1846, skip-cert-verify: true, udp: true}
   - {name: 24-727-ZA, server: 129.232.129.156, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: DiPietyory, udp: true}
-  - {name: 24-728-IE, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 41001b02-af57-3610-b5ed-1be1fe736cb5, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-728-IE, server: 63.33.75.225, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-729-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-730-RELAY, server: 104.25.255.254, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me, skip-cert-verify: true, udp: true}
   - {name: 24-731-GB, server: java.ct.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
@@ -724,7 +724,6 @@ proxies:
   - {name: 36-771-RELAY, server: 23.227.39.12, port: 8080, type: vmess, uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm}, udp: true}
   - {name: 36-772-CN, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 36-773-RELAY, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 36-774-GB, server: 3.10.0.244, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1405,7 +1404,6 @@ proxy-groups:
       - 36-771-RELAY
       - 36-772-CN
       - 36-773-RELAY
-      - 36-774-GB
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1971,7 +1969,6 @@ proxy-groups:
       - 36-759-RELAY
       - 36-764-FR
       - 36-769-RELAY
-      - 36-774-GB
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
