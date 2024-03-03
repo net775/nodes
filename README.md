@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `672`
+高速节点数量: `671`
 <details>
   <summary>展开复制节点</summary>
 
@@ -654,7 +654,7 @@ Fork from TopFreeProxies.
     trojan://A82Iyw1hcEnX@35.77.105.189:12373?allowInsecure=1&sni=www.myethblog.com#24-725-JP
     trojan://31583130-de1f-44ce-a433-1dbb108e1846@it-full.privateip.net:443?allowInsecure=1#24-726-IT
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEaVBpZXR5b3J5@129.232.129.156:444#24-727-ZA
-    trojan://41001b02-af57-3610-b5ed-1be1fe736cb5@lavip101.qlgq1.pw:20443?allowInsecure=1&sni=trojan.miwan.co.uk#24-728-IE
+    trojan://telegram-id-privatevpns@63.33.75.225:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-728-IE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNlpDSGVhYlVTZktqZlFFdko0SERW@185.242.86.156:54170#24-729-NL
     trojan://a6292090-afe1-4640-97a7-4f1d1d877cf1@104.25.255.254:443?allowInsecure=1&sni=hdfy8c1.foriran.me#24-730-RELAY
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.org:443#24-731-GB
@@ -700,18 +700,17 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMzYtNzcxLVJFTEFZIiwiYWRkIjoiMjMuMjI3LjM5LjEyIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDQ1MzRiODEtMmM0MC00OGEyLTlhN2ItMzVjZDk1OGM3NDM3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6ImQ0NTM0YjgxLTJjNDAtNDhhMi05YTdiLTM1Y2Q5NThjNzQzNy12bSIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNjEwNWJiZC1iZTBkLTQ1YjItODJhZC0zMWZkMTA3MWMxZDI@service.ouluyun9803.com:20003#36-772-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMzYtNzczLVJFTEFZIiwiYWRkIjoiMTcyLjY3LjE0My4xOTIiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyMjgyNmI0NC01YzFhLTRiNGItZGJhYS04M2EyZThiZDk1ZjAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@3.10.0.244:443#36-774-GB
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `775`
+合并节点总数: `771`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `775`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `771`
 
 
 ## 仓库声明
