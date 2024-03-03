@@ -416,9 +416,9 @@ proxies:
   - {name: 11-457-CN, server: freeno1us.beednsvip.top, port: 19547, type: ssr, cipher: aes-256-cfb, password: tsu9oi, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 20154:UPpe4o, obfs-param: 8ff7b20154.microsoft.com, udp: true}
   - {name: 11-458-JP, server: cdn.chigua.tk, port: 80, type: vmess, uuid: bcd1488f-42e4-473d-87f9-52f695e7a715, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
   - {name: 11-459-DE, server: 38.54.13.212, port: 23026, type: vmess, uuid: ef4d0930-3788-4410-9305-fae4ba652ede, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef4d0930}, udp: true}
-  - {name: 11-460-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 11-461-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-462-RELAY, server: 104.21.225.153, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 11-463-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 11-464-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-465-RELAY, server: 104.21.225.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-466-RELAY, server: 104.21.225.0, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1085,9 +1085,9 @@ proxy-groups:
       - 11-457-CN
       - 11-458-JP
       - 11-459-DE
-      - 11-460-RELAY
       - 11-461-RELAY
       - 11-462-RELAY
+      - 11-463-RELAY
       - 11-464-RELAY
       - 11-465-RELAY
       - 11-466-RELAY
@@ -1742,6 +1742,7 @@ proxy-groups:
       - 11-448-CN
       - 11-453-CN
       - 11-458-JP
+      - 11-463-RELAY
       - 11-468-RELAY
       - 11-473-RELAY
       - 11-478-RELAY
@@ -2016,7 +2017,6 @@ proxy-groups:
       - 11-445-CN
       - 11-450-CN
       - 11-455-US
-      - 11-460-RELAY
       - 11-465-RELAY
       - 11-470-RELAY
       - 11-475-RELAY
