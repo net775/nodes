@@ -183,7 +183,6 @@ proxies:
   - {name: 04-127-JP, server: jpvip102.qlgq1.pw, port: 40443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-128-JP, server: jpvip102.qlgq1.pw, port: 50443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: jpvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-129-US, server: lavip101.qlgq1.pw, port: 10443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 04-130-US, server: lavip101.qlgq1.pw, port: 20443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-131-US, server: lavip101.qlgq1.pw, port: 30443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: lavip101.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-132-HK, server: hkvip102.qlgq1.pw, port: 10443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 04-133-HK, server: hkvip102.qlgq1.pw, port: 20443, type: trojan, password: 1d95a5ac-767b-35f6-9a10-1e949343d642, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
@@ -647,6 +646,7 @@ proxies:
   - {name: 11-689-CN, server: node.websitea.xyz, port: 20039, type: ss, cipher: chacha20-ietf-poly1305, password: 24c3b09d-9661-4f1b-954e-3ed422b95304, udp: true}
   - {name: 11-690-CN, server: node.websitea.xyz, port: 20041, type: ss, cipher: chacha20-ietf-poly1305, password: 24c3b09d-9661-4f1b-954e-3ed422b95304, udp: true}
   - {name: 11-691-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: f805c95f-31b9-4ffe-ab50-8147f4837bbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
+  - {name: 11-692-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 11-693-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-694-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-695-RELAY, server: 104.21.225.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -937,7 +937,7 @@ proxies:
   - {name: 36-984-CN, server: 7p3h04.a3b5wy.xyz, port: 36801, type: vmess, uuid: ccf6cf7d-7bd4-4041-99b2-f6e065941ca1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 36-985-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 36-986-GB, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 36-988-GB, server: 35.179.40.160, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 36-987-CA, server: beecomf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 36-989-FR, server: 15.237.250.4, port: 16498, type: trojan, password: hfteplRQ4shj, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1078,7 +1078,6 @@ proxy-groups:
       - 04-127-JP
       - 04-128-JP
       - 04-129-US
-      - 04-130-US
       - 04-131-US
       - 04-132-HK
       - 04-133-HK
@@ -1542,6 +1541,7 @@ proxy-groups:
       - 11-689-CN
       - 11-690-CN
       - 11-691-SG
+      - 11-692-RELAY
       - 11-693-RELAY
       - 11-694-RELAY
       - 11-695-RELAY
@@ -1832,7 +1832,7 @@ proxy-groups:
       - 36-984-CN
       - 36-985-CN
       - 36-986-GB
-      - 36-988-GB
+      - 36-987-CA
       - 36-989-FR
   - name: 自动选择
     type: url-test
@@ -2149,6 +2149,7 @@ proxy-groups:
       - 11-677-CN
       - 11-682-US
       - 11-687-CN
+      - 11-692-RELAY
       - 11-697-RELAY
       - 11-702-RELAY
       - 11-707-RELAY
@@ -2206,6 +2207,7 @@ proxy-groups:
       - 27-972-RELAY
       - 36-977-FASTLY
       - 36-982-CN
+      - 36-987-CA
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2388,7 +2390,6 @@ proxy-groups:
       - 27-973-RELAY
       - 36-978-RELAY
       - 36-983-FR
-      - 36-988-GB
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2603,7 +2604,6 @@ proxy-groups:
       - 04-115-DE
       - 04-120-SG
       - 04-125-JP
-      - 04-130-US
       - 04-135-HK
       - 04-140-HK
       - 04-145-CN
