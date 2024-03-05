@@ -629,7 +629,6 @@ proxies:
   - {name: 11-670-CN, server: aa.websitea.xyz, port: 20039, type: ss, cipher: chacha20-ietf-poly1305, password: 24c3b09d-9661-4f1b-954e-3ed422b95304, udp: true}
   - {name: 11-671-CN, server: aa.websitea.xyz, port: 20041, type: ss, cipher: chacha20-ietf-poly1305, password: 24c3b09d-9661-4f1b-954e-3ed422b95304, udp: true}
   - {name: 11-672-SG, server: cdn.chigua.tk, port: 80, type: vmess, uuid: f805c95f-31b9-4ffe-ab50-8147f4837bbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usc03, headers: {Host: cdn.chigua.tk}}, udp: true}
-  - {name: 11-673-RELAY, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}, udp: true}
   - {name: 11-674-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-675-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-676-RELAY, server: 104.21.225.100, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -911,6 +910,7 @@ proxies:
   - {name: 27-956-IR, server: 95.38.242.18, port: 24727, type: vmess, uuid: 9b10faf4-d331-461a-a653-07271454243e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 27-957-RELAY, server: 172.67.152.214, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 27-958-RELAY, server: dl.game.RezashoppaRIVATe.sbS, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /muriel.makeup/linkvws, headers: {Host: dl.game.RezashoppaRIVATe.sbS}}, udp: true}
+  - {name: 36-959-DE, server: 52.29.182.16, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-960-GB, server: 18.170.236.135, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-961-US, server: 38.48.141.214, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302}, udp: true}
   - {name: 36-962-TR, server: 45.89.52.197, port: 32058, type: ss, cipher: chacha20-ietf-poly1305, password: Fgltbpm6cD9eHSFhKI6maC, udp: true}
@@ -924,6 +924,7 @@ proxies:
   - {name: 36-970-NL, server: 46.182.107.180, port: 41000, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302}, udp: true}
   - {name: 36-971-DE, server: 18.198.193.55, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-972-RELAY, server: 23.227.38.44, port: 8080, type: vmess, uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm}, udp: true}
+  - {name: 36-973-US, server: 38.14.107.233, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302}, udp: true}
   - {name: 36-974-GB, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1510,7 +1511,6 @@ proxy-groups:
       - 11-670-CN
       - 11-671-CN
       - 11-672-SG
-      - 11-673-RELAY
       - 11-674-RELAY
       - 11-675-RELAY
       - 11-676-RELAY
@@ -1792,6 +1792,7 @@ proxy-groups:
       - 27-956-IR
       - 27-957-RELAY
       - 27-958-RELAY
+      - 36-959-DE
       - 36-960-GB
       - 36-961-US
       - 36-962-TR
@@ -1805,6 +1806,7 @@ proxy-groups:
       - 36-970-NL
       - 36-971-DE
       - 36-972-RELAY
+      - 36-973-US
       - 36-974-GB
   - name: 自动选择
     type: url-test
@@ -2295,7 +2297,6 @@ proxy-groups:
       - 11-658-CN
       - 11-663-US
       - 11-668-CN
-      - 11-673-RELAY
       - 11-678-RELAY
       - 11-683-RELAY
       - 11-688-RELAY
@@ -2354,6 +2355,7 @@ proxy-groups:
       - 27-958-RELAY
       - 36-963-RELAY
       - 36-968-RELAY
+      - 36-973-US
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2530,6 +2532,7 @@ proxy-groups:
       - 24-944-FR
       - 27-949-RELAY
       - 27-954-RELAY
+      - 36-959-DE
       - 36-964-FASTLY
       - 36-969-NL
       - 36-974-GB
