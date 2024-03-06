@@ -944,7 +944,6 @@ proxies:
   - {name: 22-0990-DE, server: 3.122.46.247, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 22-0991-DE, server: 3.122.46.247, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0992-FR, server: 15.236.72.224, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 24-0993-IE, server: 52.31.174.63, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0994-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-0995-JP, server: 3.112.194.14, port: 12371, type: trojan, password: DhcksSVS325u, sni: appsvs.shop, skip-cert-verify: true, udp: true}
   - {name: 24-0996-DE, server: 35.157.144.160, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
@@ -955,6 +954,7 @@ proxies:
   - {name: 24-1001-FR, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, udp: true}
   - {name: 24-1002-HK, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
   - {name: 24-1003-CN, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
+  - {name: 24-1004-GB, server: 18.175.36.19, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-1005-GB, server: 18.171.109.69, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 24-1006-CA, server: 15.156.151.14, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-1007-RELAY, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1923,7 +1923,6 @@ proxy-groups:
       - 22-0990-DE
       - 22-0991-DE
       - 24-0992-FR
-      - 24-0993-IE
       - 24-0994-NL
       - 24-0995-JP
       - 24-0996-DE
@@ -1934,6 +1933,7 @@ proxy-groups:
       - 24-1001-FR
       - 24-1002-HK
       - 24-1003-CN
+      - 24-1004-GB
       - 24-1005-GB
       - 24-1006-CA
       - 24-1007-RELAY
@@ -2593,7 +2593,6 @@ proxy-groups:
       - 22-0978-TW
       - 22-0983-TW
       - 22-0988-GB
-      - 24-0993-IE
       - 24-0998-AT
       - 24-1003-CN
       - 24-1008-GB
@@ -2793,6 +2792,7 @@ proxy-groups:
       - 22-0989-CA
       - 24-0994-NL
       - 24-0999-RELAY
+      - 24-1004-GB
       - 24-1009-CN
       - 27-1014-RELAY
       - 27-1019-RELAY
