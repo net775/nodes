@@ -920,7 +920,6 @@ Fork from TopFreeProxies.
     trojan://telegram-id-directvpn@3.122.46.247:22222?allowInsecure=1&sni=trojan.miwan.co.uk#22-0990-DE
     trojan://telegram-id-directvpn@3.122.46.247:22222?allowInsecure=1&sni=trojan.miwan.co.uk#22-0991-DE
     trojan://telegram-id-privatevpns@15.236.72.224:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-0992-FR
-    trojan://telegram-id-privatevpns@52.31.174.63:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-0993-IE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNlpDSGVhYlVTZktqZlFFdko0SERW@185.242.86.156:54170#24-0994-NL
     trojan://DhcksSVS325u@3.112.194.14:12371?allowInsecure=1&sni=appsvs.shop#24-0995-JP
     trojan://telegram-id-directvpn@35.157.144.160:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-0996-DE
@@ -931,6 +930,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1nY206N0JjTGRzTzFXd2VvR0QwWA@193.243.147.128:40368#24-1001-FR
     trojan://e9391493-54bf-4fff-b6c5-945dc7442971@112.120.127.194:443?allowInsecure=1&sni=glc-hkt2.windowsupdatea.com#24-1002-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNjEwNWJiZC1iZTBkLTQ1YjItODJhZC0zMWZkMTA3MWMxZDI@service.ouluyun9803.com:26667#24-1003-CN
+    trojan://telegram-id-privatevpns@18.175.36.19:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-1004-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@18.171.109.69:443#24-1005-GB
     trojan://telegram-id-directvpn@15.156.151.14:22222?allowInsecure=1&sni=trojan.miwan.co.uk#24-1006-CA
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtMTAwNy1SRUxBWSIsImFkZCI6IjEwNC4yMS42My41MiIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2MGYxMjQzNS1iYjU1LTRkYTItY2I3ZC00ZmVhMzRlY2ZhMzciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
@@ -1005,11 +1005,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1074`
+合并节点总数: `1064`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1074`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1064`
 
 
 ## 仓库声明
