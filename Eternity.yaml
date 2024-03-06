@@ -400,7 +400,7 @@ proxies:
   - {name: 04-0441-JP, server: 52.198.170.174, port: 443, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0442-JP, server: 35.75.14.186, port: 443, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0443-US, server: 35.166.68.46, port: 443, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0444-US, server: 103.136.185.27, port: 5481, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0445-US, server: 103.136.185.28, port: 3495, type: trojan, password: c6a922b5-2cbe-3159-a10e-b6280e24128b, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0446-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 15dfa65a-83b0-3cee-83e3-26c125c1feb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
   - {name: 04-0447-CN, server: gz.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: e3QKx2NY6v8Q0xsK, udp: true}
   - {name: 04-0448-CN, server: gz.xiyun.co, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: e3QKx2NY6v8Q0xsK, udp: true}
@@ -894,7 +894,6 @@ proxies:
   - {name: 24-0940-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
   - {name: 24-0941-CN, server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com, port: 56005, type: ss, cipher: chacha20-ietf-poly1305, password: mai9t5nk91, udp: true}
   - {name: 24-0942-RELAY, server: 162.159.136.253, port: 8080, type: vmess, uuid: ade73e62-7554-40a8-9314-195a372bae28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/7bFcoRZS?ed=2048"}, udp: true}
-  - {name: 24-0943-GB, server: 18.134.217.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 24-0944-FR, server: 13.37.48.11, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0945-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
   - {name: 24-0946-HK, server: 112.120.127.194, port: 443, type: trojan, password: e9391493-54bf-4fff-b6c5-945dc7442971, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: true, udp: true}
@@ -904,6 +903,7 @@ proxies:
   - {name: 24-0950-CN, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8, udp: true}
   - {name: 24-0951-FR, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, udp: true}
   - {name: 24-0952-RELAY, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 24-0953-GB, server: jseyu.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 24-0954-GB, server: 18.133.17.72, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 27-0955-RELAY, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 27-0956-RELAY, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
@@ -1315,7 +1315,7 @@ proxy-groups:
       - 04-0441-JP
       - 04-0442-JP
       - 04-0443-US
-      - 04-0444-US
+      - 04-0445-US
       - 04-0446-HK
       - 04-0447-CN
       - 04-0448-CN
@@ -1809,7 +1809,6 @@ proxy-groups:
       - 24-0940-RELAY
       - 24-0941-CN
       - 24-0942-RELAY
-      - 24-0943-GB
       - 24-0944-FR
       - 24-0945-NL
       - 24-0946-HK
@@ -1819,6 +1818,7 @@ proxy-groups:
       - 24-0950-CN
       - 24-0951-FR
       - 24-0952-RELAY
+      - 24-0953-GB
       - 24-0954-GB
       - 27-0955-RELAY
       - 27-0956-RELAY
@@ -2430,8 +2430,8 @@ proxy-groups:
       - 22-0928-TW
       - 22-0933-IE
       - 24-0938-DE
-      - 24-0943-GB
       - 24-0948-DE
+      - 24-0953-GB
       - 27-0958-RELAY
       - 27-0963-RELAY
       - 27-0968-RELAY
@@ -2516,7 +2516,6 @@ proxy-groups:
       - 04-0429-CN
       - 04-0434-CN
       - 04-0439-CN
-      - 04-0444-US
       - 04-0449-CN
       - 04-0454-CN
       - 04-0459-CN
@@ -2703,6 +2702,7 @@ proxy-groups:
       - 04-0430-CN
       - 04-0435-CN
       - 04-0440-TW
+      - 04-0445-US
       - 04-0450-CN
       - 04-0455-CN
       - 04-0460-CN
