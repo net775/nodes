@@ -400,6 +400,7 @@ proxies:
   - {name: 04-0441-TW, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 06da8337-5448-4157-a67b-d2b0842d3726, udp: true}
   - {name: 04-0442-JP, server: 35.77.221.44, port: 443, type: trojan, password: aa3a1627-bf0f-366c-ac72-1578e9cd2b8c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0443-JP, server: 35.75.14.186, port: 443, type: trojan, password: aa3a1627-bf0f-366c-ac72-1578e9cd2b8c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0444-US, server: 35.167.122.148, port: 443, type: trojan, password: aa3a1627-bf0f-366c-ac72-1578e9cd2b8c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0445-US, server: 103.136.185.27, port: 5482, type: trojan, password: aa3a1627-bf0f-366c-ac72-1578e9cd2b8c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0446-US, server: 103.136.185.28, port: 3496, type: trojan, password: aa3a1627-bf0f-366c-ac72-1578e9cd2b8c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0447-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 817b453b-07ef-34cc-85e3-338527de4963, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
@@ -726,7 +727,6 @@ proxies:
   - {name: 12-0769-RELAY, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0770-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0771-RELAY, server: cloudflare.cfgo.cc, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudflare.cfgo.cc}}, udp: true}
-  - {name: 12-0772-CA, server: 15.157.113.141, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 12-0773-RELAY, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0774-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0775-RELAY, server: www.visa.co.jp, port: 8080, type: vmess, uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.co.jp}}, udp: true}
@@ -1338,6 +1338,7 @@ proxy-groups:
       - 04-0441-TW
       - 04-0442-JP
       - 04-0443-JP
+      - 04-0444-US
       - 04-0445-US
       - 04-0446-US
       - 04-0447-HK
@@ -1664,7 +1665,6 @@ proxy-groups:
       - 12-0769-RELAY
       - 12-0770-RELAY
       - 12-0771-RELAY
-      - 12-0772-CA
       - 12-0773-RELAY
       - 12-0774-RELAY
       - 12-0775-RELAY
@@ -2261,7 +2261,6 @@ proxy-groups:
       - 12-0757-CN
       - 12-0762-CN
       - 12-0767-CN
-      - 12-0772-CA
       - 12-0777-RELAY
       - 12-0782-RELAY
       - 12-0787-CN
@@ -2577,6 +2576,7 @@ proxy-groups:
       - 04-0429-CN
       - 04-0434-CN
       - 04-0439-CN
+      - 04-0444-US
       - 04-0449-CN
       - 04-0454-CN
       - 04-0459-CN
