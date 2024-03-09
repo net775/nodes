@@ -720,6 +720,7 @@ proxies:
   - {name: 12-0761-RELAY, server: cloudflare.cfgo.cc, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudflare.cfgo.cc}}, udp: true}
   - {name: 12-0762-RELAY, server: frcc.digicert.pp.ua, port: 2052, type: vmess, uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apopsdsssaop, headers: {Host: frcc.digicert.pp.ua}}, udp: true}
   - {name: 12-0763-RELAY, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 12-0764-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0765-CA, server: 15.157.113.141, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 12-0766-RELAY, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-0767-RELAY, server: 172.67.132.6, port: 2096, type: trojan, password: 7b06d62b-25ed-45ed-ac0d-bc28a4779ef9, sni: channel.v2bamdad.tech, skip-cert-verify: true, udp: true}
@@ -948,7 +949,6 @@ proxies:
   - {name: 24-0993-RELAY, server: 104.21.237.87, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 24-0994-RELAY, server: 104.21.234.52, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 24-0995-RELAY, server: 104.21.238.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
-  - {name: 24-0996-IE, server: 52.178.209.160, port: 2606, type: ss, cipher: chacha20-ietf-poly1305, password: zh7ETDQRvHCsIIPIrSHwHa, udp: true}
   - {name: 24-0997-RELAY, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/qZTtpya?ed=2048"}, udp: true}
   - {name: 24-0998-RELAY, server: jader.fun, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: jader.fun}}, udp: true}
   - {name: 24-0999-RELAY, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: {Host: yh2.dtku41.xyz}}, udp: true}
@@ -1035,7 +1035,6 @@ proxies:
   - {name: 27-1080-RELAY, server: 104.16.216.241, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 36-1081-IE, server: 54.78.214.213, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 36-1082-RELAY, server: 104.21.228.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
-  - {name: 36-1083-US, server: 148.135.38.67, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/153428133302}, udp: true}
   - {name: 36-1084-RELAY, server: onea.flha.ru, port: 2052, type: vmess, uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}, udp: true}
   - {name: 36-1085-RELAY, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: yh2.freeh1.xyz}}, udp: true}
   - {name: 36-1086-RELAY, server: 104.19.250.132, port: 2052, type: vmess, uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/}, udp: true}
@@ -1725,6 +1724,7 @@ proxy-groups:
       - 12-0761-RELAY
       - 12-0762-RELAY
       - 12-0763-RELAY
+      - 12-0764-RELAY
       - 12-0765-CA
       - 12-0766-RELAY
       - 12-0767-RELAY
@@ -1953,7 +1953,6 @@ proxy-groups:
       - 24-0993-RELAY
       - 24-0994-RELAY
       - 24-0995-RELAY
-      - 24-0996-IE
       - 24-0997-RELAY
       - 24-0998-RELAY
       - 24-0999-RELAY
@@ -2040,7 +2039,6 @@ proxy-groups:
       - 27-1080-RELAY
       - 36-1081-IE
       - 36-1082-RELAY
-      - 36-1083-US
       - 36-1084-RELAY
       - 36-1085-RELAY
       - 36-1086-RELAY
@@ -2248,7 +2246,6 @@ proxy-groups:
       - 22-0981-TW
       - 22-0986-DE
       - 24-0991-NL
-      - 24-0996-IE
       - 24-1001-FR
       - 24-1006-AU
       - 24-1011-GB
@@ -2674,7 +2671,6 @@ proxy-groups:
       - 27-1068-RELAY
       - 27-1073-RELAY
       - 27-1078-RELAY
-      - 36-1083-US
       - 36-1088-GB
       - 36-1093-RELAY
   - name: 测速4分组
@@ -2814,6 +2810,7 @@ proxy-groups:
       - 11-0749-RELAY
       - 11-0754-RELAY
       - 11-0759-RELAY
+      - 12-0764-RELAY
       - 12-0769-IE
       - 12-0774-RELAY
       - 12-0779-CN
