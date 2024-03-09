@@ -693,6 +693,7 @@ proxies:
   - {name: 11-0735-NOWHERE, server: hoyoversedev6.12ip.cc, port: 20001, type: vmess, uuid: e073ecd6-175a-4700-acdd-08a3652c9237, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversedev6.12ip.cc}}, udp: true}
   - {name: 11-0736-NOWHERE, server: acusv6.12ip.cc, port: 20001, type: vmess, uuid: e073ecd6-175a-4700-acdd-08a3652c9237, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acusv6.12ip.cc}}, udp: true}
   - {name: 11-0737-NOWHERE, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: e073ecd6-175a-4700-acdd-08a3652c9237, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
+  - {name: 11-0738-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 11-0739-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-0740-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-0741-RELAY, server: 104.21.225.153, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -942,7 +943,7 @@ proxies:
   - {name: 24-0988-CN, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
   - {name: 24-0989-US, server: 54.234.169.197, port: 17393, type: trojan, password: 6p81o9qxP2OP, sni: appsvs.shop, skip-cert-verify: true, udp: true}
   - {name: 24-0990-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
-  - {name: 24-0991-IE, server: 54.73.106.253, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 24-0991-IE, server: 15.156.202.61, port: 12370, type: trojan, password: Xa3g1w9NFeqH, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 24-0992-IE, server: 52.178.209.160, port: 2606, type: ss, cipher: chacha20-ietf-poly1305, password: zh7ETDQRvHCsIIPIrSHwHa, udp: true}
   - {name: 24-0993-RELAY, server: 104.25.255.254, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me, skip-cert-verify: true, udp: true}
   - {name: 24-0994-IE, server: 108.129.3.23, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
@@ -1694,6 +1695,7 @@ proxy-groups:
       - 11-0735-NOWHERE
       - 11-0736-NOWHERE
       - 11-0737-NOWHERE
+      - 11-0738-RELAY
       - 11-0739-RELAY
       - 11-0740-RELAY
       - 11-0741-RELAY
@@ -2597,6 +2599,7 @@ proxy-groups:
       - 11-0723-JP
       - 11-0728-NOWHERE
       - 11-0733-NOWHERE
+      - 11-0738-RELAY
       - 11-0743-RELAY
       - 11-0748-RELAY
       - 11-0753-RELAY
