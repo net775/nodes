@@ -685,7 +685,6 @@ proxies:
   - {name: 11-0728-NOWHERE, server: hoyoversedev6.12ip.cc, port: 20001, type: vmess, uuid: 31970168-7ef5-44fe-9e84-515e3b855159, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hoyoversedev6.12ip.cc}}, udp: true}
   - {name: 11-0729-NOWHERE, server: acusv6.12ip.cc, port: 20001, type: vmess, uuid: 31970168-7ef5-44fe-9e84-515e3b855159, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acusv6.12ip.cc}}, udp: true}
   - {name: 11-0730-NOWHERE, server: wawojpv6.12ip.cc, port: 20001, type: vmess, uuid: 31970168-7ef5-44fe-9e84-515e3b855159, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wawojpv6.12ip.cc}}, udp: true}
-  - {name: 11-0731-RELAY, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}, udp: true}
   - {name: 11-0732-RELAY, server: 104.21.225.223, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 11-0733-RELAY, server: 104.21.225.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 11-0734-RELAY, server: 104.21.225.153, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -827,6 +826,7 @@ proxies:
   - {name: 12-0870-CN, server: gcdddd0003.likeone.lol, port: 26681, type: trojan, password: 1165df48-74f1-4cbc-a1e0-36a42a2f9587, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-0871-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 1165df48-74f1-4cbc-a1e0-36a42a2f9587, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-0872-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 12-0873-RELAY, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}, udp: true}
   - {name: 12-0874-RELAY, server: frcc.digicert.pp.ua, port: 2052, type: vmess, uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apopsdsssaop, headers: {Host: frcc.digicert.pp.ua}}, udp: true}
   - {name: 12-0875-IE, server: 34.243.1.59, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
   - {name: 12-0876-AR, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1686,7 +1686,6 @@ proxy-groups:
       - 11-0728-NOWHERE
       - 11-0729-NOWHERE
       - 11-0730-NOWHERE
-      - 11-0731-RELAY
       - 11-0732-RELAY
       - 11-0733-RELAY
       - 11-0734-RELAY
@@ -1828,6 +1827,7 @@ proxy-groups:
       - 12-0870-CN
       - 12-0871-CN
       - 12-0872-RELAY
+      - 12-0873-RELAY
       - 12-0874-RELAY
       - 12-0875-IE
       - 12-0876-AR
@@ -2186,7 +2186,6 @@ proxy-groups:
       - 11-0716-JP
       - 11-0721-NOWHERE
       - 11-0726-NOWHERE
-      - 11-0731-RELAY
       - 11-0736-RELAY
       - 11-0741-RELAY
       - 11-0746-RELAY
@@ -2621,6 +2620,7 @@ proxy-groups:
       - 12-0858-CN
       - 12-0863-CN
       - 12-0868-CN
+      - 12-0873-RELAY
       - 12-0878-RELAY
       - 12-0883-CA
       - 15-0888-CN
