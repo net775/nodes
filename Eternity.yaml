@@ -441,6 +441,7 @@ proxies:
   - {name: 04-0482-TW, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 702ceb56-2d37-4f7e-adb7-6a2191318789, udp: true}
   - {name: 04-0483-JP, server: 18.183.202.123, port: 443, type: trojan, password: fb2d3479-2775-3819-9290-ad6f0f66dd1c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0484-JP, server: 43.207.132.199, port: 443, type: trojan, password: fb2d3479-2775-3819-9290-ad6f0f66dd1c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0485-US, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0486-US, server: 103.136.185.27, port: 5484, type: trojan, password: fb2d3479-2775-3819-9290-ad6f0f66dd1c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0487-US, server: 103.136.185.28, port: 3497, type: trojan, password: fb2d3479-2775-3819-9290-ad6f0f66dd1c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0488-HK, server: nhk-2.dugusite3.top, port: 443, type: vmess, uuid: 12535267-a1b0-37ba-babb-757345dc6e36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v, headers: {Host: nhk-2.dugusite3.top}}, udp: true}
@@ -911,6 +912,7 @@ proxies:
   - {name: 22-0953-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-0954-TW, server: 114.37.158.127, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-0955-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 22-0956-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: de9558f3-d11b-410e-ab27-26956dde256d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-0957-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-0958-TW, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: b6cd1e64-484a-431a-90c2-41bb0d579ee6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 22-0959-TW, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1000,7 +1002,6 @@ proxies:
   - {name: 36-1044-CN, server: yd1.qianggewangluo.buzz, port: 10815, type: ss, cipher: chacha20-ietf-poly1305, password: 7a28d32b-a693-4451-8ee2-1f1def6bf89f, udp: true}
   - {name: 36-1045-RELAY, server: 104.21.233.65, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 36-1046-IN, server: 103.26.10.57, port: 29944, type: ss, cipher: chacha20-ietf-poly1305, password: nxNTLVAKX6HfmLUZ3qbWJ7, udp: true}
-  - {name: 36-1047-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 1194cb2a-af73-465b-bf0c-c66a28e58200, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 36-1048-RELAY, server: russia.com, port: 8880, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
   - {name: 36-1049-RELAY, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm, headers: {Host: yh2.freeh1.xyz}}, udp: true}
   - {name: 36-1050-GB, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
@@ -1426,6 +1427,7 @@ proxy-groups:
       - 04-0482-TW
       - 04-0483-JP
       - 04-0484-JP
+      - 04-0485-US
       - 04-0486-US
       - 04-0487-US
       - 04-0488-HK
@@ -1896,6 +1898,7 @@ proxy-groups:
       - 22-0953-TW
       - 22-0954-TW
       - 22-0955-TW
+      - 22-0956-TW
       - 22-0957-TW
       - 22-0958-TW
       - 22-0959-TW
@@ -1985,7 +1988,6 @@ proxy-groups:
       - 36-1044-CN
       - 36-1045-RELAY
       - 36-1046-IN
-      - 36-1047-TW
       - 36-1048-RELAY
       - 36-1049-RELAY
       - 36-1050-GB
@@ -2200,6 +2202,7 @@ proxy-groups:
       - 15-0941-CN
       - 22-0946-GOOGLE
       - 22-0951-RELAY
+      - 22-0956-TW
       - 22-0961-TW
       - 22-0966-TW
       - 22-0971-DE
@@ -2419,7 +2422,6 @@ proxy-groups:
       - 36-1032-TW
       - 36-1037-RELAY
       - 36-1042-TW
-      - 36-1047-TW
       - 36-1052-AT
       - 36-1057-RELAY
       - 36-1062-CN
@@ -2907,6 +2909,7 @@ proxy-groups:
       - 04-0470-CN
       - 04-0475-CN
       - 04-0480-CN
+      - 04-0485-US
       - 04-0490-CN
       - 04-0495-CN
       - 04-0500-CN
