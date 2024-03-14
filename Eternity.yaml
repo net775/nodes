@@ -839,6 +839,7 @@ proxies:
   - {name: 09-0883-RELAY, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 09-0884-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 09-0885-RELAY, server: 104.21.24.72, port: 80, type: vmess, uuid: 5120d7e0-5ba9-4164-b61b-0f8fefabab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
+  - {name: 09-0886-FR, server: eu-2.hihu.net, port: 80, type: vmess, uuid: 62225aa0-dece-11ee-b031-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /e9z0df63, headers: {Host: eu-2.hihu.net}}, udp: true}
   - {name: 09-0887-RELAY, server: 172.67.196.16, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 09-0888-US, server: CA.plsback.top, port: 35318, type: vmess, uuid: 6129eda5-99da-4c07-ddb0-0c830ee89bb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 09-0889-RELAY, server: 172.66.46.215, port: 2087, type: vmess, uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /urnxewzvh.site:443/kwhmvws}, udp: true}
@@ -856,7 +857,6 @@ proxies:
   - {name: 09-0901-RELAY, server: 172.67.174.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 09-0902-RELAY, server: flixeon.me, port: 443, type: trojan, password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2, sni: hdfyc1.achaemenidempireofpersia.uk, skip-cert-verify: true, udp: true}
   - {name: 10-0903-DE, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 10-0904-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-0905-NL, server: 95.179.128.114, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8d1.cpi1.eu.org, skip-cert-verify: true, udp: true}
   - {name: 10-0906-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-0907-RELAY, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
@@ -2045,6 +2045,7 @@ proxy-groups:
       - 09-0883-RELAY
       - 09-0884-RELAY
       - 09-0885-RELAY
+      - 09-0886-FR
       - 09-0887-RELAY
       - 09-0888-US
       - 09-0889-RELAY
@@ -2062,7 +2063,6 @@ proxy-groups:
       - 09-0901-RELAY
       - 09-0902-RELAY
       - 10-0903-DE
-      - 10-0904-GB
       - 10-0905-NL
       - 10-0906-RELAY
       - 10-0907-RELAY
@@ -2627,6 +2627,7 @@ proxy-groups:
       - 09-0871-RELAY
       - 09-0876-RU
       - 09-0881-RELAY
+      - 09-0886-FR
       - 09-0891-RELAY
       - 09-0896-RELAY
       - 09-0901-RELAY
@@ -3361,7 +3362,6 @@ proxy-groups:
       - 09-0889-RELAY
       - 09-0894-RELAY
       - 09-0899-RELAY
-      - 10-0904-GB
       - 10-0909-RELAY
       - 10-0914-RELAY
       - 10-0919-RELAY
