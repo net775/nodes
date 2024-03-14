@@ -55,6 +55,9 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 03-0000-HK, server: 103.30.76.87, port: 25469, type: vmess, uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 03-0002-CN, server: ae856ab96c4b3a2a.cdn.jiashule.com, port: 38997, type: vmess, uuid: 669c3061-ef5c-453b-80a7-f5e8b8909565, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 03-0003-RELAY, server: 104.21.230.54, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
+  - {name: 03-0004-RELAY, server: 104.21.239.78, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08"}, udp: true}
   - {name: 03-0005-RELAY, server: 104.21.234.54, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 03-0006-RELAY, server: 104.21.234.50, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳"}, udp: true}
   - {name: 03-0007-RELAY, server: 104.21.232.41, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08"}, udp: true}
@@ -1247,10 +1250,7 @@ proxies:
   - {name: 11-1296-HK, server: hkvip102.qlgq1.pw, port: 50443, type: trojan, password: bd05eaf7-15c7-3837-a026-79e050925c77, sni: hkvip102.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-1297-HK, server: hkvip103.qlgq1.pw, port: 10546, type: trojan, password: bd05eaf7-15c7-3837-a026-79e050925c77, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
   - {name: 11-1298-HK, server: hkvip103.qlgq1.pw, port: 20546, type: trojan, password: bd05eaf7-15c7-3837-a026-79e050925c77, sni: hkvip103.qlgq1.pw, skip-cert-verify: true, udp: true}
-  - {name: 12-1590-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: 17-1616-CN, server: america.569883.xyz, port: 10038, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
   - {name: 17-1619-CN, server: america.569883.xyz, port: 10039, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
-  - {name: 17-1623-CN, server: 36.140.180.162, port: 10037, type: ss, cipher: aes-256-gcm, password: 1F56698C-2BFD-46ED-9F8C-AE789DE42954, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1262,6 +1262,9 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 03-0000-HK
+      - 03-0002-CN
+      - 03-0003-RELAY
+      - 03-0004-RELAY
       - 03-0005-RELAY
       - 03-0006-RELAY
       - 03-0007-RELAY
@@ -2454,10 +2457,7 @@ proxy-groups:
       - 11-1296-HK
       - 11-1297-HK
       - 11-1298-HK
-      - 12-1590-RELAY
-      - 17-1616-CN
       - 17-1619-CN
-      - 17-1623-CN
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2710,12 +2710,12 @@ proxy-groups:
       - 11-1281-SG
       - 11-1286-JP
       - 11-1296-HK
-      - 17-1616-CN
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0002-CN
       - 03-0007-RELAY
       - 03-0012-RELAY
       - 03-0017-CN
@@ -2961,6 +2961,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0003-RELAY
       - 03-0008-RELAY
       - 03-0013-RELAY
       - 03-0018-RELAY
@@ -3200,12 +3201,12 @@ proxy-groups:
       - 11-1288-JP
       - 11-1293-HK
       - 11-1298-HK
-      - 17-1623-CN
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0004-RELAY
       - 03-0009-RELAY
       - 03-0014-RELAY
       - 03-0019-RELAY
@@ -3689,7 +3690,6 @@ proxy-groups:
       - 11-1285-JP
       - 11-1290-US
       - 11-1295-HK
-      - 12-1590-RELAY
   - name: 广告拦截
     type: select
     proxies:
