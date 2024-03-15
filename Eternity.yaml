@@ -349,6 +349,7 @@ proxies:
   - {name: 04-0390-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 7ae0688b-f835-45de-aadc-3276a3510b67, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-0391-JP, server: 18.183.202.123, port: 443, type: trojan, password: 79fad0a4-cfdf-3d6b-838e-63c92ef58308, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0392-JP, server: 18.178.242.17, port: 443, type: trojan, password: 79fad0a4-cfdf-3d6b-838e-63c92ef58308, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0393-US, server: 52.88.80.155, port: 443, type: trojan, password: 79fad0a4-cfdf-3d6b-838e-63c92ef58308, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0394-US, server: 103.136.185.27, port: 5487, type: trojan, password: 79fad0a4-cfdf-3d6b-838e-63c92ef58308, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0395-US, server: 103.136.185.28, port: 3498, type: trojan, password: 79fad0a4-cfdf-3d6b-838e-63c92ef58308, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0396-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -474,6 +475,7 @@ proxies:
   - {name: 06-0516-SG, server: 8.222.224.162, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0517-SG, server: 8.222.167.147, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0518-RELAY, server: 162.159.137.249, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm}, udp: true}
+  - {name: 06-0519-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 06-0520-SG, server: 8.222.215.228, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0521-SG, server: 8.222.153.11, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0522-SG, server: 8.222.240.47, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -791,7 +793,6 @@ proxies:
   - {name: 08-0836-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-0837-US, server: gcore.com, port: 80, type: vmess, uuid: dffbbc86-4360-4727-9b36-91625369f6ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gcore.com}}, udp: true}
   - {name: 08-0838-RELAY, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-0839-US, server: 50.116.23.96, port: 443, type: trojan, password: f2fc0073-dc20-4866-8a81-01dbfbcf2f15, skip-cert-verify: true, udp: true}
   - {name: 08-0840-RELAY, server: 172.67.149.124, port: 443, type: trojan, password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2, sni: hdfyc1.achaemenidempireofpersia.uk, skip-cert-verify: true, udp: true}
   - {name: 08-0841-IR, server: 85.133.241.48, port: 2024, type: vmess, uuid: 73e9281e-c040-40d1-8dae-e1c33bfa3ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-0842-IR, server: 95.38.242.32, port: 2215, type: vmess, uuid: 9047d121-ea94-4e1a-9737-8429e86f0932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -799,7 +800,6 @@ proxies:
   - {name: 08-0844-IR, server: 62.60.210.59, port: 10367, type: vmess, uuid: 809bd50d-d8de-4d6f-a289-926baba833ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-0845-RELAY, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
   - {name: 10-0846-DE, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 10-0847-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-0848-NL, server: 95.179.128.114, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8d1.cpi1.eu.org, skip-cert-verify: true, udp: true}
   - {name: 10-0849-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 10-0850-RELAY, server: 172.67.174.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -1555,6 +1555,7 @@ proxy-groups:
       - 04-0390-CN
       - 04-0391-JP
       - 04-0392-JP
+      - 04-0393-US
       - 04-0394-US
       - 04-0395-US
       - 04-0396-NOWHERE
@@ -1680,6 +1681,7 @@ proxy-groups:
       - 06-0516-SG
       - 06-0517-SG
       - 06-0518-RELAY
+      - 06-0519-RELAY
       - 06-0520-SG
       - 06-0521-SG
       - 06-0522-SG
@@ -1997,7 +1999,6 @@ proxy-groups:
       - 08-0836-RELAY
       - 08-0837-US
       - 08-0838-RELAY
-      - 08-0839-US
       - 08-0840-RELAY
       - 08-0841-IR
       - 08-0842-IR
@@ -2005,7 +2006,6 @@ proxy-groups:
       - 08-0844-IR
       - 08-0845-RELAY
       - 10-0846-DE
-      - 10-0847-GB
       - 10-0848-NL
       - 10-0849-RELAY
       - 10-0850-RELAY
@@ -2864,7 +2864,6 @@ proxy-groups:
       - 08-0832-RELAY
       - 08-0837-US
       - 08-0842-IR
-      - 10-0847-GB
       - 10-0852-RELAY
       - 10-0857-RELAY
       - 10-0862-RELAY
@@ -3018,6 +3017,7 @@ proxy-groups:
       - 04-0378-CN
       - 04-0383-CN
       - 04-0388-CN
+      - 04-0393-US
       - 04-0398-NOWHERE
       - 04-0403-NOWHERE
       - 04-0408-CN
@@ -3288,6 +3288,7 @@ proxy-groups:
       - 06-0504-SG
       - 06-0509-SG
       - 06-0514-SG
+      - 06-0519-RELAY
       - 06-0524-SG
       - 06-0529-SG
       - 06-0534-SG
@@ -3350,7 +3351,6 @@ proxy-groups:
       - 07-0824-RELAY
       - 07-0829-RELAY
       - 08-0834-RELAY
-      - 08-0839-US
       - 08-0844-IR
       - 10-0849-RELAY
       - 10-0854-US
