@@ -348,8 +348,8 @@ proxies:
   - {name: 04-389-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: 6bcc0796-8f16-43e8-b161-5f7c682b7bf8, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-390-JP, server: 18.183.202.123, port: 443, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-391-JP, server: 35.78.218.38, port: 443, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-392-US, server: 52.88.80.155, port: 443, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-393-US, server: 103.136.185.27, port: 5488, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-394-US, server: 103.136.185.28, port: 3498, type: trojan, password: 0bfe71b0-b292-3cf0-8347-fd2677a15f3d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-395-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-396-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-397-IT, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -498,6 +498,7 @@ proxies:
   - {name: 10-540-RELAY, server: 104.24.0.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-541-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-542-IS, server: is1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 50eeadca-5798-4517-8549-1b25bdcff7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: is1-vmess.sshmax.xyz}}, udp: true}
+  - {name: 10-543-TR, server: tr2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: 9f32eecf-6104-4739-9dbf-0fc931738f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: tr2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-544-BE, server: be2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: a12724eb-0697-466d-8560-8951989609c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-545-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-546-RELAY, server: 172.67.196.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -513,7 +514,6 @@ proxies:
   - {name: 10-556-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-557-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-558-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
-  - {name: 10-559-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-560-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-561-RELAY, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
   - {name: 10-562-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -989,8 +989,8 @@ proxy-groups:
       - 04-389-CN
       - 04-390-JP
       - 04-391-JP
+      - 04-392-US
       - 04-393-US
-      - 04-394-US
       - 04-395-NOWHERE
       - 04-396-NOWHERE
       - 04-397-IT
@@ -1139,6 +1139,7 @@ proxy-groups:
       - 10-540-RELAY
       - 10-541-RELAY
       - 10-542-IS
+      - 10-543-TR
       - 10-544-BE
       - 10-545-RELAY
       - 10-546-RELAY
@@ -1154,7 +1155,6 @@ proxy-groups:
       - 10-556-RELAY
       - 10-557-PT
       - 10-558-GB
-      - 10-559-GB
       - 10-560-RELAY
       - 10-561-RELAY
       - 10-562-US
@@ -1530,6 +1530,7 @@ proxy-groups:
       - 04-377-CN
       - 04-382-CN
       - 04-387-CN
+      - 04-392-US
       - 04-397-IT
       - 04-402-US
       - 04-407-CN
@@ -1690,6 +1691,7 @@ proxy-groups:
       - 08-528-RELAY
       - 08-533-RELAY
       - 08-538-RELAY
+      - 10-543-TR
       - 10-548-RELAY
       - 10-553-RELAY
       - 10-558-GB
@@ -1791,7 +1793,6 @@ proxy-groups:
       - 04-379-CN
       - 04-384-CN
       - 04-389-CN
-      - 04-394-US
       - 04-399-KR
       - 04-404-NOWHERE
       - 04-409-CN
@@ -1824,7 +1825,6 @@ proxy-groups:
       - 10-544-BE
       - 10-549-RELAY
       - 10-554-RELAY
-      - 10-559-GB
       - 10-564-RELAY
       - 10-569-RELAY
       - 10-574-RELAY
