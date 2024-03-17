@@ -503,6 +503,7 @@ proxies:
   - {name: 10-546-RELAY, server: 104.24.0.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-547-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-548-IS, server: is1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 50eeadca-5798-4517-8549-1b25bdcff7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: is1-vmess.sshmax.xyz}}, udp: true}
+  - {name: 10-549-TR, server: tr2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: 9f32eecf-6104-4739-9dbf-0fc931738f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: tr2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-550-BE, server: be2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: a12724eb-0697-466d-8560-8951989609c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-551-RELAY, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-552-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -520,7 +521,6 @@ proxies:
   - {name: 10-564-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-565-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-566-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
-  - {name: 10-567-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-568-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-569-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-570-RELAY, server: 104.21.14.95, port: 443, type: trojan, password: 01a7ed92-3ff7-4872-84a8-fcb4757783c7, sni: rsfndc1.cpionline.us, skip-cert-verify: true, udp: true}
@@ -1147,6 +1147,7 @@ proxy-groups:
       - 10-546-RELAY
       - 10-547-RELAY
       - 10-548-IS
+      - 10-549-TR
       - 10-550-BE
       - 10-551-RELAY
       - 10-552-RELAY
@@ -1164,7 +1165,6 @@ proxy-groups:
       - 10-564-RELAY
       - 10-565-PT
       - 10-566-GB
-      - 10-567-GB
       - 10-568-RELAY
       - 10-569-US
       - 10-570-RELAY
@@ -1573,7 +1573,6 @@ proxy-groups:
       - 10-552-RELAY
       - 10-557-GB
       - 10-562-RELAY
-      - 10-567-GB
       - 10-572-RELAY
       - 10-577-RELAY
       - 10-582-RELAY
@@ -1832,6 +1831,7 @@ proxy-groups:
       - 08-534-DE
       - 08-539-RELAY
       - 08-544-RELAY
+      - 10-549-TR
       - 10-554-RELAY
       - 10-559-RELAY
       - 10-564-RELAY
