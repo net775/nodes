@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `730`
+高速节点数量: `729`
 <details>
   <summary>展开复制节点</summary>
 
@@ -313,7 +313,6 @@ Fork from TopFreeProxies.
     trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@jpvip102.qlgq1.pw:42343?allowInsecure=1&sni=jpvip102.qlgq1.pw#04-379-JP
     trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@jpvip102.qlgq1.pw:52343?allowInsecure=1&sni=jpvip102.qlgq1.pw#04-380-JP
     trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@lavip101.qlgq1.pw:10456?allowInsecure=1&sni=lavip101.qlgq1.pw#04-381-US
-    trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@lavip101.qlgq1.pw:20456?allowInsecure=1&sni=lavip101.qlgq1.pw#04-382-US
     trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@lavip101.qlgq1.pw:30456?allowInsecure=1&sni=lavip101.qlgq1.pw#04-383-US
     trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@hkvip102.qlgq1.pw:10449?allowInsecure=1&sni=hkvip102.qlgq1.pw#04-384-HK
     trojan://86b31c27-56a8-3ce3-b9fc-a4a4e16671f9@hkvip102.qlgq1.pw:20449?allowInsecure=1&sni=hkvip102.qlgq1.pw#04-385-HK
@@ -765,11 +764,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `832`
+合并节点总数: `828`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `832`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `828`
 
 
 ## 仓库声明
