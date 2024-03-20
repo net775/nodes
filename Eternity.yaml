@@ -401,7 +401,6 @@ proxies:
   - {name: 06-442-SG, server: 8.222.159.252, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-443-SG, server: 8.222.224.162, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-444-SG, server: 8.222.221.197, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-445-RELAY, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}, udp: true}
   - {name: 06-446-SG, server: 8.222.136.196, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-447-SG, server: 47.245.90.176, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-448-SG, server: 8.222.229.102, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -670,6 +669,7 @@ proxies:
   - {name: 10-712-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-713-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-714-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
+  - {name: 10-715-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-716-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-717-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-718-RELAY, server: 104.21.14.95, port: 443, type: trojan, password: 01a7ed92-3ff7-4872-84a8-fcb4757783c7, sni: rsfndc1.cpionline.us, skip-cert-verify: true, udp: true}
@@ -1200,7 +1200,6 @@ proxy-groups:
       - 06-442-SG
       - 06-443-SG
       - 06-444-SG
-      - 06-445-RELAY
       - 06-446-SG
       - 06-447-SG
       - 06-448-SG
@@ -1469,6 +1468,7 @@ proxy-groups:
       - 10-712-RELAY
       - 10-713-PT
       - 10-714-GB
+      - 10-715-GB
       - 10-716-RELAY
       - 10-717-US
       - 10-718-RELAY
@@ -2377,7 +2377,6 @@ proxy-groups:
       - 04-430-CN
       - 04-435-CN
       - 04-440-CN
-      - 06-445-RELAY
       - 06-450-SG
       - 06-455-SG
       - 06-460-SG
@@ -2431,6 +2430,7 @@ proxy-groups:
       - 10-700-RELAY
       - 10-705-GB
       - 10-710-RELAY
+      - 10-715-GB
       - 10-720-RELAY
       - 10-725-RELAY
       - 10-730-RELAY
