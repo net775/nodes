@@ -412,6 +412,7 @@ proxies:
   - {name: 08-453-RELAY, server: fragment---join.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: fragment---join.outline-vpn.cloud}}, udp: true}
   - {name: 08-454-RELAY, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
   - {name: 08-455-RELAY, server: before2--join.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: before2--join.outline-vpn.cloud}}, udp: true}
+  - {name: 08-456-US, server: 147.135.26.48, port: 47212, type: vmess, uuid: c46ec369-6de2-4f4c-a788-001703eefdd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-457-IR, server: 185.132.81.204, port: 16678, type: vmess, uuid: 3b9d0f5b-d062-4ee1-c9b2-ff0ca5df62ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-458-TW, server: 188.253.6.35, port: 20009, type: vmess, uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-459-SG, server: 8.222.187.115, port: 47104, type: vmess, uuid: a6c4321a-83fb-490b-ecae-2a6340c55d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -426,7 +427,6 @@ proxies:
   - {name: 08-468-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-469-HK, server: 223.17.12.192, port: 20759, type: vmess, uuid: 9e5ca8f4-0abc-404e-926e-43a88b971d49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8}, udp: true}
   - {name: 08-470-HK, server: 152.32.190.239, port: 4431, type: vmess, uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-471-US, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-472-IR, server: 185.132.81.204, port: 25192, type: vmess, uuid: 855f81bd-2880-4305-ab7d-b1f7e460dde4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-473-RELAY, server: 172.67.152.170, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-474-RELAY, server: 172.67.166.31, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -985,6 +985,7 @@ proxy-groups:
       - 08-453-RELAY
       - 08-454-RELAY
       - 08-455-RELAY
+      - 08-456-US
       - 08-457-IR
       - 08-458-TW
       - 08-459-SG
@@ -999,7 +1000,6 @@ proxy-groups:
       - 08-468-HK
       - 08-469-HK
       - 08-470-HK
-      - 08-471-US
       - 08-472-IR
       - 08-473-RELAY
       - 08-474-RELAY
@@ -1276,9 +1276,9 @@ proxy-groups:
       - 06-441-CN
       - 08-446-RELAY
       - 08-451-RELAY
+      - 08-456-US
       - 08-461-RELAY
       - 08-466-IR
-      - 08-471-US
       - 08-476-RELAY
       - 10-481-BE
       - 10-486-RELAY
