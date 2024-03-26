@@ -289,7 +289,6 @@ proxies:
   - {name: 04-330-JP, server: 35.74.79.234, port: 443, type: trojan, password: 86b9043d-a664-39a8-a36d-2f7b281c961f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-US, server: 52.88.80.155, port: 443, type: trojan, password: 86b9043d-a664-39a8-a36d-2f7b281c961f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-332-US, server: 103.136.185.27, port: 5494, type: trojan, password: 86b9043d-a664-39a8-a36d-2f7b281c961f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-333-US, server: 103.136.185.28, port: 3500, type: trojan, password: 86b9043d-a664-39a8-a36d-2f7b281c961f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-335-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-336-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -431,6 +430,7 @@ proxies:
   - {name: 08-472-RELAY, server: fragment---join.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: fragment---join.outline-vpn.cloud}}, udp: true}
   - {name: 08-473-RELAY, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
   - {name: 08-474-RELAY, server: before2--join.outline-vpn.cloud, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: before2--join.outline-vpn.cloud}}, udp: true}
+  - {name: 08-475-US, server: 147.135.26.48, port: 47212, type: vmess, uuid: c46ec369-6de2-4f4c-a788-001703eefdd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-476-IR, server: 185.132.81.204, port: 16678, type: vmess, uuid: 3b9d0f5b-d062-4ee1-c9b2-ff0ca5df62ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-477-TW, server: 188.253.6.35, port: 20009, type: vmess, uuid: 1ca1ae78-d7ee-4ab4-9061-a74c2888dfeb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-478-SG, server: 8.222.187.115, port: 47104, type: vmess, uuid: a6c4321a-83fb-490b-ecae-2a6340c55d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -453,7 +453,6 @@ proxies:
   - {name: 08-495-RELAY, server: inna.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: inna.cfd}}, udp: true}
   - {name: 10-496-RELAY, server: 104.24.0.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-497-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 10-498-IS, server: is1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 50eeadca-5798-4517-8549-1b25bdcff7bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: is1-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-499-TR, server: tr2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: 9f32eecf-6104-4739-9dbf-0fc931738f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: tr2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-500-BE, server: be2-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: a12724eb-0697-466d-8560-8951989609c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: be2-vmess.sshmax.xyz}}, udp: true}
   - {name: 10-501-RELAY, server: 104.21.75.244, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -472,6 +471,7 @@ proxies:
   - {name: 10-514-RELAY, server: 104.21.12.173, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-515-PT, server: 94.131.10.135, port: 8080, type: vmess, uuid: e2021c91-6e29-49d6-9641-14a8f2600e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 10-516-GB, server: 57.128.159.109, port: 34084, type: vmess, uuid: f66b8a67-8e35-4662-d4c7-8b0cf694e3e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgf}, udp: true}
+  - {name: 10-517-GB, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-518-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 10-519-RELAY, server: meroiy.icu, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}, udp: true}
   - {name: 10-520-US, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -889,7 +889,6 @@ proxy-groups:
       - 04-330-JP
       - 04-331-US
       - 04-332-US
-      - 04-333-US
       - 04-334-NOWHERE
       - 04-335-NOWHERE
       - 04-336-NOWHERE
@@ -1031,6 +1030,7 @@ proxy-groups:
       - 08-472-RELAY
       - 08-473-RELAY
       - 08-474-RELAY
+      - 08-475-US
       - 08-476-IR
       - 08-477-TW
       - 08-478-SG
@@ -1053,7 +1053,6 @@ proxy-groups:
       - 08-495-RELAY
       - 10-496-RELAY
       - 10-497-RELAY
-      - 10-498-IS
       - 10-499-TR
       - 10-500-BE
       - 10-501-RELAY
@@ -1072,6 +1071,7 @@ proxy-groups:
       - 10-514-RELAY
       - 10-515-PT
       - 10-516-GB
+      - 10-517-GB
       - 10-518-RELAY
       - 10-519-RELAY
       - 10-520-US
@@ -1466,6 +1466,7 @@ proxy-groups:
       - 10-502-RELAY
       - 10-507-GB
       - 10-512-RELAY
+      - 10-517-GB
       - 10-522-RELAY
       - 10-527-RELAY
       - 10-532-RELAY
@@ -1553,7 +1554,6 @@ proxy-groups:
       - 04-318-CN
       - 04-323-CN
       - 04-328-CN
-      - 04-333-US
       - 04-338-NOWHERE
       - 04-343-NOWHERE
       - 04-348-CN
@@ -1586,7 +1586,6 @@ proxy-groups:
       - 08-483-IR
       - 08-488-HK
       - 08-493-RELAY
-      - 10-498-IS
       - 10-503-RELAY
       - 10-508-RELAY
       - 10-513-RELAY
@@ -1828,6 +1827,7 @@ proxy-groups:
       - 06-460-CN
       - 08-465-RELAY
       - 08-470-RELAY
+      - 08-475-US
       - 08-480-RELAY
       - 08-485-IR
       - 08-490-US
