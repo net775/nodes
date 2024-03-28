@@ -447,7 +447,6 @@ proxies:
   - {name: 08-488-US, server: 192.177.98.189, port: 11698, type: vmess, uuid: 8587ceb2-dc65-4bc3-9d25-f13239c1cc52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-489-US, server: 107.175.136.164, port: 26852, type: vmess, uuid: c5f6f530-e119-470f-ec61-b590f8caa2dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /c5f6f530}, udp: true}
   - {name: 08-490-RELAY, server: 104.21.32.223, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 08-491-RU, server: 45.14.244.133, port: 2024, type: vmess, uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-492-US, server: 192.177.98.110, port: 30285, type: vmess, uuid: 3f38ae13-44bb-4d1e-ae1a-1ce782c83640, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-493-IR, server: 185.83.90.50, port: 41254, type: vmess, uuid: 39a94956-8a49-4f82-a3a4-93f7d17521d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-494-US, server: 192.177.171.194, port: 34426, type: vmess, uuid: c0335d65-2393-4e20-e840-e913ae9fe4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -474,6 +473,7 @@ proxies:
   - {name: 10-516-RELAY, server: 172.67.196.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-517-RELAY, server: 172.67.196.16, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-518-RELAY, server: irene.lat, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: irene.lat}}, udp: true}
+  - {name: 10-519-GB, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-520-RELAY, server: 172.67.196.112, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-521-RELAY, server: 172.67.184.11, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-522-RELAY, server: 172.67.174.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -1056,7 +1056,6 @@ proxy-groups:
       - 08-488-US
       - 08-489-US
       - 08-490-RELAY
-      - 08-491-RU
       - 08-492-US
       - 08-493-IR
       - 08-494-US
@@ -1083,6 +1082,7 @@ proxy-groups:
       - 10-516-RELAY
       - 10-517-RELAY
       - 10-518-RELAY
+      - 10-519-GB
       - 10-520-RELAY
       - 10-521-RELAY
       - 10-522-RELAY
@@ -1355,7 +1355,6 @@ proxy-groups:
       - 08-476-RELAY
       - 08-481-US
       - 08-486-HK
-      - 08-491-RU
       - 08-496-US
       - 08-501-US
       - 08-506-RELAY
@@ -1735,6 +1734,7 @@ proxy-groups:
       - 08-504-RELAY
       - 10-509-RELAY
       - 10-514-RELAY
+      - 10-519-GB
       - 10-524-RELAY
       - 10-529-GB
       - 10-534-RELAY
