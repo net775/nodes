@@ -284,7 +284,7 @@ proxies:
   - {name: 04-325-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: e2d5d5c3-25a8-48ae-a034-803c5dee085a, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-326-JP, server: 52.195.154.106, port: 443, type: trojan, password: 6acb7d5f-2024-3389-ab9e-ccb10a22bda4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-327-JP, server: 35.74.79.234, port: 443, type: trojan, password: 6acb7d5f-2024-3389-ab9e-ccb10a22bda4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-328-US, server: 52.88.80.155, port: 443, type: trojan, password: 6acb7d5f-2024-3389-ab9e-ccb10a22bda4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-328-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-329-US, server: 103.136.185.27, port: 5495, type: trojan, password: 6acb7d5f-2024-3389-ab9e-ccb10a22bda4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-330-US, server: 103.136.185.28, port: 3500, type: trojan, password: 6acb7d5f-2024-3389-ab9e-ccb10a22bda4, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-331-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -457,6 +457,7 @@ proxies:
   - {name: 08-499-US, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 08-500-GB, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-501-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-502-US, server: 207.148.31.167, port: 30587, type: vmess, uuid: 55219214-9f2d-4914-fbaf-b1b444c85b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-503-IR, server: vip.soheilsat.com, port: 7021, type: vmess, uuid: a5e6f758-2f93-41f9-bc63-40f7efc58013, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /gwdef.sbs/linkws}, udp: true}
   - {name: 08-505-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws}, udp: true}
@@ -1046,6 +1047,7 @@ proxy-groups:
       - 08-499-US
       - 08-500-GB
       - 08-501-US
+      - 08-502-US
       - 08-503-IR
       - 08-504-RELAY
       - 08-505-RELAY
@@ -1439,6 +1441,7 @@ proxy-groups:
       - 08-487-US
       - 08-492-US
       - 08-497-US
+      - 08-502-US
       - 10-507-RELAY
       - 10-512-IS
       - 10-517-RELAY
