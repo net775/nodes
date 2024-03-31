@@ -457,7 +457,7 @@ proxies:
   - {name: 08-499-DE, server: 104.164.11.115, port: 38264, type: vmess, uuid: b67a0801-f298-4e1b-a80a-f538cdb32845, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-500-FR, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 08-501-GB, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-503-US, server: 207.148.31.167, port: 30587, type: vmess, uuid: 55219214-9f2d-4914-fbaf-b1b444c85b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-502-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-IR, server: vip.soheilsat.com, port: 7021, type: vmess, uuid: a5e6f758-2f93-41f9-bc63-40f7efc58013, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-505-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /gwdef.sbs/linkws}, udp: true}
   - {name: 08-506-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nina.bond/linkvws}, udp: true}
@@ -1047,7 +1047,7 @@ proxy-groups:
       - 08-499-DE
       - 08-500-FR
       - 08-501-GB
-      - 08-503-US
+      - 08-502-US
       - 08-504-IR
       - 08-505-RELAY
       - 08-506-RELAY
@@ -1441,6 +1441,7 @@ proxy-groups:
       - 08-482-US
       - 08-487-HK
       - 08-497-US
+      - 08-502-US
       - 08-507-RELAY
       - 10-512-RELAY
       - 10-517-RELAY
@@ -1562,7 +1563,6 @@ proxy-groups:
       - 08-488-US
       - 08-493-US
       - 08-498-US
-      - 08-503-US
       - 10-508-BE
       - 10-513-RELAY
       - 10-518-RELAY
@@ -9585,12 +9585,6 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
- - DOMAIN-SUFFIX,v1.mk,全球直连
- - DOMAIN-SUFFIX,d1.mk,全球直连
- - DOMAIN-SUFFIX,dlj.mk,全球直连
- - DOMAIN-SUFFIX,suo.yt,全球直连
- - DOMAIN-SUFFIX,sub.cm,全球直连
- - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
