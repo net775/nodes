@@ -287,8 +287,8 @@ proxies:
   - {name: 04-328-JP, server: 13.112.184.241, port: 443, type: trojan, password: 26f2d3a2-222f-313d-bc0b-349facb5d018, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-329-JP, server: 35.74.79.234, port: 443, type: trojan, password: 26f2d3a2-222f-313d-bc0b-349facb5d018, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-330-US, server: 52.88.80.155, port: 443, type: trojan, password: 26f2d3a2-222f-313d-bc0b-349facb5d018, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-331-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-332-US, server: 103.136.185.28, port: 3504, type: trojan, password: 26f2d3a2-222f-313d-bc0b-349facb5d018, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-331-US, server: 103.136.185.27, port: 5499, type: trojan, password: 26f2d3a2-222f-313d-bc0b-349facb5d018, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-332-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-334-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-335-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -404,6 +404,7 @@ proxies:
   - {name: 06-445-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 158141ca-528d-407d-88f2-c0ddca399b26, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 06-446-CN, server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top, port: 35998, type: ss, cipher: chacha20-ietf-poly1305, password: 861de7db-5ada-4b36-903c-0ad6ba25d75a, udp: true}
   - {name: 06-447-CN, server: ddns.olucloud.subapi.cc, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 55a021e6-30f6-46c5-8297-a2b74d0b3031, udp: true}
+  - {name: 06-448-RELAY, server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
   - {name: 06-449-CN, server: 42.240.130.243, port: 33237, type: ss, cipher: none, password: 0cf52016-ba98-319d-de8c-84dbfac9cccc, udp: true}
   - {name: 06-450-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-451-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
@@ -474,7 +475,6 @@ proxies:
   - {name: 12-516-US, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
   - {name: 12-517-RELAY, server: 162.159.137.249, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm}, udp: true}
   - {name: 12-518-RELAY, server: 104.21.82.39, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 12-519-RELAY, server: mahilu.site, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
   - {name: 12-520-RELAY, server: 23.227.39.24, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm}, udp: true}
   - {name: 12-521-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-522-RELAY, server: 23.227.38.22, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm}, udp: true}
@@ -1029,6 +1029,7 @@ proxy-groups:
       - 06-445-TW
       - 06-446-CN
       - 06-447-CN
+      - 06-448-RELAY
       - 06-449-CN
       - 06-450-CN
       - 06-451-CN
@@ -1099,7 +1100,6 @@ proxy-groups:
       - 12-516-US
       - 12-517-RELAY
       - 12-518-RELAY
-      - 12-519-RELAY
       - 12-520-RELAY
       - 12-521-RELAY
       - 12-522-RELAY
@@ -1635,6 +1635,7 @@ proxy-groups:
       - 04-433-CN
       - 04-438-CN
       - 06-443-TW
+      - 06-448-RELAY
       - 06-453-CN
       - 06-458-TW
       - 06-463-TW
@@ -1775,7 +1776,6 @@ proxy-groups:
       - 10-504-RELAY
       - 10-509-RELAY
       - 12-514-RELAY
-      - 12-519-RELAY
       - 12-524-RELAY
       - 12-529-RELAY
       - 12-534-RELAY
