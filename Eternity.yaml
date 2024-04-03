@@ -183,6 +183,7 @@ proxies:
   - {name: 04-224-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 9deef41a-5360-4107-8206-bfd176b98f59, udp: true}
   - {name: 04-225-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 9deef41a-5360-4107-8206-bfd176b98f59, udp: true}
   - {name: 04-226-CN, server: n00007.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 9deef41a-5360-4107-8206-bfd176b98f59, udp: true}
+  - {name: 04-227-CN, server: n00003.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 9deef41a-5360-4107-8206-bfd176b98f59, udp: true}
   - {name: 04-228-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 9deef41a-5360-4107-8206-bfd176b98f59, udp: true}
   - {name: 04-229-CN, server: sz.zj.my.1.76po.com, port: 31001, type: trojan, password: f8a80255-0c6d-4e89-b1b5-d305f1f7019b, sni: hk-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-230-CN, server: sz.zj.my.1.76po.com, port: 31002, type: trojan, password: f8a80255-0c6d-4e89-b1b5-d305f1f7019b, sni: hk-02.v4vip.top, skip-cert-verify: true, udp: true}
@@ -404,7 +405,6 @@ proxies:
   - {name: 06-446-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 158141ca-528d-407d-88f2-c0ddca399b26, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 06-447-CN, server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top, port: 35998, type: ss, cipher: chacha20-ietf-poly1305, password: 861de7db-5ada-4b36-903c-0ad6ba25d75a, udp: true}
   - {name: 06-448-CN, server: ddns.olucloud.subapi.cc, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 55a021e6-30f6-46c5-8297-a2b74d0b3031, udp: true}
-  - {name: 06-449-RELAY, server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
   - {name: 06-450-CN, server: 42.240.130.243, port: 33237, type: ss, cipher: none, password: 0cf52016-ba98-319d-de8c-84dbfac9cccc, udp: true}
   - {name: 06-451-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-452-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
@@ -810,6 +810,7 @@ proxy-groups:
       - 04-224-CN
       - 04-225-CN
       - 04-226-CN
+      - 04-227-CN
       - 04-228-CN
       - 04-229-CN
       - 04-230-CN
@@ -1031,7 +1032,6 @@ proxy-groups:
       - 06-446-TW
       - 06-447-CN
       - 06-448-CN
-      - 06-449-RELAY
       - 06-450-CN
       - 06-451-CN
       - 06-452-CN
@@ -1467,6 +1467,7 @@ proxy-groups:
       - 04-212-CN
       - 04-217-CN
       - 04-222-CN
+      - 04-227-CN
       - 04-232-CN
       - 04-237-CN
       - 04-242-CN
@@ -1770,7 +1771,6 @@ proxy-groups:
       - 04-434-CN
       - 04-439-CN
       - 06-444-TW
-      - 06-449-RELAY
       - 06-454-CN
       - 06-459-TW
       - 06-464-TW
