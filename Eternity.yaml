@@ -284,9 +284,10 @@ proxies:
   - {name: 04-325-CN, server: gcdddd0001.likeone.lol, port: 10658, type: trojan, password: e3e62bec-7828-433b-8be0-480aa64520bb, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-326-CN, server: gcdddd0005.likeone.lol, port: 26681, type: trojan, password: e3e62bec-7828-433b-8be0-480aa64520bb, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-327-CN, server: gcdddd0003.likeone.lol, port: 26681, type: trojan, password: e3e62bec-7828-433b-8be0-480aa64520bb, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - {name: 04-328-CN, server: gcdddd0001.likeone.lol, port: 26681, type: trojan, password: e3e62bec-7828-433b-8be0-480aa64520bb, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-329-JP, server: 13.231.141.141, port: 443, type: trojan, password: 8bf00319-6acf-3a4d-ae5e-5791342b0ee8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-330-JP, server: 35.74.79.234, port: 443, type: trojan, password: 8bf00319-6acf-3a4d-ae5e-5791342b0ee8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-331-US, server: 52.88.80.155, port: 443, type: trojan, password: 8bf00319-6acf-3a4d-ae5e-5791342b0ee8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-331-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-332-US, server: 103.136.185.27, port: 5499, type: trojan, password: 8bf00319-6acf-3a4d-ae5e-5791342b0ee8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-US, server: 103.136.185.28, port: 3504, type: trojan, password: 8bf00319-6acf-3a4d-ae5e-5791342b0ee8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-KR, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -442,6 +443,7 @@ proxies:
   - {name: 08-484-US, server: 107.172.25.132, port: 18117, type: vmess, uuid: e2cfd504-b51f-42a4-cc18-665f82f2549c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-485-RELAY, server: 104.21.82.39, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 08-486-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 08-487-US, server: 192.210.167.236, port: 1200, type: vmess, uuid: 207da2a6-3c7d-4b6c-cb46-dcfaf5814053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /207da2a6}, udp: true}
   - {name: 08-488-RELAY, server: masterwow.ir, port: 443, type: vmess, uuid: 3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss49406, headers: {Host: masterwow.ir}}, udp: true}
   - {name: 08-489-RELAY, server: 172.66.213.38, port: 443, type: vmess, uuid: 3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss49406}, udp: true}
   - {name: 08-490-RELAY, server: 104.21.19.124, port: 443, type: vmess, uuid: 3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wss49406}, udp: true}
@@ -616,7 +618,6 @@ proxies:
   - {name: 12-660-SE, server: 95.164.33.62, port: 443, type: trojan, password: 0b1371aa-649d-41dc-9126-338c87936500, sni: sourceforge.net, skip-cert-verify: true, udp: true}
   - {name: 12-661-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
   - {name: 16-664-CN, server: v3-js-hk.as9929.uk, port: 10061, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
-  - {name: 16-665-RELAY, server: fcdn.flha.ru, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fcdn.flha.ru}}, udp: true}
   - {name: 16-666-CN, server: ddns.olucloud.subapi.cc, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 55a021e6-30f6-46c5-8297-a2b74d0b3031, udp: true}
   - {name: 16-667-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 203cea12-57fe-49c6-9e5b-906d2260ef12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 16-668-CN, server: mf411f.micloud.buzz, port: 46012, type: vmess, uuid: 62477f7a-783b-4f00-93cb-ce1f62155776, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf411f.micloud.buzz}}, udp: true}
@@ -914,6 +915,7 @@ proxy-groups:
       - 04-325-CN
       - 04-326-CN
       - 04-327-CN
+      - 04-328-CN
       - 04-329-JP
       - 04-330-JP
       - 04-331-US
@@ -1072,6 +1074,7 @@ proxy-groups:
       - 08-484-US
       - 08-485-RELAY
       - 08-486-RELAY
+      - 08-487-US
       - 08-488-RELAY
       - 08-489-RELAY
       - 08-490-RELAY
@@ -1246,7 +1249,6 @@ proxy-groups:
       - 12-660-SE
       - 12-661-RELAY
       - 16-664-CN
-      - 16-665-RELAY
       - 16-666-CN
       - 16-667-RELAY
       - 16-668-CN
@@ -1526,6 +1528,7 @@ proxy-groups:
       - 08-472-RELAY
       - 08-477-RELAY
       - 08-482-RELAY
+      - 08-487-US
       - 08-492-NOWHERE
       - 08-497-RELAY
       - 10-502-RELAY
@@ -1622,6 +1625,7 @@ proxy-groups:
       - 04-313-CN
       - 04-318-CN
       - 04-323-CN
+      - 04-328-CN
       - 04-333-US
       - 04-338-NOWHERE
       - 04-343-NOWHERE
@@ -1947,7 +1951,6 @@ proxy-groups:
       - 12-650-CN
       - 12-655-CN
       - 12-660-SE
-      - 16-665-RELAY
       - 16-670-CN
       - 31-675-KZ
       - 32-680-RELAY
