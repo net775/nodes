@@ -54,7 +54,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-000-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-001-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
   - {name: 04-002-GOOGLE, server: tw2.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw2.daishuvpn.win}}, udp: true}
   - {name: 04-003-GOOGLE, server: tw3.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw3.daishuvpn.win}}, udp: true}
@@ -291,13 +290,13 @@ proxies:
   - {name: 04-332-US, server: 103.136.185.27, port: 5499, type: trojan, password: f2c24ff9-3791-3bba-855c-c438b15dcebb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-333-US, server: 103.136.185.28, port: 3504, type: trojan, password: f2c24ff9-3791-3bba-855c-c438b15dcebb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-334-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-335-KR, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-335-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-336-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-337-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-338-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-339-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-340-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-341-DE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-341-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-342-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-343-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-344-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -405,6 +404,7 @@ proxies:
   - {name: 06-446-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 158141ca-528d-407d-88f2-c0ddca399b26, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 06-447-CN, server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top, port: 35998, type: ss, cipher: chacha20-ietf-poly1305, password: 861de7db-5ada-4b36-903c-0ad6ba25d75a, udp: true}
   - {name: 06-448-CN, server: ddns.olucloud.subapi.cc, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 55a021e6-30f6-46c5-8297-a2b74d0b3031, udp: true}
+  - {name: 06-449-RELAY, server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}, udp: true}
   - {name: 06-450-CN, server: 42.240.130.243, port: 33237, type: ss, cipher: none, password: 0cf52016-ba98-319d-de8c-84dbfac9cccc, udp: true}
   - {name: 06-451-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
   - {name: 06-452-CN, server: v3-js-hk.as9929.uk, port: 34936, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0, udp: true}
@@ -686,7 +686,6 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 04-000-GOOGLE
       - 04-001-GOOGLE
       - 04-002-GOOGLE
       - 04-003-GOOGLE
@@ -923,13 +922,13 @@ proxy-groups:
       - 04-332-US
       - 04-333-US
       - 04-334-NOWHERE
-      - 04-335-KR
+      - 04-335-NOWHERE
       - 04-336-NOWHERE
       - 04-337-NOWHERE
       - 04-338-NOWHERE
       - 04-339-NOWHERE
       - 04-340-NOWHERE
-      - 04-341-DE
+      - 04-341-NOWHERE
       - 04-342-NOWHERE
       - 04-343-NOWHERE
       - 04-344-CN
@@ -1037,6 +1036,7 @@ proxy-groups:
       - 06-446-TW
       - 06-447-CN
       - 06-448-CN
+      - 06-449-RELAY
       - 06-450-CN
       - 06-451-CN
       - 06-452-CN
@@ -1371,7 +1371,7 @@ proxy-groups:
       - 04-326-CN
       - 04-331-US
       - 04-336-NOWHERE
-      - 04-341-DE
+      - 04-341-NOWHERE
       - 04-346-CN
       - 04-351-CN
       - 04-356-CN
@@ -1783,6 +1783,7 @@ proxy-groups:
       - 04-434-CN
       - 04-439-CN
       - 06-444-TW
+      - 06-449-RELAY
       - 06-454-CN
       - 06-459-TW
       - 06-464-TW
@@ -1841,7 +1842,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-000-GOOGLE
       - 04-005-RELAY
       - 04-010-NOWHERE
       - 04-015-KR
@@ -1888,7 +1888,7 @@ proxy-groups:
       - 04-320-CN
       - 04-325-CN
       - 04-330-JP
-      - 04-335-KR
+      - 04-335-NOWHERE
       - 04-340-NOWHERE
       - 04-345-CN
       - 04-350-CN
