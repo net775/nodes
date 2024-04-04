@@ -438,8 +438,8 @@ proxies:
   - {name: 08-480-RELAY, server: hms082.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms082.gwdef.sbs}}, udp: true}
   - {name: 08-481-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 08-482-RELAY, server: 104.16.216.241, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 08-483-US, server: 149.28.46.252, port: 18118, type: vmess, uuid: e223876d-ae70-4889-f6cf-15097a008888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-484-RELAY, server: 173.245.58.199, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 65535, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kellie.makeup/linkvws}, udp: true}
+  - {name: 08-485-US, server: 144.202.6.88, port: 35515, type: vmess, uuid: 5b3f5217-d9cf-42ec-c14e-8f9492196158, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-486-RELAY, server: 104.26.9.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 08-487-US, server: 45.76.229.43, port: 41457, type: vmess, uuid: 9800f2fa-6a43-456a-837f-61f7da433011, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-488-JP, server: 47.74.6.16, port: 2052, type: vmess, uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /039fc4e4}, udp: true}
@@ -1073,8 +1073,8 @@ proxy-groups:
       - 08-480-RELAY
       - 08-481-RELAY
       - 08-482-RELAY
-      - 08-483-US
       - 08-484-RELAY
+      - 08-485-US
       - 08-486-RELAY
       - 08-487-US
       - 08-488-JP
@@ -1666,7 +1666,6 @@ proxy-groups:
       - 06-468-CN
       - 08-473-RELAY
       - 08-478-RELAY
-      - 08-483-US
       - 08-488-JP
       - 08-493-US
       - 08-498-RELAY
@@ -1926,6 +1925,7 @@ proxy-groups:
       - 08-470-RELAY
       - 08-475-RELAY
       - 08-480-RELAY
+      - 08-485-US
       - 08-490-GB
       - 08-495-RELAY
       - 08-500-RELAY
