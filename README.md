@@ -30,7 +30,6 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
-    vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAwLUdPT0dMRSIsImFkZCI6ImF1MS5wYXkuZWR1LmtnIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJhdTEucGF5LmVkdS5rZyIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAxLUdPT0dMRSIsImFkZCI6InR3MS5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzEuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAyLUdPT0dMRSIsImFkZCI6InR3Mi5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzIuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAzLUdPT0dMRSIsImFkZCI6InR3My5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzMuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
@@ -220,6 +219,7 @@ Fork from TopFreeProxies.
     trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0002.likeone.lol:35257?allowInsecure=1&sni=hk03.ckcloud.info#04-285-CN
     trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0003.likeone.lol:26023?allowInsecure=1&sni=hk02.ckcloud.info#04-286-CN
     trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0005.likeone.lol:26023?allowInsecure=1&sni=hk02.ckcloud.info#04-287-CN
+    trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0001.likeone.lol:26023?allowInsecure=1&sni=hk02.ckcloud.info#04-288-CN
     trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0003.likeone.lol:15485?allowInsecure=1&sni=hk04.ckcloud.info#04-289-CN
     trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0005.likeone.lol:15485?allowInsecure=1&sni=hk04.ckcloud.info#04-290-CN
     trojan://9918740b-8435-40fe-b759-f58c3c80c02c@gcdddd0001.likeone.lol:15485?allowInsecure=1&sni=hk04.ckcloud.info#04-291-CN
@@ -666,11 +666,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `734`
+合并节点总数: `733`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `734`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `733`
 
 
 ## 仓库声明
