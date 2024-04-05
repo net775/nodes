@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-000-CN, server: sz.zj.my.1.76po.com, port: 31001, type: trojan, password: 4fa7ac41-8a57-4dd5-bfe9-dcdb1e4f196d, sni: hk-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-001-CN, server: sz.zj.my.1.76po.com, port: 31002, type: trojan, password: 4fa7ac41-8a57-4dd5-bfe9-dcdb1e4f196d, sni: hk-02.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-002-CN, server: sz.zj.my.1.76po.com, port: 31003, type: trojan, password: 4fa7ac41-8a57-4dd5-bfe9-dcdb1e4f196d, sni: hk-03.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-003-CN, server: sz.zj.my.1.76po.com, port: 31004, type: trojan, password: 4fa7ac41-8a57-4dd5-bfe9-dcdb1e4f196d, sni: hk-04.v4vip.top, skip-cert-verify: true, udp: true}
@@ -325,7 +326,6 @@ proxies:
   - {name: 04-367-CN, server: gcdddd0001.likeone.lol, port: 60293, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-368-CN, server: gcdddd0003.likeone.lol, port: 60293, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-369-CN, server: gcdddd0005.likeone.lol, port: 60293, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: 04-370-CN, server: gcdddd0001.likeone.lol, port: 48560, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-371-CN, server: gcdddd0003.likeone.lol, port: 48560, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-372-CN, server: gcdddd0005.likeone.lol, port: 48560, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 04-373-CN, server: gcdddd0005.likeone.lol, port: 10658, type: trojan, password: 9918740b-8435-40fe-b759-f58c3c80c02c, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -437,7 +437,6 @@ proxies:
   - {name: 08-479-RELAY, server: 104.21.15.212, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-480-RELAY, server: hms082.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms082.gwdef.sbs}}, udp: true}
   - {name: 08-481-US, server: 205.234.233.68, port: 445, type: vmess, uuid: ff982b62-2d2e-4ebe-befc-6e3d5177857c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-482-US, server: 140.82.20.60, port: 39164, type: vmess, uuid: 0520cc8d-b5ae-4880-e193-c2cbc9f8627a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-483-FR, server: 213.32.63.176, port: 3586, type: vmess, uuid: acba8460-6c85-4d67-8f74-5a51da5e8393, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-484-US, server: 149.28.84.185, port: 19100, type: vmess, uuid: fe1b2d35-9596-4692-fd35-4221a23b39b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-485-RELAY, server: 185.146.173.59, port: 2083, type: vmess, uuid: 587fe4b8-5ed8-46a1-8ae4-0a07efd35855, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 2083vmess}, udp: true}
@@ -447,6 +446,7 @@ proxies:
   - {name: 08-489-US, server: 66.42.100.187, port: 50131, type: vmess, uuid: 5afaa575-704c-43d2-a639-dd4b87cfd28a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-490-IR, server: 85.9.105.150, port: 1482, type: vmess, uuid: 3d5cd16d-6060-4bf1-aa08-bff6d4a4454f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-491-US, server: 149.28.40.208, port: 42010, type: vmess, uuid: 4b338cb0-fdb1-408c-bc04-e73112a7aa56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-492-US, server: 137.220.61.211, port: 51990, type: vmess, uuid: 05dbd633-11ce-4f8c-db9d-02eb60eb4db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-493-US, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-494-FR, server: 141.94.237.81, port: 8442, type: vmess, uuid: 60df4ec6-7506-407e-998e-b1539fc0630f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-495-RELAY, server: 104.16.61.8, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd/linkws}, udp: true}
@@ -693,6 +693,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-000-CN
       - 04-001-CN
       - 04-002-CN
       - 04-003-CN
@@ -964,7 +965,6 @@ proxy-groups:
       - 04-367-CN
       - 04-368-CN
       - 04-369-CN
-      - 04-370-CN
       - 04-371-CN
       - 04-372-CN
       - 04-373-CN
@@ -1076,7 +1076,6 @@ proxy-groups:
       - 08-479-RELAY
       - 08-480-RELAY
       - 08-481-US
-      - 08-482-US
       - 08-483-FR
       - 08-484-US
       - 08-485-RELAY
@@ -1086,6 +1085,7 @@ proxy-groups:
       - 08-489-US
       - 08-490-IR
       - 08-491-US
+      - 08-492-US
       - 08-493-US
       - 08-494-FR
       - 08-495-RELAY
@@ -1546,8 +1546,8 @@ proxy-groups:
       - 06-467-CN
       - 08-472-RELAY
       - 08-477-RELAY
-      - 08-482-US
       - 08-487-DE
+      - 08-492-US
       - 08-497-US
       - 10-502-BE
       - 10-507-RELAY
@@ -1861,6 +1861,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-000-CN
       - 04-005-CN
       - 04-010-CN
       - 04-015-CN
@@ -1914,7 +1915,6 @@ proxy-groups:
       - 04-355-CN
       - 04-360-CN
       - 04-365-CN
-      - 04-370-CN
       - 04-375-CN
       - 04-380-DE
       - 04-385-SG
