@@ -434,7 +434,6 @@ proxies:
   - {name: 08-477-US, server: 205.234.233.22, port: 5129, type: vmess, uuid: 2e504818-e2e2-4183-eb75-0d1175a947de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-478-US, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-479-US, server: 140.82.20.60, port: 39164, type: vmess, uuid: 0520cc8d-b5ae-4880-e193-c2cbc9f8627a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-480-US, server: 149.28.124.239, port: 34112, type: vmess, uuid: 83486d3b-2a38-480e-dc0f-fd2db85df3b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-481-US, server: 45.77.68.59, port: 45037, type: vmess, uuid: 006e2e1f-efa3-41e6-a0cd-57c5d161349a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-482-CN, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-483-IR, server: 78.109.198.167, port: 20169, type: vmess, uuid: 4d3f0bd8-2d4d-49a6-ae26-ceae09d7ee3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -444,6 +443,7 @@ proxies:
   - {name: 08-487-RELAY, server: 172.67.204.84, port: 8443, type: vmess, uuid: c51fdac2-25c1-4848-a8c0-9793a40bada7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: VPNHOMES}, udp: true}
   - {name: 08-488-US, server: 64.176.201.188, port: 40835, type: vmess, uuid: f1bb538f-a53d-45ff-d381-61499f08dfef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-489-IR, server: 89.44.112.61, port: 29164, type: vmess, uuid: d85f644f-2231-4788-a054-604e7d4881c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-490-US, server: 108.61.84.6, port: 15937, type: vmess, uuid: ef239c2f-9105-4cf9-c99c-b70d25982390, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-491-US, server: 140.82.42.183, port: 55160, type: vmess, uuid: 2e18b966-a7de-48e1-d991-5ddb63410df6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-492-IR, server: vip.soheilsat.com, port: 7021, type: vmess, uuid: a5e6f758-2f93-41f9-bc63-40f7efc58013, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-493-RELAY, server: 188.114.96.3, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /gwdef.sbs/linkws}, udp: true}
@@ -1061,7 +1061,6 @@ proxy-groups:
       - 08-477-US
       - 08-478-US
       - 08-479-US
-      - 08-480-US
       - 08-481-US
       - 08-482-CN
       - 08-483-IR
@@ -1071,6 +1070,7 @@ proxy-groups:
       - 08-487-RELAY
       - 08-488-US
       - 08-489-IR
+      - 08-490-US
       - 08-491-US
       - 08-492-IR
       - 08-493-RELAY
@@ -1902,8 +1902,8 @@ proxy-groups:
       - 06-465-CN
       - 08-470-RELAY
       - 08-475-RELAY
-      - 08-480-US
       - 08-485-SG
+      - 08-490-US
       - 08-495-RELAY
       - 10-500-RELAY
       - 10-505-RELAY
