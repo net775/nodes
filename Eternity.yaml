@@ -432,7 +432,6 @@ proxies:
   - {name: 08-474-US, server: 64.176.201.188, port: 40835, type: vmess, uuid: f1bb538f-a53d-45ff-d381-61499f08dfef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-475-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-476-US, server: 45.63.50.156, port: 31144, type: vmess, uuid: 462be427-720e-4379-9eb6-32671f21ce52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-477-US, server: 149.28.124.239, port: 34112, type: vmess, uuid: 83486d3b-2a38-480e-dc0f-fd2db85df3b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-478-HK, server: 202.81.231.30, port: 51275, type: vmess, uuid: 0b732cff-36f4-43e4-a921-7925c78afc92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/pdd?ed=2048"}, udp: true}
   - {name: 08-479-US, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-480-US, server: 135.148.62.165, port: 59988, type: vmess, uuid: cfd7a05c-82cf-436d-abce-8b2245b76472, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -448,6 +447,7 @@ proxies:
   - {name: 08-490-US, server: 66.42.100.187, port: 50131, type: vmess, uuid: 5afaa575-704c-43d2-a639-dd4b87cfd28a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-491-RELAY, server: 172.67.150.173, port: 2053, type: vmess, uuid: b322fde8-671f-4634-b985-e6ce50ee0647, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /u16}, udp: true}
   - {name: 08-492-JP, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-493-US, server: 207.148.10.248, port: 47918, type: vmess, uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-494-US, server: 45.152.84.131, port: 38409, type: vmess, uuid: d66c585d-a91b-42a5-ca25-c1c331c23d09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-495-US, server: 107.172.25.132, port: 18117, type: vmess, uuid: e2cfd504-b51f-42a4-cc18-665f82f2549c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-496-US, server: 45.32.64.89, port: 13182, type: vmess, uuid: d80bd214-da50-4a3a-e1d5-67632bd5094e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1058,7 +1058,6 @@ proxy-groups:
       - 08-474-US
       - 08-475-HK
       - 08-476-US
-      - 08-477-US
       - 08-478-HK
       - 08-479-US
       - 08-480-US
@@ -1074,6 +1073,7 @@ proxy-groups:
       - 08-490-US
       - 08-491-RELAY
       - 08-492-JP
+      - 08-493-US
       - 08-494-US
       - 08-495-US
       - 08-496-US
@@ -1516,7 +1516,6 @@ proxy-groups:
       - 06-462-TW
       - 06-467-CN
       - 08-472-RELAY
-      - 08-477-US
       - 08-482-US
       - 08-487-IR
       - 08-492-JP
@@ -1647,6 +1646,7 @@ proxy-groups:
       - 08-478-HK
       - 08-483-FR
       - 08-488-FR
+      - 08-493-US
       - 10-498-RELAY
       - 10-503-RELAY
       - 10-508-RELAY
