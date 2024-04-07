@@ -455,12 +455,12 @@ proxies:
   - {name: 08-497-US, server: 104.238.133.112, port: 34120, type: vmess, uuid: cf8de0e9-fc3c-46ab-eda1-b5b12913aa07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-498-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-499-DE, server: 164.92.198.210, port: 6969, type: vmess, uuid: 1eb6aad5-993a-4bcb-a9c4-5c98ba01b963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-500-US, server: 149.28.124.239, port: 34112, type: vmess, uuid: 83486d3b-2a38-480e-dc0f-fd2db85df3b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-501-GB, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-502-US, server: 107.191.36.148, port: 38848, type: vmess, uuid: 5f6a32a0-561c-440e-a43e-30b4d861b0e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-503-FI, server: 65.109.199.41, port: 2105, type: vmess, uuid: 79ab4609-837e-4d49-9a89-970516bcc7d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-US, server: 155.138.206.192, port: 23506, type: vmess, uuid: 69f97204-1da8-4078-8459-ddb324cade04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-505-RELAY, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-506-US, server: 64.176.219.193, port: 48895, type: vmess, uuid: 1dd70a5f-fbbb-4e58-9d29-a40415853c80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-507-RELAY, server: 172.67.116.48, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-508-US, server: 89.117.12.88, port: 45979, type: vmess, uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test}, udp: true}
   - {name: 08-509-IR, server: 79.175.129.88, port: 56266, type: vmess, uuid: 371f992e-4035-440b-a838-513299915623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1100,12 +1100,12 @@ proxy-groups:
       - 08-497-US
       - 08-498-HK
       - 08-499-DE
+      - 08-500-US
       - 08-501-GB
       - 08-502-US
       - 08-503-FI
       - 08-504-US
       - 08-505-RELAY
-      - 08-506-US
       - 08-507-RELAY
       - 08-508-US
       - 08-509-IR
@@ -1430,7 +1430,6 @@ proxy-groups:
       - 08-491-US
       - 08-496-US
       - 08-501-GB
-      - 08-506-US
       - 10-511-RELAY
       - 10-516-RELAY
       - 10-521-RELAY
@@ -1958,6 +1957,7 @@ proxy-groups:
       - 08-485-RELAY
       - 08-490-US
       - 08-495-RELAY
+      - 08-500-US
       - 08-505-RELAY
       - 08-510-JP
       - 10-515-RELAY
