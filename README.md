@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `628`
+高速节点数量: `627`
 <details>
   <summary>展开复制节点</summary>
 
@@ -143,7 +143,6 @@ Fork from TopFreeProxies.
     trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@jp01.freeflyingcloud.xyz:44402?allowInsecure=1&sni=jp01.freeflyingcloud.xyz#04-110-JP
     trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@sg01.freeflyingcloud.xyz:35702?allowInsecure=1&sni=sg01.freeflyingcloud.xyz#04-111-SG
     trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@au01.freeflyingcloud.xyz:42002?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-112-AU
-    trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@us02.freeflyingcloud.xyz:30020?allowInsecure=1&sni=us02.freeflyingcloud.xyz#04-113-US
     trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@us03.freeflyingcloud.xyz:30018?allowInsecure=1&sni=us03.freeflyingcloud.xyz#04-114-US
     trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@ru01.freeflyingcloud.xyz:30002?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-115-RU
     trojan://36d79047-3e4b-477d-a73a-02785f14bdf6@fr01.freeflyingcloud.xyz:30502?allowInsecure=1&sni=fr01.freeflyingcloud.xyz#04-116-FR
@@ -425,8 +424,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDkwLVJFTEFZIiwiYWRkIjoiMTcyLjY3LjE2OC4zNCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDkxLVVTIiwiYWRkIjoiMTQ5LjI4Ljg0LjE0NiIsInBvcnQiOiIzMjkwNiIsInR5cGUiOiJub25lIiwiaWQiOiJhZGI2ZmUzYS1jODY3LTRhNGMtZWI0YS0xZDlmNGZhZGUwYWEiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDkyLVVTIiwiYWRkIjoiMTU0LjIxLjkzLjk0IiwicG9ydCI6IjMyMzM5IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijg1ZTZlMzdkLTZlMjctNDcwMi1jYmMxLTE4ODQwZTU1NTg4ZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvODVlNmUzN2QiLCJob3N0IjoiIiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDkzLVVTIiwiYWRkIjoiMjA3LjE0OC4zMS4xNjciLCJwb3J0IjoiMzA1ODciLCJ0eXBlIjoibm9uZSIsImlkIjoiNTUyMTkyMTQtOWYyZC00OTE0LWZiYWYtYjFiNDQ0Yzg1YjBlIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvODVlNmUzN2QiLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDk0LU5MIiwiYWRkIjoiMTk0LjUuMTU5LjgyIiwicG9ydCI6IjQwMTcwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjBkZjE0MDg1LWViMmUtNDE3Zi04NzliLTExYjBjMDUxYWE4NCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJOb25lIiwiaG9zdCI6IiIsInRscyI6InRscyJ9
-    vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDk1LVVTIiwiYWRkIjoiMTQwLjgyLjIwLjYwIiwicG9ydCI6IjM5MTY0IiwidHlwZSI6Im5vbmUiLCJpZCI6IjA1MjBjYzhkLWI1YWUtNDg4MC1lMTkzLWMyY2JjOWY4NjI3YSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiTm9uZSIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDk2LUNBIiwiYWRkIjoiMTA0LjIzNC42OS4yNDMiLCJwb3J0IjoiNTMyNTkiLCJ0eXBlIjoibm9uZSIsImlkIjoiNGRkNmMxOTItODI4NC00NTA0LTlkZWUtNWNhN2RhMjcwNjliIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDk3LVVTIiwiYWRkIjoiNjYuNDIuMTE4LjM3IiwicG9ydCI6IjM5NzQyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImI4NWQxMWE2LTljZTUtNGMwNC1lZmIxLTlmM2IxYWMyZjI1NSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNDk4LVVTIiwiYWRkIjoiMTYyLjI1MS42Mi4xMTUiLCJwb3J0IjoiMjIzMjQiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
@@ -663,11 +662,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `729`
+合并节点总数: `733`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `729`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `733`
 
 
 ## 仓库声明
