@@ -457,7 +457,6 @@ proxies:
   - {name: 08-499-RELAY, server: 185.146.173.59, port: 2083, type: vmess, uuid: 587fe4b8-5ed8-46a1-8ae4-0a07efd35855, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 2083vmess}, udp: true}
   - {name: 08-500-RELAY, server: 104.21.4.14, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-501-SG, server: 146.190.84.34, port: 26012, type: vmess, uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-502-US, server: 5.161.192.172, port: 33764, type: vmess, uuid: f96e9397-08be-4227-e26a-f3a55a3976de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-503-US, server: 172.234.17.218, port: 53734, type: vmess, uuid: 7231f458-3553-45c0-8167-c0400ec5e0c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-JP, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-505-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -465,6 +464,7 @@ proxies:
   - {name: 08-507-RELAY, server: auth.speedtest.net, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: auth.speedtest.net}}, udp: true}
   - {name: 08-508-US, server: 51.81.59.229, port: 13541, type: vmess, uuid: 280a2198-b720-4544-93b2-782880e74143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-509-IR, server: 31.14.118.150, port: 20883, type: vmess, uuid: 42d939de-99eb-4ac8-ad30-c60384cd510e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-510-US, server: 207.246.108.107, port: 40193, type: vmess, uuid: 10979bca-b26b-42ae-801c-b2efbd1bf8b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-511-US, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-512-RELAY, server: 104.26.9.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-513-RELAY, server: maureen.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: maureen.autos}}, udp: true}
@@ -1103,7 +1103,6 @@ proxy-groups:
       - 08-499-RELAY
       - 08-500-RELAY
       - 08-501-SG
-      - 08-502-US
       - 08-503-US
       - 08-504-JP
       - 08-505-US
@@ -1111,6 +1110,7 @@ proxy-groups:
       - 08-507-RELAY
       - 08-508-US
       - 08-509-IR
+      - 08-510-US
       - 08-511-US
       - 10-512-RELAY
       - 10-513-RELAY
@@ -1564,7 +1564,6 @@ proxy-groups:
       - 08-487-RELAY
       - 08-492-AE
       - 08-497-US
-      - 08-502-US
       - 08-507-RELAY
       - 10-512-RELAY
       - 10-517-RELAY
@@ -1964,6 +1963,7 @@ proxy-groups:
       - 08-495-FI
       - 08-500-RELAY
       - 08-505-US
+      - 08-510-US
       - 10-515-RELAY
       - 10-520-RELAY
       - 10-525-RELAY
