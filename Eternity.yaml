@@ -171,6 +171,7 @@ proxies:
   - {name: 04-114-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-115-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-116-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-117-GB, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 098e2bf5-9c9d-4152-aa7d-1d29e07cbbad, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-118-IT, server: it01.freeflyingcloud.xyz, port: 48102, type: trojan, password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0, sni: it01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-119-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-120-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
@@ -429,7 +430,6 @@ proxies:
   - {name: 06-471-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 1ee58d08-3651-40ed-abc2-9bb7840b9fd3, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-472-CN, server: 42.240.130.243, port: 33237, type: ss, cipher: none, password: 0cf52016-ba98-319d-de8c-84dbfac9cccc, udp: true}
   - {name: 06-473-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: 905ab1ed-d561-495b-a3bb-a567f7c7c0b7, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 06-474-US, server: us03.freeflyingcloud.xyz, port: 30018, type: trojan, password: 098e2bf5-9c9d-4152-aa7d-1d29e07cbbad, sni: us03.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-475-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 098e2bf5-9c9d-4152-aa7d-1d29e07cbbad, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-476-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 1ee58d08-3651-40ed-abc2-9bb7840b9fd3, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-477-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 905ab1ed-d561-495b-a3bb-a567f7c7c0b7, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -450,6 +450,7 @@ proxies:
   - {name: 08-492-RELAY, server: 172.67.168.34, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 08-493-US, server: 207.246.110.118, port: 53698, type: vmess, uuid: 235f1753-4e65-4465-ecb2-08f643eb3182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-494-RELAY, server: 104.16.61.8, port: 8443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kellie.makeup/linkvws}, udp: true}
+  - {name: 08-495-US, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-496-US, server: 149.28.80.197, port: 31338, type: vmess, uuid: 1e09b605-e588-4cd4-e39a-8fae4ea13431, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-497-DE, server: 91.107.143.169, port: 26523, type: vmess, uuid: c2aa1cce-5d89-43f2-eeb9-703507b1f5c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-498-NL, server: 194.5.159.82, port: 40170, type: vmess, uuid: 0df14085-eb2e-417f-879b-11b0c051aa84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
@@ -462,10 +463,10 @@ proxies:
   - {name: 08-505-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-506-US, server: 104.249.173.159, port: 40118, type: vmess, uuid: b89f5af7-e478-4b45-f1d5-1a5481acc15b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-507-US, server: 23.94.104.164, port: 60222, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
-  - {name: 08-508-US, server: 64.176.199.51, port: 23534, type: vmess, uuid: d7da6369-ea95-4ccf-c721-85200794a62e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-509-BR, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-510-US, server: 45.63.50.156, port: 31144, type: vmess, uuid: 462be427-720e-4379-9eb6-32671f21ce52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-511-US, server: 51.81.59.229, port: 13541, type: vmess, uuid: 280a2198-b720-4544-93b2-782880e74143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-512-US, server: 5.161.192.172, port: 33764, type: vmess, uuid: f96e9397-08be-4227-e26a-f3a55a3976de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-513-US, server: 45.76.229.43, port: 41457, type: vmess, uuid: 9800f2fa-6a43-456a-837f-61f7da433011, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-514-US, server: 89.117.12.88, port: 45979, type: vmess, uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test}, udp: true}
   - {name: 08-515-US, server: 23.94.104.164, port: 1194, type: vmess, uuid: 7d309a75-5d7b-409b-f3f6-6f7a45d3f3ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -821,6 +822,7 @@ proxy-groups:
       - 04-114-US
       - 04-115-RU
       - 04-116-FR
+      - 04-117-GB
       - 04-118-IT
       - 04-119-GOOGLE
       - 04-120-GOOGLE
@@ -1079,7 +1081,6 @@ proxy-groups:
       - 06-471-US
       - 06-472-CN
       - 06-473-GB
-      - 06-474-US
       - 06-475-FR
       - 06-476-RU
       - 06-477-FR
@@ -1100,6 +1101,7 @@ proxy-groups:
       - 08-492-RELAY
       - 08-493-US
       - 08-494-RELAY
+      - 08-495-US
       - 08-496-US
       - 08-497-DE
       - 08-498-NL
@@ -1112,10 +1114,10 @@ proxy-groups:
       - 08-505-RELAY
       - 08-506-US
       - 08-507-US
-      - 08-508-US
       - 08-509-BR
       - 08-510-US
       - 08-511-US
+      - 08-512-US
       - 08-513-US
       - 08-514-US
       - 08-515-US
@@ -1515,6 +1517,7 @@ proxy-groups:
       - 04-102-TW
       - 04-107-TW
       - 04-112-AU
+      - 04-117-GB
       - 04-122-GOOGLE
       - 04-127-DE
       - 04-132-KR
@@ -1574,6 +1577,7 @@ proxy-groups:
       - 08-497-DE
       - 08-502-US
       - 08-507-US
+      - 08-512-US
       - 08-517-US
       - 10-522-RELAY
       - 10-527-RELAY
@@ -1706,7 +1710,6 @@ proxy-groups:
       - 08-493-US
       - 08-498-NL
       - 08-503-US
-      - 08-508-US
       - 08-513-US
       - 10-518-RELAY
       - 10-523-RELAY
@@ -1832,7 +1835,6 @@ proxy-groups:
       - 06-459-AU
       - 06-464-AU
       - 06-469-US
-      - 06-474-US
       - 06-479-FR
       - 06-484-GB
       - 08-489-RELAY
@@ -1970,6 +1972,7 @@ proxy-groups:
       - 06-480-CN
       - 08-485-RELAY
       - 08-490-RELAY
+      - 08-495-US
       - 08-500-RELAY
       - 08-505-RELAY
       - 08-510-US
