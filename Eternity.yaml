@@ -461,9 +461,9 @@ proxies:
   - {name: 08-502-US, server: 66.42.102.129, port: 50086, type: vmess, uuid: 5546c857-6176-4677-ce46-5b7445b39d4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-503-US, server: 104.249.173.159, port: 40118, type: vmess, uuid: b89f5af7-e478-4b45-f1d5-1a5481acc15b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-504-US, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sd23dss}, udp: true}
-  - {name: 08-505-US, server: 45.77.68.59, port: 45037, type: vmess, uuid: 006e2e1f-efa3-41e6-a0cd-57c5d161349a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-506-RELAY, server: 172.67.152.170, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 08-507-FR, server: 213.32.63.176, port: 8954, type: vmess, uuid: 43d3c519-fb90-4e1c-ab72-ab921f6d3d04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-508-US, server: 64.176.199.51, port: 23534, type: vmess, uuid: d7da6369-ea95-4ccf-c721-85200794a62e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-509-US, server: 50.118.138.74, port: 41496, type: vmess, uuid: 74367726-82a6-480b-ba0a-c79979f36db9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-510-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-511-US, server: 104.243.16.88, port: 42015, type: vmess, uuid: a684d384-5631-4ef3-c8f8-e1a98d2fc2c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1110,9 +1110,9 @@ proxy-groups:
       - 08-502-US
       - 08-503-US
       - 08-504-US
-      - 08-505-US
       - 08-506-RELAY
       - 08-507-FR
+      - 08-508-US
       - 08-509-US
       - 08-510-HK
       - 08-511-US
@@ -1706,6 +1706,7 @@ proxy-groups:
       - 08-493-RELAY
       - 08-498-US
       - 08-503-US
+      - 08-508-US
       - 08-513-RELAY
       - 10-518-RELAY
       - 10-523-RELAY
@@ -1970,7 +1971,6 @@ proxy-groups:
       - 08-490-RELAY
       - 08-495-RELAY
       - 08-500-US
-      - 08-505-US
       - 08-510-HK
       - 08-515-US
       - 10-520-RELAY
