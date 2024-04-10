@@ -408,6 +408,7 @@ proxies:
   - {name: 04-449-SG, server: sg.colacloud.site, port: 42752, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-450-KR, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 06-451-KR, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 22707ae0-26b9-412a-89be-01e6abbc0f9c, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 06-452-KR, server: kr01.freeflyingcloud.xyz, port: 24852, type: trojan, password: 476f4ce0-7cd2-4081-b24e-be26b135e4a2, sni: kr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-453-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
   - {name: 06-454-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
   - {name: 06-455-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 1ee58d08-3651-40ed-abc2-9bb7840b9fd3, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -463,12 +464,12 @@ proxies:
   - {name: 08-505-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-506-RELAY, server: 104.17.35.237, port: 2095, type: vmess, uuid: 474413f9-3c15-493f-88b2-50e0c4702dde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS}, udp: true}
   - {name: 08-507-US, server: 205.234.233.68, port: 445, type: vmess, uuid: ff982b62-2d2e-4ebe-befc-6e3d5177857c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-508-US, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-509-US, server: 192.18.135.250, port: 18091, type: vmess, uuid: df208a40-27f1-4ff4-e54a-ee0c6782f019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /er208a4028472}, udp: true}
   - {name: 08-510-US, server: 155.138.206.192, port: 23506, type: vmess, uuid: 69f97204-1da8-4078-8459-ddb324cade04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-511-FI, server: 65.109.199.41, port: 5244, type: vmess, uuid: 44ef4f92-58d9-41e0-9390-a40e153c6403, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-512-US, server: 108.61.84.6, port: 15937, type: vmess, uuid: ef239c2f-9105-4cf9-c99c-b70d25982390, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-513-FR, server: 141.94.237.81, port: 8442, type: vmess, uuid: 60df4ec6-7506-407e-998e-b1539fc0630f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-514-US, server: 149.28.226.202, port: 37985, type: vmess, uuid: a36d5f0e-f529-4c83-9279-f4c4ce557031, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-515-HK, server: 47.76.35.246, port: 24101, type: vmess, uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-516-RELAY, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-517-RELAY, server: 104.16.202.161, port: 2052, type: vmess, uuid: 474413f9-3c15-493f-88b2-50e0c4702dde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Zo98PYfE}, udp: true}
@@ -1059,6 +1060,7 @@ proxy-groups:
       - 04-449-SG
       - 04-450-KR
       - 06-451-KR
+      - 06-452-KR
       - 06-453-RELAY
       - 06-454-RELAY
       - 06-455-FR
@@ -1114,12 +1116,12 @@ proxy-groups:
       - 08-505-US
       - 08-506-RELAY
       - 08-507-US
-      - 08-508-US
       - 08-509-US
       - 08-510-US
       - 08-511-FI
       - 08-512-US
       - 08-513-FR
+      - 08-514-US
       - 08-515-HK
       - 08-516-RELAY
       - 08-517-RELAY
@@ -1566,6 +1568,7 @@ proxy-groups:
       - 04-437-NOWHERE
       - 04-442-RELAY
       - 04-447-NOWHERE
+      - 06-452-KR
       - 06-457-AU
       - 06-462-FR
       - 06-467-RU
@@ -1710,7 +1713,6 @@ proxy-groups:
       - 08-493-RELAY
       - 08-498-RELAY
       - 08-503-RU
-      - 08-508-US
       - 08-513-FR
       - 08-518-US
       - 10-523-RELAY
@@ -1844,6 +1846,7 @@ proxy-groups:
       - 08-499-RELAY
       - 08-504-HK
       - 08-509-US
+      - 08-514-US
       - 08-519-US
       - 10-524-RELAY
       - 10-529-RELAY
