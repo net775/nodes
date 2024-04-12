@@ -428,11 +428,11 @@ proxies:
   - {name: 08-470-US, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-471-US, server: 192.18.135.250, port: 18091, type: vmess, uuid: df208a40-27f1-4ff4-e54a-ee0c6782f019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /er208a4028472}, udp: true}
   - {name: 08-472-VN, server: 103.173.254.106, port: 1850, type: vmess, uuid: c6c1f641-651f-4781-b9e2-c4e4858a619a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
+  - {name: 08-473-US, server: 149.28.226.202, port: 37985, type: vmess, uuid: a36d5f0e-f529-4c83-9279-f4c4ce557031, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-474-RU, server: 185.22.154.94, port: 30705, type: vmess, uuid: 70c39b54-78ae-4a3c-8d8c-eb2196a829e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-475-US, server: 45.76.18.197, port: 20703, type: vmess, uuid: ae710bf3-229a-4f31-d990-971b831c8985, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-476-MY, server: 154.90.39.63, port: 45343, type: vmess, uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-477-FI, server: 65.109.199.41, port: 4176, type: vmess, uuid: 207a228e-343a-42a7-fc9e-3decc4c70de9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 08-478-US, server: 149.28.228.215, port: 22195, type: vmess, uuid: f865bc43-b129-443e-d00a-7d303b25c4a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-479-RU, server: 45.14.244.133, port: 2024, type: vmess, uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-480-RELAY, server: 104.26.9.202, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 10-481-RELAY, server: maureen.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: maureen.autos}}, udp: true}
@@ -1044,11 +1044,11 @@ proxy-groups:
       - 08-470-US
       - 08-471-US
       - 08-472-VN
+      - 08-473-US
       - 08-474-RU
       - 08-475-US
       - 08-476-MY
       - 08-477-FI
-      - 08-478-US
       - 08-479-RU
       - 10-480-RELAY
       - 10-481-RELAY
@@ -1618,7 +1618,7 @@ proxy-groups:
       - 08-458-RELAY
       - 08-463-HK
       - 08-468-RELAY
-      - 08-478-US
+      - 08-473-US
       - 10-483-RELAY
       - 10-488-RELAY
       - 10-493-RELAY
