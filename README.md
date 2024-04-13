@@ -147,7 +147,7 @@ Fork from TopFreeProxies.
     trojan://99c36038-8c1f-44cb-8463-c9c555e80b58@us03.freeflyingcloud.xyz:30018?allowInsecure=1&sni=us03.freeflyingcloud.xyz#04-114-US
     trojan://99c36038-8c1f-44cb-8463-c9c555e80b58@ru01.freeflyingcloud.xyz:30002?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-115-RU
     trojan://99c36038-8c1f-44cb-8463-c9c555e80b58@fr01.freeflyingcloud.xyz:30502?allowInsecure=1&sni=fr01.freeflyingcloud.xyz#04-116-FR
-    trojan://99c36038-8c1f-44cb-8463-c9c555e80b58@it01.freeflyingcloud.xyz:48102?allowInsecure=1&sni=it01.freeflyingcloud.xyz#04-118-IT
+    trojan://99c36038-8c1f-44cb-8463-c9c555e80b58@uk01.freeflyingcloud.xyz:22252?allowInsecure=1&sni=uk01.freeflyingcloud.xyz#04-117-GB
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE5LUdPT0dMRSIsImFkZCI6ImF1MS5wYXkuZWR1LmtnIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJhdTEucGF5LmVkdS5rZyIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTIwLUdPT0dMRSIsImFkZCI6InR3MS5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzEuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTIxLUdPT0dMRSIsImFkZCI6InR3Mi5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzIuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
@@ -157,10 +157,10 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTI1LVJFTEFZIiwiYWRkIjoianA1LnBheS5lZHUua2ciLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjdmOTYxZTY2LWJmYmMtNDU1NS04NGRhLThmZTE3MTYwOWM2OCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImpwNS5wYXkuZWR1LmtnIiwidGxzIjoidGxzIn0=
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk01.bigmeyear.org:20001#04-126-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk02.bigmeyear.org:20232#04-127-NOWHERE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk03.bigmeyear.org:20233#04-128-IT
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk03.bigmeyear.org:20233#04-128-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk04.bigmeyear.org:20234#04-129-NOWHERE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw01.bigmeyear.org:20334#04-130-DE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw02.bigmeyear.org:20335#04-131-NOWHERE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw01.bigmeyear.org:20334#04-130-NOWHERE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw02.bigmeyear.org:20335#04-131-IT
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw03.bigmeyear.org:20336#04-132-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg01.bigmeyear.org:30234#04-133-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg02.bigmeyear.org:30235#04-134-NOWHERE
