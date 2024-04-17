@@ -101,7 +101,7 @@ proxies:
   - {name: 04-044-KR, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 35.78.196.235, port: 443, type: trojan, password: 1cb87052-c40b-3213-b750-92d07ceaab5d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 35.74.79.234, port: 443, type: trojan, password: 1cb87052-c40b-3213-b750-92d07ceaab5d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-047-US, server: 52.88.80.155, port: 443, type: trojan, password: 1cb87052-c40b-3213-b750-92d07ceaab5d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-047-US, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 5760b101-aa0a-43e3-869b-f734c94b3835, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: 1cb87052-c40b-3213-b750-92d07ceaab5d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: 1cb87052-c40b-3213-b750-92d07ceaab5d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
@@ -243,10 +243,10 @@ proxies:
   - {name: 04-284-KR, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-285-JP, server: jp01.freeflyingcloud.xyz, port: 44402, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-286-SG, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-287-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-287-AU, server: 38.145.220.68, port: 12578, type: trojan, password: 36acffd6bb2fd049%2540525113083387973, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-288-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-289-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-290-GB, server: 38.145.220.68, port: 12578, type: trojan, password: 36acffd6bb2fd049%2540525113083387973, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-290-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-291-IT, server: it01.freeflyingcloud.xyz, port: 48102, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: it01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-292-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 8fe7520b-a836-3648-b64b-9a7af04cb94d, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-293-DE, server: fkvip101.qlgq.fun, port: 21789, type: trojan, password: 8fe7520b-a836-3648-b64b-9a7af04cb94d, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -493,6 +493,7 @@ proxies:
   - {name: 06-535-US, server: us02.freeflyingcloud.xyz, port: 30020, type: trojan, password: f43b33be-ab17-4247-bde6-ffe4eaf1030a, sni: us02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-536-US, server: 168.235.82.103, port: 16123, type: vmess, uuid: fa09f016-0460-4bcf-d209-197b7f3d270e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-537-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 06-538-US, server: 129.146.126.171, port: 46666, type: vmess, uuid: f0f067fe-8e6d-4d95-816b-601038fd5876, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048"}, udp: true}
   - {name: 06-539-RELAY, server: channel.hopev2ray.link, port: 443, type: vmess, uuid: 9aaceca0-bc5b-49e6-a83f-088e14d94434, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: channel.hopev2ray.link}}, udp: true}
   - {name: 06-540-US, server: 45.77.146.58, port: 22131, type: vmess, uuid: ad42d586-dcd1-4629-d49b-a6f2d821ad39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-541-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
@@ -1185,6 +1186,7 @@ proxy-groups:
       - 06-535-US
       - 06-536-US
       - 06-537-US
+      - 06-538-US
       - 06-539-RELAY
       - 06-540-US
       - 08-541-RELAY
@@ -1815,6 +1817,7 @@ proxy-groups:
       - 06-523-RELAY
       - 06-528-RELAY
       - 06-533-US
+      - 06-538-US
       - 08-543-CA
       - 10-548-RELAY
       - 10-553-RELAY
