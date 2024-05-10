@@ -78,7 +78,7 @@ Fork from TopFreeProxies.
     trojan://cc646e3e-6635-3838-b91a-6aa331cc45fd@13.231.239.48:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-045-JP
     trojan://cc646e3e-6635-3838-b91a-6aa331cc45fd@3.114.16.33:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-046-JP
     trojan://cc646e3e-6635-3838-b91a-6aa331cc45fd@34.219.209.205:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-047-US
-    trojan://cc646e3e-6635-3838-b91a-6aa331cc45fd@103.136.185.27:5499?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-048-US
+    trojan://e81d213d-8dd5-4207-9445-24d8903ffe0c@awssg.cfyun.top:2248?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-048-US
     trojan://cc646e3e-6635-3838-b91a-6aa331cc45fd@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-049-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDUwLUdPT0dMRSIsImFkZCI6ImF1MS5wYXkuZWR1LmtnIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJhdTEucGF5LmVkdS5rZyIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDUxLUdPT0dMRSIsImFkZCI6InR3MS5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzEuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
@@ -90,13 +90,13 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk01.bigmeyear.org:20001#04-155-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk02.bigmeyear.org:20232#04-156-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk03.bigmeyear.org:20233#04-157-NOWHERE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk04.bigmeyear.org:20234#04-158-NOWHERE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk04.bigmeyear.org:20234#04-158-US
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw01.bigmeyear.org:20334#04-159-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw02.bigmeyear.org:20335#04-160-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw03.bigmeyear.org:20336#04-161-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg01.bigmeyear.org:30234#04-162-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg02.bigmeyear.org:30235#04-163-NOWHERE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg03.bigmeyear.org:30233#04-164-NOWHERE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg03.bigmeyear.org:30233#04-164-DE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@jp01.bigmeyear.org:30236#04-165-CN
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@jp02.bigmeyear.org:30237#04-166-CN
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@jp03.bigmeyear.org:30250#04-167-CN
@@ -351,7 +351,6 @@ Fork from TopFreeProxies.
     trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:20304?allowInsecure=1&sni=z304.hongkongnode.top#04-416-CN
     trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:20305?allowInsecure=1&sni=z305.hongkongnode.top#04-417-CN
     trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-418-CN
-    trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:20299?allowInsecure=1&sni=x299.flybar.work#04-419-CN
     trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:17806?allowInsecure=1&sni=x65.flybar.work#04-420-CN
     trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:30712?allowInsecure=1&sni=x83.flybar.work#04-421-CN
     trojan://72dab15a-0a4b-34fe-92ba-9c10a87cc818@gy.58n.net:20298?allowInsecure=1&sni=z298.hongkongnode.top#04-422-CN
@@ -540,6 +539,7 @@ Fork from TopFreeProxies.
     trojan://54080134-2cba-4535-8599-95650bd9aa54@jgwhdlb2.gaox.ml:443?allowInsecure=1#08-605-NOWHERE
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjA2LVJFTEFZIiwiYWRkIjoid3d3LnNwZWVkdGVzdC5uZXQiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY5ZjkxNmNkLTIyOTctNDViOC1iZmQyLTdjZDBmMWIyZTQwOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Ind3dy5zcGVlZHRlc3QubmV0IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjA3LU5MIiwiYWRkIjoiMTYzLjUuMTk0LjQzIiwicG9ydCI6IjgwODEiLCJ0eXBlIjoibm9uZSIsImlkIjoiOGFhZTM1ZDctNzg3Yy00Zjc3LTlmNDYtMzY5NDc3MDMyNGU4IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Ind3dy5zcGVlZHRlc3QubmV0IiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjA4LVpBIiwiYWRkIjoiMTI5LjE1MS4xNjQuMTUyIiwicG9ydCI6IjU1NjAwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImUzMGY4NTg4LTI1NTUtNDhiOC1jMzU0LWM4ZTYzZjU3MjMyZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjA5LVJVIiwiYWRkIjoiMTAzLjExMy42OC4yMzMiLCJwb3J0IjoiODg4MCIsInR5cGUiOiJub25lIiwiaWQiOiJmZGRiMzc4MS03ZTE1LTQ3MzEtYTkzMy05NGRiMTEwYjRiYmMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjEwLVJFTEFZIiwiYWRkIjoiMTA0LjE4LjE5LjE5MSIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImFlYzgyZmE2LWFiNzAtNGQwYS1lN2ZiLTQyMmVmNzI5ZDk2MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjExLVVTIiwiYWRkIjoiMTc0LjEzNi4yMDUuNDYiLCJwb3J0IjoiMzkwMjciLCJ0eXBlIjoibm9uZSIsImlkIjoiMjY0MTkxNDMtOGEwNi00M2FiLWQ1OGMtYmVhN2I3ZGE4MjAzIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
@@ -555,6 +555,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjIxLVJFTEFZIiwiYWRkIjoiYWZyaG1zMTZ2LmJlc3R4cmF5LmJ1enoiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY1ODRkZTE1LTIwMzQtNDE3MC1hNzIzLWY0OGMyYmFlNWUwZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6ImFmcmhtczE2di5iZXN0eHJheS5idXp6IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjIyLVJFTEFZIiwiYWRkIjoiaG1zMTgyLmdsd2VpZGYuc2JzIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3NjIyMWJmYi1lOTJmLTRlODAtODFjNS02ZmU0OGY1MGFjMGIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt3cyIsImhvc3QiOiJobXMxODIuZ2x3ZWlkZi5zYnMiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjIzLVJFTEFZIiwiYWRkIjoiMTcyLjY3LjE3MC4xMyIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzYyMjFiZmItZTkyZi00ZTgwLTgxYzUtNmZlNDhmNTBhYzBiIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJob3N0IjoiIiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjI0LVVTIiwiYWRkIjoiMTcyLjIzMy4xNjQuMzIiLCJwb3J0IjoiMzk4NDEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDI0MmQ3NGQtYjc0OC00ZTc0LWE3YzItMmJmYjlkNmVkMTIxIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjI1LVJFTEFZIiwiYWRkIjoiaG1zMjQuaXZpZGVvcy5zYnMiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjQ0MWRhMzQyLWNlOTAtNDQxZS1iZmY5LWQyY2ViNTVlNjhjYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6ImhtczI0Lml2aWRlb3Muc2JzIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjI2LVVTIiwiYWRkIjoiNjQuMTc2LjIxOS4xOCIsInBvcnQiOiI1MDcwNiIsInR5cGUiOiJub25lIiwiaWQiOiJhOThmNTUwNS04YmIxLTRkOTItZTQzNS0yMTkwNmQ5YWI4OWEiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii9saW5rd3MiLCJob3N0IjoiaG1zMjQuaXZpZGVvcy5zYnMiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNjI3LVVTIiwiYWRkIjoiNjQuMTc2LjIxNi4xOTkiLCJwb3J0IjoiMzYxNTkiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDgyNmQ3MjgtNDhmOS00M2QxLWFhMWYtMjdiNjg1MGNkOGExIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6ImhtczI0Lml2aWRlb3Muc2JzIiwidGxzIjoiIn0=
@@ -583,7 +584,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTItNjUwLVJFTEFZIiwiYWRkIjoiMTYyLjE1OS41LjYiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiJkOWM1ZWM2YS1hOGQ4LTQ3MzItODQ0Ny01NmZiZDJmOTNlOTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiZDljNWVjNmEtYThkOC00NzMyLTg0NDctNTZmYmQyZjkzZTk2LXZtIiwiaG9zdCI6IiIsInRscyI6IiJ9
     trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1#12-651-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMTItNjUyLVJFTEFZIiwiYWRkIjoicnVzc2lhLmNvbSIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjY2NThhM2E2LTIyNWEtNGQzMy1hNWQyLTgyY2ZkZTU2NWI0ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YzL2Rvd25sb2FkLmdldEZpbGUiLCJob3N0IjoicnVzc2lhLmNvbSIsInRscyI6IiJ9
-    vmess://eyJ2IjoiMiIsInBzIjoiMTItNjUzLVVTIiwiYWRkIjoieWgyLmZyZWVoMS54eXoiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiJkOWM1ZWM2YS1hOGQ4LTQ3MzItODQ0Ny01NmZiZDJmOTNlOTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiZDljNWVjNmEtYThkOC00NzMyLTg0NDctNTZmYmQyZjkzZTk2LXZtIiwiaG9zdCI6InloMi5mcmVlaDEueHl6IiwidGxzIjoiIn0=
     trojan://b4411de3-a52d-45bd-8b17-8ffb9987cd37@gcdddd0005.likeone.lol:51031?allowInsecure=1&sni=sg01.ckcloud.info#12-654-CN
     trojan://b4411de3-a52d-45bd-8b17-8ffb9987cd37@gcdddd0001.likeone.lol:51031?allowInsecure=1&sni=sg01.ckcloud.info#12-655-CN
     trojan://b4411de3-a52d-45bd-8b17-8ffb9987cd37@gcdddd0003.likeone.lol:51031?allowInsecure=1&sni=sg01.ckcloud.info#12-656-CN
