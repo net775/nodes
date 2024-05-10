@@ -102,7 +102,7 @@ proxies:
   - {name: 04-045-JP, server: 13.231.239.48, port: 443, type: trojan, password: cc646e3e-6635-3838-b91a-6aa331cc45fd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 3.114.16.33, port: 443, type: trojan, password: cc646e3e-6635-3838-b91a-6aa331cc45fd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-047-US, server: 34.219.209.205, port: 443, type: trojan, password: cc646e3e-6635-3838-b91a-6aa331cc45fd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: cc646e3e-6635-3838-b91a-6aa331cc45fd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-048-US, server: awssg.cfyun.top, port: 2248, type: trojan, password: e81d213d-8dd5-4207-9445-24d8903ffe0c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: cc646e3e-6635-3838-b91a-6aa331cc45fd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-051-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
@@ -114,13 +114,13 @@ proxies:
   - {name: 04-155-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-156-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-157-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-158-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-158-US, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-159-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-160-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-161-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-162-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-163-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-164-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-164-DE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-165-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-166-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-167-CN, server: jp03.bigmeyear.org, port: 30250, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -375,7 +375,6 @@ proxies:
   - {name: 04-416-CN, server: gy.58n.net, port: 20304, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-417-CN, server: gy.58n.net, port: 20305, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-418-CN, server: gy.58n.net, port: 20306, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-419-CN, server: gy.58n.net, port: 20299, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-420-CN, server: gy.58n.net, port: 17806, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-421-CN, server: gy.58n.net, port: 30712, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-422-CN, server: gy.58n.net, port: 20298, type: trojan, password: 72dab15a-0a4b-34fe-92ba-9c10a87cc818, sni: z298.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -564,6 +563,7 @@ proxies:
   - {name: 08-605-NOWHERE, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
   - {name: 08-606-RELAY, server: www.speedtest.net, port: 443, type: vmess, uuid: f9f916cd-2297-45b8-bfd2-7cd0f1b2e408, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 08-607-NL, server: 163.5.194.43, port: 8081, type: vmess, uuid: 8aae35d7-787c-4f77-9f46-3694770324e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-608-ZA, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-609-RU, server: 103.113.68.233, port: 8880, type: vmess, uuid: fddb3781-7e15-4731-a933-94db110b4bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 08-610-RELAY, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-611-US, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -579,6 +579,7 @@ proxies:
   - {name: 10-621-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 10-622-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
   - {name: 10-623-RELAY, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 10-624-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-625-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-626-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-627-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -607,7 +608,6 @@ proxies:
   - {name: 12-650-RELAY, server: 162.159.5.6, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm}, udp: true}
   - {name: 12-651-JP, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, skip-cert-verify: true, udp: true}
   - {name: 12-652-RELAY, server: russia.com, port: 8880, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
-  - {name: 12-653-US, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: yh2.freeh1.xyz}}, udp: true}
   - {name: 12-654-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-655-CN, server: gcdddd0001.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 12-656-CN, server: gcdddd0003.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -811,13 +811,13 @@ proxy-groups:
       - 04-155-NOWHERE
       - 04-156-NOWHERE
       - 04-157-NOWHERE
-      - 04-158-NOWHERE
+      - 04-158-US
       - 04-159-NOWHERE
       - 04-160-NOWHERE
       - 04-161-NOWHERE
       - 04-162-NOWHERE
       - 04-163-NOWHERE
-      - 04-164-NOWHERE
+      - 04-164-DE
       - 04-165-CN
       - 04-166-CN
       - 04-167-CN
@@ -1072,7 +1072,6 @@ proxy-groups:
       - 04-416-CN
       - 04-417-CN
       - 04-418-CN
-      - 04-419-CN
       - 04-420-CN
       - 04-421-CN
       - 04-422-CN
@@ -1261,6 +1260,7 @@ proxy-groups:
       - 08-605-NOWHERE
       - 08-606-RELAY
       - 08-607-NL
+      - 08-608-ZA
       - 08-609-RU
       - 08-610-RELAY
       - 08-611-US
@@ -1276,6 +1276,7 @@ proxy-groups:
       - 10-621-RELAY
       - 10-622-RELAY
       - 10-623-RELAY
+      - 10-624-US
       - 10-625-RELAY
       - 10-626-US
       - 10-627-US
@@ -1304,7 +1305,6 @@ proxy-groups:
       - 12-650-RELAY
       - 12-651-JP
       - 12-652-RELAY
-      - 12-653-US
       - 12-654-CN
       - 12-655-CN
       - 12-656-CN
@@ -1750,7 +1750,7 @@ proxy-groups:
       - 04-043-SG
       - 04-048-US
       - 04-053-GOOGLE
-      - 04-158-NOWHERE
+      - 04-158-US
       - 04-163-NOWHERE
       - 04-168-CN
       - 04-173-JP
@@ -1840,6 +1840,7 @@ proxy-groups:
       - 06-593-RELAY
       - 06-598-RELAY
       - 06-603-RELAY
+      - 08-608-ZA
       - 08-613-RELAY
       - 10-618-RELAY
       - 10-623-RELAY
@@ -1848,7 +1849,6 @@ proxy-groups:
       - 12-638-RELAY
       - 12-643-RELAY
       - 12-648-RELAY
-      - 12-653-US
       - 12-658-CN
       - 12-663-CN
       - 12-668-CN
@@ -1893,7 +1893,7 @@ proxy-groups:
       - 04-049-US
       - 04-054-RELAY
       - 04-159-NOWHERE
-      - 04-164-NOWHERE
+      - 04-164-DE
       - 04-169-CN
       - 04-174-JP
       - 04-179-CN
@@ -1944,7 +1944,6 @@ proxy-groups:
       - 04-404-CN
       - 04-409-CN
       - 04-414-CN
-      - 04-419-CN
       - 04-424-CN
       - 04-429-CN
       - 04-434-CN
@@ -1985,6 +1984,7 @@ proxy-groups:
       - 08-609-RU
       - 08-614-US
       - 10-619-RELAY
+      - 10-624-US
       - 10-629-RELAY
       - 12-634-RELAY
       - 12-639-RELAY
@@ -10000,12 +10000,6 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
- - DOMAIN-SUFFIX,v1.mk,全球直连
- - DOMAIN-SUFFIX,d1.mk,全球直连
- - DOMAIN-SUFFIX,dlj.mk,全球直连
- - DOMAIN-SUFFIX,suo.yt,全球直连
- - DOMAIN-SUFFIX,sub.cm,全球直连
- - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
