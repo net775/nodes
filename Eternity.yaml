@@ -101,7 +101,7 @@ proxies:
   - {name: 04-044-NOWHERE, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 52.197.155.100, port: 443, type: trojan, password: 7074fc04-63f1-35e0-914e-4f29fd460da7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 35.74.242.36, port: 443, type: trojan, password: 7074fc04-63f1-35e0-914e-4f29fd460da7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-047-US, server: 34.219.209.205, port: 443, type: trojan, password: 7074fc04-63f1-35e0-914e-4f29fd460da7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-047-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: 7074fc04-63f1-35e0-914e-4f29fd460da7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: 7074fc04-63f1-35e0-914e-4f29fd460da7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
@@ -117,7 +117,7 @@ proxies:
   - {name: 04-158-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-159-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-160-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-161-US, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-161-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-162-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-163-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-164-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -615,6 +615,7 @@ proxies:
   - {name: 08-657-RELAY, server: 172.67.164.207, port: 8443, type: vmess, uuid: fc0a3f44-adf4-4fd2-8023-46d4aa528892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/download?ed=2048"}, udp: true}
   - {name: 08-658-US, server: 205.234.231.35, port: 31433, type: vmess, uuid: 50e82581-bd14-4527-f7d6-e7824cd26f57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-659-US, server: 136.175.177.45, port: 35694, type: vmess, uuid: 603684a2-d080-40d7-d09c-afc3ac036eb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fsdafa}, udp: true}
+  - {name: 08-660-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-661-DE, server: 185.39.51.6, port: 54506, type: vmess, uuid: f364f4a0-920c-49fa-a7ab-d150bf7ef1b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-662-IR, server: 212.33.206.83, port: 12561, type: vmess, uuid: 0345b5ef-f358-4bd6-a116-66c81a3d7710, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-663-HK, server: 47.242.22.171, port: 28681, type: vmess, uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -863,7 +864,7 @@ proxy-groups:
       - 04-158-NOWHERE
       - 04-159-NOWHERE
       - 04-160-NOWHERE
-      - 04-161-US
+      - 04-161-NOWHERE
       - 04-162-NOWHERE
       - 04-163-NOWHERE
       - 04-164-NOWHERE
@@ -1361,6 +1362,7 @@ proxy-groups:
       - 08-657-RELAY
       - 08-658-US
       - 08-659-US
+      - 08-660-US
       - 08-661-DE
       - 08-662-IR
       - 08-663-HK
@@ -1564,7 +1566,7 @@ proxy-groups:
       - 04-051-GOOGLE
       - 04-056-RELAY
       - 04-156-NOWHERE
-      - 04-161-US
+      - 04-161-NOWHERE
       - 04-166-CN
       - 04-171-CN
       - 04-176-CN
@@ -2273,6 +2275,7 @@ proxy-groups:
       - 06-640-RELAY
       - 06-645-RELAY
       - 08-650-IR
+      - 08-660-US
       - 10-665-RELAY
       - 10-670-RELAY
       - 10-675-US
