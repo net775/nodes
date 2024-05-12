@@ -574,7 +574,7 @@ proxies:
   - {name: 08-615-US, server: 129.146.46.181, port: 52408, type: vmess, uuid: a797ff7b-8161-40a6-d577-1b2c213b3885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-616-RELAY, server: 104.21.25.243, port: 8443, type: vmess, uuid: 63e54742-a244-4bb0-c9cb-17a545f4ca3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-617-US, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-618-DE, server: 5.75.202.76, port: 25786, type: vmess, uuid: f95d3ed6-4f8a-4dda-a633-da8664345801, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-619-ZA, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-620-DE, server: 162.55.6.150, port: 443, type: trojan, password: 2158f727-fb4e-483c-925f-7cc1a20cb7a2, sni: medidorr-gro-hidalgo-1.uninnet.net.mx.prod.hosts.ooklaserver.net, skip-cert-verify: true, udp: true}
   - {name: 08-621-RELAY, server: 172.67.164.78, port: 2052, type: vmess, uuid: 4168440c-41a1-4671-a5b2-8abfe318e1bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-623-RELAY, server: 502.outline-vpn.cloud, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: 502.outline-vpn.cloud}}, udp: true}
@@ -1278,7 +1278,7 @@ proxy-groups:
       - 08-615-US
       - 08-616-RELAY
       - 08-617-US
-      - 08-618-DE
+      - 08-619-ZA
       - 08-620-DE
       - 08-621-RELAY
       - 10-623-RELAY
@@ -1858,7 +1858,6 @@ proxy-groups:
       - 06-603-RELAY
       - 06-608-RELAY
       - 08-613-RU
-      - 08-618-DE
       - 10-623-RELAY
       - 10-628-RELAY
       - 10-633-RELAY
@@ -2002,6 +2001,7 @@ proxy-groups:
       - 06-604-CN
       - 06-609-RELAY
       - 08-614-IR
+      - 08-619-ZA
       - 10-624-RELAY
       - 10-629-RELAY
       - 10-634-US
