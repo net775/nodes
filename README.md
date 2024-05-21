@@ -60,7 +60,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@kr2.fanqiecloud.top:62252#04-027-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@kr3.fanqiecloud.top:55252#04-028-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@kr.fanqiecloud.free.hr:51062#04-029-RELAY
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@sg.fanqiecloud.top:42760#04-030-NOWHERE
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@sg.fanqiecloud.top:42760#04-030-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@cf.fanqiecloud.top:23704#04-031-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@bx.fanqiecloud.top:20152#04-032-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzc4MDhjNy00ZDZiLTRjM2EtOWVmNC1iMmYwMjkzYTA4YWQ@uk.fanqiecloud.top:24504#04-033-NOWHERE
@@ -85,9 +85,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDUyLVJFTEFZIiwiYWRkIjoiMTA0LjE4Ljc5LjExNCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJiNGE0ZjFkYi04ZDA5LTMzODktYWU4OC0wYWU4ZGU2ZDZmMWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjE4Ljc5LjExNCIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     trojan://c430b4a7-6fa3-3edc-8391-0df6f009cfe2@35.78.71.77:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-JP
     trojan://c430b4a7-6fa3-3edc-8391-0df6f009cfe2@35.78.228.133:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-JP
-    trojan://c430b4a7-6fa3-3edc-8391-0df6f009cfe2@54.244.104.197:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-055-US
+    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-055-US
     trojan://c430b4a7-6fa3-3edc-8391-0df6f009cfe2@103.136.185.27:5500?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-056-US
-    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-057-US
+    trojan://c430b4a7-6fa3-3edc-8391-0df6f009cfe2@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-057-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@gy.lanxingyun.cn:39210#04-058-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:39210#04-059-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:22225#04-060-NOWHERE
@@ -342,7 +342,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw03.bigmeyear.org:20336#04-407-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg01.bigmeyear.org:30234#04-408-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg02.bigmeyear.org:30235#04-409-NOWHERE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg03.bigmeyear.org:30233#04-410-DE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@sg03.bigmeyear.org:30233#04-410-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@jp01.bigmeyear.org:30236#04-411-CN
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@jp02.bigmeyear.org:30237#04-412-CN
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@jp03.bigmeyear.org:30250#04-413-CN
@@ -548,11 +548,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `613`
+合并节点总数: `612`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `613`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `612`
 
 
 ## 仓库声明
