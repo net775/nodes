@@ -43,7 +43,7 @@ Fork from TopFreeProxies.
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@kr02.freeflyingcloud.xyz:21702?allowInsecure=1&sni=kr02.freeflyingcloud.xyz#04-010-KR
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@jp01.freeflyingcloud.xyz:44402?allowInsecure=1&sni=jp01.freeflyingcloud.xyz#04-011-JP
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg01.freeflyingcloud.xyz:35702?allowInsecure=1&sni=sg01.freeflyingcloud.xyz#04-012-SG
-    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@au01.freeflyingcloud.xyz:42002?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-013-AU
+    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@us05.freeflyingcloud.xyz:30020?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-013-AU
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg04.freeflyingcloud.xyz:30018?allowInsecure=1&sni=sg04.freeflyingcloud.xyz#04-015-SG
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@ru01.freeflyingcloud.xyz:30003?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-016-RU
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@fr01.freeflyingcloud.xyz:30502?allowInsecure=1&sni=fr01.freeflyingcloud.xyz#04-017-FR
@@ -84,9 +84,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDUyLVJFTEFZIiwiYWRkIjoiMTcyLjY3LjQuMTY0IiwicG9ydCI6IjIwOTYiLCJ0eXBlIjoibm9uZSIsImlkIjoiYjRhNGYxZGItOGQwOS0zMzg5LWFlODgtMGFlOGRlNmQ2ZjFmIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42Ny40LjE2NCIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     trojan://1687c4d8-a489-30fe-a15c-f48723f2100f@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-JP
     trojan://1687c4d8-a489-30fe-a15c-f48723f2100f@13.230.33.218:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-JP
-    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-055-US
+    trojan://1687c4d8-a489-30fe-a15c-f48723f2100f@35.89.231.26:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-055-US
     trojan://1687c4d8-a489-30fe-a15c-f48723f2100f@103.136.185.27:5501?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-056-US
-    trojan://1687c4d8-a489-30fe-a15c-f48723f2100f@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-057-US
+    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-057-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@gy.lanxingyun.cn:39210#04-058-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:39210#04-059-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:22225#04-060-NOWHERE
@@ -290,7 +290,7 @@ Fork from TopFreeProxies.
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-356-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:28678?allowInsecure=1&sni=z143.hongkongnode.top#04-357-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:24603?allowInsecure=1&sni=z259.hongkongnode.top#04-358-CN
-    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@us05.freeflyingcloud.xyz:30020?allowInsecure=1&sni=dufu.hongkongnode.top#04-359-CN
+    trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:22741?allowInsecure=1&sni=dufu.hongkongnode.top#04-359-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20278?allowInsecure=1&sni=z278.hongkongnode.top#04-360-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20279?allowInsecure=1&sni=z279.hongkongnode.top#04-361-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20294?allowInsecure=1&sni=z294.hongkongnode.top#04-362-CN
@@ -332,10 +332,10 @@ Fork from TopFreeProxies.
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20304?allowInsecure=1&sni=z304.hongkongnode.top#04-398-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20305?allowInsecure=1&sni=z305.hongkongnode.top#04-399-CN
     trojan://71004830-39a5-31ec-b509-c4f3cc83b157@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-400-CN
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk01.bigmeyear.org:20001#04-401-NOWHERE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk01.bigmeyear.org:20001#04-401-US
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk02.bigmeyear.org:20232#04-402-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk03.bigmeyear.org:20233#04-403-NOWHERE
-    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk04.bigmeyear.org:20234#04-404-NOWHERE
+    ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@hk04.bigmeyear.org:20234#04-404-KR
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw01.bigmeyear.org:20334#04-405-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw02.bigmeyear.org:20335#04-406-NOWHERE
     ss://YWVzLTEyOC1nY206YjU5ZGZhZjItYzQzMC00MzBiLWEwNzUtNzU2OTY0ZTg4NTky@tw03.bigmeyear.org:20336#04-407-NOWHERE
