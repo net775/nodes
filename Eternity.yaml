@@ -86,7 +86,7 @@ proxies:
   - {name: 04-029-RELAY, server: kr.fanqiecloud.free.hr, port: 51062, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-030-NOWHERE, server: sg.fanqiecloud.top, port: 42760, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-031-NOWHERE, server: cf.fanqiecloud.top, port: 23704, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
-  - {name: 04-032-NOWHERE, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
+  - {name: 04-032-KR, server: bx.fanqiecloud.top, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-033-NOWHERE, server: uk.fanqiecloud.top, port: 24504, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-034-NOWHERE, server: de.fanqiecloud.top, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-035-RELAY, server: dlaa.fanqiecloud.top, port: 2095, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dlaa.fanqiecloud.top}}, udp: true}
@@ -103,8 +103,8 @@ proxies:
   - {name: 04-046-RELAY, server: 172.64.63.39, port: 2083, type: vmess, uuid: b4a4f1db-8d09-3389-ae88-0ae8de6d6f1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 04-047-JP, server: 52.198.230.68, port: 443, type: trojan, password: fb70ca25-de38-309e-a331-c26bdc50c6a0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-048-JP, server: 43.206.141.147, port: 443, type: trojan, password: fb70ca25-de38-309e-a331-c26bdc50c6a0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-049-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-050-US, server: 103.136.185.27, port: 5503, type: trojan, password: fb70ca25-de38-309e-a331-c26bdc50c6a0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-049-US, server: 35.94.191.164, port: 443, type: trojan, password: fb70ca25-de38-309e-a331-c26bdc50c6a0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-050-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-US, server: 103.136.185.28, port: 3504, type: trojan, password: fb70ca25-de38-309e-a331-c26bdc50c6a0, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-052-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-053-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -356,7 +356,7 @@ proxies:
   - {name: 04-399-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-400-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-401-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-402-IT, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-402-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-403-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-404-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-405-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -569,15 +569,15 @@ proxies:
   - {name: 31-613-RU, server: 45.136.245.240, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 31-614-RELAY, server: russia.com, port: 8880, type: vmess, uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
   - {name: 31-615-CN, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 32-616-DE, server: de-frankfurt-oracle-b26cf5.ip1.shop, port: 45102, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /de1, headers: {Host: de-frankfurt-oracle-b26cf5.ip1.shop}}, udp: true}
-  - {name: 32-617-US, server: us-sanfrancisco-01.t3csyun.buzz, port: 34052, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us1, headers: {Host: us-sanfrancisco-01.t3csyun.buzz}}, udp: true}
-  - {name: 32-618-DE, server: de-frankfurt-oracle-b26cf5.ip1.shop, port: 45103, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /de2, headers: {Host: de-frankfurt-oracle-b26cf5.ip1.shop}}, udp: true}
-  - {name: 32-619-RU, server: eedp257bubu2wefy1.lovebaipiao.net, port: 54321, type: vmess, uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy1.lovebaipiao.net}}, udp: true}
-  - {name: 32-620-US, server: us-sanfrancisco-02.t3csyun.buzz, port: 34053, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us2, headers: {Host: us-sanfrancisco-02.t3csyun.buzz}}, udp: true}
-  - {name: 32-621-RELAY, server: 104.18.203.232, port: 2052, type: vmess, uuid: 419465fc-3914-4b76-c8a2-c7697041dcf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80"}, udp: true}
-  - {name: 32-622-RELAY, server: 172.67.164.78, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 32-623-RU, server: eedp257bubu2wefy.lovebaipiao.net, port: 54321, type: vmess, uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy.lovebaipiao.net}}, udp: true}
-  - {name: 32-624-RU, server: eedp257bubu2wefy3.lovebaipiao.net, port: 54321, type: vmess, uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy3.lovebaipiao.net}}, udp: true}
+  - {name: 40-616-DE, server: de-frankfurt-oracle-b26cf5.ip1.shop, port: 45102, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /de1, headers: {Host: de-frankfurt-oracle-b26cf5.ip1.shop}}, udp: true}
+  - {name: 40-617-US, server: us-sanfrancisco-01.t3csyun.buzz, port: 34052, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us1, headers: {Host: us-sanfrancisco-01.t3csyun.buzz}}, udp: true}
+  - {name: 40-618-DE, server: de-frankfurt-oracle-b26cf5.ip1.shop, port: 45103, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /de2, headers: {Host: de-frankfurt-oracle-b26cf5.ip1.shop}}, udp: true}
+  - {name: 40-619-RU, server: eedp257bubu2wefy1.lovebaipiao.net, port: 54321, type: vmess, uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy1.lovebaipiao.net}}, udp: true}
+  - {name: 40-620-US, server: us-sanfrancisco-02.t3csyun.buzz, port: 34053, type: vmess, uuid: 501dbdc1-15df-479f-a2b8-7a58e42724f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us2, headers: {Host: us-sanfrancisco-02.t3csyun.buzz}}, udp: true}
+  - {name: 40-621-RELAY, server: 104.18.203.232, port: 2052, type: vmess, uuid: 419465fc-3914-4b76-c8a2-c7697041dcf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80"}, udp: true}
+  - {name: 40-622-RELAY, server: 172.67.164.78, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 40-623-RU, server: eedp257bubu2wefy.lovebaipiao.net, port: 54321, type: vmess, uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy.lovebaipiao.net}}, udp: true}
+  - {name: 40-624-RU, server: eedp257bubu2wefy3.lovebaipiao.net, port: 54321, type: vmess, uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy3.lovebaipiao.net}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -620,7 +620,7 @@ proxy-groups:
       - 04-029-RELAY
       - 04-030-NOWHERE
       - 04-031-NOWHERE
-      - 04-032-NOWHERE
+      - 04-032-KR
       - 04-033-NOWHERE
       - 04-034-NOWHERE
       - 04-035-RELAY
@@ -890,7 +890,7 @@ proxy-groups:
       - 04-399-NOWHERE
       - 04-400-NOWHERE
       - 04-401-NOWHERE
-      - 04-402-IT
+      - 04-402-NOWHERE
       - 04-403-NOWHERE
       - 04-404-NOWHERE
       - 04-405-CN
@@ -1103,15 +1103,15 @@ proxy-groups:
       - 31-613-RU
       - 31-614-RELAY
       - 31-615-CN
-      - 32-616-DE
-      - 32-617-US
-      - 32-618-DE
-      - 32-619-RU
-      - 32-620-US
-      - 32-621-RELAY
-      - 32-622-RELAY
-      - 32-623-RU
-      - 32-624-RU
+      - 40-616-DE
+      - 40-617-US
+      - 40-618-DE
+      - 40-619-RU
+      - 40-620-US
+      - 40-621-RELAY
+      - 40-622-RELAY
+      - 40-623-RU
+      - 40-624-RU
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1231,8 +1231,8 @@ proxy-groups:
       - 12-601-RELAY
       - 16-606-CN
       - 31-611-CN
-      - 32-616-DE
-      - 32-621-RELAY
+      - 40-616-DE
+      - 40-621-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1244,7 +1244,7 @@ proxy-groups:
       - 04-017-FR
       - 04-022-RELAY
       - 04-027-NOWHERE
-      - 04-032-NOWHERE
+      - 04-032-KR
       - 04-037-RELAY
       - 04-042-RELAY
       - 04-047-JP
@@ -1299,7 +1299,7 @@ proxy-groups:
       - 04-387-CN
       - 04-392-CN
       - 04-397-NOWHERE
-      - 04-402-IT
+      - 04-402-NOWHERE
       - 04-407-CN
       - 04-412-CN
       - 06-417-RELAY
@@ -1341,8 +1341,8 @@ proxy-groups:
       - 12-597-CN
       - 16-607-TW
       - 31-612-CN
-      - 32-617-US
-      - 32-622-RELAY
+      - 40-617-US
+      - 40-622-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1450,8 +1450,8 @@ proxy-groups:
       - 16-603-CN
       - 16-608-RELAY
       - 31-613-RU
-      - 32-618-DE
-      - 32-623-RU
+      - 40-618-DE
+      - 40-623-RU
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1560,8 +1560,8 @@ proxy-groups:
       - 16-604-JP
       - 16-609-RELAY
       - 31-614-RELAY
-      - 32-619-RU
-      - 32-624-RU
+      - 40-619-RU
+      - 40-624-RU
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1670,7 +1670,7 @@ proxy-groups:
       - 16-605-CN
       - 16-610-RELAY
       - 31-615-CN
-      - 32-620-US
+      - 40-620-US
   - name: 广告拦截
     type: select
     proxies:
