@@ -328,6 +328,7 @@ proxies:
   - {name: 07-370-SG, server: jp04.mmyjiedian.com, port: 30004, type: ss, cipher: chacha20-ietf-poly1305, password: c357c98c-e678-4a2b-b143-b67dfd53c973, udp: true}
   - {name: 07-371-JP, server: 4.forlive.live, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 93c83c39-5d4f-43de-b1ba-d401055718a0, udp: true}
   - {name: 07-372-HK, server: sajs.lydurlclub.top, port: 443, type: trojan, password: e406f37e-e164-443e-a4c0-d1ebb700f3db, skip-cert-verify: true, udp: true}
+  - {name: 07-373-FR, server: fr2-full.privateip.net, port: 443, type: trojan, password: 7d515842-10b3-4c70-994e-89168f5d0a9b, skip-cert-verify: true, udp: true}
   - {name: 07-374-HK, server: ap.lydurlclub.top, port: 443, type: trojan, password: e406f37e-e164-443e-a4c0-d1ebb700f3db, skip-cert-verify: true, udp: true}
   - {name: 07-375-HK, server: aujs.lydurlclub.top, port: 443, type: trojan, password: e406f37e-e164-443e-a4c0-d1ebb700f3db, sni: aujs.lydurlclub.top, skip-cert-verify: true, udp: true}
   - {name: 07-376-HK, server: swejs.lydurlclub.top, port: 443, type: trojan, password: e406f37e-e164-443e-a4c0-d1ebb700f3db, skip-cert-verify: true, udp: true}
@@ -525,6 +526,7 @@ proxies:
   - {name: 12-568-SE, server: 95.164.33.62, port: 443, type: trojan, password: 0b1371aa-649d-41dc-9126-338c87936500, sni: sourceforge.net, skip-cert-verify: true, udp: true}
   - {name: 12-569-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
   - {name: 13-570-RELAY, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kkyx.yydsii.com}}, udp: true}
+  - {name: 13-571-US, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}, udp: true}
   - {name: 13-572-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 1886c4a7-c395-4aee-a1a2-a816722f5d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 13-573-RELAY, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: hexsen.com}}, udp: true}
   - {name: 13-574-RELAY, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
@@ -563,7 +565,6 @@ proxies:
   - {name: 14-607-RELAY, server: 172.67.151.228, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2}, udp: true}
   - {name: 14-608-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-609-RELAY, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
-  - {name: 14-610-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-611-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 14-612-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 14-613-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
@@ -1005,6 +1006,7 @@ proxy-groups:
       - 07-370-SG
       - 07-371-JP
       - 07-372-HK
+      - 07-373-FR
       - 07-374-HK
       - 07-375-HK
       - 07-376-HK
@@ -1202,6 +1204,7 @@ proxy-groups:
       - 12-568-SE
       - 12-569-RELAY
       - 13-570-RELAY
+      - 13-571-US
       - 13-572-RELAY
       - 13-573-RELAY
       - 13-574-RELAY
@@ -1240,7 +1243,6 @@ proxy-groups:
       - 14-607-RELAY
       - 14-608-RELAY
       - 14-609-RELAY
-      - 14-610-RELAY
       - 14-611-US
       - 14-612-RELAY
       - 14-613-RELAY
@@ -1506,6 +1508,7 @@ proxy-groups:
       - 12-556-CN
       - 12-561-CN
       - 12-566-CN
+      - 13-571-US
       - 13-576-RELAY
       - 13-581-NOWHERE
       - 13-586-RELAY
@@ -1742,6 +1745,7 @@ proxy-groups:
       - 07-358-AT
       - 07-363-HK
       - 07-368-HK
+      - 07-373-FR
       - 07-378-HK
       - 07-383-RELAY
       - 07-388-RELAY
@@ -2068,7 +2072,6 @@ proxy-groups:
       - 13-595-RELAY
       - 13-600-RELAY
       - 13-605-NOWHERE
-      - 14-610-RELAY
       - 14-615-EC
       - 14-620-RELAY
       - 16-625-CN
