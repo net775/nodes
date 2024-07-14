@@ -458,6 +458,7 @@ proxies:
   - {name: 04-401-HK, server: hkvip102.qlgq.fun, port: 32249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-402-HK, server: hkvip102.qlgq.fun, port: 42249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-403-HK, server: hkvip103.qlgq.fun, port: 52249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip103.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-404-HK, server: hkvip103.qlgq.fun, port: 11116, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip103.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-405-HK, server: hkvip104.qlgq.fun, port: 45136, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip104.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-406-HK, server: hkvip104.qlgq.fun, port: 46216, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip104.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-407-HK, server: hkvip105.qlgq.fun, port: 41116, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip105.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -664,7 +665,7 @@ proxies:
   - {name: 12-707-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99, udp: true}
   - {name: 12-708-SE, server: 95.164.33.62, port: 443, type: trojan, password: 0b1371aa-649d-41dc-9126-338c87936500, sni: sourceforge.net, skip-cert-verify: true, udp: true}
   - {name: 12-709-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
-  - {name: 13-710-JP, server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c, udp: true}
+  - {name: 13-710-JPss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194443#14-745-US, server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c, udp: true}
   - {name: 13-711-NOWHERE, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kkyx.yydsii.com}}, udp: true}
   - {name: 13-712-US, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}, udp: true}
   - {name: 13-713-RELAY, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -1153,6 +1154,7 @@ proxy-groups:
       - 04-401-HK
       - 04-402-HK
       - 04-403-HK
+      - 04-404-HK
       - 04-405-HK
       - 04-406-HK
       - 04-407-HK
@@ -1359,7 +1361,7 @@ proxy-groups:
       - 12-707-CN
       - 12-708-SE
       - 12-709-RELAY
-      - 13-710-JP
+      - 13-710-JPss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194443#14-745-US
       - 13-711-NOWHERE
       - 13-712-US
       - 13-713-RELAY
@@ -1957,6 +1959,7 @@ proxy-groups:
       - 04-389-JP
       - 04-394-US
       - 04-399-HK
+      - 04-404-HK
       - 04-409-MY
       - 04-514-CN
       - 04-519-CN
@@ -2140,7 +2143,7 @@ proxy-groups:
       - 12-695-CN
       - 12-700-CN
       - 12-705-CN
-      - 13-710-JP
+      - 13-710-JPss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194443#14-745-US
       - 13-715-RELAY
       - 13-720-NOWHERE
       - 13-725-RELAY
