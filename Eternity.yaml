@@ -232,6 +232,7 @@ proxies:
   - {name: 03-175-RELAY, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 03-176-RELAY, server: jp254111.ludou.us.kg, port: 80, type: vmess, uuid: 87ff410f-5960-4e40-bf10-1c456be8bb5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp254111.ludou.us.kg}}, udp: true}
   - {name: 03-177-RELAY, server: jp687744a.ludou.us.kg, port: 80, type: vmess, uuid: 7514131f-37af-4826-a3aa-8920dd98a371, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp687744a.ludou.us.kg}}, udp: true}
+  - {name: 03-178-LU, server: 107.189.31.139, port: 2082, type: vmess, uuid: 069f01bc-c4d5-43a0-8fc4-764b50032980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 03-179-RELAY, server: russia.com, port: 80, type: vmess, uuid: 06d65689-a12a-467c-9ff8-0363fe90c0b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
   - {name: 03-180-RELAY, server: 104.16.60.8, port: 80, type: vmess, uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL}, udp: true}
   - {name: 03-181-RELAY, server: 172.64.167.5, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -696,7 +697,6 @@ proxies:
   - {name: 13-739-RELAY, server: 104.18.154.42, port: 2053, type: vmess, uuid: 754ac3c1-e660-4f7f-bf05-76a7c15556ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-740-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
   - {name: 14-741-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 14-742-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-743-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-744-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-745-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -923,6 +923,7 @@ proxy-groups:
       - 03-175-RELAY
       - 03-176-RELAY
       - 03-177-RELAY
+      - 03-178-LU
       - 03-179-RELAY
       - 03-180-RELAY
       - 03-181-RELAY
@@ -1387,7 +1388,6 @@ proxy-groups:
       - 13-739-RELAY
       - 14-740-RELAY
       - 14-741-EC
-      - 14-742-RELAY
       - 14-743-RELAY
       - 14-744-RELAY
       - 14-745-RELAY
@@ -1711,7 +1711,6 @@ proxy-groups:
       - 12-727-SE
       - 13-732-RELAY
       - 13-737-RELAY
-      - 14-742-RELAY
       - 14-747-RELAY
       - 14-752-RELAY
       - 14-757-RELAY
@@ -1759,6 +1758,7 @@ proxy-groups:
       - 03-163-RELAY
       - 03-168-RELAY
       - 03-173-RELAY
+      - 03-178-LU
       - 03-183-RELAY
       - 03-188-RELAY
       - 03-193-RELAY
