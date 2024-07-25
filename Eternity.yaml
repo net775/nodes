@@ -232,7 +232,6 @@ proxies:
   - {name: 03-175-RELAY, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 03-176-RELAY, server: jp254111.ludou.us.kg, port: 80, type: vmess, uuid: 87ff410f-5960-4e40-bf10-1c456be8bb5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp254111.ludou.us.kg}}, udp: true}
   - {name: 03-177-RELAY, server: jp687744a.ludou.us.kg, port: 80, type: vmess, uuid: 7514131f-37af-4826-a3aa-8920dd98a371, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp687744a.ludou.us.kg}}, udp: true}
-  - {name: 03-178-LU, server: 107.189.31.139, port: 2082, type: vmess, uuid: 069f01bc-c4d5-43a0-8fc4-764b50032980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 03-179-RELAY, server: russia.com, port: 80, type: vmess, uuid: 06d65689-a12a-467c-9ff8-0363fe90c0b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
   - {name: 03-180-RELAY, server: 104.16.60.8, port: 80, type: vmess, uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL}, udp: true}
   - {name: 03-181-RELAY, server: 172.64.167.5, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -702,6 +701,7 @@ proxies:
   - {name: 14-744-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-745-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-746-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
+  - {name: 14-747-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-748-RELAY, server: 104.19.45.2, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-749-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-750-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
@@ -923,7 +923,6 @@ proxy-groups:
       - 03-175-RELAY
       - 03-176-RELAY
       - 03-177-RELAY
-      - 03-178-LU
       - 03-179-RELAY
       - 03-180-RELAY
       - 03-181-RELAY
@@ -1393,6 +1392,7 @@ proxy-groups:
       - 14-744-RELAY
       - 14-745-RELAY
       - 14-746-RELAY
+      - 14-747-RELAY
       - 14-748-RELAY
       - 14-749-RELAY
       - 14-750-RELAY
@@ -1712,6 +1712,7 @@ proxy-groups:
       - 13-732-RELAY
       - 13-737-RELAY
       - 14-742-RELAY
+      - 14-747-RELAY
       - 14-752-RELAY
       - 14-757-RELAY
       - 17-767-CN
@@ -1758,7 +1759,6 @@ proxy-groups:
       - 03-163-RELAY
       - 03-168-RELAY
       - 03-173-RELAY
-      - 03-178-LU
       - 03-183-RELAY
       - 03-188-RELAY
       - 03-193-RELAY
