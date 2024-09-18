@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: cmcc2.blackpink520.cyou, port: 12923, type: ss, cipher: aes-128-gcm, password: e76dc647-9b8a-49b9-94ff-43d6f96a9d71, udp: true}
+  - {name: 03-0380-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 851ccdc9-81cd-4355-ba2b-184d5a643130, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0381-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7653256c-ab2e-4a11-b0e2-50af96565f54, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0382-CN, server: gstdnb.myfczy168.top, port: 17010, type: ss, cipher: chacha20-ietf-poly1305, password: 6a69c741-8670-4901-917f-6b631828adec, udp: true}
   - {name: 03-0383-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 95e9bfe4-16c0-403f-8b77-734243ba578d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -71,7 +72,7 @@ proxies:
   - {name: 04-0394-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0395-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0396-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0397-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9779640d-7237-4e45-86d4-268475a6719f, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0397-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0398-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0399-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0400-GB, server: ukvip101.qlgq.fun, port: 14568, type: trojan, password: a2513d3e-3430-3a5f-816d-6b7b1a249c9d, sni: ukvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -103,18 +104,18 @@ proxies:
   - {name: 04-0426-CN, server: 4c52.ens3.buzz, port: 35638, type: ss, cipher: chacha20-ietf-poly1305, password: 1344640d-f4b8-4969-b06d-1305b0b39cf4, udp: true}
   - {name: 04-0427-CN, server: 4c52.ens3.buzz, port: 35639, type: ss, cipher: chacha20-ietf-poly1305, password: 1344640d-f4b8-4969-b06d-1305b0b39cf4, udp: true}
   - {name: 04-0428-CN, server: gdcub.yunnode.win, port: 12642, type: ss, cipher: chacha20-ietf-poly1305, password: 1344640d-f4b8-4969-b06d-1305b0b39cf4, udp: true}
-  - {name: 04-0429-RELAY, server: 104.25.110.29, port: 2082, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.110.29}, udp: true}
-  - {name: 04-0430-RELAY, server: 172.67.30.78, port: 2086, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.30.78}, udp: true}
-  - {name: 04-0431-RELAY, server: 104.16.158.40, port: 2086, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.158.40}, udp: true}
-  - {name: 04-0432-RELAY, server: 104.25.179.106, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.179.106}, udp: true}
-  - {name: 04-0433-RELAY, server: 104.19.119.153, port: 443, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 04-0434-RELAY, server: 104.21.195.247, port: 2087, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
-  - {name: 04-0435-RELAY, server: 104.21.136.223, port: 8080, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.136.223}, udp: true}
-  - {name: 04-0436-JP, server: 43.206.126.97, port: 443, type: trojan, password: 3ae5495f-328f-3ca4-9acc-ffb5a041d63a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0437-JP, server: 54.95.41.90, port: 443, type: trojan, password: 3ae5495f-328f-3ca4-9acc-ffb5a041d63a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0438-US, server: 54.184.10.246, port: 443, type: trojan, password: 3ae5495f-328f-3ca4-9acc-ffb5a041d63a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0439-US, server: 103.136.185.27, port: 5515, type: trojan, password: 3ae5495f-328f-3ca4-9acc-ffb5a041d63a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0440-US, server: 103.136.185.28, port: 3505, type: trojan, password: 3ae5495f-328f-3ca4-9acc-ffb5a041d63a, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0429-RELAY, server: 104.16.113.123, port: 8880, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.113.123}, udp: true}
+  - {name: 04-0430-RELAY, server: 104.16.52.247, port: 8880, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.52.247}, udp: true}
+  - {name: 04-0431-RELAY, server: 104.21.137.172, port: 8880, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.137.172}, udp: true}
+  - {name: 04-0432-RELAY, server: 172.67.65.221, port: 8880, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.65.221}, udp: true}
+  - {name: 04-0433-RELAY, server: 104.21.164.60, port: 2087, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 04-0434-RELAY, server: 172.67.1.65, port: 2096, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
+  - {name: 04-0435-RELAY, server: 172.64.4.123, port: 2082, type: vmess, uuid: 5fdf7b18-ddef-3806-a120-258007426af8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.4.123}, udp: true}
+  - {name: 04-0436-JP, server: 43.206.126.97, port: 443, type: trojan, password: 4ffe19bf-29f4-3999-b38f-0838f51c63ed, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0437-JP, server: 54.95.41.90, port: 443, type: trojan, password: 4ffe19bf-29f4-3999-b38f-0838f51c63ed, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0438-US, server: 54.184.10.246, port: 443, type: trojan, password: 4ffe19bf-29f4-3999-b38f-0838f51c63ed, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0439-US, server: 103.136.185.27, port: 5515, type: trojan, password: 4ffe19bf-29f4-3999-b38f-0838f51c63ed, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0440-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9779640d-7237-4e45-86d4-268475a6719f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0540-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 04-0541-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 04-0542-RELAY, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
@@ -921,7 +922,6 @@ proxies:
   - {name: 22-2441-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: e41b2f07-ecc3-4e50-b44f-cf079aba8d06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2445-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 66197e53-46b0-49f1-97e2-9170c5d52b56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 22-2446-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: ccf64aa8-a8c2-4303-9150-52f988c3cd7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
-  - {name: 22-2451-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: e41b2f07-ecc3-4e50-b44f-cf079aba8d06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 22-2452-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: d764c139-5af7-4ebb-9413-8a11909feac2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 22-2454-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: a930545d-7804-440e-b8ce-0d057999642c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2455-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: c8b7a416-df67-45a8-b08f-c72e165a8668, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
@@ -930,7 +930,6 @@ proxies:
   - {name: 22-2470-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: c72adc2a-bb55-414a-9ede-1e9e8cc3617c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2471-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 82d8ad4a-4d2e-4b8c-aa8f-26441057a69c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2474-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 58c33972-902e-482b-a84a-12c1d0bf5319, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
-  - {name: 22-2480-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 3402a42c-e669-4bba-b8f3-f927e58d7ef5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2482-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 854f2948-d10b-4375-bebd-5576461a6dde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2484-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 5d9de4c4-9712-4e78-a9c3-0700129d792e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 22-2489-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: af393521-4c77-4b53-a3e1-209e6b57edd6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
@@ -940,6 +939,7 @@ proxies:
   - {name: 23-2494-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: c8ebf54d-d78e-44ec-8efc-0021620a512e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 23-2496-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: d31ac4fb-ccd3-4776-83e0-aa5d57b02fc7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2498-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 85250e2e-85b7-4a77-ab63-886ff61ade28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
+  - {name: 23-2501-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 73a2f27a-3802-412d-b1aa-9262163a8cd2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 23-2502-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: c423d83b-c00e-4f00-9fa3-0e1a0967dd01, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2503-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 73a2f27a-3802-412d-b1aa-9262163a8cd2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2506-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 734f0c47-6145-4aad-81a5-f68339cd9a8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
@@ -1262,6 +1262,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 03-0380-KR
       - 03-0381-KR
       - 03-0382-CN
       - 03-0383-KR
@@ -2128,7 +2129,6 @@ proxy-groups:
       - 22-2441-RELAY
       - 22-2445-RELAY
       - 22-2446-RELAY
-      - 22-2451-RELAY
       - 22-2452-RELAY
       - 22-2454-RELAY
       - 22-2455-RELAY
@@ -2137,7 +2137,6 @@ proxy-groups:
       - 22-2470-RELAY
       - 22-2471-RELAY
       - 22-2474-RELAY
-      - 22-2480-RELAY
       - 22-2482-RELAY
       - 22-2484-RELAY
       - 22-2489-RELAY
@@ -2147,6 +2146,7 @@ proxy-groups:
       - 23-2494-RELAY
       - 23-2496-RELAY
       - 23-2498-RELAY
+      - 23-2501-RELAY
       - 23-2502-RELAY
       - 23-2503-RELAY
       - 23-2506-RELAY
@@ -2650,10 +2650,10 @@ proxy-groups:
       - 22-2411-RELAY
       - 22-2441-RELAY
       - 22-2446-RELAY
-      - 22-2451-RELAY
       - 22-2471-RELAY
       - 23-2491-RELAY
       - 23-2496-RELAY
+      - 23-2501-RELAY
       - 23-2506-RELAY
       - 23-2521-RELAY
       - 23-2526-RELAY
@@ -3442,6 +3442,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-CN
+      - 03-0380-KR
       - 03-0385-CN
       - 04-0390-DE
       - 04-0395-SG
@@ -3619,7 +3620,6 @@ proxy-groups:
       - 22-2455-RELAY
       - 22-2460-RELAY
       - 22-2470-RELAY
-      - 22-2480-RELAY
       - 23-2515-RELAY
       - 23-2525-RELAY
       - 23-2545-RELAY
