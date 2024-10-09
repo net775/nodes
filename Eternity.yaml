@@ -54,7 +54,8 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-CN, server: hzhz1.sssyun.xyz, port: 39505, type: ss, cipher: chacha20-ietf-poly1305, password: c569d52a-7beb-4a4c-841c-53c098c35881, udp: true}
+  - {name: 02-0028-CLOUDFRONT, server: jpcft01.xqc.best, port: 443, type: vmess, uuid: 57491970-c0b7-4f85-b576-86cc861eb64e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jpcft01.xqc.best}}, udp: true}
+  - {name: 02-0029-CLOUDFRONT, server: jpcft01.xqc.best, port: 443, type: vmess, uuid: b08fcc59-603d-4313-9e26-eb3615ad8f7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jpcft01.xqc.best}}, udp: true}
   - {name: 02-0030-CLOUDFRONT, server: jpcft01.xqc.best, port: 443, type: vmess, uuid: 5c7119d5-20ca-4b6a-83d8-8ec09ad18f82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jpcft01.xqc.best}}, udp: true}
   - {name: 02-0031-CLOUDFRONT, server: jpcft01.xqc.best, port: 443, type: vmess, uuid: 34fe15fb-6e1d-4e7c-b7ad-9455be10e9a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jpcft01.xqc.best}}, udp: true}
   - {name: 02-0032-CLOUDFRONT, server: jpcft01.xqc.best, port: 443, type: vmess, uuid: 7cc87747-bb3b-4be8-9006-d3428ec7615a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jpcft01.xqc.best}}, udp: true}
@@ -1063,7 +1064,6 @@ proxies:
   - {name: 13-1134-CN, server: 110.40.59.61, port: 57208, type: ss, cipher: chacha20-ietf-poly1305, password: e5e5b6e2-1e2e-4bf4-bbe1-b320bf285cab, udp: true}
   - {name: 13-1135-CN, server: gstdnb.myfczy168.top, port: 44776, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-1136-CN, server: 110.40.59.61, port: 58842, type: ss, cipher: chacha20-ietf-poly1305, password: e5e5b6e2-1e2e-4bf4-bbe1-b320bf285cab, udp: true}
-  - {name: 13-1137-US, server: shs1.12123.org, port: 30002, type: vmess, uuid: ba39a38d-43b4-4468-8591-f6051b2bef99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12123.org, headers: {Host: shs1.12123.org}}, udp: true}
   - {name: 13-1138-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
   - {name: 13-1139-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 0b4431de-9ae2-4eee-ab31-15521da96e54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 13-1140-CN, server: 221.181.185.182, port: 19259, type: ss, cipher: aes-128-gcm, password: 0e92901d-bb37-456b-87d1-1644bd794ff7, udp: true}
@@ -1226,7 +1226,6 @@ proxies:
   - {name: 14-1298-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec954ea1-0888-4978-bbf1-ef7d93e6043b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1299-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e3895619-8707-4315-9fc5-9c19f1d95efe, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 20-1609-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 21-1741-RELAY, server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net, port: 8880, type: vmess, uuid: 8008f0ce-397b-48d2-9145-9d95eb5c6c7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net}}, udp: true}
   - {name: 22-1854-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 894d8ac6-a872-4e72-b975-892cfda1c6f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1864-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 6817e339-37dc-482b-8ddc-5128bf410a21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1872-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 848263ed-d1f9-4729-b328-fb3e154ef807, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1262,7 +1261,8 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0000-CN
+      - 02-0028-CLOUDFRONT
+      - 02-0029-CLOUDFRONT
       - 02-0030-CLOUDFRONT
       - 02-0031-CLOUDFRONT
       - 02-0032-CLOUDFRONT
@@ -2271,7 +2271,6 @@ proxy-groups:
       - 13-1134-CN
       - 13-1135-CN
       - 13-1136-CN
-      - 13-1137-US
       - 13-1138-CN
       - 13-1139-RELAY
       - 13-1140-CN
@@ -2434,7 +2433,6 @@ proxy-groups:
       - 14-1298-KR
       - 14-1299-KR
       - 20-1609-JP
-      - 21-1741-RELAY
       - 22-1854-KR
       - 22-1864-KR
       - 22-1872-KR
@@ -2709,7 +2707,6 @@ proxy-groups:
       - 14-1286-KR
       - 14-1291-KR
       - 14-1296-KR
-      - 21-1741-RELAY
       - 22-1956-KR
       - 22-1986-KR
       - 22-2026-KR
@@ -2920,7 +2917,6 @@ proxy-groups:
       - 13-1122-CN
       - 13-1127-CN
       - 13-1132-CN
-      - 13-1137-US
       - 13-1142-CN
       - 13-1147-SG
       - 13-1152-CN
@@ -2962,6 +2958,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0028-CLOUDFRONT
       - 02-0033-CLOUDFRONT
       - 02-0038-CLOUDFRONT
       - 03-0043-KR
@@ -3205,6 +3202,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0029-CLOUDFRONT
       - 02-0034-CLOUDFRONT
       - 02-0039-CLOUDFRONT
       - 03-0044-KR
@@ -3452,7 +3450,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-CN
       - 02-0030-CLOUDFRONT
       - 02-0035-CLOUDFRONT
       - 02-0040-CLOUDFRONT
