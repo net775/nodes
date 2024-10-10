@@ -57,7 +57,6 @@ proxies:
   - {name: 02-0000-CN, server: 433c.ens3.buzz, port: 55555, type: ss, cipher: aes-256-gcm, password: 370a08f3-5953-4b54-a598-31f0a832bdea, udp: true}
   - {name: 02-0005-KR, server: jkrf1.969799.xyz, port: 443, type: trojan, password: 1dfba761-c1e0-422e-98b6-062da56afb53, skip-cert-verify: true, udp: true}
   - {name: 02-0006-KR, server: jkrf1.969799.xyz, port: 443, type: trojan, password: 1dfba761-c1e0-422e-98b6-062da56afb53, sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, skip-cert-verify: true, udp: true}
-  - {name: 03-0067-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9ce9bdb0-c57a-4bf6-8632-32ae550ba667, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0068-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d4cbf503-7d01-46fe-8f43-a705648ac774, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0069-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e1730eb3-cc02-4084-9a41-70e68ccf61b6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0070-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a09eca96-a023-49d2-aaf6-dbb99db7d6b4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -332,8 +331,8 @@ proxies:
   - {name: 04-0339-JP, server: 54.238.135.78, port: 443, type: trojan, password: c10a7eb3-ba47-313a-a19d-00b18427d011, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0340-JP, server: 35.75.8.137, port: 443, type: trojan, password: c10a7eb3-ba47-313a-a19d-00b18427d011, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0341-US, server: 35.93.203.243, port: 443, type: trojan, password: c10a7eb3-ba47-313a-a19d-00b18427d011, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0342-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f9324997-98c1-4080-bf25-5b1ebb65a954, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0343-US, server: 103.136.185.28, port: 3507, type: trojan, password: c10a7eb3-ba47-313a-a19d-00b18427d011, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0342-US, server: 103.136.185.27, port: 5524, type: trojan, password: c10a7eb3-ba47-313a-a19d-00b18427d011, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0343-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6b5b4601-650a-4c39-a690-bad28e20f5c5, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0344-NOWHERE, server: db-link01.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.56.159, headers: {Host: db-link01.top}}, udp: true}
   - {name: 04-0345-RELAY, server: cn-db.top, port: 2052, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.14.54, headers: {Host: cn-db.top}}, udp: true}
   - {name: 04-0346-NOWHERE, server: db-link01.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.50.71, headers: {Host: db-link01.top}}, udp: true}
@@ -1181,7 +1180,7 @@ proxies:
   - {name: 15-1287-CN, server: tw.zh779527.com, port: 57005, type: ss, cipher: chacha20-ietf-poly1305, password: f382eff7-246d-41d3-ba4f-70b4f4c396be, udp: true}
   - {name: 15-1288-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8dc27bd3-762e-45be-9423-55e009bf4963, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1289-CN, server: gstdnb.myfczy168.top, port: 38649, type: ss, cipher: chacha20-ietf-poly1305, password: 75872862-b8ec-43de-9d0e-2aa81aa41ab5, udp: true}
-  - {name: 15-1291-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6b5b4601-650a-4c39-a690-bad28e20f5c5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 15-1290-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f9324997-98c1-4080-bf25-5b1ebb65a954, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1292-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dbb5fb14-0a0c-4621-af70-342e2f2fa20b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1293-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 46d37fd2-f4e0-4bdf-9084-0feba9731845, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1294-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5362fe4b-04f8-4187-ad59-d88f34e2ab7b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1189,13 +1188,14 @@ proxies:
   - {name: 15-1296-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 77b8aff3-9bbc-481e-8dff-f48a7b6af55d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1297-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2385a179-b6ad-414a-824f-255b174ba7e6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1298-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: db3e8d64-3508-4b47-b231-334823082656, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 20-1522-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 20-1542-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 21-1687-VN, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 22-1710-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 36e3dad0-a123-42e5-9a77-a9e66672fe31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1741-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 6817e339-37dc-482b-8ddc-5128bf410a21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1749-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 13d3406c-7350-40e8-98d2-6d6409f6a4f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1768-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 9ca459aa-86ca-4808-b969-9686ee897758, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
+  - {name: 22-1782-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 79d8c082-cbd7-4f88-9ed8-ef0405c9beb1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
+  - {name: 22-1788-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 882f4bbb-dc7f-44c9-9560-2e3dfc797f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1797-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 769bb132-3aa6-42b5-9f1b-ac2d37561967, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1841-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: d3c44a58-6ac5-4d2f-b959-9d801051152f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1885-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 7e791493-20eb-47dc-8f33-365ae7703d30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1265,7 +1265,6 @@ proxy-groups:
       - 02-0000-CN
       - 02-0005-KR
       - 02-0006-KR
-      - 03-0067-KR
       - 03-0068-KR
       - 03-0069-KR
       - 03-0070-KR
@@ -2389,7 +2388,7 @@ proxy-groups:
       - 15-1287-CN
       - 15-1288-KR
       - 15-1289-CN
-      - 15-1291-KR
+      - 15-1290-KR
       - 15-1292-KR
       - 15-1293-KR
       - 15-1294-KR
@@ -2397,13 +2396,14 @@ proxy-groups:
       - 15-1296-KR
       - 15-1297-KR
       - 15-1298-KR
-      - 20-1522-JP
       - 20-1542-RELAY
       - 21-1687-VN
       - 22-1710-KR
       - 22-1741-KR
       - 22-1749-KR
       - 22-1768-KR
+      - 22-1782-KR
+      - 22-1788-KR
       - 22-1797-KR
       - 22-1841-KR
       - 22-1885-KR
@@ -2701,7 +2701,6 @@ proxy-groups:
       - 15-1276-KR
       - 15-1281-KR
       - 15-1286-CN
-      - 15-1291-KR
       - 15-1296-KR
       - 22-1741-KR
       - 22-1841-KR
@@ -2718,7 +2717,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0067-KR
       - 03-0072-CN
       - 03-0077-KR
       - 03-0082-KR
@@ -2945,9 +2943,9 @@ proxy-groups:
       - 15-1287-CN
       - 15-1292-KR
       - 15-1297-KR
-      - 20-1522-JP
       - 20-1542-RELAY
       - 21-1687-VN
+      - 22-1782-KR
       - 22-1797-KR
       - 22-1952-KR
       - 22-2072-KR
@@ -3191,6 +3189,7 @@ proxy-groups:
       - 15-1293-KR
       - 15-1298-KR
       - 22-1768-KR
+      - 22-1788-KR
       - 22-1898-KR
       - 22-1958-KR
       - 22-2093-KR
@@ -3678,6 +3677,7 @@ proxy-groups:
       - 15-1275-KR
       - 15-1280-KR
       - 15-1285-KR
+      - 15-1290-KR
       - 15-1295-KR
       - 22-1710-KR
       - 22-1885-KR
