@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 03-0000-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a5c57bf9-3328-4016-914c-c40257acfcf4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0076-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d86ed273-1f26-451d-919f-e27e4ae191b7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0077-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5f665739-e194-44dc-8ea8-ff38170bf609, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0078-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d0a03ce6-7189-44b6-9782-4dce7ff7c839, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0079-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 43ac28f4-d40e-494d-ba8f-48597aac4363, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -334,9 +333,9 @@ proxies:
   - {name: 04-0352-CN, server: gdcub.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: 8e5cf5b6-5fb0-4454-82df-38366210bae7, udp: true}
   - {name: 04-0353-JP, server: 54.238.135.78, port: 443, type: trojan, password: 3b9d7557-c4e0-3fc4-b7c2-b2db7fe0ad99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0354-JP, server: 35.75.8.137, port: 443, type: trojan, password: 3b9d7557-c4e0-3fc4-b7c2-b2db7fe0ad99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0355-US, server: 35.93.203.243, port: 443, type: trojan, password: 3b9d7557-c4e0-3fc4-b7c2-b2db7fe0ad99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0355-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 826d4289-b52b-42bd-b2ea-9b00637a56c2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0356-US, server: 103.136.185.27, port: 5524, type: trojan, password: 3b9d7557-c4e0-3fc4-b7c2-b2db7fe0ad99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0357-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 826d4289-b52b-42bd-b2ea-9b00637a56c2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0357-US, server: 103.136.185.28, port: 3508, type: trojan, password: 3b9d7557-c4e0-3fc4-b7c2-b2db7fe0ad99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0358-NOWHERE, server: db-link01.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.242.188, headers: {Host: db-link01.top}}, udp: true}
   - {name: 04-0359-NOWHERE, server: db-link01.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.12.248, headers: {Host: db-link01.top}}, udp: true}
   - {name: 04-0360-NOWHERE, server: db-link01.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.100.106, headers: {Host: db-link01.top}}, udp: true}
@@ -1181,6 +1180,7 @@ proxies:
   - {name: 20-1379-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 20-1395-GB, server: 5.39.254.196, port: 2945, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-1396-HK, server: sgp.cdn-sgp.xyz, port: 5245, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp.cdn-sgp.xyz}}, udp: true}
+  - {name: 21-1579-VN, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 22-1631-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 7e791493-20eb-47dc-8f33-365ae7703d30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1637-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 5cb7441f-f16e-408b-8991-06d059084eab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1675-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 6a420046-ddc7-491a-ba4b-1fbf620cf2df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1216,6 +1216,7 @@ proxies:
   - {name: 22-2180-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 894d8ac6-a872-4e72-b975-892cfda1c6f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-2181-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: f0ab5b07-a00b-47f9-a3e9-09f1899f60a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-2214-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 9ca459aa-86ca-4808-b969-9686ee897758, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
+  - {name: 23-2284-RELAY, server: us-new01.daluquan.top, port: 8880, type: vmess, uuid: 574184f1-7002-46a2-a879-6fc1944b09ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new01.daluquan.top}}, udp: true}
   - {name: 23-2300-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: e5a3d416-2d01-417a-a74f-9a715b596f38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2302-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 6948ab86-91b8-411d-ad9f-46c4b4b31196, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2343-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 0465f65a-34e5-419b-a4f6-cdcb03e367c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1228,7 +1229,6 @@ proxies:
   - {name: 23-2489-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 31cedf2c-aab3-48da-a014-549709452e3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2499-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 7114065e-ee55-4222-8572-8cbdd0b0a0a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2503-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: f3b68e9a-0482-49c7-9e22-815cba011692, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
-  - {name: 23-2508-RELAY, server: uk-new01.daluquan.top, port: 8880, type: vmess, uuid: 443c2247-35e1-47a9-96f8-b555d9a7f722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: uk-new01.daluquan.top}}, udp: true}
   - {name: 23-2512-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 87f444b2-b07f-4091-b59c-dca0ee6c70c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2620-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: d15581e2-a647-4d4c-8f32-c1e7ebdae1fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2639-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 4038bd32-eb43-4711-b9e9-01362f1b034a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1263,7 +1263,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 03-0000-KR
-      - 03-0076-KR
       - 03-0077-KR
       - 03-0078-KR
       - 03-0079-KR
@@ -2389,6 +2388,7 @@ proxy-groups:
       - 20-1379-JP
       - 20-1395-GB
       - 20-1396-HK
+      - 21-1579-VN
       - 22-1631-KR
       - 22-1637-KR
       - 22-1675-KR
@@ -2424,6 +2424,7 @@ proxy-groups:
       - 22-2180-KR
       - 22-2181-KR
       - 22-2214-KR
+      - 23-2284-RELAY
       - 23-2300-KR
       - 23-2302-KR
       - 23-2343-KR
@@ -2436,7 +2437,6 @@ proxy-groups:
       - 23-2489-KR
       - 23-2499-KR
       - 23-2503-KR
-      - 23-2508-RELAY
       - 23-2512-KR
       - 23-2620-KR
       - 23-2639-KR
@@ -2475,7 +2475,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0076-KR
       - 03-0081-KR
       - 03-0086-CN
       - 03-0091-CN
@@ -3194,7 +3193,6 @@ proxy-groups:
       - 23-2343-KR
       - 23-2408-KR
       - 23-2503-KR
-      - 23-2508-RELAY
       - 23-2673-RELAY
       - 23-2708-RELAY
       - 23-2738-KR
@@ -3430,6 +3428,7 @@ proxy-groups:
       - 15-1289-KR
       - 15-1294-KR
       - 20-1379-JP
+      - 21-1579-VN
       - 22-1774-KR
       - 22-1789-KR
       - 22-1839-KR
@@ -3441,6 +3440,7 @@ proxy-groups:
       - 22-2129-KR
       - 22-2139-KR
       - 22-2214-KR
+      - 23-2284-RELAY
       - 23-2344-KR
       - 23-2489-KR
       - 23-2499-KR
