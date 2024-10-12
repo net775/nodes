@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 03-0000-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a5c57bf9-3328-4016-914c-c40257acfcf4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0081-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2022d4c7-7c08-4b7a-849d-3e1154f9af95, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0082-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1f9ae553-9a3b-4b84-b420-a411a4360b02, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0083-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e2adf3ea-2d3b-45e1-bfd1-7613446e4be6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0084-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: c9a8e526-faae-4ab7-9725-96c0a6895075, udp: true}
@@ -1174,6 +1173,7 @@ proxies:
   - {name: 15-1297-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 47a97c2a-e7f5-45e3-9296-3decb3ed3470, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1298-CN, server: gstdnb.myfczy168.top, port: 38649, type: ss, cipher: chacha20-ietf-poly1305, password: 79606d7a-97f6-4b0a-9126-37a47e5ad38d, udp: true}
   - {name: 20-1379-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 20-1395-GB, server: 5.39.254.196, port: 2945, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-1396-HK, server: sgp.cdn-sgp.xyz, port: 5245, type: vmess, uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgp.cdn-sgp.xyz}}, udp: true}
   - {name: 21-1579-VN, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 22-1631-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 7e791493-20eb-47dc-8f33-365ae7703d30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1263,7 +1263,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 03-0000-KR
-      - 03-0081-KR
       - 03-0082-KR
       - 03-0083-KR
       - 03-0084-CN
@@ -2382,6 +2381,7 @@ proxy-groups:
       - 15-1297-KR
       - 15-1298-CN
       - 20-1379-JP
+      - 20-1395-GB
       - 20-1396-HK
       - 21-1579-VN
       - 22-1631-KR
@@ -2475,7 +2475,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0081-KR
       - 03-0086-CN
       - 03-0091-CN
       - 03-0096-KR
@@ -3680,6 +3679,7 @@ proxy-groups:
       - 15-1285-CN
       - 15-1290-CN
       - 15-1295-KR
+      - 20-1395-GB
       - 22-1675-KR
       - 22-1700-KR
       - 22-1800-KR
