@@ -55,16 +55,11 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-RU, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
-  - {name: 04-0236-MY, server: klvip101.qlgq.fun, port: 30443, type: trojan, password: 28c494a6-b3ab-3c17-9b6d-739580d2ed72, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0237-CN, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0238-CN, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0239-CN, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0240-CN, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0241-CN, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0242-CN, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0243-CN, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0244-CN, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0245-CN, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
+  - {name: 04-0169-JP, server: 54.238.135.78, port: 443, type: trojan, password: 56b2f416-44db-3167-a6d2-f9499d205e06, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0170-JP, server: 35.75.8.137, port: 443, type: trojan, password: 56b2f416-44db-3167-a6d2-f9499d205e06, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0171-US, server: 34.214.104.233, port: 443, type: trojan, password: 56b2f416-44db-3167-a6d2-f9499d205e06, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0172-US, server: 103.136.185.27, port: 5535, type: trojan, password: 56b2f416-44db-3167-a6d2-f9499d205e06, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0173-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b9b24cd9-0ff7-400d-b64b-a579dcd1736f, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0246-CN, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0247-CN, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0248-CN, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
@@ -82,6 +77,7 @@ proxies:
   - {name: 04-0260-CN, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0261-CN, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0262-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
+  - {name: 04-0263-US, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0264-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0265-CN, server: gy.58n.net, port: 20301, type: trojan, password: 89c368b4-058e-34d0-9a0a-78b36da02e4f, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0266-CN, server: gy.58n.net, port: 43337, type: trojan, password: 89c368b4-058e-34d0-9a0a-78b36da02e4f, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1062,13 +1058,18 @@ proxies:
   - {name: 22-2253-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: d30898aa-5caa-4ac1-aa4a-5be0537648a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2261-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: ee0e6576-1d26-487b-ab52-af5376703983, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 22-2263-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: e676c2c5-1d2d-40b1-b978-0ab2b897a841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
+  - {name: 22-2265-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 46f718f6-a13c-4fc0-abd2-175aa41b77d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2267-RELAY, server: zj.kovmk.website, port: 443, type: vmess, uuid: 2aee7e5c-909a-4f3b-9d04-30cb98fea133, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zj.kovmk.website}}, udp: true}
   - {name: 22-2269-RELAY, server: zj.kovmk.website, port: 443, type: vmess, uuid: 3e4f534b-5658-4b7d-b14c-39168135840f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zj.kovmk.website}}, udp: true}
+  - {name: 22-2272-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: ee0e6576-1d26-487b-ab52-af5376703983, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2281-RELAY, server: zj.kovmk.website, port: 443, type: vmess, uuid: d30898aa-5caa-4ac1-aa4a-5be0537648a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zj.kovmk.website}}, udp: true}
+  - {name: 22-2283-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: b2d73808-f12c-4138-bf70-ee8a3f4bf992, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2285-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 5d727d2f-29ee-4eab-9886-137b633c3b2e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
+  - {name: 22-2286-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 14803e9a-3ee5-4392-85cf-f04e7936dbb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2301-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: c368cb32-24c0-40d6-b1c9-100c59554a9c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 22-2319-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: 109b31f6-d0b1-4c45-ab2b-e96a296d9a93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 22-2322-RELAY, server: xg.kovmk.website, port: 443, type: vmess, uuid: ee0e6576-1d26-487b-ab52-af5376703983, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.kovmk.website}}, udp: true}
+  - {name: 22-2327-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 3e4f534b-5658-4b7d-b14c-39168135840f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2334-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: a741b7f3-cc92-40ae-be61-686467e37318, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 22-2341-RELAY, server: zj.kovmk.website, port: 443, type: vmess, uuid: 46f718f6-a13c-4fc0-abd2-175aa41b77d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zj.kovmk.website}}, udp: true}
   - {name: 22-2363-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: 4a962c1f-20aa-451f-87af-cf0e714347fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
@@ -1241,13 +1242,13 @@ proxies:
   - {name: 23-3266-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: c2c0a908-2ba9-456b-8618-825db97f1aea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 23-3276-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 81a0926a-2b80-4516-8d75-3944a5075094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 23-3280-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 035012bb-b66c-4370-a6d5-c94ee64fbf14, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
+  - {name: 23-3282-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 7a2fa993-b412-4e07-87a2-b225a6f63cc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 23-3292-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 75645b46-cd9f-4f30-80e8-8e61108783a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 23-3293-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: 29dd4603-f8e4-4dbd-8794-83ae9cd8ff36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 23-3294-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 20ac1c81-cbfb-4d36-b953-3780beee2f99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 23-3297-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 493ef02f-9b30-4370-b128-8aca813aec6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 23-3299-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 5876124a-4ce7-420a-9c0b-5c0817e3073b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 23-3305-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 7a2fa993-b412-4e07-87a2-b225a6f63cc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
-  - {name: 23-3307-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: 5e9b33cc-7d88-4dee-a6bb-9bbef6a022ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 23-3311-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: a4fd1b70-6ed8-4b64-8fea-045060f2581d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 23-3319-RELAY, server: heg.mmzhk.website, port: 443, type: vmess, uuid: 7a2fa993-b412-4e07-87a2-b225a6f63cc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: heg.mmzhk.website}}, udp: true}
   - {name: 23-3322-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: b13dacf1-ef5e-46a9-82a9-609013749051, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
@@ -1262,16 +1263,11 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-RU
-      - 04-0236-MY
-      - 04-0237-CN
-      - 04-0238-CN
-      - 04-0239-CN
-      - 04-0240-CN
-      - 04-0241-CN
-      - 04-0242-CN
-      - 04-0243-CN
-      - 04-0244-CN
-      - 04-0245-CN
+      - 04-0169-JP
+      - 04-0170-JP
+      - 04-0171-US
+      - 04-0172-US
+      - 04-0173-US
       - 04-0246-CN
       - 04-0247-CN
       - 04-0248-CN
@@ -1289,6 +1285,7 @@ proxy-groups:
       - 04-0260-CN
       - 04-0261-CN
       - 04-0262-TW
+      - 04-0263-US
       - 04-0264-AU
       - 04-0265-CN
       - 04-0266-CN
@@ -2269,13 +2266,18 @@ proxy-groups:
       - 22-2253-RELAY
       - 22-2261-RELAY
       - 22-2263-RELAY
+      - 22-2265-RELAY
       - 22-2267-RELAY
       - 22-2269-RELAY
+      - 22-2272-RELAY
       - 22-2281-RELAY
+      - 22-2283-RELAY
       - 22-2285-RELAY
+      - 22-2286-RELAY
       - 22-2301-RELAY
       - 22-2319-RELAY
       - 22-2322-RELAY
+      - 22-2327-RELAY
       - 22-2334-RELAY
       - 22-2341-RELAY
       - 22-2363-RELAY
@@ -2448,13 +2450,13 @@ proxy-groups:
       - 23-3266-RELAY
       - 23-3276-RELAY
       - 23-3280-RELAY
+      - 23-3282-RELAY
       - 23-3292-RELAY
       - 23-3293-RELAY
       - 23-3294-RELAY
       - 23-3297-RELAY
       - 23-3299-RELAY
       - 23-3305-RELAY
-      - 23-3307-RELAY
       - 23-3311-RELAY
       - 23-3319-RELAY
       - 23-3322-RELAY
@@ -2473,8 +2475,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0236-MY
-      - 04-0241-CN
+      - 04-0171-US
       - 04-0246-CN
       - 04-0251-CN
       - 04-0256-CN
@@ -2673,6 +2674,7 @@ proxy-groups:
       - 22-2201-RELAY
       - 22-2261-RELAY
       - 22-2281-RELAY
+      - 22-2286-RELAY
       - 22-2301-RELAY
       - 22-2341-RELAY
       - 22-2371-RELAY
@@ -2722,8 +2724,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0237-CN
-      - 04-0242-CN
+      - 04-0172-US
       - 04-0247-CN
       - 04-0252-CN
       - 04-0257-CN
@@ -2922,7 +2923,9 @@ proxy-groups:
       - 22-2187-RELAY
       - 22-2252-RELAY
       - 22-2267-RELAY
+      - 22-2272-RELAY
       - 22-2322-RELAY
+      - 22-2327-RELAY
       - 22-2387-RELAY
       - 22-2422-RELAY
       - 22-2467-RELAY
@@ -2952,20 +2955,20 @@ proxy-groups:
       - 23-3167-RELAY
       - 23-3182-RELAY
       - 23-3207-RELAY
+      - 23-3282-RELAY
       - 23-3292-RELAY
       - 23-3297-RELAY
-      - 23-3307-RELAY
       - 23-3322-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0238-CN
-      - 04-0243-CN
+      - 04-0173-US
       - 04-0248-CN
       - 04-0253-CN
       - 04-0258-CN
+      - 04-0263-US
       - 04-0268-CN
       - 04-0273-CN
       - 04-0278-CN
@@ -3166,6 +3169,7 @@ proxy-groups:
       - 22-2248-RELAY
       - 22-2253-RELAY
       - 22-2263-RELAY
+      - 22-2283-RELAY
       - 22-2363-RELAY
       - 22-2448-RELAY
       - 22-2453-RELAY
@@ -3204,8 +3208,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0239-CN
-      - 04-0244-CN
+      - 04-0169-JP
       - 04-0249-CN
       - 04-0254-CN
       - 04-0259-CN
@@ -3453,8 +3456,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-RU
-      - 04-0240-CN
-      - 04-0245-CN
+      - 04-0170-JP
       - 04-0250-CN
       - 04-0255-CN
       - 04-0260-CN
@@ -3655,6 +3657,7 @@ proxy-groups:
       - 22-2210-RELAY
       - 22-2230-RELAY
       - 22-2245-RELAY
+      - 22-2265-RELAY
       - 22-2285-RELAY
       - 22-2375-RELAY
       - 22-2470-RELAY
