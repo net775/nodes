@@ -55,13 +55,11 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-RU, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
-  - {name: 04-0201-JP, server: 54.238.135.78, port: 443, type: trojan, password: caf55fcd-a565-3f41-9c2e-ae2ddf1f5405, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0202-JP, server: 35.75.8.137, port: 443, type: trojan, password: caf55fcd-a565-3f41-9c2e-ae2ddf1f5405, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0203-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d9268b06-5ba2-45ec-85ed-d23c888af9e1, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0204-US, server: 103.136.185.27, port: 5535, type: trojan, password: caf55fcd-a565-3f41-9c2e-ae2ddf1f5405, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0205-US, server: 103.136.185.28, port: 3516, type: trojan, password: caf55fcd-a565-3f41-9c2e-ae2ddf1f5405, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0340-CN, server: gy.58n.net, port: 20303, type: trojan, password: 60346e7f-c0c0-3817-b7a3-39958312d08f, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-0341-CN, server: gy.58n.net, port: 20304, type: trojan, password: 60346e7f-c0c0-3817-b7a3-39958312d08f, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0201-JP, server: 54.238.135.78, port: 443, type: trojan, password: b07a1a9d-001e-383f-92d2-7953c14c5fd2, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0202-JP, server: 35.75.8.137, port: 443, type: trojan, password: b07a1a9d-001e-383f-92d2-7953c14c5fd2, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0203-US, server: 54.214.170.194, port: 443, type: trojan, password: b07a1a9d-001e-383f-92d2-7953c14c5fd2, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0204-US, server: 103.136.185.27, port: 5535, type: trojan, password: b07a1a9d-001e-383f-92d2-7953c14c5fd2, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0205-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d9268b06-5ba2-45ec-85ed-d23c888af9e1, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0342-CN, server: gy.58n.net, port: 20305, type: trojan, password: 60346e7f-c0c0-3817-b7a3-39958312d08f, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0343-CN, server: gy.58n.net, port: 20306, type: trojan, password: 60346e7f-c0c0-3817-b7a3-39958312d08f, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 05-0443-RELAY, server: xg.kovmk.website, port: 443, type: vmess, uuid: 2eb4f801-064a-442a-b1ae-0e4ccf426569, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.kovmk.website}}, udp: true}
@@ -930,6 +928,7 @@ proxies:
   - {name: 22-2034-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 4cf05d58-dee4-4881-9d5f-12e420564334, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2037-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 5d727d2f-29ee-4eab-9886-137b633c3b2e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 22-2051-RELAY, server: xg.kovmk.website, port: 443, type: vmess, uuid: 2aee7e5c-909a-4f3b-9d04-30cb98fea133, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.kovmk.website}}, udp: true}
+  - {name: 22-2055-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 27ac142e-d8d9-4b31-9a15-4274d5064cbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 22-2059-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: b2d73808-f12c-4138-bf70-ee8a3f4bf992, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
   - {name: 22-2065-RELAY, server: xg.kovmk.website, port: 443, type: vmess, uuid: 33f6a35a-6827-496b-b421-1bcd3ec51f9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.kovmk.website}}, udp: true}
   - {name: 22-2066-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: b2d73808-f12c-4138-bf70-ee8a3f4bf992, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
@@ -1217,6 +1216,7 @@ proxies:
   - {name: 24-3460-RELAY, server: xg.kovmk.website, port: 443, type: vmess, uuid: 34ee53fb-a71d-4844-89d2-7fa57dfe58e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.kovmk.website}}, udp: true}
   - {name: 24-3461-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: a3a1fca9-8fdc-476e-98ac-949a7859328a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 24-3467-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: d2601bbe-856a-4556-b0dd-5c7c493a905a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
+  - {name: 24-3474-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: d2601bbe-856a-4556-b0dd-5c7c493a905a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 24-3478-RELAY, server: xg.kovmk.website, port: 443, type: vmess, uuid: 71f53699-c2d9-431f-a89f-8d59691e7090, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.kovmk.website}}, udp: true}
   - {name: 24-3484-RELAY, server: ba.kovmk.website, port: 443, type: vmess, uuid: 61733ed2-abf7-4e1c-8a4d-cef88a3ec785, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ba.kovmk.website}}, udp: true}
   - {name: 24-3491-RELAY, server: gc.kovmk.website, port: 443, type: vmess, uuid: 083caa9d-cafb-4594-9cc9-93150b149899, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gc.kovmk.website}}, udp: true}
@@ -1268,8 +1268,6 @@ proxy-groups:
       - 04-0203-US
       - 04-0204-US
       - 04-0205-US
-      - 04-0340-CN
-      - 04-0341-CN
       - 04-0342-CN
       - 04-0343-CN
       - 05-0443-RELAY
@@ -2138,6 +2136,7 @@ proxy-groups:
       - 22-2034-RELAY
       - 22-2037-RELAY
       - 22-2051-RELAY
+      - 22-2055-RELAY
       - 22-2059-RELAY
       - 22-2065-RELAY
       - 22-2066-RELAY
@@ -2425,6 +2424,7 @@ proxy-groups:
       - 24-3460-RELAY
       - 24-3461-RELAY
       - 24-3467-RELAY
+      - 24-3474-RELAY
       - 24-3478-RELAY
       - 24-3484-RELAY
       - 24-3491-RELAY
@@ -2476,7 +2476,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-0201-JP
-      - 04-0341-CN
       - 05-0446-NOWHERE
       - 05-0451-CN
       - 05-0456-CN
@@ -3435,6 +3434,7 @@ proxy-groups:
       - 24-3439-RELAY
       - 24-3444-RELAY
       - 24-3449-RELAY
+      - 24-3474-RELAY
       - 24-3484-RELAY
       - 24-3494-RELAY
       - 24-3499-RELAY
@@ -3453,7 +3453,6 @@ proxy-groups:
     proxies:
       - 02-0000-RU
       - 04-0205-US
-      - 04-0340-CN
       - 05-0445-RU
       - 05-0450-CN
       - 05-0455-CN
@@ -3627,6 +3626,7 @@ proxy-groups:
       - 22-2010-RELAY
       - 22-2015-RELAY
       - 22-2030-RELAY
+      - 22-2055-RELAY
       - 22-2065-RELAY
       - 22-2110-RELAY
       - 22-2155-RELAY
