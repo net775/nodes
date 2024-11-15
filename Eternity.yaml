@@ -55,9 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 03-0022-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ffe203f1-f889-43ec-96cc-c74c24a90097, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0023-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 4a500c98-f5be-48bc-98e4-48a970f2918f, udp: true}
-  - {name: 03-0024-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: e3156fe3-e5b6-453b-993b-dbc98c0ef0bf, udp: true}
   - {name: 03-0025-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 851cd674-3005-4ca5-8a36-40eb3cbea910, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0026-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b8265296-f805-444c-8d7a-2ec47e70b86a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0027-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e86a863a-110a-48dd-b9df-a41a63ad41cf, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -141,17 +138,17 @@ proxies:
   - {name: 04-0105-CN, server: 4c52.ens3.buzz, port: 31683, type: ss, cipher: chacha20-ietf-poly1305, password: 0c818127-d485-4bca-9b7e-45e34838f699, udp: true}
   - {name: 04-0106-CN, server: jsyd.yunnode.win, port: 31660, type: ss, cipher: chacha20-ietf-poly1305, password: 0c818127-d485-4bca-9b7e-45e34838f699, udp: true}
   - {name: 04-0107-CN, server: jsyd.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: 0c818127-d485-4bca-9b7e-45e34838f699, udp: true}
-  - {name: 04-0108-JP, server: 54.238.135.78, port: 443, type: trojan, password: 6d22a785-32de-3856-8cbf-b905ee0172f7, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0109-JP, server: 35.75.8.137, port: 443, type: trojan, password: 6d22a785-32de-3856-8cbf-b905ee0172f7, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0110-US, server: 54.200.176.101, port: 443, type: trojan, password: 6d22a785-32de-3856-8cbf-b905ee0172f7, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0111-US, server: 103.136.185.27, port: 5535, type: trojan, password: 6d22a785-32de-3856-8cbf-b905ee0172f7, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0113-RELAY, server: s3.cn-db.top, port: 2086, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.250.69, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0114-RELAY, server: s4.cn-db.top, port: 2052, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.16.127, headers: {Host: s4.cn-db.top}}, udp: true}
-  - {name: 04-0115-RELAY, server: s3.cn-db.top, port: 2052, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.23.46, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0116-RELAY, server: s2.db-link02.top, port: 2095, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.194.233, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 04-0117-RELAY, server: s3.cn-db.top, port: 2095, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.187.255, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0118-RELAY, server: s2.db-link02.top, port: 8080, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.18.230, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 04-0119-RELAY, server: s3.cn-db.top, port: 80, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.62.63, headers: {Host: s3.cn-db.top}}, udp: true}
+  - {name: 04-0108-JP, server: 54.238.135.78, port: 443, type: trojan, password: d1173a05-6a0a-3fc6-806b-8c01b3162669, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0109-JP, server: 35.75.8.137, port: 443, type: trojan, password: d1173a05-6a0a-3fc6-806b-8c01b3162669, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0110-US, server: 54.200.176.101, port: 443, type: trojan, password: d1173a05-6a0a-3fc6-806b-8c01b3162669, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0111-US, server: 103.136.185.27, port: 5535, type: trojan, password: d1173a05-6a0a-3fc6-806b-8c01b3162669, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0113-RELAY, server: s3.cn-db.top, port: 2052, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.82.61, headers: {Host: s3.cn-db.top}}, udp: true}
+  - {name: 04-0114-RELAY, server: s3.cn-db.top, port: 8880, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.4.242, headers: {Host: s3.cn-db.top}}, udp: true}
+  - {name: 04-0115-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.230.92, headers: {Host: s1.db-link01.top}}, udp: true}
+  - {name: 04-0116-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.149.58, headers: {Host: s4.cn-db.top}}, udp: true}
+  - {name: 04-0117-RELAY, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.88.114, headers: {Host: s2.db-link02.top}}, udp: true}
+  - {name: 04-0118-RELAY, server: s3.cn-db.top, port: 2095, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.35.211, headers: {Host: s3.cn-db.top}}, udp: true}
+  - {name: 04-0119-RELAY, server: s4.cn-db.top, port: 8880, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.27.40, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-0120-NOWHERE, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: 77162bde-67c3-48da-a14b-c728e6104df0, udp: true}
   - {name: 04-0121-NOWHERE, server: gdcub.yunnode.win, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: 77162bde-67c3-48da-a14b-c728e6104df0, udp: true}
   - {name: 04-0122-NOWHERE, server: gdcub.yunnode.win, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: 77162bde-67c3-48da-a14b-c728e6104df0, udp: true}
@@ -1230,7 +1227,10 @@ proxies:
   - {name: 20-1296-RELAY, server: 172.64.167.25, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 20-1297-RELAY, server: 104.26.5.60, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 20-1298-RELAY, server: 172.64.167.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: 22-1322-RELAY, server: wzhck.whmvmkwuey.store, port: 443, type: vmess, uuid: ee0e81e2-0d23-4455-bfa8-c17c5138b8b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wzhck.whmvmkwuey.store}}, udp: true}
+  - {name: 22-1326-RELAY, server: wzhck.whmvmkwuey.store, port: 443, type: vmess, uuid: f9bc8637-6833-44c5-ad97-a35c5d893568, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wzhck.whmvmkwuey.store}}, udp: true}
   - {name: 22-1328-RELAY, server: dsobk.whmvmkwuey.store, port: 443, type: vmess, uuid: 8f8b33d4-685c-4532-a746-fe47af9a6d2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dsobk.whmvmkwuey.store}}, udp: true}
+  - {name: 22-1333-RELAY, server: wzhck.whmvmkwuey.store, port: 443, type: vmess, uuid: b8bc3a28-3863-4027-beaf-1a36fb5960c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wzhck.whmvmkwuey.store}}, udp: true}
   - {name: 22-1351-RELAY, server: dsobk.whmvmkwuey.store, port: 443, type: vmess, uuid: 3969381f-f6fd-417f-84d1-6b2dc507c39c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dsobk.whmvmkwuey.store}}, udp: true}
   - {name: 22-1356-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 943cf857-e546-4675-9af9-8bea35864dac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 22-1357-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: e7d3d525-7b53-4d76-af50-b6d63dae0332, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
@@ -1262,9 +1262,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CA
-      - 03-0022-KR
-      - 03-0023-CN
-      - 03-0024-CN
       - 03-0025-KR
       - 03-0026-KR
       - 03-0027-KR
@@ -2437,7 +2434,10 @@ proxy-groups:
       - 20-1296-RELAY
       - 20-1297-RELAY
       - 20-1298-RELAY
+      - 22-1322-RELAY
+      - 22-1326-RELAY
       - 22-1328-RELAY
+      - 22-1333-RELAY
       - 22-1351-RELAY
       - 22-1356-RELAY
       - 22-1357-RELAY
@@ -2707,6 +2707,7 @@ proxy-groups:
       - 20-1286-RELAY
       - 20-1291-RELAY
       - 20-1296-RELAY
+      - 22-1326-RELAY
       - 22-1351-RELAY
       - 22-1356-RELAY
       - 22-1461-RELAY
@@ -2721,7 +2722,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0022-KR
       - 03-0027-KR
       - 03-0032-CN
       - 03-0037-KR
@@ -2956,6 +2956,7 @@ proxy-groups:
       - 20-1287-RELAY
       - 20-1292-RELAY
       - 20-1297-RELAY
+      - 22-1322-RELAY
       - 22-1357-RELAY
       - 22-1442-RELAY
       - 22-1497-RELAY
@@ -2965,7 +2966,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0023-CN
       - 03-0028-KR
       - 03-0033-KR
       - 03-0038-KR
@@ -3202,6 +3202,7 @@ proxy-groups:
       - 20-1293-RELAY
       - 20-1298-RELAY
       - 22-1328-RELAY
+      - 22-1333-RELAY
       - 22-1378-RELAY
       - 22-1393-RELAY
       - 22-1483-RELAY
@@ -3211,7 +3212,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0024-CN
       - 03-0029-KR
       - 03-0034-KR
       - 03-0039-CN
