@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: twn-02-zz.manatraffic.top, port: 12822, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
+  - {name: 02-0002-CN, server: sgp-02-zz.manatraffic.top, port: 11562, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
   - {name: 02-0003-CN, server: yy1.vyunyunnode.top, port: 19013, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0004-CN, server: yy1.vyunyunnode.top, port: 19088, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0005-CN, server: yy1.vyunyunnode.top, port: 19006, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
@@ -806,7 +807,6 @@ proxies:
   - {name: 16-0851-CN, server: southvip1.pkyun.xyz, port: 58820, type: ss, cipher: chacha20-ietf-poly1305, password: 45d5ed5a-3759-4d9e-9146-15fc822ff68d, udp: true}
   - {name: 16-0852-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 02e73b65-e0dd-44e7-a326-38f3d4f0872d, udp: true}
   - {name: 16-0853-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 9da4b0cc-431e-4611-b260-60b750882ae1, udp: true}
-  - {name: 16-0854-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 72b4c6a8-6baf-4e1a-97b2-690463fd2d17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
   - {name: 16-0855-CN, server: southvip1.pkyun.xyz, port: 58846, type: ss, cipher: chacha20-ietf-poly1305, password: 45d5ed5a-3759-4d9e-9146-15fc822ff68d, udp: true}
   - {name: 16-0856-CN, server: southvip1.pkyun.xyz, port: 34301, type: ss, cipher: chacha20-ietf-poly1305, password: 45d5ed5a-3759-4d9e-9146-15fc822ff68d, udp: true}
   - {name: 16-0857-RELAY, server: visa.com, port: 443, type: vmess, uuid: ee33cbf0-bf6a-4bb5-90a2-98c06c569e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -1250,7 +1250,6 @@ proxies:
   - {name: 17-1296-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c403c2b1-827e-4c3e-b3e3-4f2fad86687a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1297-CN, server: southvip1.pkyun.xyz, port: 58845, type: ss, cipher: chacha20-ietf-poly1305, password: 9204aed1-cafb-4c3f-8db0-564d7c5174b1, udp: true}
   - {name: 17-1298-CN, server: southvip1.pkyun.xyz, port: 58805, type: ss, cipher: chacha20-ietf-poly1305, password: bd21c81c-6189-4cc9-99bf-7544aafc0add, udp: true}
-  - {name: 17-1380-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: b411e18e-378b-49c1-8646-1385e52ef1a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1262,6 +1261,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 02-0002-CN
       - 02-0003-CN
       - 02-0004-CN
       - 02-0005-CN
@@ -2013,7 +2013,6 @@ proxy-groups:
       - 16-0851-CN
       - 16-0852-CN
       - 16-0853-CN
-      - 16-0854-RELAY
       - 16-0855-CN
       - 16-0856-CN
       - 16-0857-RELAY
@@ -2457,7 +2456,6 @@ proxy-groups:
       - 17-1296-NOWHERE
       - 17-1297-CN
       - 17-1298-CN
-      - 17-1380-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2715,6 +2713,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0002-CN
       - 02-0007-CN
       - 02-0012-CN
       - 02-0017-MU
@@ -3355,7 +3354,6 @@ proxy-groups:
       - 16-0839-DE
       - 16-0844-US
       - 16-0849-SG
-      - 16-0854-RELAY
       - 16-0859-DE
       - 16-0864-CN
       - 16-0869-SG
@@ -3689,7 +3687,6 @@ proxy-groups:
       - 17-1285-CN
       - 17-1290-RELAY
       - 17-1295-CN
-      - 17-1380-RELAY
   - name: 广告拦截
     type: select
     proxies:
