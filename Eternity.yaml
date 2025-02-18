@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: twn-02-zz.manatraffic.top, port: 12822, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
+  - {name: 02-0002-CN, server: sgp-02-zz.manatraffic.top, port: 11562, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
   - {name: 02-0003-CN, server: yy1.vyunyunnode.top, port: 19013, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0004-CN, server: yy1.vyunyunnode.top, port: 19088, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0005-CN, server: yy1.vyunyunnode.top, port: 19006, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
@@ -1261,6 +1262,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 02-0002-CN
       - 02-0003-CN
       - 02-0004-CN
       - 02-0005-CN
@@ -2713,6 +2715,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0002-CN
       - 02-0007-CN
       - 02-0012-CN
       - 02-0017-MU
@@ -11530,6 +11533,12 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
+ - DOMAIN-SUFFIX,v1.mk,全球直连
+ - DOMAIN-SUFFIX,d1.mk,全球直连
+ - DOMAIN-SUFFIX,dlj.mk,全球直连
+ - DOMAIN-SUFFIX,suo.yt,全球直连
+ - DOMAIN-SUFFIX,sub.cm,全球直连
+ - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
