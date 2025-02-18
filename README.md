@@ -26,11 +26,12 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1197`
+高速节点数量: `1198`
 <details>
   <summary>展开复制节点</summary>
 
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4NzcxZDQ1Ni02Nzc5LTRjMzMtYTc5Ni1iNmRlZmM2N2JjNzU@twn-02-zz.manatraffic.top:12822#02-0000-CN
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4NzcxZDQ1Ni02Nzc5LTRjMzMtYTc5Ni1iNmRlZmM2N2JjNzU@sgp-02-zz.manatraffic.top:11562#02-0002-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxODM0ZmM3OS03ZjRiLTRlMmItOTA0OC0xN2M3YjgwOWZjNDQ@yy1.vyunyunnode.top:19013#02-0003-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxODM0ZmM3OS03ZjRiLTRlMmItOTA0OC0xN2M3YjgwOWZjNDQ@yy1.vyunyunnode.top:19088#02-0004-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxODM0ZmM3OS03ZjRiLTRlMmItOTA0OC0xN2M3YjgwOWZjNDQ@yy1.vyunyunnode.top:19006#02-0005-CN
