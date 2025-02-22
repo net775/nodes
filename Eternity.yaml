@@ -124,7 +124,7 @@ proxies:
   - {name: 04-166-JP, server: 35.77.198.143, port: 443, type: trojan, password: d38e4cfc-1583-3577-871e-1dea47065e1b, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-167-JP, server: 35.74.5.159, port: 443, type: trojan, password: d38e4cfc-1583-3577-871e-1dea47065e1b, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-168-US, server: 35.166.172.187, port: 443, type: trojan, password: d38e4cfc-1583-3577-871e-1dea47065e1b, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-169-US, server: 103.136.185.27, port: 5535, type: trojan, password: d38e4cfc-1583-3577-871e-1dea47065e1b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-170-US, server: 103.136.185.28, port: 3516, type: trojan, password: d38e4cfc-1583-3577-871e-1dea47065e1b, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 08-171-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-172-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-173-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
@@ -133,7 +133,6 @@ proxies:
   - {name: 08-176-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-177-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-178-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
-  - {name: 08-179-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: 0a2f30f6-cad8-4bc0-8522-78a8b1dbf52e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
   - {name: 08-180-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: afef1e18-d913-4a12-bfb2-b0fc3648f96d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 08-181-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-182-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
@@ -800,6 +799,7 @@ proxies:
   - {name: 17-843-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 43a1bf2d-5d1a-4cdc-884e-93381e0ffd8f, udp: true}
   - {name: 17-844-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d5be123d-20b0-4d50-9779-f8e8ddffd1e2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-845-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ccd4c206-b379-4958-b97e-0b99ac586d77, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-846-RELAY, server: npzeokpd.mmzhk.website, port: 443, type: vmess, uuid: cd95f5b0-29e5-4a82-afa5-676c52fad2a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: npzeokpd.mmzhk.website}}, udp: true}
   - {name: 17-847-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d72ab445-a39d-4056-a70c-7c87b832e5e2, udp: true}
   - {name: 17-848-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 43a1bf2d-5d1a-4cdc-884e-93381e0ffd8f, udp: true}
   - {name: 17-849-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: d1e27a97-9710-4cca-bab3-4adbf3ef11e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
@@ -948,7 +948,7 @@ proxy-groups:
       - 04-166-JP
       - 04-167-JP
       - 04-168-US
-      - 04-169-US
+      - 04-170-US
       - 08-171-CN
       - 08-172-CN
       - 08-173-CN
@@ -957,7 +957,6 @@ proxy-groups:
       - 08-176-CN
       - 08-177-CN
       - 08-178-CN
-      - 08-179-RELAY
       - 08-180-NOWHERE
       - 08-181-CN
       - 08-182-CN
@@ -1624,6 +1623,7 @@ proxy-groups:
       - 17-843-CN
       - 17-844-NOWHERE
       - 17-845-NOWHERE
+      - 17-846-RELAY
       - 17-847-CN
       - 17-848-CN
       - 17-849-RELAY
@@ -1857,6 +1857,7 @@ proxy-groups:
       - 17-831-NOWHERE
       - 17-836-NOWHERE
       - 17-841-RELAY
+      - 17-846-RELAY
       - 17-851-CN
       - 17-856-NOWHERE
       - 17-861-NOWHERE
@@ -2223,9 +2224,7 @@ proxy-groups:
       - 04-054-CN
       - 04-059-CN
       - 04-064-CN
-      - 04-169-US
       - 08-174-CN
-      - 08-179-RELAY
       - 10-184-NOWHERE
       - 10-189-CN
       - 10-194-CN
@@ -2392,6 +2391,7 @@ proxy-groups:
       - 04-055-CN
       - 04-060-CN
       - 04-065-CN
+      - 04-170-US
       - 08-175-CN
       - 08-180-NOWHERE
       - 10-185-CN
