@@ -39,9 +39,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjViODU4ZTFiLTBkNDItMzI5MS04MDk1LTY4MWI4NTMxNDYzYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNTIuMTc3IiwiaG9zdCI6InM1LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     trojan://b8dd1b0c-0810-3e33-8ffb-3549fba3866a@35.77.198.143:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-007-JP
     trojan://b8dd1b0c-0810-3e33-8ffb-3549fba3866a@35.74.5.159:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-008-JP
-    trojan://7d9c7804-1f7d-43f7-b19a-fa7c2fff4569@sg005.421421.xyz:20230?allowInsecure=1&sni=www.microsoft365.com#04-009-US
+    trojan://b8dd1b0c-0810-3e33-8ffb-3549fba3866a@54.201.87.198:443?allowInsecure=1&sni=www.microsoft365.com#04-009-US
     trojan://b8dd1b0c-0810-3e33-8ffb-3549fba3866a@103.136.185.27:5535?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-010-US
-    trojan://b8dd1b0c-0810-3e33-8ffb-3549fba3866a@103.136.185.28:3516?allowInsecure=1&sni=origin-a.akamaihd.net#04-011-US
+    trojan://7d9c7804-1f7d-43f7-b19a-fa7c2fff4569@sg005.421421.xyz:20230?allowInsecure=1&sni=origin-a.akamaihd.net#04-011-US
     trojan://b50a719f-dbdd-3e78-894d-50e482943940@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://b50a719f-dbdd-3e78-894d-50e482943940@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://b50a719f-dbdd-3e78-894d-50e482943940@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
