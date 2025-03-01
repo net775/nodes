@@ -37,10 +37,10 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjlmZDgyMjU5LTQ1NGEtMzdiNy04ODE0LTJjMTM2MmFjYmQ4OCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuMTIxLjExNSIsImhvc3QiOiJzNS5kYi1saW5rMDIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjlmZDgyMjU5LTQ1NGEtMzdiNy04ODE0LTJjMTM2MmFjYmQ4OCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjQuMjkuMjMyIiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuY24tZGIudG9wIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjlmZDgyMjU5LTQ1NGEtMzdiNy04ODE0LTJjMTM2MmFjYmQ4OCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuMzMuNTIiLCJob3N0IjoiczUuY24tZGIudG9wIiwidGxzIjoiIn0=
-    trojan://023e7627-dcc9-3d7d-94f4-87e4aa1bddab@35.77.198.143:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-007-JP
-    trojan://023e7627-dcc9-3d7d-94f4-87e4aa1bddab@35.74.5.159:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-008-JP
-    trojan://023e7627-dcc9-3d7d-94f4-87e4aa1bddab@54.218.137.230:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
-    trojan://023e7627-dcc9-3d7d-94f4-87e4aa1bddab@103.136.185.27:5535?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-010-US
+    trojan://2de4ba13-1510-38b3-9704-999a47630cb5@35.77.198.143:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-JP
+    trojan://2de4ba13-1510-38b3-9704-999a47630cb5@35.74.5.159:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-008-JP
+    trojan://2de4ba13-1510-38b3-9704-999a47630cb5@54.218.137.230:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-009-US
+    trojan://2de4ba13-1510-38b3-9704-999a47630cb5@103.136.185.28:3516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
     trojan://31042467-3412-3427-9955-a4eac1e9e62f@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://31042467-3412-3427-9955-a4eac1e9e62f@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://31042467-3412-3427-9955-a4eac1e9e62f@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
