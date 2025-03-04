@@ -159,6 +159,7 @@ proxies:
   - {name: 11-201-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 70a31e98-de90-4941-806f-97d844b85d3d, udp: true}
   - {name: 11-202-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 70a31e98-de90-4941-806f-97d844b85d3d, udp: true}
   - {name: 11-203-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 70a31e98-de90-4941-806f-97d844b85d3d, udp: true}
+  - {name: 11-204-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 54ecc82f-f9df-464b-904b-c575a9e0caa0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 11-205-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 70a31e98-de90-4941-806f-97d844b85d3d, udp: true}
   - {name: 11-206-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70a31e98-de90-4941-806f-97d844b85d3d, udp: true}
   - {name: 11-207-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70a31e98-de90-4941-806f-97d844b85d3d, udp: true}
@@ -920,7 +921,6 @@ proxies:
   - {name: 17-963-RELAY, server: visa.com, port: 443, type: vmess, uuid: f57b038a-8c0d-4a12-bfab-d9cb46fa9633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 18-964-RELAY, server: 104.21.3.219, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-965-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-966-RELAY, server: uswuxian.pai50288.uk, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswuxian.pai50288.uk}}, udp: true}
   - {name: 18-967-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
   - {name: 18-968-RELAY, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgfqkqmltcy.site}}, udp: true}
   - {name: 18-969-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1063,6 +1063,7 @@ proxy-groups:
       - 11-201-CN
       - 11-202-CN
       - 11-203-CN
+      - 11-204-RELAY
       - 11-205-CN
       - 11-206-CN
       - 11-207-CN
@@ -1824,7 +1825,6 @@ proxy-groups:
       - 17-963-RELAY
       - 18-964-RELAY
       - 18-965-CA
-      - 18-966-RELAY
       - 18-967-RELAY
       - 18-968-RELAY
       - 18-969-FR
@@ -2040,7 +2040,6 @@ proxy-groups:
       - 17-951-DE
       - 17-956-US
       - 17-961-SG
-      - 18-966-RELAY
       - 18-971-US
       - 18-976-RELAY
       - 18-981-RELAY
@@ -2440,6 +2439,7 @@ proxy-groups:
       - 10-189-US
       - 10-194-CN
       - 10-199-CN
+      - 11-204-RELAY
       - 11-209-RELAY
       - 11-214-CN
       - 16-219-CN
