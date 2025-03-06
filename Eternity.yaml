@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-000-RELAY, server: s5.cn-db.top, port: 2095, type: vmess, uuid: df5fa08e-58ec-327a-a8f6-aefcb64281a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.209.178, headers: {Host: s5.cn-db.top}}, udp: true}
   - {name: 04-001-RELAY, server: s3.db-link01.top, port: 2082, type: vmess, uuid: df5fa08e-58ec-327a-a8f6-aefcb64281a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.165.148, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-002-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: df5fa08e-58ec-327a-a8f6-aefcb64281a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.201.248, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 04-003-RELAY, server: s5.db-link01.top, port: 2086, type: vmess, uuid: df5fa08e-58ec-327a-a8f6-aefcb64281a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.197.169, headers: {Host: s5.db-link01.top}}, udp: true}
@@ -131,7 +132,6 @@ proxies:
   - {name: 08-174-SG, server: 13.212.229.168, port: 33020, type: ss, cipher: chacha20-ietf-poly1305, password: 0e0b6ba8-84f4-4bed-8a53-71670ea3c3e9, udp: true}
   - {name: 08-175-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 0099747c-4c87-4ff3-8159-05811885059f, udp: true}
   - {name: 08-176-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 0099747c-4c87-4ff3-8159-05811885059f, udp: true}
-  - {name: 08-177-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 7db633a5-1992-4b81-b088-a6e1be5a1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 08-178-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 7db633a5-1992-4b81-b088-a6e1be5a1344, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 08-179-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d90bdb5d-549a-4ef2-af3b-13beeb4c2334, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 08-180-CN, server: syrk03.laiyunnode.site, port: 43928, type: ss, cipher: chacha20-ietf-poly1305, password: 0e0b6ba8-84f4-4bed-8a53-71670ea3c3e9, udp: true}
@@ -958,6 +958,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-000-RELAY
       - 04-001-RELAY
       - 04-002-RELAY
       - 04-003-RELAY
@@ -1035,7 +1036,6 @@ proxy-groups:
       - 08-174-SG
       - 08-175-CN
       - 08-176-CN
-      - 08-177-RELAY
       - 08-178-RELAY
       - 08-179-US
       - 08-180-CN
@@ -2067,7 +2067,6 @@ proxy-groups:
       - 04-067-CN
       - 08-167-CN
       - 08-172-CN
-      - 08-177-RELAY
       - 08-182-CN
       - 08-187-CN
       - 10-192-CN
@@ -2604,6 +2603,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-000-RELAY
       - 04-005-RELAY
       - 04-010-US
       - 04-015-CN
