@@ -63,7 +63,7 @@ proxies:
   - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: 90bc66af-3f6b-35e1-b7a4-91749302c51f, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-007-JP, server: 35.74.248.202, port: 443, type: trojan, password: 90bc66af-3f6b-35e1-b7a4-91749302c51f, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-008-US, server: 52.10.16.223, port: 443, type: trojan, password: 90bc66af-3f6b-35e1-b7a4-91749302c51f, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 103.136.185.27, port: 5535, type: trojan, password: 90bc66af-3f6b-35e1-b7a4-91749302c51f, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-010-US, server: 103.136.185.28, port: 3516, type: trojan, password: 90bc66af-3f6b-35e1-b7a4-91749302c51f, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gyl.58n.net, port: 20309, type: trojan, password: c30901a9-0b04-35f9-bfa6-95d442bf9ef4, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 43337, type: trojan, password: c30901a9-0b04-35f9-bfa6-95d442bf9ef4, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 20307, type: trojan, password: c30901a9-0b04-35f9-bfa6-95d442bf9ef4, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -485,6 +485,7 @@ proxies:
   - {name: 17-528-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 46064e34-5f68-4374-bbd5-fd6ac590a2ee, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-529-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: f91bd5ce-b8da-4da7-9eba-eebe4808b34c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 17-530-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: bc835c6d-d310-469f-a720-d88b8e4c10b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
+  - {name: 17-531-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 75670c17-08ab-4103-9441-076099e362c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-532-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: c0359117-02ec-44c4-8e8f-ab234004aa24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 17-533-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9e083350-42f1-4f34-af9c-33673ed57e70, udp: true}
   - {name: 17-534-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 8c32285b-389a-4460-aeaa-94dd75cb5b1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
@@ -514,7 +515,6 @@ proxies:
   - {name: 17-558-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 0cd802af-0791-4096-821f-258916c22663, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 17-559-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: e7b375dd-ac83-42ca-b63e-484cf146930e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-560-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8e3e5e06-2044-4e47-8ffb-7fb680ee6dca, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 17-561-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 9f958078-741d-4b94-b5ae-ed9cae40bddc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-562-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 6920eb59-3da9-442e-8fb7-8c41badcbd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 17-563-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 0af84b9f-5044-45be-bd89-30fee67f83b2, udp: true}
   - {name: 17-564-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 3b4c9690-48b0-4d33-9bde-a5ad876b1e32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
@@ -568,7 +568,7 @@ proxy-groups:
       - 04-006-JP
       - 04-007-JP
       - 04-008-US
-      - 04-009-US
+      - 04-010-US
       - 04-011-CN
       - 04-012-CN
       - 04-013-CN
@@ -990,6 +990,7 @@ proxy-groups:
       - 17-528-US
       - 17-529-RELAY
       - 17-530-RELAY
+      - 17-531-RELAY
       - 17-532-RELAY
       - 17-533-CN
       - 17-534-RELAY
@@ -1019,7 +1020,6 @@ proxy-groups:
       - 17-558-RELAY
       - 17-559-RELAY
       - 17-560-US
-      - 17-561-RELAY
       - 17-562-RELAY
       - 17-563-CN
       - 17-564-RELAY
@@ -1156,12 +1156,12 @@ proxy-groups:
       - 17-516-RELAY
       - 17-521-CN
       - 17-526-RELAY
+      - 17-531-RELAY
       - 17-536-RELAY
       - 17-541-US
       - 17-546-CN
       - 17-551-US
       - 17-556-RELAY
-      - 17-561-RELAY
       - 17-566-RELAY
       - 17-571-RELAY
       - 17-576-DE
@@ -1383,7 +1383,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-004-RELAY
-      - 04-009-US
       - 04-014-CN
       - 04-019-CN
       - 04-024-CN
@@ -1487,6 +1486,7 @@ proxy-groups:
     proxies:
       - 04-000-RELAY
       - 04-005-RELAY
+      - 04-010-US
       - 04-015-CN
       - 04-020-CN
       - 04-025-CN
