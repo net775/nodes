@@ -142,7 +142,6 @@ proxies:
   - {name: 11-185-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: cb9a012c-c6d9-484a-893b-16e2900dc818, udp: true}
   - {name: 11-186-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: cb9a012c-c6d9-484a-893b-16e2900dc818, udp: true}
   - {name: 11-187-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: df43839e-3157-4a7d-a381-ab933627be64, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 11-188-RELAY, server: de01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2589106a-ead5-4307-92dd-72b84f7b133a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 11-189-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 1187d4c0-697f-4976-a7fe-3203b8973540, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 11-190-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: cb9a012c-c6d9-484a-893b-16e2900dc818, udp: true}
   - {name: 11-191-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: cb9a012c-c6d9-484a-893b-16e2900dc818, udp: true}
@@ -415,6 +414,7 @@ proxies:
   - {name: 17-458-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 78aeddec-3dbf-459c-a7c6-076cc33985e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-459-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: bf93b22b-d26a-4c62-adc9-034faf2ab5d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-460-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: a6bcc28d-43a5-480d-b059-0e7a631ec296, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
+  - {name: 17-461-RELAY, server: de01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: cb7a1a96-d95a-4fac-8091-ff0bf8fe66d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-462-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: cb212828-4bb7-450f-8913-9390601a0d1d, udp: true}
   - {name: 17-463-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: c0a631b0-b102-486c-9a7a-b36ad48ec1ec, udp: true}
   - {name: 17-464-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 24e592be-0f7b-4dbe-8b94-d6575b95d6c1, udp: true}
@@ -584,7 +584,6 @@ proxy-groups:
       - 11-185-CN
       - 11-186-CN
       - 11-187-US
-      - 11-188-RELAY
       - 11-189-RELAY
       - 11-190-CN
       - 11-191-CN
@@ -857,6 +856,7 @@ proxy-groups:
       - 17-458-RELAY
       - 17-459-RELAY
       - 17-460-RELAY
+      - 17-461-RELAY
       - 17-462-CN
       - 17-463-CN
       - 17-464-CN
@@ -1015,6 +1015,7 @@ proxy-groups:
       - 17-446-DE
       - 17-451-SG
       - 17-456-RELAY
+      - 17-461-RELAY
       - 17-466-CN
       - 17-471-RELAY
       - 17-476-CN
@@ -1143,7 +1144,6 @@ proxy-groups:
       - 07-173-RELAY
       - 07-178-RELAY
       - 11-183-CN
-      - 11-188-RELAY
       - 11-193-CN
       - 12-198-CN
       - 12-203-CN
