@@ -55,39 +55,50 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v28.heduian.link}}, udp: true}
-  - {name: 04-0008-JP, server: 54.178.237.21, port: 443, type: trojan, password: 78c6eb1a-8eb1-3d4d-a60c-024358b5a760, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0009-JP, server: 35.77.24.250, port: 443, type: trojan, password: 78c6eb1a-8eb1-3d4d-a60c-024358b5a760, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0011-US, server: 103.136.185.27, port: 5535, type: trojan, password: 78c6eb1a-8eb1-3d4d-a60c-024358b5a760, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0012-US, server: 103.136.185.28, port: 3516, type: trojan, password: 78c6eb1a-8eb1-3d4d-a60c-024358b5a760, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0024-CN, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0025-CN, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0026-CN, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0027-CN, server: tw3.iepl.cooc.icu, port: 35111, type: ss, cipher: aes-256-gcm, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0028-CN, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0029-CN, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0030-CN, server: sg3.iepl.cooc.icu, port: 35107, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0031-US, server: th.cooc.icu, port: 35613, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0032-US, server: vn.cooc.icu, port: 35601, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0033-US, server: uk.cooc.icu, port: 35605, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0034-US, server: ge.cooc.icu, port: 35607, type: ss, cipher: aes-256-gcm, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0035-US, server: fr.cooc.icu, port: 35611, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0036-US, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0037-US, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0038-US, server: au.cooc.icu, port: 35616, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0039-SG, server: os-1.cooc.cloud, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0040-SG, server: os-1.cooc.cloud, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0041-SG, server: os-1.cooc.cloud, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0042-SG, server: os-1.cooc.cloud, port: 31004, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0043-SG, server: os-1.cooc.cloud, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0044-SG, server: os-1.cooc.cloud, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0045-SG, server: os-1.cooc.cloud, port: 31007, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0046-SG, server: os-1.cooc.cloud, port: 31008, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0047-SG, server: os-1.cooc.cloud, port: 31009, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0048-SG, server: os-1.cooc.cloud, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0049-SG, server: os-1.cooc.cloud, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0050-SG, server: os-1.cooc.cloud, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0051-SG, server: os-1.cooc.cloud, port: 31013, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
-  - {name: 04-0052-SG, server: os-1.cooc.cloud, port: 31014, type: ss, cipher: chacha20-ietf-poly1305, password: d3f69181-d1bb-41be-b90a-05f777260abd, udp: true}
+  - {name: 04-0008-JP, server: 54.178.237.21, port: 443, type: trojan, password: 33b32ce6-0a92-3270-ba67-b520c3f14608, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0009-JP, server: 35.77.24.250, port: 443, type: trojan, password: 33b32ce6-0a92-3270-ba67-b520c3f14608, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0011-US, server: 103.136.185.27, port: 5535, type: trojan, password: 33b32ce6-0a92-3270-ba67-b520c3f14608, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0012-US, server: 103.136.185.28, port: 3516, type: trojan, password: 33b32ce6-0a92-3270-ba67-b520c3f14608, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0013-CN, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0014-CN, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0015-CN, server: hk3.iepl.cooc.icu, port: 23881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0016-CN, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0017-CN, server: jp2.iepl.cooc.icu, port: 47101, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0018-CN, server: jp3.iepl.cooc.icu, port: 19881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0019-CN, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0020-CN, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0021-CN, server: usa3.iepl.cooc.icu, port: 33881, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0022-CN, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0023-CN, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0024-CN, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0025-CN, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0026-CN, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0027-CN, server: tw3.iepl.cooc.icu, port: 35111, type: ss, cipher: aes-256-gcm, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0028-CN, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0029-CN, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0030-CN, server: sg3.iepl.cooc.icu, port: 35107, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0031-US, server: th.cooc.icu, port: 35613, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0032-US, server: vn.cooc.icu, port: 35601, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0033-US, server: uk.cooc.icu, port: 35605, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0034-US, server: ge.cooc.icu, port: 35607, type: ss, cipher: aes-256-gcm, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0035-US, server: fr.cooc.icu, port: 35611, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0036-US, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0037-US, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0038-US, server: au.cooc.icu, port: 35616, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0039-SG, server: os-1.cooc.cloud, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0040-SG, server: os-1.cooc.cloud, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0041-SG, server: os-1.cooc.cloud, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0042-SG, server: os-1.cooc.cloud, port: 31004, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0043-SG, server: os-1.cooc.cloud, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0044-SG, server: os-1.cooc.cloud, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0045-SG, server: os-1.cooc.cloud, port: 31007, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0046-SG, server: os-1.cooc.cloud, port: 31008, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0047-SG, server: os-1.cooc.cloud, port: 31009, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0048-SG, server: os-1.cooc.cloud, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0049-SG, server: os-1.cooc.cloud, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0050-SG, server: os-1.cooc.cloud, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0051-SG, server: os-1.cooc.cloud, port: 31013, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
+  - {name: 04-0052-SG, server: os-1.cooc.cloud, port: 31014, type: ss, cipher: chacha20-ietf-poly1305, password: 7f20b16f-eebe-4f84-93a4-8555ea3d4d1a, udp: true}
   - {name: 04-0053-CN, server: gyl.58n.net, port: 20309, type: trojan, password: d13f4c05-e107-3c5f-aae4-23242c011a7a, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0054-CN, server: gy.58n.net, port: 43337, type: trojan, password: d13f4c05-e107-3c5f-aae4-23242c011a7a, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0055-CN, server: gy.58n.net, port: 20307, type: trojan, password: d13f4c05-e107-3c5f-aae4-23242c011a7a, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -268,7 +279,6 @@ proxies:
   - {name: 16-0329-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 0735578f-7111-4678-80b0-eb939da15b04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-0330-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 29753d15-5661-419e-9938-d7a5d6d57c89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0331-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 9932fbb3-e457-46cc-aa53-3aeca3a3ff50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 16-0332-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: c4821672-876e-4706-90e6-fb6df7f816f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0333-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 78e7dae9-7916-4771-b5e2-7d1de68864eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0334-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 81037521-ca13-4f8c-9de2-2dfa7ffa5db3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-0335-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 29cd57c8-192e-477f-97dc-05cf0997ff77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
@@ -860,6 +870,7 @@ proxies:
   - {name: 17-0921-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 5579f554-1338-42cf-8b2e-76848001ee18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0922-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: ce806c08-7f4c-40ff-965e-2b1df3f36b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-0923-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: e4b5672d-6965-4cc3-8dc3-ee0daf8e641b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-0924-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 39f37caa-44e6-4d97-bad3-5c715a53c309, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0925-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: e61f0dbd-8d85-4cd7-92ca-19dcf084f587, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0926-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: cdd8e0bc-b3a5-4a44-8b82-6955b91c51c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0927-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 5b71d7ba-5a54-4527-982f-e43c9e070219, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -1233,22 +1244,11 @@ proxies:
   - {name: 17-1296-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 5a7cf5ce-80ca-4a5d-9861-5c08a7c6fd86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1297-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1ec1e336-0b9b-4102-82ce-e2b99a86674b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1298-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: a17b7e66-e7c1-450c-80f4-3a21a03bcad7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1299-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: f1050bb7-9147-4775-9a44-9edee6996790, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1304-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: ad5b5d02-b2d5-4731-9177-e57374b82581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1305-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 921cc054-50a8-449e-b079-d37e0e6e5fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
-  - {name: 17-1307-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 740ad0e3-919a-433d-a8b4-f6f9f5d49559, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-1313-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1ee1ccde-3d0d-44f2-a033-9f340637bbd0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1317-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 6cdadd47-9a1d-4edb-85fd-1bd724198eba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-1320-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: d002d9aa-c9f2-4249-a7a2-8d24bb70cbdc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1321-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 488de15e-5a4c-449b-bdda-492de75d5efc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1331-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: ba7d4abc-a5b8-46ff-9714-85fb3dd4e6ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1332-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 24a205c7-9402-4256-b253-e6171c17bc7c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1337-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 5c6bc112-a2c3-4490-9cd0-c52d659a4d0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1341-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 2f610b9b-a014-49e5-8423-fb01231c6fac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1345-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: ef16fd13-4100-4c5d-a815-832a2595cb2e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1347-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 9e3de498-d2b7-4b6f-bdea-2df9d25ad57e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1353-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: b2f75815-988d-4fe9-af8f-78c61131e82e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1359-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: ce992a9b-8482-4236-ae2e-3817df95cec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-1363-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 9b043fa3-dff2-467e-a63c-eb7bcb8cd769, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-1325-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: b00ba96f-d8ee-4fa8-8535-d75fa4c27086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-1386-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 5bb538b4-c835-440f-9042-c00c31ec827a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-1387-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: b9941612-1cae-4d2f-9cf8-60cffbe5a45a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
 proxy-groups:
@@ -1266,6 +1266,17 @@ proxy-groups:
       - 04-0009-JP
       - 04-0011-US
       - 04-0012-US
+      - 04-0013-CN
+      - 04-0014-CN
+      - 04-0015-CN
+      - 04-0016-CN
+      - 04-0017-CN
+      - 04-0018-CN
+      - 04-0019-CN
+      - 04-0020-CN
+      - 04-0021-CN
+      - 04-0022-CN
+      - 04-0023-CN
       - 04-0024-CN
       - 04-0025-CN
       - 04-0026-CN
@@ -1475,7 +1486,6 @@ proxy-groups:
       - 16-0329-RELAY
       - 16-0330-RELAY
       - 16-0331-DE
-      - 16-0332-RELAY
       - 16-0333-RELAY
       - 16-0334-US
       - 16-0335-RELAY
@@ -2067,6 +2077,7 @@ proxy-groups:
       - 17-0921-RELAY
       - 17-0922-US
       - 17-0923-RELAY
+      - 17-0924-RELAY
       - 17-0925-RELAY
       - 17-0926-RELAY
       - 17-0927-RELAY
@@ -2440,22 +2451,11 @@ proxy-groups:
       - 17-1296-RELAY
       - 17-1297-RELAY
       - 17-1298-RELAY
-      - 17-1299-RELAY
-      - 17-1304-RELAY
-      - 17-1305-US
-      - 17-1307-RELAY
+      - 17-1313-RELAY
       - 17-1317-US
       - 17-1320-RELAY
       - 17-1321-RELAY
-      - 17-1331-RELAY
-      - 17-1332-RELAY
-      - 17-1337-RELAY
-      - 17-1341-RELAY
-      - 17-1345-RELAY
-      - 17-1347-RELAY
-      - 17-1353-RELAY
-      - 17-1359-RELAY
-      - 17-1363-RELAY
+      - 17-1325-RELAY
       - 17-1386-US
       - 17-1387-US
   - name: 自动选择
@@ -2474,6 +2474,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-0011-US
+      - 04-0016-CN
+      - 04-0021-CN
       - 04-0026-CN
       - 04-0031-US
       - 04-0036-US
@@ -2709,8 +2711,6 @@ proxy-groups:
       - 17-1291-RELAY
       - 17-1296-RELAY
       - 17-1321-RELAY
-      - 17-1331-RELAY
-      - 17-1341-RELAY
       - 17-1386-US
   - name: 测速2分组
     type: url-test
@@ -2718,6 +2718,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-0012-US
+      - 04-0017-CN
+      - 04-0022-CN
       - 04-0027-CN
       - 04-0032-US
       - 04-0037-US
@@ -2759,7 +2761,6 @@ proxy-groups:
       - 16-0317-RELAY
       - 16-0322-CN
       - 16-0327-RELAY
-      - 16-0332-RELAY
       - 16-0337-RELAY
       - 16-0342-SG
       - 16-0347-RELAY
@@ -2953,11 +2954,7 @@ proxy-groups:
       - 17-1287-RELAY
       - 17-1292-RELAY
       - 17-1297-RELAY
-      - 17-1307-RELAY
       - 17-1317-US
-      - 17-1332-RELAY
-      - 17-1337-RELAY
-      - 17-1347-RELAY
       - 17-1387-US
   - name: 测速3分组
     type: url-test
@@ -2965,6 +2962,9 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-0008-JP
+      - 04-0013-CN
+      - 04-0018-CN
+      - 04-0023-CN
       - 04-0028-CN
       - 04-0033-US
       - 04-0038-US
@@ -3201,14 +3201,15 @@ proxy-groups:
       - 17-1288-RELAY
       - 17-1293-RELAY
       - 17-1298-RELAY
-      - 17-1353-RELAY
-      - 17-1363-RELAY
+      - 17-1313-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 04-0009-JP
+      - 04-0014-CN
+      - 04-0019-CN
       - 04-0024-CN
       - 04-0029-CN
       - 04-0034-US
@@ -3369,6 +3370,7 @@ proxy-groups:
       - 17-0909-RELAY
       - 17-0914-RELAY
       - 17-0919-RELAY
+      - 17-0924-RELAY
       - 17-0929-NOWHERE
       - 17-0934-RELAY
       - 17-0939-RELAY
@@ -3443,15 +3445,14 @@ proxy-groups:
       - 17-1284-RELAY
       - 17-1289-RELAY
       - 17-1294-DE
-      - 17-1299-RELAY
-      - 17-1304-RELAY
-      - 17-1359-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 02-0000-CN
+      - 04-0015-CN
+      - 04-0020-CN
       - 04-0025-CN
       - 04-0030-CN
       - 04-0035-US
@@ -3687,9 +3688,8 @@ proxy-groups:
       - 17-1285-RELAY
       - 17-1290-RELAY
       - 17-1295-RELAY
-      - 17-1305-US
       - 17-1320-RELAY
-      - 17-1345-RELAY
+      - 17-1325-RELAY
   - name: 广告拦截
     type: select
     proxies:
