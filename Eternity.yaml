@@ -54,8 +54,8 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JP, server: 3.115.115.104, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0011-SG, server: 13.214.164.159, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0000-JP, server: 35.77.35.107, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0011-SG, server: 18.143.161.212, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0012-CN, server: hry200.2228333.xyz, port: 52510, type: ss, cipher: chacha20-ietf-poly1305, password: b60a57f2-0acf-4596-acd4-114f46a39eea, udp: true}
   - {name: 03-0013-CN, server: hry200.2228333.xyz, port: 52511, type: ss, cipher: chacha20-ietf-poly1305, password: b60a57f2-0acf-4596-acd4-114f46a39eea, udp: true}
   - {name: 03-0014-CN, server: hry100.2228333.xyz, port: 52507, type: ss, cipher: chacha20-ietf-poly1305, password: b60a57f2-0acf-4596-acd4-114f46a39eea, udp: true}
@@ -180,6 +180,7 @@ proxies:
   - {name: 03-0133-SG, server: sg2.pptv-tv.store, port: 17712, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0134-SG, server: sg3.pptv-tv.store, port: 17713, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0135-TW, server: tw1.pptv-tv.store, port: 17786, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0136-US, server: us1.pptv-tv.store, port: 17741, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0137-US, server: us2.pptv-tv.store, port: 17742, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0138-US, server: us3.pptv-tv.store, port: 17743, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0139-GB, server: gb1.pptv-tv.store, port: 17756, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -188,7 +189,7 @@ proxies:
   - {name: 03-0142-VN, server: vn2.pptv-tv.store, port: 17752, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0143-AU, server: au1.pptv-tv.store, port: 17753, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0144-AU, server: au2.pptv-tv.store, port: 17754, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
-  - {name: 03-0145-ID, server: id1.pptv-tv.store, port: 17618, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0145-CN, server: id1.pptv-tv.store, port: 17618, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0146-RU, server: ru1.pptv-tv.store, port: 17615, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0147-UA, server: ua1.pptv-tv.store, port: 17749, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0148-AE, server: ae1.pptv-tv.store, port: 17720, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -555,7 +556,7 @@ proxies:
   - {name: 03-0509-CN, server: 120.233.44.206, port: 33922, type: ss, cipher: chacha20-ietf-poly1305, password: 7d303894-95a9-4d45-b64b-78c73dbff51d, udp: true}
   - {name: 03-0510-CN, server: tunnel-07312159.666888.biz, port: 10975, type: ss, cipher: chacha20-ietf-poly1305, password: bafc696e-ec51-4f01-89d2-b66f3dfeb725, udp: true}
   - {name: 03-0511-CN, server: tunnel-08301515.666888.biz, port: 23383, type: ss, cipher: chacha20-ietf-poly1305, password: bafc696e-ec51-4f01-89d2-b66f3dfeb725, udp: true}
-  - {name: 03-0512-US, server: test2.xiaoshihoukepangle.sbs, port: 1083, type: trojan, password: f1747d31-07f2-456d-91b6-3828ca434780, sni: test2.xiaoshihoukepangle.sbs, skip-cert-verify: true, udp: true}
+  - {name: 03-0512-US, server: f618bccc235f34fde28e3ea6edeb5b74.v1.cac.node-is.green, port: 41992, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: test2.xiaoshihoukepangle.sbs, skip-cert-verify: true, udp: true}
   - {name: 03-0513-US, server: test.xiaoshihoukepangle.sbs, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: f1747d31-07f2-456d-91b6-3828ca434780, udp: true}
   - {name: 03-0514-US, server: test1.xiaoshihoukepangle.sbs, port: 1082, type: vmess, uuid: f1747d31-07f2-456d-91b6-3828ca434780, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xiaoshihoukepangleVmess, headers: {Host: test1.xiaoshihoukepangle.sbs}}, udp: true}
   - {name: 03-0515-NOWHERE, server: manhtienvpn1.com, port: 1082, type: ss, cipher: chacha20-ietf-poly1305, password: 5f9de409-a257-494d-9451-0c38ff15d27e, udp: true}
@@ -1090,8 +1091,8 @@ proxies:
   - {name: 03-1097-LT, server: tqt-hk01.51feitu.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1098-HK, server: tqt-hk02.51feitu.com, port: 27802, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk02.51feitu.com}}, udp: true}
   - {name: 03-1099-HK, server: tqt-hk03.51feitu.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1100-LT, server: tqt-hk04.51feitu.com, port: 27804, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk04.51feitu.com}}, udp: true}
-  - {name: 03-1101-LT, server: tqt-hk05.51feitu.com, port: 27805, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1100-JP, server: tqt-hk04.51feitu.com, port: 27804, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk04.51feitu.com}}, udp: true}
+  - {name: 03-1101-JP, server: tqt-hk05.51feitu.com, port: 27805, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1102-JP, server: tqt-hk-vip.51feitu.com, port: 31006, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk-vip.51feitu.com}}, udp: true}
   - {name: 03-1103-JP, server: tqt-hk-vip.51feitu.com, port: 31007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1104-JP, server: tqt-hk-vip.51feitu.com, port: 31008, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk-vip.51feitu.com}}, udp: true}
@@ -1099,47 +1100,47 @@ proxies:
   - {name: 03-1106-JP, server: tqt-hk-vip.51feitu.com, port: 31010, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk-vip.51feitu.com}}, udp: true}
   - {name: 03-1107-JP, server: tqt-hk11.51feitu.com, port: 27811, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1108-JP, server: tqt-hk12.51feitu.com, port: 27812, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk12.51feitu.com}}, udp: true}
-  - {name: 03-1109-LT, server: tqt-hk13.51feitu.com, port: 27813, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1109-JP, server: tqt-hk13.51feitu.com, port: 27813, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1110-HK, server: tqt-hk14.51feitu.com, port: 27814, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-hk14.51feitu.com}}, udp: true}
-  - {name: 03-1111-HK, server: tqt-hk15.51feitu.com, port: 27815, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1111-LT, server: tqt-hk15.51feitu.com, port: 27815, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1112-HK, server: tqt-sg01.51feitu.com, port: 42801, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1113-JP, server: tqt-sg02.51feitu.com, port: 42802, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg02.51feitu.com}}, udp: true}
+  - {name: 03-1113-HK, server: tqt-sg02.51feitu.com, port: 42802, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg02.51feitu.com}}, udp: true}
   - {name: 03-1114-JP, server: tqt-sg03.51feitu.com, port: 42803, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1115-HK, server: tqt-sg04.51feitu.com, port: 42814, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg04.51feitu.com}}, udp: true}
   - {name: 03-1116-HK, server: tqt-sg05.51feitu.com, port: 42805, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1117-HK, server: tqt-sg-vip.51feitu.com, port: 32006, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg-vip.51feitu.com}}, udp: true}
-  - {name: 03-1118-HK, server: tqt-sg-vip.51feitu.com, port: 32007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1119-HK, server: tqt-sg-vip.51feitu.com, port: 32008, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg-vip.51feitu.com}}, udp: true}
-  - {name: 03-1120-HK, server: tqt-sg-vip.51feitu.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1121-HK, server: tqt-sg-vip.51feitu.com, port: 32010, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg-vip.51feitu.com}}, udp: true}
+  - {name: 03-1117-JP, server: tqt-sg-vip.51feitu.com, port: 32006, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg-vip.51feitu.com}}, udp: true}
+  - {name: 03-1118-JP, server: tqt-sg-vip.51feitu.com, port: 32007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1119-JP, server: tqt-sg-vip.51feitu.com, port: 32008, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg-vip.51feitu.com}}, udp: true}
+  - {name: 03-1120-JP, server: tqt-sg-vip.51feitu.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1121-JP, server: tqt-sg-vip.51feitu.com, port: 32010, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-sg-vip.51feitu.com}}, udp: true}
   - {name: 03-1122-JP, server: tqt-jp01.51feitu.com, port: 43711, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1123-JP, server: tqt-jp02.51feitu.com, port: 43702, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp02.51feitu.com}}, udp: true}
-  - {name: 03-1124-JP, server: tqt-jp03.51feitu.com, port: 43703, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1124-LT, server: tqt-jp03.51feitu.com, port: 43703, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1125-JP, server: tqt-jp02.51feitu.com, port: 43714, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp02.51feitu.com}}, udp: true}
-  - {name: 03-1126-HK, server: tqt-jp05.51feitu.com, port: 43705, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1127-HK, server: tqt-jp-vip.51feitu.com, port: 33006, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp-vip.51feitu.com}}, udp: true}
-  - {name: 03-1128-HK, server: tqt-jp-vip.51feitu.com, port: 33007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1129-HK, server: tqt-jp-vip.51feitu.com, port: 33008, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp-vip.51feitu.com}}, udp: true}
-  - {name: 03-1130-HK, server: tqt-jp-vip.51feitu.com, port: 33009, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1131-HK, server: tqt-jp-vip.51feitu.com, port: 33010, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp-vip.51feitu.com}}, udp: true}
+  - {name: 03-1126-JP, server: tqt-jp05.51feitu.com, port: 43705, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1127-JP, server: tqt-jp-vip.51feitu.com, port: 33006, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp-vip.51feitu.com}}, udp: true}
+  - {name: 03-1128-JP, server: tqt-jp-vip.51feitu.com, port: 33007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1129-JP, server: tqt-jp-vip.51feitu.com, port: 33008, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp-vip.51feitu.com}}, udp: true}
+  - {name: 03-1130-JP, server: tqt-jp-vip.51feitu.com, port: 33009, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1131-JP, server: tqt-jp-vip.51feitu.com, port: 33010, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-jp-vip.51feitu.com}}, udp: true}
   - {name: 03-1132-HK, server: tqt-us01.51feitu.com, port: 47969, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1133-LT, server: tqt-us02.51feitu.com, port: 30820, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-us02.51feitu.com}}, udp: true}
-  - {name: 03-1134-HK, server: tqt-us03.51feitu.com, port: 23199, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1133-HK, server: tqt-us02.51feitu.com, port: 30820, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-us02.51feitu.com}}, udp: true}
+  - {name: 03-1134-JP, server: tqt-us03.51feitu.com, port: 23199, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1135-JP, server: tqt-us04.51feitu.com, port: 44948, type: vmess, uuid: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tqt-us04.51feitu.com}}, udp: true}
-  - {name: 03-1136-LT, server: tqt-us05.51feitu.com, port: 44949, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1137-LT, server: tqt-us-vip.51feitu.com, port: 34006, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1138-LT, server: tqt-us-vip.51feitu.com, port: 34007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1139-LT, server: tqt-us-vip.51feitu.com, port: 34008, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1140-LT, server: tqt-tw01.51feitu.com, port: 52416, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1141-LT, server: tqt-tw02.51feitu.com, port: 52417, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1142-HK, server: tqt-tw03.51feitu.com, port: 52418, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1143-LT, server: tqt-tw-vip.51feitu.com, port: 35004, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1144-LT, server: tqt-tw-vip.51feitu.com, port: 35005, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1145-HK, server: tqt-tt.51feitu.com, port: 19406, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1146-HK, server: tqt-tt.51feitu.com, port: 19408, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1147-HK, server: tqt-tt.51feitu.com, port: 13491, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1148-HK, server: tqt-tt.51feitu.com, port: 13091, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
-  - {name: 03-1149-HK, server: tqt-tt.51feitu.com, port: 13092, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1136-HK, server: tqt-us05.51feitu.com, port: 44949, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1137-JP, server: tqt-us-vip.51feitu.com, port: 34006, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1138-JP, server: tqt-us-vip.51feitu.com, port: 34007, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1139-JP, server: tqt-us-vip.51feitu.com, port: 34008, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1140-HK, server: tqt-tw01.51feitu.com, port: 52416, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1141-HK, server: tqt-tw02.51feitu.com, port: 52417, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1142-JP, server: tqt-tw03.51feitu.com, port: 52418, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1143-HK, server: tqt-tw-vip.51feitu.com, port: 35004, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1144-HK, server: tqt-tw-vip.51feitu.com, port: 35005, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1145-JP, server: tqt-tt.51feitu.com, port: 19406, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1146-JP, server: tqt-tt.51feitu.com, port: 19408, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1147-JP, server: tqt-tt.51feitu.com, port: 13491, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1148-JP, server: tqt-tt.51feitu.com, port: 13091, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
+  - {name: 03-1149-JP, server: tqt-tt.51feitu.com, port: 13092, type: ss, cipher: chacha20-ietf-poly1305, password: 44b8cf2d-493a-4271-bd0b-c3638af6db2c, udp: true}
   - {name: 03-1150-US, server: 7753f2b07a7e01754155a3ffbb2c8522.us.in.node-is.green, port: 47206, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: local.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1151-HK, server: 094e976ad6577ceda54a0f2f6ad226e4.v1.cac.node-is.green, port: 43988, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: hk13.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1152-HK, server: 9109a96dd99250c6a8ed1fb03b77b030.v1.cac.node-is.green, port: 47679, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: hk14.bilibili.com, skip-cert-verify: true, udp: true}
@@ -1208,7 +1209,7 @@ proxies:
   - {name: 03-1215-HK, server: 9fb392ac38a79ef2c31159fca6442947.v1.cac.node-is.green, port: 40148, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: jm.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1216-HK, server: 7d0e1081d5eb56a10c06a6796ded6fe9.v1.cac.node-is.green, port: 49183, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: ie.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1217-HK, server: 94b7a969b6ee73d5db6bbce2e43c0837.v1.cac.node-is.green, port: 42659, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: is.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 03-1218-HK, server: f618bccc235f34fde28e3ea6edeb5b74.v1.cac.node-is.green, port: 41992, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: hu.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 03-1219-HK, server: 107836f020077a9175f68092c2c1783f.v1.cac.node-is.green, port: 40953, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: gu.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1220-HK, server: f19a8e552df1c95adb6821b3d00b3035.v1.cac.node-is.green, port: 45506, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: gh.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1221-HK, server: 7e8244154c607c2c8425972d3c1ad2e1.v1.cac.node-is.green, port: 44521, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: ge.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1222-HK, server: 034d52a75cbca36483b209c06a99901d.v1.cac.node-is.green, port: 40161, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: fi.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
@@ -1244,13 +1245,12 @@ proxies:
   - {name: 03-1252-HK, server: ac35c4a6ba504d7127014c58b3b3c177.v1.cac.node-is.green, port: 45980, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: ro.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-1287-CA, server: 132.145.102.60, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 89e021d5-a93f-449a-b319-2483b778e6f0, udp: true}
   - {name: 03-1357-HK, server: 154.3.32.49, port: 30000, type: ss, cipher: chacha20-ietf-poly1305, password: dc6ecbb7-a3e0-4b8d-984b-d4d5fb0ea91b, udp: true}
-  - {name: 04-1736-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 1b7bbd3d-e2bd-382c-a033-e11e804eb549, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-1738-JP, server: 47.245.40.60, port: 28456, type: trojan, password: 1b7bbd3d-e2bd-382c-a033-e11e804eb549, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-1739-JP, server: 47.245.31.103, port: 28454, type: trojan, password: 1b7bbd3d-e2bd-382c-a033-e11e804eb549, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-1740-US, server: 107836f020077a9175f68092c2c1783f.v1.cac.node-is.green, port: 40953, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 07-1745-RELAY, server: xcvbghy4.999165.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xcvbghy4.999165.xyz}}, udp: true}
-  - {name: 07-1746-RELAY, server: dfrty.freevpnatm.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: dfrty.freevpnatm.dpdns.org}}, udp: true}
-  - {name: 07-1747-RELAY, server: ssscdfr5.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: ssscdfr5.freevpnatm2025.dpdns.org}}, udp: true}
+  - {name: 04-1735-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 790ae238-72dc-3074-95e0-8acf804a2df1, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-1737-JP, server: 47.245.40.60, port: 28456, type: trojan, password: 790ae238-72dc-3074-95e0-8acf804a2df1, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-1738-JP, server: 47.245.31.103, port: 28454, type: trojan, password: 790ae238-72dc-3074-95e0-8acf804a2df1, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 07-1744-RELAY, server: xcvbghy4.999165.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xcvbghy4.999165.xyz}}, udp: true}
+  - {name: 07-1745-RELAY, server: dfrty.freevpnatm.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: dfrty.freevpnatm.dpdns.org}}, udp: true}
+  - {name: 07-1746-RELAY, server: ssscdfr5.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: ssscdfr5.freevpnatm2025.dpdns.org}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1387,6 +1387,7 @@ proxy-groups:
       - 03-0133-SG
       - 03-0134-SG
       - 03-0135-TW
+      - 03-0136-US
       - 03-0137-US
       - 03-0138-US
       - 03-0139-GB
@@ -1395,7 +1396,7 @@ proxy-groups:
       - 03-0142-VN
       - 03-0143-AU
       - 03-0144-AU
-      - 03-0145-ID
+      - 03-0145-CN
       - 03-0146-RU
       - 03-0147-UA
       - 03-0148-AE
@@ -2297,8 +2298,8 @@ proxy-groups:
       - 03-1097-LT
       - 03-1098-HK
       - 03-1099-HK
-      - 03-1100-LT
-      - 03-1101-LT
+      - 03-1100-JP
+      - 03-1101-JP
       - 03-1102-JP
       - 03-1103-JP
       - 03-1104-JP
@@ -2306,47 +2307,47 @@ proxy-groups:
       - 03-1106-JP
       - 03-1107-JP
       - 03-1108-JP
-      - 03-1109-LT
+      - 03-1109-JP
       - 03-1110-HK
-      - 03-1111-HK
+      - 03-1111-LT
       - 03-1112-HK
-      - 03-1113-JP
+      - 03-1113-HK
       - 03-1114-JP
       - 03-1115-HK
       - 03-1116-HK
-      - 03-1117-HK
-      - 03-1118-HK
-      - 03-1119-HK
-      - 03-1120-HK
-      - 03-1121-HK
+      - 03-1117-JP
+      - 03-1118-JP
+      - 03-1119-JP
+      - 03-1120-JP
+      - 03-1121-JP
       - 03-1122-JP
       - 03-1123-JP
-      - 03-1124-JP
+      - 03-1124-LT
       - 03-1125-JP
-      - 03-1126-HK
-      - 03-1127-HK
-      - 03-1128-HK
-      - 03-1129-HK
-      - 03-1130-HK
-      - 03-1131-HK
+      - 03-1126-JP
+      - 03-1127-JP
+      - 03-1128-JP
+      - 03-1129-JP
+      - 03-1130-JP
+      - 03-1131-JP
       - 03-1132-HK
-      - 03-1133-LT
-      - 03-1134-HK
+      - 03-1133-HK
+      - 03-1134-JP
       - 03-1135-JP
-      - 03-1136-LT
-      - 03-1137-LT
-      - 03-1138-LT
-      - 03-1139-LT
-      - 03-1140-LT
-      - 03-1141-LT
-      - 03-1142-HK
-      - 03-1143-LT
-      - 03-1144-LT
-      - 03-1145-HK
-      - 03-1146-HK
-      - 03-1147-HK
-      - 03-1148-HK
-      - 03-1149-HK
+      - 03-1136-HK
+      - 03-1137-JP
+      - 03-1138-JP
+      - 03-1139-JP
+      - 03-1140-HK
+      - 03-1141-HK
+      - 03-1142-JP
+      - 03-1143-HK
+      - 03-1144-HK
+      - 03-1145-JP
+      - 03-1146-JP
+      - 03-1147-JP
+      - 03-1148-JP
+      - 03-1149-JP
       - 03-1150-US
       - 03-1151-HK
       - 03-1152-HK
@@ -2415,7 +2416,7 @@ proxy-groups:
       - 03-1215-HK
       - 03-1216-HK
       - 03-1217-HK
-      - 03-1218-HK
+      - 03-1219-HK
       - 03-1220-HK
       - 03-1221-HK
       - 03-1222-HK
@@ -2451,13 +2452,12 @@ proxy-groups:
       - 03-1252-HK
       - 03-1287-CA
       - 03-1357-HK
-      - 04-1736-HK
+      - 04-1735-HK
+      - 04-1737-JP
       - 04-1738-JP
-      - 04-1739-JP
-      - 04-1740-US
+      - 07-1744-RELAY
       - 07-1745-RELAY
       - 07-1746-RELAY
-      - 07-1747-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2498,6 +2498,7 @@ proxy-groups:
       - 03-0121-CN
       - 03-0126-CN
       - 03-0131-JP
+      - 03-0136-US
       - 03-0141-VN
       - 03-0146-RU
       - 03-0151-NL
@@ -2679,16 +2680,16 @@ proxy-groups:
       - 03-1086-CN
       - 03-1091-CN
       - 03-1096-CN
-      - 03-1101-LT
+      - 03-1101-JP
       - 03-1106-JP
-      - 03-1111-HK
+      - 03-1111-LT
       - 03-1116-HK
-      - 03-1121-HK
-      - 03-1126-HK
-      - 03-1131-HK
-      - 03-1136-LT
-      - 03-1141-LT
-      - 03-1146-HK
+      - 03-1121-JP
+      - 03-1126-JP
+      - 03-1131-JP
+      - 03-1136-HK
+      - 03-1141-HK
+      - 03-1146-JP
       - 03-1151-HK
       - 03-1156-HK
       - 03-1161-HK
@@ -2710,7 +2711,6 @@ proxy-groups:
       - 03-1241-HK
       - 03-1246-HK
       - 03-1251-HK
-      - 04-1736-HK
       - 07-1746-RELAY
   - name: 测速2分组
     type: url-test
@@ -2927,13 +2927,13 @@ proxy-groups:
       - 03-1102-JP
       - 03-1107-JP
       - 03-1112-HK
-      - 03-1117-HK
+      - 03-1117-JP
       - 03-1122-JP
-      - 03-1127-HK
+      - 03-1127-JP
       - 03-1132-HK
-      - 03-1137-LT
-      - 03-1142-HK
-      - 03-1147-HK
+      - 03-1137-JP
+      - 03-1142-JP
+      - 03-1147-JP
       - 03-1152-HK
       - 03-1157-HK
       - 03-1162-HK
@@ -2957,7 +2957,7 @@ proxy-groups:
       - 03-1252-HK
       - 03-1287-CA
       - 03-1357-HK
-      - 07-1747-RELAY
+      - 04-1737-JP
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3172,14 +3172,14 @@ proxy-groups:
       - 03-1098-HK
       - 03-1103-JP
       - 03-1108-JP
-      - 03-1113-JP
-      - 03-1118-HK
+      - 03-1113-HK
+      - 03-1118-JP
       - 03-1123-JP
-      - 03-1128-HK
-      - 03-1133-LT
-      - 03-1138-LT
-      - 03-1143-LT
-      - 03-1148-HK
+      - 03-1128-JP
+      - 03-1133-HK
+      - 03-1138-JP
+      - 03-1143-HK
+      - 03-1148-JP
       - 03-1153-HK
       - 03-1158-HK
       - 03-1163-HK
@@ -3193,7 +3193,6 @@ proxy-groups:
       - 03-1203-HK
       - 03-1208-HK
       - 03-1213-HK
-      - 03-1218-HK
       - 03-1223-HK
       - 03-1228-HK
       - 03-1233-HK
@@ -3415,15 +3414,15 @@ proxy-groups:
       - 03-1094-CN
       - 03-1099-HK
       - 03-1104-JP
-      - 03-1109-LT
+      - 03-1109-JP
       - 03-1114-JP
-      - 03-1119-HK
-      - 03-1124-JP
-      - 03-1129-HK
-      - 03-1134-HK
-      - 03-1139-LT
-      - 03-1144-LT
-      - 03-1149-HK
+      - 03-1119-JP
+      - 03-1124-LT
+      - 03-1129-JP
+      - 03-1134-JP
+      - 03-1139-JP
+      - 03-1144-HK
+      - 03-1149-JP
       - 03-1154-HK
       - 03-1159-HK
       - 03-1164-HK
@@ -3437,13 +3436,14 @@ proxy-groups:
       - 03-1204-HK
       - 03-1209-HK
       - 03-1214-HK
+      - 03-1219-HK
       - 03-1224-HK
       - 03-1229-HK
       - 03-1234-HK
       - 03-1239-HK
       - 03-1244-HK
       - 03-1249-HK
-      - 04-1739-JP
+      - 07-1744-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3476,7 +3476,7 @@ proxy-groups:
       - 03-0130-JP
       - 03-0135-TW
       - 03-0140-IN
-      - 03-0145-ID
+      - 03-0145-CN
       - 03-0150-FR
       - 03-0155-CN
       - 03-0160-CN
@@ -3657,16 +3657,16 @@ proxy-groups:
       - 03-1085-CN
       - 03-1090-CN
       - 03-1095-CN
-      - 03-1100-LT
+      - 03-1100-JP
       - 03-1105-JP
       - 03-1110-HK
       - 03-1115-HK
-      - 03-1120-HK
+      - 03-1120-JP
       - 03-1125-JP
-      - 03-1130-HK
+      - 03-1130-JP
       - 03-1135-JP
-      - 03-1140-LT
-      - 03-1145-HK
+      - 03-1140-HK
+      - 03-1145-JP
       - 03-1150-US
       - 03-1155-HK
       - 03-1160-HK
@@ -3688,7 +3688,7 @@ proxy-groups:
       - 03-1240-HK
       - 03-1245-HK
       - 03-1250-HK
-      - 04-1740-US
+      - 04-1735-HK
       - 07-1745-RELAY
   - name: 广告拦截
     type: select
