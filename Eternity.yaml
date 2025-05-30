@@ -55,17 +55,16 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-JP, server: 52.195.15.105, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0001-US, server: 34.210.69.217, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0002-KR, server: 3.38.139.172, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0003-SG, server: 18.138.231.64, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0004-JP, server: 52.195.15.105, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0005-US, server: 34.210.69.217, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0006-KR, server: 3.38.139.172, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0007-SG, server: 18.138.231.64, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0008-JP, server: 52.195.15.105, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0009-US, server: 34.210.69.217, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0010-KR, server: 3.38.139.172, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0011-SG, server: 18.138.231.64, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 03-0012-TW, server: green.cdntencentmusic.com, port: 28503, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0013-TW, server: green.cdntencentmusic.com, port: 28504, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0014-TW, server: green.cdntencentmusic.com, port: 28505, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0015-TW, server: green.cdntencentmusic.com, port: 28507, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0016-TW, server: green.cdntencentmusic.com, port: 28506, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0017-CN, server: yes.mojcn.com, port: 16617, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.mojcn.com}}, udp: true}
   - {name: 03-0018-CN, server: m.cnmjin.net, port: 16617, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
@@ -122,6 +121,7 @@ proxies:
   - {name: 03-0069-SG, server: sg2.pptv-tv.store, port: 17712, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0070-SG, server: sg3.pptv-tv.store, port: 17713, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0071-TW, server: tw1.pptv-tv.store, port: 17786, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0072-US, server: us1.pptv-tv.store, port: 17741, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0073-US, server: us2.pptv-tv.store, port: 17742, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0074-US, server: us3.pptv-tv.store, port: 17743, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0075-GB, server: gb1.pptv-tv.store, port: 17756, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -1261,17 +1261,16 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-JP
-      - 02-0001-US
-      - 02-0002-KR
-      - 02-0003-SG
-      - 02-0004-JP
-      - 02-0005-US
       - 02-0006-KR
       - 02-0007-SG
       - 02-0008-JP
       - 02-0009-US
       - 02-0010-KR
       - 02-0011-SG
+      - 03-0012-TW
+      - 03-0013-TW
+      - 03-0014-TW
+      - 03-0015-TW
       - 03-0016-TW
       - 03-0017-CN
       - 03-0018-CN
@@ -1328,6 +1327,7 @@ proxy-groups:
       - 03-0069-SG
       - 03-0070-SG
       - 03-0071-TW
+      - 03-0072-US
       - 03-0073-US
       - 03-0074-US
       - 03-0075-GB
@@ -2471,7 +2471,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0001-US
       - 02-0006-KR
       - 02-0011-SG
       - 03-0016-TW
@@ -2716,8 +2715,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0002-KR
       - 02-0007-SG
+      - 03-0012-TW
       - 03-0017-CN
       - 03-0022-JP
       - 03-0027-CN
@@ -2729,6 +2728,7 @@ proxy-groups:
       - 03-0057-JP
       - 03-0062-KR
       - 03-0067-JP
+      - 03-0072-US
       - 03-0077-VN
       - 03-0082-RU
       - 03-0087-NL
@@ -2959,8 +2959,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0003-SG
       - 02-0008-JP
+      - 03-0013-TW
       - 03-0018-CN
       - 03-0023-JP
       - 03-0028-CN
@@ -3203,8 +3203,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0004-JP
       - 02-0009-US
+      - 03-0014-TW
       - 03-0019-CN
       - 03-0024-CN
       - 03-0029-CN
@@ -3448,8 +3448,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-JP
-      - 02-0005-US
       - 02-0010-KR
+      - 03-0015-TW
       - 03-0020-JP
       - 03-0025-CN
       - 03-0030-CN

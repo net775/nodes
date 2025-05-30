@@ -31,14 +31,19 @@ Fork from TopFreeProxies.
   <summary>展开复制节点</summary>
 
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.195.15.105:9898#02-0000-JP
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@34.210.69.217:9898#02-0001-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@3.38.139.172:9898#02-0002-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@18.138.231.64:9898#02-0003-SG
     trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@52.195.15.105:6668?allowInsecure=1&sni=baidu.com#02-0004-JP
+    trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@34.210.69.217:6668?allowInsecure=1&sni=baidu.com#02-0005-US
     trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@3.38.139.172:6668?allowInsecure=1&sni=baidu.com#02-0006-KR
     trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@18.138.231.64:6668?allowInsecure=1&sni=baidu.com#02-0007-SG
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwOC1KUCIsImFkZCI6IjUyLjE5NS4xNS4xMDUiLCJwb3J0IjoiNjg2OCIsInR5cGUiOiJub25lIiwiaWQiOiIxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
+    vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwOS1VUyIsImFkZCI6IjM0LjIxMC42OS4yMTciLCJwb3J0IjoiNjg2OCIsInR5cGUiOiJub25lIiwiaWQiOiIxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAxMC1LUiIsImFkZCI6IjMuMzguMTM5LjE3MiIsInBvcnQiOiI2ODY4IiwidHlwZSI6Im5vbmUiLCJpZCI6IjFhMTdiMTlkLTQ4OTYtNDUzMS1hZjc5LTZlOTFkOGVmODIyOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAxMS1TRyIsImFkZCI6IjE4LjEzOC4yMzEuNjQiLCJwb3J0IjoiNjg2OCIsInR5cGUiOiJub25lIiwiaWQiOiIxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
+    trojan://53d627b0-5ea4-494e-8d94-b425d8840ed8@green.cdntencentmusic.com:28506?allowInsecure=1&sni=green.cdntencentmusic.com#03-0016-TW
+    vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDAxNy1DTiIsImFkZCI6Inllcy5tb2pjbi5jb20iLCJwb3J0IjoiMTY2MTciLCJ0eXBlIjoibm9uZSIsImlkIjoiZGE5MTIxNGUtYjAyMi00ZjYxLWE3MjQtMDFjNTM4MTcwZTYyIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoieWVzLm1vamNuLmNvbSIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDAxOC1DTiIsImFkZCI6Im0uY25tamluLm5ldCIsInBvcnQiOiIxNjYxNyIsInR5cGUiOiJub25lIiwiaWQiOiJkYTkxMjE0ZS1iMDIyLTRmNjEtYTcyNC0wMWM1MzgxNzBlNjIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJtLmNubWppbi5uZXQiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDAxOS1DTiIsImFkZCI6InQuY25tamNuLmN5b3UiLCJwb3J0IjoiMTY2MTciLCJ0eXBlIjoibm9uZSIsImlkIjoiZGE5MTIxNGUtYjAyMi00ZjYxLWE3MjQtMDFjNTM4MTcwZTYyIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoidC5jbm1qY24uY3lvdSIsInRscyI6IiJ9
     trojan://da91214e-b022-4f61-a724-01c538170e62@jp.mjt000.com:443?allowInsecure=1&sni=jp.mjt000.com#03-0020-JP
@@ -93,7 +98,6 @@ Fork from TopFreeProxies.
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@sg2.pptv-tv.store:17712?allowInsecure=1&sni=data.52daishu.life#03-0069-SG
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@sg3.pptv-tv.store:17713?allowInsecure=1&sni=data.52daishu.life#03-0070-SG
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@tw1.pptv-tv.store:17786?allowInsecure=1&sni=data.52daishu.life#03-0071-TW
-    trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us1.pptv-tv.store:17741?allowInsecure=1&sni=data.52daishu.life#03-0072-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us2.pptv-tv.store:17742?allowInsecure=1&sni=data.52daishu.life#03-0073-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us3.pptv-tv.store:17743?allowInsecure=1&sni=data.52daishu.life#03-0074-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@gb1.pptv-tv.store:17756?allowInsecure=1&sni=data.52daishu.life#03-0075-GB
@@ -1161,7 +1165,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNDhiM2VkNi03ODBmLTQwMDQtYjY2Yy0wN2MyOWJlMTI0ODI@ambnds00.dorabbb.top:48887#03-1138-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NmM2ZTFmMi0xOTcyLTRjMjgtOWQzZS01MTcwY2Q0MzA2Yzc@dxzx.flyby-world.top:46178#03-1139-CN
     ss://YWVzLTI1Ni1nY206ZjBjMDA2ZTAtZTE2ZS00MmFjLTg5NWItMDdiZDMxNzliMTAx@gate.jiasudu.buzz:47000#03-1140-CN
-    trojan://4528529c-b789-4a82-85be-a45320966f99@els.37cloud.cc:28176?allowInsecure=1&sni=els.37cloud.cc#03-1141-HK
     trojan://07a0e875-9b9a-4e11-a81f-8af85f82e74d@alibaba1.xn--z7x16bf6t.com:38899?allowInsecure=1&sni=v1.kwaicdn.com#03-1142-CN
     trojan://07a0e875-9b9a-4e11-a81f-8af85f82e74d@ahuaweisb2.xn--z7x16bf6t.com:38899?allowInsecure=1&sni=v1.kwaicdn.com#03-1143-CN
     trojan://07a0e875-9b9a-4e11-a81f-8af85f82e74d@agoogleyun3.xn--z7x16bf6t.com:38899?allowInsecure=1&sni=v1.kwaicdn.com#03-1144-CN
@@ -1220,9 +1223,6 @@ Fork from TopFreeProxies.
     trojan://07a0e875-9b9a-4e11-a81f-8af85f82e74d@alibaba1.xn--z7x16bf6t.com:27866?allowInsecure=1&sni=g.alicdn.com#03-1197-CN
     trojan://07a0e875-9b9a-4e11-a81f-8af85f82e74d@aawssb6.xn--z7x16bf6t.com:27866?allowInsecure=1&sni=g.alicdn.com#03-1198-CN
     ss://YWVzLTEyOC1nY206MDdhMGU4NzUtOWI5YS00ZTExLWE4MWYtOGFmODVmODJlNzRk@alibaba1.xn--z7x16bf6t.com:39885#03-1199-CN
-    trojan://c5054ac1-2bf1-39d2-ac5e-851ab3707b90@qoi.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-1825-HK
-    trojan://c5054ac1-2bf1-39d2-ac5e-851ab3707b90@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-1826-HK
-    trojan://c5054ac1-2bf1-39d2-ac5e-851ab3707b90@47.245.40.60:28457?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-1827-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzNC1SRUxBWSIsImFkZCI6InhjdmJnaHk0Ljk5OTE2NS54eXoiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTBmMzU3ZGQtNzlhYy00N2M2LWIwYjgtOTU4ZTJkMTlkZTA3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMFc2U0phSzBGMG9WWGVOVTZTMlJWUlAiLCJob3N0IjoieGN2YmdoeTQuOTk5MTY1Lnh5eiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzNS1SRUxBWSIsImFkZCI6ImRmcnR5LmZyZWV2cG5hdG0uZHBkbnMub3JnIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjkwZjM1N2RkLTc5YWMtNDdjNi1iMGI4LTk1OGUyZDE5ZGUwNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMTBXNlNKYUswRjBvVlhlTlU2UzJSVlJQIiwiaG9zdCI6ImRmcnR5LmZyZWV2cG5hdG0uZHBkbnMub3JnIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzNi1SRUxBWSIsImFkZCI6InNzc2NkZnI1LmZyZWV2cG5hdG0yMDI1LmRwZG5zLm9yZyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI5MGYzNTdkZC03OWFjLTQ3YzYtYjBiOC05NThlMmQxOWRlMDciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzEwVzZTSmFLMEYwb1ZYZU5VNlMyUlZSUCIsImhvc3QiOiJzc3NjZGZyNS5mcmVldnBuYXRtMjAyNS5kcGRucy5vcmciLCJ0bHMiOiIifQ==
