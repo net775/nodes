@@ -54,10 +54,14 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JP, server: 35.76.26.11, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0009-US, server: 34.222.239.18, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0010-KR, server: 3.38.31.232, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0011-SG, server: 13.212.164.83, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0000-JP, server: 18.183.122.148, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0004-JP, server: 18.183.122.148, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0006-KR, server: 43.203.184.18, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0007-SG, server: 47.129.188.79, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0008-JP, server: 18.183.122.148, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0009-US, server: 34.214.123.14, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0010-KR, server: 43.203.184.18, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0011-SG, server: 47.129.188.79, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0012-NOWHERE, server: keykey.b99.buzz, port: 44444, type: ss, cipher: aes-256-gcm, password: c750b39f-55ef-407d-ab90-b6bdc1713004, udp: true}
   - {name: 03-0013-CN, server: hk90.cctv14.xyz, port: 49000, type: ss, cipher: aes-256-gcm, password: 0cf0d790-2954-4ca7-a8e7-daebb84d7a8d, udp: true}
   - {name: 03-0014-CN, server: hk90.cctv14.xyz, port: 49000, type: ss, cipher: aes-256-gcm, password: 0cf0d790-2954-4ca7-a8e7-daebb84d7a8d, udp: true}
@@ -177,7 +181,7 @@ proxies:
   - {name: 03-0128-CN, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 03-0129-HK, server: jp.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: jp.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0130-JP, server: sg.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: sg.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0131-HK, server: kh.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: kh.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0131-JP, server: kh.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: kh.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0132-HK, server: usla.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: usla.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0133-CN, server: yes.mojcn.com, port: 16618, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.mojcn.com}}, udp: true}
   - {name: 03-0134-CN, server: m.cnmjin.net, port: 16618, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
@@ -187,8 +191,8 @@ proxies:
   - {name: 03-0138-CN, server: yes.mojcn.com, port: 16622, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.mojcn.com}}, udp: true}
   - {name: 03-0139-CN, server: m.cnmjin.net, port: 16622, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
   - {name: 03-0140-HK, server: waphk.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: waphk.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0141-HK, server: hinet.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: hinet.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0142-HK, server: vn.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: vn.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0141-JP, server: hinet.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: hinet.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0142-JP, server: vn.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: vn.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0143-CN, server: yes.mojcn.com, port: 16626, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.mojcn.com}}, udp: true}
   - {name: 03-0144-CN, server: yes.mojcn.com, port: 16616, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.mojcn.com}}, udp: true}
   - {name: 03-0145-CN, server: m.cnmjin.net, port: 16616, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
@@ -204,18 +208,18 @@ proxies:
   - {name: 03-0155-CN, server: yes.mojcn.com, port: 16645, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.mojcn.com}}, udp: true}
   - {name: 03-0156-CN, server: m.cnmjin.net, port: 16645, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
   - {name: 03-0157-CN, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: da91214e-b022-4f61-a724-01c538170e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
-  - {name: 03-0158-JP, server: au.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: au.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0159-JP, server: tr.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: tr.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0160-HK, server: kp.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: kp.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0161-HK, server: it.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: it.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0158-HK, server: au.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: au.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0159-HK, server: tr.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: tr.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0160-JP, server: kp.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: kp.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0161-JP, server: it.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: it.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0162-HK, server: pt.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0163-HK, server: ru.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: ru.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0164-JP, server: kz.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: kz.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0163-JP, server: ru.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: ru.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0164-HK, server: kz.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: kz.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0165-JP, server: ua.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: ua.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0166-HK, server: il.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: il.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0167-JP, server: uk.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: uk.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0168-HK, server: ar.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: ar.mjt000.com, skip-cert-verify: true, udp: true}
-  - {name: 03-0169-HK, server: ni.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: ni.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0169-JP, server: ni.mjt000.com, port: 443, type: trojan, password: da91214e-b022-4f61-a724-01c538170e62, sni: ni.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 03-0170-US, server: 250407.jichang.my, port: 47918, type: trojan, password: 20bc0771-1fde-45ee-8052-3c26249c43dc, sni: trojan-seoul.678789.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-0171-US, server: 250407.jichang.my, port: 52803, type: trojan, password: 20bc0771-1fde-45ee-8052-3c26249c43dc, sni: trojan-seoul2.678789.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-0172-US, server: 250407.jichang.my, port: 45536, type: trojan, password: 20bc0771-1fde-45ee-8052-3c26249c43dc, sni: trojan-singapore.678789.xyz, skip-cert-verify: true, udp: true}
@@ -331,7 +335,7 @@ proxies:
   - {name: 03-0282-VN, server: vn2.pptv-tv.store, port: 17752, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0283-AU, server: au1.pptv-tv.store, port: 17753, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0284-AU, server: au2.pptv-tv.store, port: 17754, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
-  - {name: 03-0285-ID, server: id1.pptv-tv.store, port: 17618, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0285-CN, server: id1.pptv-tv.store, port: 17618, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0286-RU, server: ru1.pptv-tv.store, port: 17615, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0287-UA, server: ua1.pptv-tv.store, port: 17749, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0288-AE, server: ae1.pptv-tv.store, port: 17720, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -904,6 +908,7 @@ proxies:
   - {name: 03-0908-HK, server: c94a796138753d6807edeba9c00faaf4.v1.cac.node-is.green, port: 40250, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: mk.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-0909-HK, server: 848c9b7e37007433e56f9250450a3cc6.v1.cac.node-is.green, port: 42933, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: md.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-0910-HK, server: 9100efaddf54198af1726c75e60dc49c.v1.cac.node-is.green, port: 48495, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: lu.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0911-HK, server: 24eb8abe68a6ed68610f49f47af675ff.v1.cac.node-is.green, port: 41289, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: li.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-0912-HK, server: e82af5ffbe6e0c10e2cadf9e620ff7a2.v1.cac.node-is.green, port: 43651, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: cr.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-0913-HK, server: 8e35f71afe7170ff5bd5054828814615.v1.cac.node-is.green, port: 44791, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: ec.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 03-0914-HK, server: 0d510965eebdef169f0813c32770e628.v1.cac.node-is.green, port: 44206, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: hr.cacnord.bilibili.com, skip-cert-verify: true, udp: true}
@@ -1182,7 +1187,7 @@ proxies:
   - {name: 03-1187-TW, server: 103.115.108.252, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1188-TW, server: 103.115.109.178, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1189-TW, server: 103.115.108.3, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
-  - {name: 03-1190-TW, server: 103.115.109.219, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
+  - {name: 03-1190-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4OWUwMjFkNS1hOTNmLTQ0OWEtYjMxOS0yNDgzYjc3OGU2ZjA@132.145.102.6021001#03-1414-CA, server: 103.115.109.219, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1191-BR, server: 154.91.200.232, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1192-TH, server: 62.112.143.197, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1193-TH, server: 62.112.143.130, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
@@ -1245,13 +1250,7 @@ proxies:
   - {name: 03-1250-CN, server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com, port: 34313, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1251-CN, server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com, port: 34336, type: ss, cipher: chacha20-ietf-poly1305, password: 68bc2fd3-0db5-467e-b561-1d1789f1d8d3, udp: true}
   - {name: 03-1252-RELAY, server: www.visa.com.tw, port: 443, type: vmess, uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: www.visa.com.tw}}, udp: true}
-  - {name: 03-1414-CA, server: 132.145.102.60, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 89e021d5-a93f-449a-b319-2483b778e6f0, udp: true}
-  - {name: 04-1846-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: caaf9d1a-e4f4-321c-b8c9-f21794fae0f3, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-1847-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: caaf9d1a-e4f4-321c-b8c9-f21794fae0f3, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-1848-JP, server: 47.245.40.60, port: 28457, type: trojan, password: caaf9d1a-e4f4-321c-b8c9-f21794fae0f3, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-1849-JP, server: 47.245.31.103, port: 28455, type: trojan, password: caaf9d1a-e4f4-321c-b8c9-f21794fae0f3, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-1850-US, server: 24eb8abe68a6ed68610f49f47af675ff.v1.cac.node-is.green, port: 41289, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 07-1865-RELAY, server: wwssxxcdfr.freevpnatm.dpdns.org, port: 443, type: vmess, uuid: ac5b2e52-435b-4461-a99c-1317ab0e2889, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vjvNSMXhz3o99DmZDo0oju2st1, headers: {Host: wwssxxcdfr.freevpnatm.dpdns.org}}, udp: true}
+  - {name: 07-1866-RELAY, server: xcvfgt6.999165.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xcvfgt6.999165.xyz}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1263,6 +1262,10 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-JP
+      - 02-0004-JP
+      - 02-0006-KR
+      - 02-0007-SG
+      - 02-0008-JP
       - 02-0009-US
       - 02-0010-KR
       - 02-0011-SG
@@ -1385,7 +1388,7 @@ proxy-groups:
       - 03-0128-CN
       - 03-0129-HK
       - 03-0130-JP
-      - 03-0131-HK
+      - 03-0131-JP
       - 03-0132-HK
       - 03-0133-CN
       - 03-0134-CN
@@ -1395,8 +1398,8 @@ proxy-groups:
       - 03-0138-CN
       - 03-0139-CN
       - 03-0140-HK
-      - 03-0141-HK
-      - 03-0142-HK
+      - 03-0141-JP
+      - 03-0142-JP
       - 03-0143-CN
       - 03-0144-CN
       - 03-0145-CN
@@ -1412,18 +1415,18 @@ proxy-groups:
       - 03-0155-CN
       - 03-0156-CN
       - 03-0157-CN
-      - 03-0158-JP
-      - 03-0159-JP
-      - 03-0160-HK
-      - 03-0161-HK
+      - 03-0158-HK
+      - 03-0159-HK
+      - 03-0160-JP
+      - 03-0161-JP
       - 03-0162-HK
-      - 03-0163-HK
-      - 03-0164-JP
+      - 03-0163-JP
+      - 03-0164-HK
       - 03-0165-JP
       - 03-0166-HK
       - 03-0167-JP
       - 03-0168-HK
-      - 03-0169-HK
+      - 03-0169-JP
       - 03-0170-US
       - 03-0171-US
       - 03-0172-US
@@ -1539,7 +1542,7 @@ proxy-groups:
       - 03-0282-VN
       - 03-0283-AU
       - 03-0284-AU
-      - 03-0285-ID
+      - 03-0285-CN
       - 03-0286-RU
       - 03-0287-UA
       - 03-0288-AE
@@ -2112,6 +2115,7 @@ proxy-groups:
       - 03-0908-HK
       - 03-0909-HK
       - 03-0910-HK
+      - 03-0911-HK
       - 03-0912-HK
       - 03-0913-HK
       - 03-0914-HK
@@ -2390,7 +2394,7 @@ proxy-groups:
       - 03-1187-TW
       - 03-1188-TW
       - 03-1189-TW
-      - 03-1190-TW
+      - 03-1190-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4OWUwMjFkNS1hOTNmLTQ0OWEtYjMxOS0yNDgzYjc3OGU2ZjA@132.145.102.6021001#03-1414-CA
       - 03-1191-BR
       - 03-1192-TH
       - 03-1193-TH
@@ -2453,13 +2457,7 @@ proxy-groups:
       - 03-1250-CN
       - 03-1251-CN
       - 03-1252-RELAY
-      - 03-1414-CA
-      - 04-1846-HK
-      - 04-1847-HK
-      - 04-1848-JP
-      - 04-1849-JP
-      - 04-1850-US
-      - 07-1865-RELAY
+      - 07-1866-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2475,6 +2473,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0006-KR
       - 02-0011-SG
       - 03-0016-CN
       - 03-0021-CN
@@ -2499,13 +2498,13 @@ proxy-groups:
       - 03-0116-HK
       - 03-0121-NOWHERE
       - 03-0126-CN
-      - 03-0131-HK
+      - 03-0131-JP
       - 03-0136-CN
-      - 03-0141-HK
+      - 03-0141-JP
       - 03-0146-CN
       - 03-0151-CN
       - 03-0156-CN
-      - 03-0161-HK
+      - 03-0161-JP
       - 03-0166-HK
       - 03-0171-US
       - 03-0176-SG
@@ -2644,6 +2643,7 @@ proxy-groups:
       - 03-0896-HK
       - 03-0901-HK
       - 03-0906-HK
+      - 03-0911-HK
       - 03-0916-HK
       - 03-0921-HK
       - 03-0926-CN
@@ -2712,12 +2712,13 @@ proxy-groups:
       - 03-1241-CN
       - 03-1246-CN
       - 03-1251-CN
-      - 04-1846-HK
+      - 07-1866-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0007-SG
       - 03-0012-NOWHERE
       - 03-0017-CN
       - 03-0022-CN
@@ -2744,7 +2745,7 @@ proxy-groups:
       - 03-0127-CN
       - 03-0132-HK
       - 03-0137-CN
-      - 03-0142-HK
+      - 03-0142-JP
       - 03-0147-CN
       - 03-0152-CN
       - 03-0157-CN
@@ -2956,12 +2957,12 @@ proxy-groups:
       - 03-1242-CN
       - 03-1247-CN
       - 03-1252-RELAY
-      - 04-1847-HK
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0008-JP
       - 03-0013-CN
       - 03-0018-CN
       - 03-0023-CN
@@ -2991,8 +2992,8 @@ proxy-groups:
       - 03-0143-CN
       - 03-0148-CN
       - 03-0153-CN
-      - 03-0158-JP
-      - 03-0163-HK
+      - 03-0158-HK
+      - 03-0163-JP
       - 03-0168-HK
       - 03-0173-US
       - 03-0178-CN
@@ -3200,12 +3201,12 @@ proxy-groups:
       - 03-1238-CN
       - 03-1243-CN
       - 03-1248-CN
-      - 04-1848-JP
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0004-JP
       - 02-0009-US
       - 03-0014-CN
       - 03-0019-CN
@@ -3236,9 +3237,9 @@ proxy-groups:
       - 03-0144-CN
       - 03-0149-CN
       - 03-0154-CN
-      - 03-0159-JP
-      - 03-0164-JP
-      - 03-0169-HK
+      - 03-0159-HK
+      - 03-0164-HK
+      - 03-0169-JP
       - 03-0174-US
       - 03-0179-CN
       - 03-0184-CN
@@ -3433,6 +3434,7 @@ proxy-groups:
       - 03-1179-MY
       - 03-1184-MY
       - 03-1189-TW
+      - 03-1190-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4OWUwMjFkNS1hOTNmLTQ0OWEtYjMxOS0yNDgzYjc3OGU2ZjA@132.145.102.6021001#03-1414-CA
       - 03-1194-TH
       - 03-1199-TH
       - 03-1204-US
@@ -3445,8 +3447,6 @@ proxy-groups:
       - 03-1239-CN
       - 03-1244-CN
       - 03-1249-CN
-      - 03-1414-CA
-      - 04-1849-JP
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3483,7 +3483,7 @@ proxy-groups:
       - 03-0145-CN
       - 03-0150-CN
       - 03-0155-CN
-      - 03-0160-HK
+      - 03-0160-JP
       - 03-0165-JP
       - 03-0170-US
       - 03-0175-HK
@@ -3508,7 +3508,7 @@ proxy-groups:
       - 03-0270-JP
       - 03-0275-TW
       - 03-0280-IN
-      - 03-0285-ID
+      - 03-0285-CN
       - 03-0290-FR
       - 03-0295-CN
       - 03-0300-CN
@@ -3678,7 +3678,7 @@ proxy-groups:
       - 03-1175-VN
       - 03-1180-MY
       - 03-1185-MY
-      - 03-1190-TW
+      - 03-1190-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4OWUwMjFkNS1hOTNmLTQ0OWEtYjMxOS0yNDgzYjc3OGU2ZjA@132.145.102.6021001#03-1414-CA
       - 03-1195-TH
       - 03-1200-TH
       - 03-1205-US
@@ -3691,8 +3691,6 @@ proxy-groups:
       - 03-1240-CN
       - 03-1245-CN
       - 03-1250-CN
-      - 04-1850-US
-      - 07-1865-RELAY
   - name: 广告拦截
     type: select
     proxies:
@@ -12113,6 +12111,12 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
+ - DOMAIN-SUFFIX,v1.mk,全球直连
+ - DOMAIN-SUFFIX,d1.mk,全球直连
+ - DOMAIN-SUFFIX,dlj.mk,全球直连
+ - DOMAIN-SUFFIX,suo.yt,全球直连
+ - DOMAIN-SUFFIX,sub.cm,全球直连
+ - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
