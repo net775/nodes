@@ -54,7 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#09-0332-US, server: 54.65.248.63, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0000-JP, server: 54.65.248.63, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-0001-JP, server: 54.65.248.63, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0002-JP, server: 54.65.248.63, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0003-KR, server: 54.180.239.162, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
@@ -175,6 +175,7 @@ proxies:
   - {name: 09-0329-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-0330-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
   - {name: 09-0331-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 09-0332-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 09-0333-NL, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, udp: true}
   - {name: 09-0334-RELAY, server: 172.67.214.33, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0335-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -185,7 +186,6 @@ proxies:
   - {name: 09-0340-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0341-NL, server: 62.60.247.40, port: 52461, type: ss, cipher: chacha20-ietf-poly1305, password: UL1HmJsOsD21h9665oGrRv, udp: true}
   - {name: 09-0342-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 09-0343-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 09-0344-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-0345-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 10-0346-CN, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
@@ -437,13 +437,12 @@ proxies:
   - {name: 18-0616-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0617-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0618-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-0619-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-0620-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-0621-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-0622-GT, server: 185.47.254.177, port: 20007, type: ss, cipher: aes-256-gcm, password: 4QHLWJ3KNY7GIS40, udp: true}
   - {name: 18-0623-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-0624-JP, server: 57.180.28.64, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
-  - {name: 18-0625-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-0626-GB, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 18-0625-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-0627-GB, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-0628-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-0629-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -645,7 +644,6 @@ proxies:
   - {name: 20-0825-VN, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 20-0826-HK, server: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com, port: 80, type: vmess, uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com}}, udp: true}
   - {name: 20-0827-HK, server: 0ecc2654-sv2sg0-svvk7h-1tgdw.hk3.p5pv.com, port: 80, type: vmess, uuid: a19397b8-f7fa-11ef-836a-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0ecc2654-sv2sg0-svvk7h-1tgdw.hk3.p5pv.com}}, udp: true}
-  - {name: 20-0828-HK, server: 5ab2e53a-sv2sg0-sywxsy-e54r.hk3.p5pv.com, port: 80, type: vmess, uuid: c4f3a1ca-8d10-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5ab2e53a-sv2sg0-sywxsy-e54r.hk3.p5pv.com}}, udp: true}
   - {name: 20-0829-HK, server: c25c61db-sv2sg0-tbpu76-1thmd.hk3.p5pv.com, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c25c61db-sv2sg0-tbpu76-1thmd.hk3.p5pv.com}}, udp: true}
   - {name: 20-0830-RELAY, server: xxxsde4.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xxxsde4.freevpnatm2025.dpdns.org}}, udp: true}
   - {name: 20-0831-VN, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -819,7 +817,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0000-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#09-0332-US
+      - 02-0000-JP
       - 02-0001-JP
       - 02-0002-JP
       - 02-0003-KR
@@ -940,6 +938,7 @@ proxy-groups:
       - 09-0329-LT
       - 09-0330-RELAY
       - 09-0331-US
+      - 09-0332-US
       - 09-0333-NL
       - 09-0334-RELAY
       - 09-0335-RELAY
@@ -950,7 +949,6 @@ proxy-groups:
       - 09-0340-CA
       - 09-0341-NL
       - 09-0342-FR
-      - 09-0343-US
       - 09-0344-RELAY
       - 09-0345-DE
       - 10-0346-CN
@@ -1202,13 +1200,12 @@ proxy-groups:
       - 18-0616-US
       - 18-0617-US
       - 18-0618-US
-      - 18-0619-CA
       - 18-0620-CA
       - 18-0621-RELAY
       - 18-0622-GT
       - 18-0623-RELAY
       - 18-0624-JP
-      - 18-0625-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-0626-GB
+      - 18-0625-US
       - 18-0627-GB
       - 18-0628-KR
       - 18-0629-FR
@@ -1410,7 +1407,6 @@ proxy-groups:
       - 20-0825-VN
       - 20-0826-HK
       - 20-0827-HK
-      - 20-0828-HK
       - 20-0829-HK
       - 20-0830-RELAY
       - 20-0831-VN
@@ -1666,7 +1662,6 @@ proxy-groups:
       - 18-0611-US
       - 18-0616-US
       - 18-0621-RELAY
-      - 18-0625-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-0626-GB
       - 18-0631-FR
       - 18-0636-LT
       - 18-0641-LT
@@ -1746,7 +1741,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#09-0332-US
       - 02-0002-JP
       - 02-0007-JP
       - 03-0092-RU
@@ -1771,6 +1765,7 @@ proxy-groups:
       - 08-0317-CN
       - 08-0322-CN
       - 09-0327-CH
+      - 09-0332-US
       - 09-0337-CA
       - 09-0342-FR
       - 10-0347-CN
@@ -1931,7 +1926,6 @@ proxy-groups:
       - 09-0328-FR
       - 09-0333-NL
       - 09-0338-DE
-      - 09-0343-US
       - 10-0348-CN
       - 10-0353-CN
       - 10-0358-CN
@@ -2023,7 +2017,6 @@ proxy-groups:
       - 20-0813-VN
       - 20-0818-VN
       - 20-0823-HK
-      - 20-0828-HK
       - 20-0833-HK
       - 20-0838-VN
       - 20-0843-HK
@@ -2137,7 +2130,6 @@ proxy-groups:
       - 18-0604-US
       - 18-0609-US
       - 18-0614-US
-      - 18-0619-CA
       - 18-0624-JP
       - 18-0629-FR
       - 18-0634-NL
@@ -2216,7 +2208,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#09-0332-US
+      - 02-0000-JP
       - 02-0005-KR
       - 02-0010-US
       - 04-0110-US
@@ -2293,7 +2285,7 @@ proxy-groups:
       - 18-0610-US
       - 18-0615-US
       - 18-0620-CA
-      - 18-0625-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-0626-GB
+      - 18-0625-US
       - 18-0630-FR
       - 18-0635-JP
       - 18-0640-NL
