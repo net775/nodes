@@ -408,9 +408,10 @@ proxies:
   - {name: 18-519-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-520-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-521-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-522-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-523-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-524-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-525-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-526-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-527-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-528-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 18-529-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -448,7 +449,6 @@ proxies:
   - {name: 18-561-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-562-US, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
   - {name: 18-563-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 18-564-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 18-565-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 18-566-FI, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-567-CH, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1009,9 +1009,10 @@ proxy-groups:
       - 18-519-US
       - 18-520-US
       - 18-521-US
-      - 18-522-US
       - 18-523-US
       - 18-524-US
+      - 18-525-US
+      - 18-526-GB
       - 18-527-US
       - 18-528-LT
       - 18-529-FR
@@ -1049,7 +1050,6 @@ proxy-groups:
       - 18-561-SE
       - 18-562-US
       - 18-563-LT
-      - 18-564-NL
       - 18-565-LT
       - 18-566-FI
       - 18-567-CH
@@ -1333,6 +1333,7 @@ proxy-groups:
       - 17-511-CN
       - 18-516-RELAY
       - 18-521-US
+      - 18-526-GB
       - 18-531-FR
       - 18-536-GB
       - 18-541-FR
@@ -1455,7 +1456,6 @@ proxy-groups:
       - 17-507-CN
       - 17-512-HK
       - 18-517-RELAY
-      - 18-522-US
       - 18-527-US
       - 18-532-LT
       - 18-537-FR
@@ -1710,7 +1710,6 @@ proxy-groups:
       - 18-549-US
       - 18-554-GB
       - 18-559-GB
-      - 18-564-NL
       - 18-569-CH
       - 18-574-CA
       - 18-579-SK
@@ -1824,6 +1823,7 @@ proxy-groups:
       - 17-510-NOWHERE
       - 18-515-US
       - 18-520-US
+      - 18-525-US
       - 18-530-US
       - 18-535-LT
       - 18-540-GB
