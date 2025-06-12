@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `198`
+高速节点数量: `199`
 <details>
   <summary>展开复制节点</summary>
 
@@ -100,7 +100,6 @@ Fork from TopFreeProxies.
     ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WkdGaE5UQmpPVFl6TXpneE16VXhNek0wTkRJMlpqUTVaamN4TnpKaFkyRT06WW1FM1lUQm1NekF0TURjd01TMDBZVEUyTFdFd1pEa3ROR1UwWldFM01XWT0@gdcm.cqrmv.cn:40528#07-184-CN
     trojan://725f30d5-9f5b-343e-a98d-9dce14f2ac0b@ahcu.k1ka52.ccddn4.icu:65159?allowInsecure=1&sni=dl.hncudehet.cc.tjcct.xyz#07-185-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg2LVJFTEFZIiwiYWRkIjoidjM0LmVtb3llcy50b3AiLCJwb3J0IjoiODQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwOGIyNGQ4ZC0xMGFiLTRjNWEtOTkwZS00ZTBlMTk0ODcwYWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2MzQuZW1veWVzLnRvcCIsInRscyI6InRscyJ9
-    vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg3LVJFTEFZIiwiYWRkIjoidjM0LmVtb3llcy50b3AiLCJwb3J0IjoiODQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI0OTFjMGY2My03MWVkLTRiZWQtODg4Ni00MjE0MDI2ZTdiNjIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2MzQuZW1veWVzLnRvcCIsInRscyI6InRscyJ9
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#07-188-MD
     trojan://da2c6761-4f08-48e8-bd98-11403dea8c35@ap-g.hinetwork.tw:27149?allowInsecure=1&sni=ap-g.hinetwork.tw#07-189-CN
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@91.132.94.200:989#07-190-SI
@@ -134,6 +133,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTVNOaDIxVHJYalIyb2syNVEybkU4RU5UMnpvQm1QdmthM1JDQ1VBSFpFTENuV29la1ZqdmFmODlxd2NSa2RieEVmZXAyYmMyYVV0bW54cXZGMWF5UVJlejFKSGpVTGo@exchange.gameaurela.click:52952#07-219-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTVNOaDIxVHJYalIyb2syNVEybkU4RU5UMnpvQm1QdmthM1JDQ1VBSFpFTENuV29la1ZqdmFmODlxd2NSa2RieEVmZXAyYmMyYVV0bW54cXZGMWF5UVJlejFKSGpVTGo@141.98.4.67:52952#07-220-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnU0hiTlRLV3U0UUx4M2lNako3S0JT@203.25.108.78:44591#07-221-RO
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3WktrY3FuSGtvQjY0QTF1cEE0SzFN@77.246.98.67:4343#07-222-NL
     trojan://786334e7-dd13-4ef2-8efe-306c46cb8cf0@pt.mjt000.com:443?allowInsecure=1&sni=pt.mjt000.com#07-223-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZTNhY2NmNC02NmM5LTRmMTgtOGU3Zi01NjU1MWVkNDBmMjI@cnamelm-dwzksl7kzye3rdby.bestcassoulet.com:51083#07-224-CN
     trojan://1d99eb06-8f7c-4296-8c84-1e57084579a5@iepl01.tube-cat.com:20029?allowInsecure=1&sni=VN.catxstar.com#07-225-US
@@ -227,17 +227,18 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphaEw4UURYbDlxdDZTWnQxb1Y5bGhN@sakura.outlinekeys.net:1235#23-379-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMjMtMzgwLVJFTEFZIiwiYWRkIjoiMTcyLjY3LjE1Ni4yMTAiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc2MjIxYmZiLWU5MmYtNGU4MC04MWM1LTZmZTQ4ZjUwYWMwYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjMtMzgxLVJFTEFZIiwiYWRkIjoiMTA0LjE5LjMyLjAiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjkzZWE0ODZhLWJhZGEtNDJhNC1hYzM4LWQwODhiMzIwZmExZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3dzIiwiaG9zdCI6IiIsInRscyI6IiJ9
+    vmess://eyJ2IjoiMiIsInBzIjoiMjMtMzg2LUNBIiwiYWRkIjoiNTEuNzkuMTAyLjI1MyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL0lPZWJoTE1obDFDVGJGSGJMOTVteWZSWDIiLCJob3N0IjoiIiwidGxzIjoiIn0=
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `302`
+合并节点总数: `290`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `302`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `290`
 
 
 ## 仓库声明
