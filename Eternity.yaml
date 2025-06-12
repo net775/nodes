@@ -70,6 +70,7 @@ proxies:
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 824b2a9f-9d34-3dc7-99d4-09b27e7eb686, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28469, type: trojan, password: 824b2a9f-9d34-3dc7-99d4-09b27e7eb686, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.31.103, port: 28463, type: trojan, password: 824b2a9f-9d34-3dc7-99d4-09b27e7eb686, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: 824b2a9f-9d34-3dc7-99d4-09b27e7eb686, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -197,7 +198,7 @@ proxies:
   - {name: 14-282-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 14-284-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
   - {name: 14-285-CN, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}, udp: true}
-  - {name: 23-313-US, server: 64.74.163.82, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-313-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1818080#23-332-LT, server: 64.74.163.82, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-316-IN, server: 82.180.146.173, port: 30607, type: ss, cipher: aes-128-gcm, password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70, udp: true}
   - {name: 23-325-TH, server: 116.206.124.41, port: 34045, type: ss, cipher: aes-256-gcm, password: TG:@Enkelte_notif&&TG:@Notif_Chat, udp: true}
   - {name: 23-334-CH, server: 186.190.215.193, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -230,6 +231,7 @@ proxy-groups:
       - 04-112-HK
       - 04-113-JP
       - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -357,7 +359,7 @@ proxy-groups:
       - 14-282-VN
       - 14-284-CN
       - 14-285-CN
-      - 23-313-US
+      - 23-313-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1818080#23-332-LT
       - 23-316-IN
       - 23-325-TH
       - 23-334-CH
@@ -442,6 +444,7 @@ proxy-groups:
       - 10-272-RELAY
       - 14-277-DK
       - 14-282-VN
+      - 23-313-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1818080#23-332-LT
       - 23-347-AT
   - name: 测速3分组
     type: url-test
@@ -476,7 +479,7 @@ proxy-groups:
       - 09-253-CN
       - 10-273-RELAY
       - 14-278-CN
-      - 23-313-US
+      - 23-313-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1818080#23-332-LT
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -521,6 +524,7 @@ proxy-groups:
       - 04-005-RELAY
       - 04-010-RELAY
       - 04-110-CN
+      - 04-115-US
       - 04-120-CN
       - 04-125-CN
       - 07-145-CN
