@@ -56,6 +56,7 @@ sniffer:
 proxies:
   - {name: 04-000-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: ed1f488e-543a-3383-a66a-8fe90b75b552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-001-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: ed1f488e-543a-3383-a66a-8fe90b75b552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
+  - {name: 04-002-US, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: ed1f488e-543a-3383-a66a-8fe90b75b552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-003-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: ed1f488e-543a-3383-a66a-8fe90b75b552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-RELAY, server: s2.db-link01.top, port: 2086, type: vmess, uuid: b1153789-6e93-36e3-8fa7-2f8dc4d7e0c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.4.124, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 04-005-RELAY, server: s3.db-link01.top, port: 2082, type: vmess, uuid: b1153789-6e93-36e3-8fa7-2f8dc4d7e0c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.134.142, headers: {Host: s3.db-link01.top}}, udp: true}
@@ -222,8 +223,7 @@ proxies:
   - {name: 14-338-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 14-339-DK, server: 95.164.85.39, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: wispy-crib-net.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 14-341-RELAY, server: www.xinjuc.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: www.xinjuc.com}}, udp: true}
-  - {name: "23-351-KRtrojan//8e424c36-bff7-3e16-b545-8b2137d7fd53@103.136.185.28447?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-115-US", server: 221.150.109.89, port: 11389, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 23-360-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
+  - {name: 23-351-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#23-360-US, server: 221.150.109.89, port: 11389, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 23-364-LV, server: 89.46.238.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-368-RELAY, server: 104.21.86.140, port: 443, type: trojan, password: 9e7caa3b-ca9c-40ba-9ea0-f0c992359239, sni: m2rrrty.777219.xyz, skip-cert-verify: true, udp: true}
   - {name: 23-380-FR, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: PJzjg0OITLV2vDVVjFjTsD, udp: true}
@@ -251,6 +251,7 @@ proxy-groups:
       - 测速5分组
       - 04-000-JP
       - 04-001-NOWHERE
+      - 04-002-US
       - 04-003-NOWHERE
       - 04-004-RELAY
       - 04-005-RELAY
@@ -417,8 +418,7 @@ proxy-groups:
       - 14-338-CN
       - 14-339-DK
       - 14-341-RELAY
-      - 23-351-KRtrojan//8e424c36-bff7-3e16-b545-8b2137d7fd53@103.136.185.28447?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-115-US
-      - 23-360-US
+      - 23-351-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#23-360-US
       - 23-364-LV
       - 23-368-RELAY
       - 23-380-FR
@@ -481,7 +481,7 @@ proxy-groups:
       - 10-331-CN
       - 14-336-CN
       - 14-341-RELAY
-      - 23-351-KRtrojan//8e424c36-bff7-3e16-b545-8b2137d7fd53@103.136.185.28447?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-115-US
+      - 23-351-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#23-360-US
       - 23-386-RU
       - 23-406-DE
       - 23-421-VN
@@ -491,6 +491,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-002-US
       - 04-007-RELAY
       - 04-112-HK
       - 04-117-CN
@@ -650,8 +651,7 @@ proxy-groups:
       - 09-290-KR
       - 10-330-CN
       - 14-335-RELAY
-      - 23-351-KRtrojan//8e424c36-bff7-3e16-b545-8b2137d7fd53@103.136.185.28447?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-115-US
-      - 23-360-US
+      - 23-351-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#23-360-US
       - 23-380-FR
       - 23-385-RU
       - 23-405-KZ
