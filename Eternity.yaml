@@ -56,7 +56,6 @@ sniffer:
 proxies:
   - {name: 04-000-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: ff23db03-ac1d-33fa-be7a-f1ae82966270, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-001-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: ff23db03-ac1d-33fa-be7a-f1ae82966270, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
-  - {name: 04-002-US, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: ff23db03-ac1d-33fa-be7a-f1ae82966270, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-003-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: ff23db03-ac1d-33fa-be7a-f1ae82966270, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-RELAY, server: s5.db-link02.top, port: 80, type: vmess, uuid: a1b45167-f2c3-3ed1-85a3-bfe7e11a2ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.23.150, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 04-005-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: a1b45167-f2c3-3ed1-85a3-bfe7e11a2ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.52.64, headers: {Host: s1.cn-db.top}}, udp: true}
@@ -70,7 +69,7 @@ proxies:
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: d90cb55c-4cb5-36c8-88c8-5372a43700fc, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28471, type: trojan, password: d90cb55c-4cb5-36c8-88c8-5372a43700fc, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.31.103, port: 28465, type: trojan, password: d90cb55c-4cb5-36c8-88c8-5372a43700fc, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-115-US, server: iepl.tube-cat.com, port: 20063, type: trojan, password: 1d99eb06-8f7c-4296-8c84-1e57084579a5, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: d90cb55c-4cb5-36c8-88c8-5372a43700fc, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -340,7 +339,6 @@ proxy-groups:
       - 测速5分组
       - 04-000-JP
       - 04-001-NOWHERE
-      - 04-002-US
       - 04-003-NOWHERE
       - 04-004-RELAY
       - 04-005-RELAY
@@ -684,7 +682,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-002-US
       - 04-007-RELAY
       - 04-112-HK
       - 04-117-CN
