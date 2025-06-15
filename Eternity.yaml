@@ -54,8 +54,8 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-000-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: b2371a10-e115-3879-b872-95eae61a22f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-001-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: b2371a10-e115-3879-b872-95eae61a22f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
-  - {name: 04-002-US, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: b2371a10-e115-3879-b872-95eae61a22f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-003-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: b2371a10-e115-3879-b872-95eae61a22f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-RELAY, server: s3.db-link01.top, port: 2082, type: vmess, uuid: c40fcbf5-d18e-3d16-bf45-fb17e3a65b89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.58.210, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-005-RELAY, server: s2.cn-db.top, port: 2086, type: vmess, uuid: c40fcbf5-d18e-3d16-bf45-fb17e3a65b89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.15.19, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -68,6 +68,7 @@ proxies:
   - {name: 04-111-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 235c1b97-b07e-3499-ae92-d7afb0ea5046, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-112-JP, server: 47.245.40.60, port: 28472, type: trojan, password: 235c1b97-b07e-3499-ae92-d7afb0ea5046, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.31.103, port: 28465, type: trojan, password: 235c1b97-b07e-3499-ae92-d7afb0ea5046, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-114-US, server: 103.136.185.28, port: 447, type: trojan, password: 235c1b97-b07e-3499-ae92-d7afb0ea5046, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-115-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 179d954b-e76e-3fc1-8ddb-436387ec04c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-116-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 179d954b-e76e-3fc1-8ddb-436387ec04c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 179d954b-e76e-3fc1-8ddb-436387ec04c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -259,8 +260,8 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-000-JP
       - 04-001-NOWHERE
-      - 04-002-US
       - 04-003-NOWHERE
       - 04-004-RELAY
       - 04-005-RELAY
@@ -273,6 +274,7 @@ proxy-groups:
       - 04-111-HK
       - 04-112-JP
       - 04-113-JP
+      - 04-114-US
       - 04-115-CN
       - 04-116-CN
       - 04-117-CN
@@ -512,7 +514,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-002-US
       - 04-007-RELAY
       - 04-112-JP
       - 04-117-CN
@@ -604,6 +605,7 @@ proxy-groups:
       - 04-004-RELAY
       - 04-009-RELAY
       - 04-109-CN
+      - 04-114-US
       - 04-119-CN
       - 04-124-CN
       - 05-129-RELAY
@@ -645,6 +647,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-000-JP
       - 04-005-RELAY
       - 04-110-HK
       - 04-115-CN
