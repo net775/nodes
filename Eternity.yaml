@@ -56,7 +56,6 @@ sniffer:
 proxies:
   - {name: 04-000-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: e1d20426-4fc7-3a95-9d1c-5383478e829f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-001-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: e1d20426-4fc7-3a95-9d1c-5383478e829f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
-  - {name: 04-002-US, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: e1d20426-4fc7-3a95-9d1c-5383478e829f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-003-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: e1d20426-4fc7-3a95-9d1c-5383478e829f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-RELAY, server: s3.cn-db.top, port: 8880, type: vmess, uuid: c84bff13-2519-3b18-abbe-ce9d41db7d1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.60.220, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-005-RELAY, server: s2.db-link01.top, port: 2052, type: vmess, uuid: c84bff13-2519-3b18-abbe-ce9d41db7d1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.24.204, headers: {Host: s2.db-link01.top}}, udp: true}
@@ -70,6 +69,7 @@ proxies:
   - {name: 04-112-CN, server: 183.236.51.154, port: 56432, type: trojan, password: 46893867-1e29-394c-a45c-4a4af697b506, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28472, type: trojan, password: 46893867-1e29-394c-a45c-4a4af697b506, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.31.103, port: 28465, type: trojan, password: 46893867-1e29-394c-a45c-4a4af697b506, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 451, type: trojan, password: 46893867-1e29-394c-a45c-4a4af697b506, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 6dda6f36-f5c3-30b4-9bf9-47cba2cc19a6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 6dda6f36-f5c3-30b4-9bf9-47cba2cc19a6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 6dda6f36-f5c3-30b4-9bf9-47cba2cc19a6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -270,7 +270,6 @@ proxies:
   - {name: 23-658-GB, server: 51.38.65.155, port: 443, type: trojan, password: 99a5a140-1939-11f0-9b24-1239d0255272, sni: tgju.org, skip-cert-verify: true, udp: true}
   - {name: 23-662-RELAY, server: 104.21.25.95, port: 443, type: trojan, password: 5453ae26-250d-4e79-b4ec-016baf806865, sni: 1sDFgT.890604.FileGear-sG.mE, skip-cert-verify: true, udp: true}
   - {name: 23-664-TW, server: green2.cdntencentmusic.com, port: 28507, type: trojan, password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: "23-691-HKtrojan//46893867-1e29-394c-a45c-4a4af697b506@103.136.185.28451?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-115-US", server: ss.008.node-for-bigairport.win, port: 22356, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 23-710-FI, server: 77.91.103.73, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Lcc1lw8IP2KI7, udp: true}
   - {name: 23-711-IR, server: Nigga.Best, port: 9093, type: ss, cipher: aes-256-gcm, password: FtDE/m/zFGN2/edBi91ie4P1C5JATlSM5IeMiSiz9As=, udp: true}
   - {name: 23-716-VN, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -287,7 +286,6 @@ proxy-groups:
       - 测速5分组
       - 04-000-JP
       - 04-001-NOWHERE
-      - 04-002-US
       - 04-003-NOWHERE
       - 04-004-RELAY
       - 04-005-RELAY
@@ -301,6 +299,7 @@ proxy-groups:
       - 04-112-CN
       - 04-113-JP
       - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -501,7 +500,6 @@ proxy-groups:
       - 23-658-GB
       - 23-662-RELAY
       - 23-664-TW
-      - 23-691-HKtrojan//46893867-1e29-394c-a45c-4a4af697b506@103.136.185.28451?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-115-US
       - 23-710-FI
       - 23-711-IR
       - 23-716-VN
@@ -559,7 +557,6 @@ proxy-groups:
       - 10-641-CN
       - 10-646-NOWHERE
       - 10-651-RELAY
-      - 23-691-HKtrojan//46893867-1e29-394c-a45c-4a4af697b506@103.136.185.28451?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-115-US
       - 23-711-IR
       - 23-716-VN
   - name: 测速2分组
@@ -567,7 +564,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-002-US
       - 04-007-RELAY
       - 04-112-CN
       - 04-117-CN
@@ -611,7 +607,6 @@ proxy-groups:
       - 10-642-CN
       - 10-647-CN
       - 23-662-RELAY
-      - 23-691-HKtrojan//46893867-1e29-394c-a45c-4a4af697b506@103.136.185.28451?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-115-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -724,6 +719,7 @@ proxy-groups:
       - 04-005-RELAY
       - 04-010-RELAY
       - 04-110-CN
+      - 04-115-US
       - 04-120-CN
       - 04-125-CN
       - 05-135-RELAY
@@ -761,7 +757,6 @@ proxy-groups:
       - 10-640-RELAY
       - 10-645-RELAY
       - 10-650-NOWHERE
-      - 23-691-HKtrojan//46893867-1e29-394c-a45c-4a4af697b506@103.136.185.28451?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-115-US
       - 23-710-FI
       - 23-720-RELAY
   - name: 广告拦截
