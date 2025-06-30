@@ -172,7 +172,6 @@ proxies:
   - {name: 09-362-RELAY, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: hsdgbuys.pages.dev}}, udp: true}
   - {name: 09-445-RELAY, server: 172.67.191.140, port: 443, type: trojan, password: c7f423b7-ced8-43da-a9ae-e906cb4a222c, sni: DdDdddDDdF.999824.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FdwPcFaK3QxWRQTqot0LE", headers: {Host: DdDdddDDdF.999824.Xyz}}, udp: true}
   - {name: 10-449-CN, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 19490, type: vmess, uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-450-RELAY, server: EeEDCFVg.999824.xYZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9dZlJLjHHrL0VwSolbqFpg, headers: {Host: EeEDCFVg.999824.xYZ}}, udp: true}
   - {name: 10-451-CN, server: 120.233.128.98, port: 30015, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
   - {name: 10-452-FR, server: 13.37.59.91, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 10-453-RELAY, server: 104.21.48.1, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -187,6 +186,7 @@ proxies:
   - {name: 14-478-VN, server: 103.186.154.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 14-480-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-489-NL, server: 109.107.172.30, port: 28190, type: ss, cipher: chacha20-ietf-poly1305, password: 1f8jdOIKkxRWMUeOfXPeo8, udp: true}
+  - {name: 23-494-LT, server: 45.87.175.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-495-SG, server: 167.172.95.249, port: 30655, type: ss, cipher: chacha20-ietf-poly1305, password: Q54gASZhthrfhDeUUyHR7xMKEpc8clp5QCpWYrwvkyQ=, udp: true}
   - {name: 23-496-GB, server: 74.177.223.132, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 23-497-NL, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epcch.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
@@ -205,7 +205,6 @@ proxies:
   - {name: 23-518-JP, server: 20.243.85.49, port: 10443, type: trojan, password: Aimer, sni: epcca.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 23-520-CN, server: d1.cloudtaste.xyz, port: 27619, type: ss, cipher: aes-128-gcm, password: ab72961d-32bf-41ed-87f7-a2336e8de378, udp: true}
   - {name: 23-524-US, server: 23.185.248.18, port: 17008, type: ss, cipher: aes-256-gcm, password: DA30RDLW91YDLDN2, udp: true}
-  - {name: 23-525-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.108080#23-494-LT, server: 23.185.248.16, port: 17006, type: ss, cipher: aes-256-gcm, password: B0UPGL2IUSB0UV4B, udp: true}
   - {name: 23-536-RELAY, server: 172.67.207.26, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-538-HK, server: 156.245.190.20, port: 15011, type: ss, cipher: aes-256-gcm, password: DSSFTF2MJGHSTOOF, udp: true}
   - {name: 23-540-RELAY, server: 104.21.112.1, port: 443, type: trojan, password: X22ZAo5vGF, sni: esna.twn24.ir, skip-cert-verify: true, udp: true}
@@ -337,7 +336,6 @@ proxy-groups:
       - 09-362-RELAY
       - 09-445-RELAY
       - 10-449-CN
-      - 10-450-RELAY
       - 10-451-CN
       - 10-452-FR
       - 10-453-RELAY
@@ -352,6 +350,7 @@ proxy-groups:
       - 14-478-VN
       - 14-480-VN
       - 14-489-NL
+      - 23-494-LT
       - 23-495-SG
       - 23-496-GB
       - 23-497-NL
@@ -370,7 +369,6 @@ proxy-groups:
       - 23-518-JP
       - 23-520-CN
       - 23-524-US
-      - 23-525-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.108080#23-494-LT
       - 23-536-RELAY
       - 23-538-HK
       - 23-540-RELAY
@@ -525,10 +523,10 @@ proxy-groups:
       - 10-454-FR
       - 10-459-RELAY
       - 14-489-NL
+      - 23-494-LT
       - 23-509-LT
       - 23-514-DE
       - 23-524-US
-      - 23-525-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.108080#23-494-LT
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -555,7 +553,6 @@ proxy-groups:
       - 08-240-NOWHERE
       - 09-260-CN
       - 09-445-RELAY
-      - 10-450-RELAY
       - 10-455-CN
       - 10-460-RELAY
       - 14-480-VN
@@ -563,7 +560,6 @@ proxy-groups:
       - 23-500-LT
       - 23-510-LT
       - 23-520-CN
-      - 23-525-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.108080#23-494-LT
       - 23-540-RELAY
   - name: 广告拦截
     type: select
