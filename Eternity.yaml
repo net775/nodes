@@ -85,6 +85,7 @@ proxies:
   - {name: 05-134-CN, server: 120.233.71.140, port: 52251, type: ss, cipher: aes-128-gcm, password: tmd8427, udp: true}
   - {name: 05-135-CN, server: 910281.chasel.sbs, port: 21227, type: ss, cipher: aes-256-gcm, password: 796EA43C-1A63-8C50-3745-FD3946149E4F, udp: true}
   - {name: 05-138-RELAY, server: 104.21.84.58, port: 443, type: trojan, password: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, sni: dddDdDdDDFfFf.iran2035.dPdNS.ORG, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fxa846InEcmjyiKVby2Lp", headers: {Host: dddDdDdDDFfFf.iran2035.dPdNS.ORG}}, udp: true}
+  - {name: 05-147-RELAY, server: x10.859885.xYz, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0FhUkqQUdxOhMB9JsgTazwz9, headers: {Host: x10.859885.xYz}}, udp: true}
   - {name: 05-152-RELAY, server: 104.21.23.162, port: 443, type: trojan, password: 4174b95d-115e-4d39-add6-1f8db95bb860, sni: dddccvvgbnhju.131.pp.ua, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FuzJNzgkkYWRWGxgFnoFPw1", headers: {Host: dddccvvgbnhju.131.pp.ua}}, udp: true}
   - {name: 05-155-CN, server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net, port: 15228, type: vmess, uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 05-156-CN, server: 6857dd60-sz1ds0-t3l98h-2gok.d.volczijie.com, port: 4135, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -204,7 +205,6 @@ proxies:
   - {name: 23-554-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
   - {name: 23-562-RU, server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 23-565-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 23-567-PT, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-570-RELAY, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: ngepx.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -247,6 +247,7 @@ proxy-groups:
       - 05-134-CN
       - 05-135-CN
       - 05-138-RELAY
+      - 05-147-RELAY
       - 05-152-RELAY
       - 05-155-CN
       - 05-156-CN
@@ -366,7 +367,6 @@ proxy-groups:
       - 23-554-PL
       - 23-562-RU
       - 23-565-VN
-      - 23-567-PT
       - 23-570-RELAY
   - name: 自动选择
     type: url-test
@@ -423,6 +423,7 @@ proxy-groups:
       - 04-117-CN
       - 04-122-US
       - 05-132-RELAY
+      - 05-147-RELAY
       - 05-152-RELAY
       - 05-157-US
       - 07-162-CN
@@ -450,7 +451,6 @@ proxy-groups:
       - 23-512-HK
       - 23-532-GB
       - 23-562-RU
-      - 23-567-PT
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
