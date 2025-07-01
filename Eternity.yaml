@@ -107,6 +107,7 @@ proxies:
   - {name: 07-173-IR, server: 185.49.105.170, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: a7qmJCwiMc5yrVMUFwleDw, udp: true}
   - {name: 07-174-IR, server: mz.mobile7seven.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: a7qmJCwiMc5yrVMUFwleDw, udp: true}
   - {name: 07-175-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 07-176-MD, server: 45.153.124.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-177-CN, server: xjpa1.20210420.xyz, port: 25511, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2Pd5dpNK, headers: {Host: xjpa1.20210420.xyz}}, udp: true}
   - {name: 07-178-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16009, type: ss, cipher: aes-256-gcm, password: 7BLFD9OLC1KOZX39, udp: true}
   - {name: 07-179-HK, server: zz.xn--mes91t7ofgnw.com, port: 8083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjIxMDg0ZWU0YjNjMTM1Zg==:NDgzYWMzOWYtNDA3OS00NQ==, udp: true}
@@ -187,7 +188,6 @@ proxies:
   - {name: 09-323-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-373-RELAY, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: hsdgbuys.pages.dev}}, udp: true}
   - {name: 09-456-RELAY, server: 172.67.191.140, port: 443, type: trojan, password: c7f423b7-ced8-43da-a9ae-e906cb4a222c, sni: DdDdddDDdF.999824.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FdwPcFaK3QxWRQTqot0LE", headers: {Host: DdDdddDDdF.999824.Xyz}}, udp: true}
-  - {name: 10-460-RELAY, server: dddcccvff.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, headers: {Host: dddcccvff.4444936.xyz}}, udp: true}
   - {name: 10-461-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 10-462-CN, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
   - {name: 10-463-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -269,6 +269,7 @@ proxy-groups:
       - 07-173-IR
       - 07-174-IR
       - 07-175-MD
+      - 07-176-MD
       - 07-177-CN
       - 07-178-CN
       - 07-179-HK
@@ -349,7 +350,6 @@ proxy-groups:
       - 09-323-KR
       - 09-373-RELAY
       - 09-456-RELAY
-      - 10-460-RELAY
       - 10-461-RELAY
       - 10-462-CN
       - 10-463-CN
@@ -393,6 +393,7 @@ proxy-groups:
       - 07-161-CN
       - 07-166-CN
       - 07-171-RELAY
+      - 07-176-MD
       - 07-181-CN
       - 07-186-CN
       - 07-191-RELAY
@@ -548,7 +549,6 @@ proxy-groups:
       - 08-250-CN
       - 09-270-CN
       - 09-275-CN
-      - 10-460-RELAY
       - 10-465-CN
       - 14-490-CN
       - 14-495-VN
