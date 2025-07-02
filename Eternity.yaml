@@ -188,6 +188,7 @@ proxies:
   - {name: 09-323-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-373-RELAY, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: hsdgbuys.pages.dev}}, udp: true}
   - {name: 09-456-RELAY, server: 172.67.191.140, port: 443, type: trojan, password: c7f423b7-ced8-43da-a9ae-e906cb4a222c, sni: DdDdddDDdF.999824.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FdwPcFaK3QxWRQTqot0LE", headers: {Host: DdDdddDDdF.999824.Xyz}}, udp: true}
+  - {name: 10-460-RELAY, server: dddcccvff.4444936.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, headers: {Host: dddcccvff.4444936.xyz}}, udp: true}
   - {name: 10-461-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 10-462-CN, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
   - {name: 10-463-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -200,7 +201,6 @@ proxies:
   - {name: 14-500-RELAY, server: 104.26.12.31, port: 8443, type: trojan, password: trojan, sni: fofang.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: fofang.pages.dev}}, udp: true}
   - {name: 23-512-HK, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-521-JP, server: 160.16.150.202, port: 443, type: trojan, password: 3bcd9e33-8377-4b32-af33-217158577ff3, sni: kdlsupport.zendesk.com, skip-cert-verify: true, udp: true}
-  - {name: 23-532-GB, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: G2C3Q9RnlWCGHMGhfB3baq, udp: true}
   - {name: 23-554-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
   - {name: 23-562-RU, server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 23-565-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -350,6 +350,7 @@ proxy-groups:
       - 09-323-KR
       - 09-373-RELAY
       - 09-456-RELAY
+      - 10-460-RELAY
       - 10-461-RELAY
       - 10-462-CN
       - 10-463-CN
@@ -362,7 +363,6 @@ proxy-groups:
       - 14-500-RELAY
       - 23-512-HK
       - 23-521-JP
-      - 23-532-GB
       - 23-554-PL
       - 23-562-RU
       - 23-565-VN
@@ -449,7 +449,6 @@ proxy-groups:
       - 10-462-CN
       - 10-467-NL
       - 23-512-HK
-      - 23-532-GB
       - 23-562-RU
       - 23-567-PT
   - name: 测速3分组
@@ -549,6 +548,7 @@ proxy-groups:
       - 08-250-CN
       - 09-270-CN
       - 09-275-CN
+      - 10-460-RELAY
       - 10-465-CN
       - 14-490-CN
       - 14-495-VN
