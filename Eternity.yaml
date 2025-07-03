@@ -243,7 +243,7 @@ proxies:
   - {name: 10-531-RELAY, server: SDFGhyJu.999824.XYz, port: 443, type: vmess, uuid: 512d9674-db12-44ca-a1b5-654244549b65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm, headers: {Host: SDFGhyJu.999824.XYz}}, udp: true}
   - {name: 10-532-HK, server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net}}, udp: true}
   - {name: 10-533-HK, server: b8605f97-swq1s0-swwcfg-1eijl.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b8605f97-swq1s0-swwcfg-1eijl.hgc1.tcpbbr.net}}, udp: true}
-  - {name: 14-558-FR, server: 45.32.137.6, port: 443, type: trojan, password: Bw5Mz7QkVp, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 14-558-FR, server: 13.39.202.182, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 14-563-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
   - {name: 14-564-CN, server: f01b2667-sytz40-szptnz-1kcpe.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, sni: f01b2667-sytz40-szptnz-1kcpe.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 14-566-HK, server: d0192da7-svlb40-t7h9gl-1q15s.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 11303a62-9a33-11ee-be7f-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d0192da7-svlb40-t7h9gl-1q15s.hgc1.tcpbbr.net}}, udp: true}
@@ -258,7 +258,6 @@ proxies:
   - {name: 23-613-RELAY, server: 104.25.165.83, port: 8443, type: trojan, password: !<str> 123456, sni: top-azx.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FAz1.vpn.33.TOP%25252F%25253Fed%25253D2560", headers: {Host: top-azx.pages.dev}}, udp: true}
   - {name: 23-615-MD, server: 45.67.229.222, port: 443, type: trojan, password: c5691b8f-d833-41e4-9295-769f3edb4cd2, sni: customer-45-67-229-222.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 23-623-HK, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 23-629-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 23-634-RU, server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -474,7 +473,6 @@ proxy-groups:
       - 23-613-RELAY
       - 23-615-MD
       - 23-623-HK
-      - 23-629-NL
       - 23-634-RU
   - name: 自动选择
     type: url-test
@@ -668,7 +666,6 @@ proxy-groups:
       - 14-569-CN
       - 14-574-HK
       - 23-604-US
-      - 23-629-NL
       - 23-634-RU
   - name: 测速5分组
     type: url-test
