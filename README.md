@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `207`
+高速节点数量: `206`
 <details>
   <summary>展开复制节点</summary>
 
@@ -219,7 +219,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNTMxLVJFTEFZIiwiYWRkIjoiU0RGR2h5SnUuOTk5ODI0LlhZeiIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNTEyZDk2NzQtZGIxMi00NGNhLWExYjUtNjU0MjQ0NTQ5YjY1IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii91aUF4dkg2T2tWazBWQ2ZhN2RYM0pJcllrN3ptIiwiaG9zdCI6IlNERkdoeUp1Ljk5OTgyNC5YWXoiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNTMyLUhLIiwiYWRkIjoiYjk1OWFkNTEtc3hhZjQwLXQzMjNsaC0xdDBubi5oZ2MxLnRjcGJici5uZXQiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiJiYTc4MjI2Yy1iNzcyLTExZWYtYWI1My1mMjNjOTFjZmJiYzkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJiOTU5YWQ1MS1zeGFmNDAtdDMyM2xoLTF0MG5uLmhnYzEudGNwYmJyLm5ldCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTAtNTMzLUhLIiwiYWRkIjoiYjg2MDVmOTctc3dxMXMwLXN3d2NmZy0xZWlqbC5oZ2MxLnRjcGJici5uZXQiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiJjMmI1OGFlMC1kMjFjLTExZWYtYjQxNC1mMjNjOTFjZmJiYzkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJiODYwNWY5Ny1zd3ExczAtc3d3Y2ZnLTFlaWpsLmhnYzEudGNwYmJyLm5ldCIsInRscyI6IiJ9
-    trojan://Bw5Mz7QkVp@45.32.137.6:443?allowInsecure=1&sni=trojan.burgerip.co.uk#14-558-FR
+    trojan://telegram-id-directvpn@13.39.202.182:22223?allowInsecure=1&sni=trojan.burgerip.co.uk#14-558-FR
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNTYzLUNOIiwiYWRkIjoidjkuaGVkdWlhbi5saW5rIiwicG9ydCI6IjMwODA5IiwidHlwZSI6Im5vbmUiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvb29vbyIsImhvc3QiOiJ2OS5oZWR1aWFuLmxpbmsiLCJ0bHMiOiIifQ==
     trojan://3f514ea2-4662-11ed-a8bf-f23c91cfbbc9@f01b2667-sytz40-szptnz-1kcpe.cm5.cnkuaishou.com:14234?allowInsecure=1&sni=f01b2667-sytz40-szptnz-1kcpe.cm5.cnkuaishou.com#14-564-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNTY2LUhLIiwiYWRkIjoiZDAxOTJkYTctc3ZsYjQwLXQ3aDlnbC0xcTE1cy5oZ2MxLnRjcGJici5uZXQiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIxMTMwM2E2Mi05YTMzLTExZWUtYmU3Zi1mMjNjOTE2NGNhNWQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJkMDE5MmRhNy1zdmxiNDAtdDdoOWdsLTFxMTVzLmhnYzEudGNwYmJyLm5ldCIsInRscyI6IiJ9
@@ -234,7 +234,6 @@ Fork from TopFreeProxies.
     trojan://123456@104.25.165.83:8443?allowInsecure=1&sni=top-azx.pages.dev&ws=1&wspath=%2525252FAz1.vpn.33.TOP%2525252F%2525253Fed%2525253D2560#23-613-RELAY
     trojan://c5691b8f-d833-41e4-9295-769f3edb4cd2@45.67.229.222:443?allowInsecure=1&sni=customer-45-67-229-222.stark-industries.solutions#23-615-MD
     ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@103.149.183.61:8388#23-623-HK
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#23-629-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.139.24.24:57456#23-634-RU
     
 
@@ -242,11 +241,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `309`
+合并节点总数: `272`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `309`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `272`
 
 
 ## 仓库声明
