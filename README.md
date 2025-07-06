@@ -26,11 +26,10 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `65`
+高速节点数量: `64`
 <details>
   <summary>展开复制节点</summary>
 
-    vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDk5LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU2MTFlMDhmLWVmOTUtMzBlNi1hYTQ1LTM4MmFlMjgxODc2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNDYuOTIiLCJob3N0IjoiczIuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTAwLVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAyLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU2MTFlMDhmLWVmOTUtMzBlNi1hYTQ1LTM4MmFlMjgxODc2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNDEuNTEiLCJob3N0IjoiczEuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTAxLVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTYxMWUwOGYtZWY5NS0zMGU2LWFhNDUtMzgyYWUyODE4NzZkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4xOC43OS41OSIsImhvc3QiOiJzMS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTAyLVJFTEFZIiwiYWRkIjoiczQuY24tZGIudG9wIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU2MTFlMDhmLWVmOTUtMzBlNi1hYTQ1LTM4MmFlMjgxODc2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjQuNTcuMjEwIiwiaG9zdCI6InM0LmNuLWRiLnRvcCIsInRscyI6IiJ9
@@ -48,7 +47,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE0LUNOIiwiYWRkIjoiMTMubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMyIsInR5cGUiOiJub25lIiwiaWQiOiJkNWU3Mzc2Yy02YWE3LTM4MjEtYmVjMi0zZGRhNzA3ZmMzZWYiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMy5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE1LUNOIiwiYWRkIjoiMTQubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNCIsInR5cGUiOiJub25lIiwiaWQiOiJkNWU3Mzc2Yy02YWE3LTM4MjEtYmVjMi0zZGRhNzA3ZmMzZWYiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNC5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     trojan://cb8220cf-ec65-3588-b880-0c3755585d37@gz0slb.aliyuncdn.smp-paymentservices-apple.com:56323?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-116-CN
-    trojan://Aimer@192.200.160.169:2096?allowInsecure=1&sni=steamcdn-a.akamaihd.net&ws=1&wspath=%2525252F%2525253Fed%2525253D2560%2324-633-UStrojan%3A%2F%2Fcb8220cf-ec65-3588-b880-0c3755585d37%40gz0slb.aliyuncdn.smp-paymentservices-apple.com%3A56432%3FallowInsecure%3D1#04-117-CN
+    trojan://cb8220cf-ec65-3588-b880-0c3755585d37@gz0slb.aliyuncdn.smp-paymentservices-apple.com:56432?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-117-CN
     trojan://cb8220cf-ec65-3588-b880-0c3755585d37@push04.endpoint.smp-paymentservices-apple.com:23452?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-118-CN
     trojan://cb8220cf-ec65-3588-b880-0c3755585d37@push04.endpoint.smp-paymentservices-apple.com:23453?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-119-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTIwLUpQIiwiYWRkIjoianAtMS5hbmV3c3RhcnQuY3lvdSIsInBvcnQiOiI1MDYxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImE2MDRhNTQ3LTU3ZmEtMzgwNC1hMDFhLTc0ODI4N2EzOTcwNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImpwLTEuYW5ld3N0YXJ0LmN5b3UiLCJ0bHMiOiJ0bHMifQ==
