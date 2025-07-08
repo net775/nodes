@@ -74,6 +74,7 @@ proxies:
   - {name: 04-116-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 40945f2f-dbce-3003-83cc-ede497c44087, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 40945f2f-dbce-3003-83cc-ede497c44087, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56323, type: trojan, password: 2a58fceb-cea7-353f-ad80-ba0b1e2809ef, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-119-CN, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56432, type: trojan, password: 2a58fceb-cea7-353f-ad80-ba0b1e2809ef, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-120-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23452, type: trojan, password: 2a58fceb-cea7-353f-ad80-ba0b1e2809ef, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-121-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23453, type: trojan, password: 2a58fceb-cea7-353f-ad80-ba0b1e2809ef, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-122-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: 01b41a91-00a1-3f65-9ddb-2271dd91a4b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
@@ -87,7 +88,6 @@ proxies:
   - {name: 23-179-JP, server: 147.45.49.219, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: e6c75b36-6a4a-4471-b35c-a67532ef1530, udp: true}
   - {name: 23-188-JP, server: 107.148.6.67, port: 30001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/170733132233}, udp: true}
   - {name: 23-189-CA, server: 15.235.83.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 23-190-LV, server: 216.173.70.187, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 24-205-CN, server: 5f419027-syxog0-sztde0-f1v1.cu2.plebai.net, port: 15229, type: trojan, password: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b, sni: 5f419027-syxog0-sztde0-f1v1.cu2.plebai.net, skip-cert-verify: true, udp: true}
   - {name: 24-206-CN, server: 169eb4d7-syzj40-szgx2m-1t5n1.cu2.plebai.net, port: 15229, type: trojan, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, sni: 169eb4d7-syzj40-szgx2m-1t5n1.cu2.plebai.net, skip-cert-verify: true, udp: true}
   - {name: 24-208-CN, server: a2e7871d-syxog0-t200b9-m0b9.cu2.plebai.net, port: 15229, type: trojan, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, sni: a2e7871d-syxog0-t200b9-m0b9.cu2.plebai.net, skip-cert-verify: true, udp: true}
@@ -149,6 +149,7 @@ proxy-groups:
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
+      - 04-119-CN
       - 04-120-CN
       - 04-121-CN
       - 04-122-JP
@@ -162,7 +163,6 @@ proxy-groups:
       - 23-179-JP
       - 23-188-JP
       - 23-189-CA
-      - 23-190-LV
       - 24-205-CN
       - 24-206-CN
       - 24-208-CN
@@ -266,6 +266,7 @@ proxy-groups:
       - 04-104-RELAY
       - 04-109-CN
       - 04-114-CN
+      - 04-119-CN
       - 04-124-US
       - 23-134-JP
       - 23-179-JP
@@ -286,7 +287,6 @@ proxy-groups:
       - 04-115-CN
       - 04-120-CN
       - 04-125-NOWHERE
-      - 23-190-LV
       - 24-205-CN
       - 24-215-CN
       - 24-225-CN
