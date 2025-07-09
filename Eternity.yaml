@@ -88,6 +88,7 @@ proxies:
   - {name: 23-148-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-155-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 23-160-RELAY, server: 104.18.26.90, port: 80, type: vmess, uuid: 95abfa50-f1d9-4e7d-8a7a-50c2ee9a7365, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 23-164-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 23-165-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-166-RU, server: 176.32.39.29, port: 443, type: trojan, password: IM4e0ZQNPU, sni: journalofbigdata.springeropen.com, skip-cert-verify: true, udp: true}
   - {name: 23-188-FR, server: 81.19.137.222, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
@@ -111,7 +112,7 @@ proxies:
   - {name: 24-435-NL, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
   - {name: 24-442-US, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
   - {name: 24-443-RU, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-446-RELAY, server: aazxsdE.003330333.XYz, port: 443, type: vmess, uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SXjq8YlnGNBlbnEsM, headers: {Host: aazxsdE.003330333.XYz}}, udp: true}
+  - {name: 24-445-US, server: 38.246.242.40, port: 42268, type: vmess, uuid: 8dbf1dd2-9e2d-4a19-ab9b-5120e4bdc614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 24-447-RELAY, server: dddvvbn.931.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: dddvvbn.931.pp.ua}}, udp: true}
   - {name: 24-448-RELAY, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
   - {name: 24-450-CN, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
@@ -172,6 +173,7 @@ proxy-groups:
       - 23-148-LT
       - 23-155-NL
       - 23-160-RELAY
+      - 23-164-LT
       - 23-165-CA
       - 23-166-RU
       - 23-188-FR
@@ -195,7 +197,7 @@ proxy-groups:
       - 24-435-NL
       - 24-442-US
       - 24-443-RU
-      - 24-446-RELAY
+      - 24-445-US
       - 24-447-RELAY
       - 24-448-RELAY
       - 24-450-CN
@@ -237,7 +239,6 @@ proxy-groups:
       - 23-191-DE
       - 24-231-RELAY
       - 24-336-RELAY
-      - 24-446-RELAY
       - 24-456-RELAY
       - 24-471-CN
       - 24-481-RELAY
@@ -294,6 +295,7 @@ proxy-groups:
       - 23-129-DE
       - 23-139-FR
       - 23-144-DE
+      - 23-164-LT
       - 24-454-RELAY
       - 24-459-RELAY
       - 24-474-RELAY
@@ -317,6 +319,7 @@ proxy-groups:
       - 24-205-NOWHERE
       - 24-245-RELAY
       - 24-435-NL
+      - 24-445-US
       - 24-450-CN
       - 24-455-RELAY
       - 24-475-RELAY
