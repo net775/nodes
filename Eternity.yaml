@@ -80,6 +80,7 @@ proxies:
   - {name: 04-124-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: d9859381-e067-34f7-946f-ea9ec2202cdf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 05-129-SG, server: 138.2.95.61, port: 1111, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ttfang.fange.me}}, udp: true}
   - {name: 05-132-RELAY, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 05-134-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 05-139-CN, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23511, type: trojan, password: e42dfa71-1e12-4c1e-89ab-ee0232b3b698, sni: cn.bing.com, skip-cert-verify: true, udp: true}
   - {name: 05-140-CN, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23137, type: ss, cipher: chacha20-ietf-poly1305, password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714, udp: true}
   - {name: 05-141-CN, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 23104, type: ss, cipher: chacha20-ietf-poly1305, password: f9d1cb7b-ca3f-4e58-a46d-f508e95ed714, udp: true}
@@ -94,7 +95,6 @@ proxies:
   - {name: 23-330-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 5Y4TtzDrNm67ND8gnnibOL, udp: true}
   - {name: 23-335-VN, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 23-339-TR, server: 83.217.9.125, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA, udp: true}
-  - {name: 23-344-LT, server: 45.87.175.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 23-360-CN, server: 36.151.192.59, port: 9141, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 23-361-CN, server: 36.151.192.26, port: 32765, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 23-362-CN, server: 36.151.192.26, port: 34719, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -173,6 +173,7 @@ proxy-groups:
       - 04-124-NOWHERE
       - 05-129-SG
       - 05-132-RELAY
+      - 05-134-GB
       - 05-139-CN
       - 05-140-CN
       - 05-141-CN
@@ -187,7 +188,6 @@ proxy-groups:
       - 23-330-AT
       - 23-335-VN
       - 23-339-TR
-      - 23-344-LT
       - 23-360-CN
       - 23-361-CN
       - 23-362-CN
@@ -313,10 +313,10 @@ proxy-groups:
       - 04-119-CN
       - 04-124-NOWHERE
       - 05-129-SG
+      - 05-134-GB
       - 05-139-CN
       - 05-144-KR
       - 23-339-TR
-      - 23-344-LT
       - 23-364-CN
       - 23-404-CA
       - 24-434-RELAY
