@@ -56,6 +56,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTI0LU5PV0hFUkUiLCJhZGQiOiJ1czYtMS5hbmV3c3RhcnQuY3lvdSIsInBvcnQiOiI1MDYxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQ5ODU5MzgxLWUwNjctMzRmNy05NDZmLWVhOWVjMjIwMmNkZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InVzNi0xLmFuZXdzdGFydC5jeW91IiwidGxzIjoidGxzIn0=
     trojan://ttfang@138.2.95.61:1111?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=%2525252F#05-129-SG
     trojan://Aimer@31.43.179.27:443?allowInsecure=1&sni=epmk.ambercc.filegear-sg.me&ws=1&wspath=%2525252F#05-132-RELAY
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@85.210.120.237:443#05-134-GB
     trojan://e42dfa71-1e12-4c1e-89ab-ee0232b3b698@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:23511?allowInsecure=1&sni=cn.bing.com#05-139-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOWQxY2I3Yi1jYTNmLTRlNTgtYTQ2ZC1mNTA4ZTk1ZWQ3MTQ@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:23137#05-140-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOWQxY2I3Yi1jYTNmLTRlNTgtYTQ2ZC1mNTA4ZTk1ZWQ3MTQ@e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com:23104#05-141-CN
@@ -70,7 +71,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WTRUdHpEck5tNjdORDhnbm5pYk9M@212.113.106.76:29149#23-330-AT
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.154.27:38388#23-335-VN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@83.217.9.125:2222#23-339-TR
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.190:8080#23-344-LT
     trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.59:9141?allowInsecure=1&sni=www.baidu.com#23-360-CN
     trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.26:32765?allowInsecure=1&sni=www.baidu.com#23-361-CN
     trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.26:34719?allowInsecure=1&sni=www.baidu.com#23-362-CN
@@ -119,11 +119,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `187`
+合并节点总数: `190`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `187`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `190`
 
 
 ## 仓库声明
