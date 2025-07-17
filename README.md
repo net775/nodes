@@ -32,7 +32,6 @@ Fork from TopFreeProxies.
 
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAxLUpQIiwiYWRkIjoianAtMS5hbmV3c3RhcnQuY3lvdSIsInBvcnQiOiI1MDYxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjNhNzc4Y2ZhLWE2OGItMzU3NS1hMDE1LTY5MjU0YWRjYzI5MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImpwLTEuYW5ld3N0YXJ0LmN5b3UiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAyLU5PV0hFUkUiLCJhZGQiOiJqcDYtMS5hbmV3c3RhcnQuY3lvdSIsInBvcnQiOiI1MDYxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjNhNzc4Y2ZhLWE2OGItMzU3NS1hMDE1LTY5MjU0YWRjYzI5MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImpwNi0xLmFuZXdzdGFydC5jeW91IiwidGxzIjoidGxzIn0=
-    vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAzLVVTIiwiYWRkIjoidXMtMS5hbmV3c3RhcnQuY3lvdSIsInBvcnQiOiI1MDYxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjNhNzc4Y2ZhLWE2OGItMzU3NS1hMDE1LTY5MjU0YWRjYzI5MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InVzLTEuYW5ld3N0YXJ0LmN5b3UiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LU5PV0hFUkUiLCJhZGQiOiJ1czYtMS5hbmV3c3RhcnQuY3lvdSIsInBvcnQiOiI1MDYxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjNhNzc4Y2ZhLWE2OGItMzU3NS1hMDE1LTY5MjU0YWRjYzI5MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InVzNi0xLmFuZXdzdGFydC5jeW91IiwidGxzIjoidGxzIn0=
     trojan://9bf8b1bd-7fc7-3a27-a4e7-dac20ad8e789@gz0slb.aliyuncdn.smp-paymentservices-apple.com:56323?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-005-NOWHERE
     trojan://9bf8b1bd-7fc7-3a27-a4e7-dac20ad8e789@gz0slb.aliyuncdn.smp-paymentservices-apple.com:56432?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-006-NOWHERE
@@ -86,11 +85,12 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1nY206Tml6bkx2b0l1eQ@220.124.31.130:19378#23-307-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.58:8080#23-308-LT
     trojan://58dcd460-65df-47b1-b062-517df30bef29@usa.liangyuandian.top:443?allowInsecure=1#23-309-SG
+    trojan://2ee85121-31de-4581-a492-eb00f606e392@192.3.107.252:443?allowInsecure=1&sni=rc8.freeguard.org#23-311-US
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site:1443#23-313-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVFEwWg@uk.opensocks.site:1443#23-315-ES
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVm5UellBcVhFSHc@89.23.103.229:443#23-316-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.70:8080#23-325-FR
     trojan://e4af2638-bb12-4e4a-84f1-a032e23ca63f@usla.mjt000.com:443?allowInsecure=1#23-328-HK
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#23-335-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI@92.38.171.215:31348#23-338-ES
     trojan://2ee85121-31de-4581-a492-eb00f606e392@198.23.229.250:443?allowInsecure=1&sni=rc6.freeguard.org#23-339-US
     ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@103.149.183.61:8388#23-342-HK
@@ -109,7 +109,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6Rkc1ZGRMc01QYlY1Q3V0RQ@217.30.10.18:9050#23-365-PL
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#23-368-IS
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM@94.131.21.174:54075#23-369-US
-    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.21.221:989#23-372-HKss%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg%40ca.opensocks.site1443%2323-313-CA
+    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.21.221:989#23-372-HKss%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9x%4023.177.185.6349454%2323-335-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@38.165.233.18:990#23-380-PY
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#23-383-MD
     
@@ -118,11 +118,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `185`
+合并节点总数: `184`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `185`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `184`
 
 
 ## 仓库声明
