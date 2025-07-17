@@ -56,7 +56,6 @@ sniffer:
 proxies:
   - {name: 04-001-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: 3a778cfa-a68b-3575-a015-69254adcc291, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-002-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 3a778cfa-a68b-3575-a015-69254adcc291, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
-  - {name: 04-003-US, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: 3a778cfa-a68b-3575-a015-69254adcc291, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 3a778cfa-a68b-3575-a015-69254adcc291, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-005-NOWHERE, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56323, type: trojan, password: 9bf8b1bd-7fc7-3a27-a4e7-dac20ad8e789, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-006-NOWHERE, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56432, type: trojan, password: 9bf8b1bd-7fc7-3a27-a4e7-dac20ad8e789, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
@@ -110,11 +109,12 @@ proxies:
   - {name: 23-307-KR, server: 220.124.31.130, port: 19378, type: ss, cipher: aes-256-gcm, password: NiznLvoIuy, udp: true}
   - {name: 23-308-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-309-SG, server: usa.liangyuandian.top, port: 443, type: trojan, password: 58dcd460-65df-47b1-b062-517df30bef29, skip-cert-verify: true, udp: true}
+  - {name: 23-311-US, server: 192.3.107.252, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, skip-cert-verify: true, udp: true}
+  - {name: 23-313-CA, server: ca.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: OGU5Z, udp: true}
   - {name: 23-315-ES, server: uk.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: YTQ0Z, udp: true}
   - {name: 23-316-NL, server: 89.23.103.229, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pVnTzYAqXEHw, udp: true}
   - {name: 23-325-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-328-HK, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, skip-cert-verify: true, udp: true}
-  - {name: 23-335-US, server: 23.177.185.63, port: 49454, type: ss, cipher: chacha20-ietf-poly1305, password: Dd458MFxClvvKQp9gZHYOW, udp: true}
   - {name: 23-338-ES, server: 92.38.171.215, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR, udp: true}
   - {name: 23-339-US, server: 198.23.229.250, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc6.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 23-342-HK, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
@@ -133,7 +133,7 @@ proxies:
   - {name: 23-365-PL, server: 217.30.10.18, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: 23-368-IS, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-369-US, server: 94.131.21.174, port: 54075, type: ss, cipher: chacha20-ietf-poly1305, password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3, udp: true}
-  - {name: 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site1443#23-313-CA, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9x@23.177.185.6349454#23-335-US, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-380-PY, server: 38.165.233.18, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-383-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
@@ -148,7 +148,6 @@ proxy-groups:
       - 测速5分组
       - 04-001-JP
       - 04-002-NOWHERE
-      - 04-003-US
       - 04-004-NOWHERE
       - 04-005-NOWHERE
       - 04-006-NOWHERE
@@ -202,11 +201,12 @@ proxy-groups:
       - 23-307-KR
       - 23-308-LT
       - 23-309-SG
+      - 23-311-US
+      - 23-313-CA
       - 23-315-ES
       - 23-316-NL
       - 23-325-FR
       - 23-328-HK
-      - 23-335-US
       - 23-338-ES
       - 23-339-US
       - 23-342-HK
@@ -225,7 +225,7 @@ proxy-groups:
       - 23-365-PL
       - 23-368-IS
       - 23-369-US
-      - 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site1443#23-313-CA
+      - 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9x@23.177.185.6349454#23-335-US
       - 23-380-PY
       - 23-383-MD
   - name: 自动选择
@@ -253,6 +253,7 @@ proxy-groups:
       - 05-171-RELAY
       - 09-196-CN
       - 14-301-RELAY
+      - 23-311-US
       - 23-316-NL
       - 23-351-VN
       - 23-361-FI
@@ -275,13 +276,12 @@ proxy-groups:
       - 23-352-DE
       - 23-357-VN
       - 23-362-PL
-      - 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site1443#23-313-CA
+      - 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9x@23.177.185.6349454#23-335-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-003-US
       - 04-008-CN
       - 04-108-RELAY
       - 04-113-RELAY
@@ -296,13 +296,13 @@ proxy-groups:
       - 14-298-VN
       - 14-303-RU
       - 23-308-LT
+      - 23-313-CA
       - 23-328-HK
       - 23-338-ES
       - 23-343-LT
       - 23-353-VN
       - 23-358-PR
       - 23-368-IS
-      - 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site1443#23-313-CA
       - 23-383-MD
   - name: 测速4分组
     type: url-test
@@ -341,10 +341,10 @@ proxy-groups:
       - 14-295-TW
       - 23-315-ES
       - 23-325-FR
-      - 23-335-US
       - 23-355-SG
       - 23-360-VN
       - 23-365-PL
+      - 23-372-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9x@23.177.185.6349454#23-335-US
       - 23-380-PY
   - name: 广告拦截
     type: select
