@@ -93,7 +93,6 @@ proxies:
   - {name: 23-555-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-559-NOWHERE, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 23-560-RELAY, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 23-572-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 23-573-RELAY, server: production.tj.ojan.workers.dev, port: 443, type: trojan, password: 9yu6m5okr, sni: production.tj.ojan.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: production.tj.ojan.workers.dev}}, udp: true}
   - {name: 23-580-NL, server: 89.23.103.229, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pVnTzYAqXEHw, udp: true}
   - {name: 23-585-RELAY, server: 104.18.203.219, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, udp: true}
@@ -106,6 +105,7 @@ proxies:
   - {name: 23-599-RELAY, server: csgo.com, port: 8443, type: trojan, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: cdn-node-oss-99.paofu.de, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fprofile%25252Ftelegram%252540ssrsub", headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
   - {name: 23-600-RELAY, server: fastcup.net, port: 8443, type: trojan, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: cdn-node-oss-99.paofu.de, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fprofile%25252Ftelegram%252540ssrsub", headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
   - {name: 23-601-RELAY, server: pubg.ac, port: 8443, type: trojan, password: dac2d4dd-9a4d-4eb0-92a6-028532caed52, sni: cdn-node-oss-99.paofu.de, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fprofile%25252Ftelegram%252540ssrsub", headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+  - {name: 23-606-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -155,7 +155,6 @@ proxy-groups:
       - 23-555-DE
       - 23-559-NOWHERE
       - 23-560-RELAY
-      - 23-572-AE
       - 23-573-RELAY
       - 23-580-NL
       - 23-585-RELAY
@@ -168,6 +167,7 @@ proxy-groups:
       - 23-599-RELAY
       - 23-600-RELAY
       - 23-601-RELAY
+      - 23-606-LT
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -193,6 +193,7 @@ proxy-groups:
       - 23-586-RELAY
       - 23-596-DE
       - 23-601-RELAY
+      - 23-606-LT
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -208,7 +209,6 @@ proxy-groups:
       - 14-532-CN
       - 23-537-DE
       - 23-552-FR
-      - 23-572-AE
       - 23-597-RELAY
   - name: 测速3分组
     type: url-test
