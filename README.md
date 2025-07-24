@@ -69,7 +69,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMjMtNTU1LURFIiwiYWRkIjoiNTcuMTI5LjI0LjEyNSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjMtNTU5LU5PV0hFUkUiLCJhZGQiOiIxMDMuMTYwLjIwNC4yNDEiLCJwb3J0IjoiODg4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyNDhiZTUyYi0zNWQ5LTM0Y2ItOWI3My1lMTJiNzhiYzEzMDEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjMtNTYwLVJFTEFZIiwiYWRkIjoiMTA0LjIxLjMuMTg5IiwicG9ydCI6IjIwNTMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmZjMzc3MTMtMzAxNy00OTdlLWZmMmQtOTY1ZjgyNmExOWEzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#23-572-AE
     trojan://9yu6m5okr@production.tj.ojan.workers.dev:443?allowInsecure=1&sni=production.tj.ojan.workers.dev&ws=1&wspath=%2525252F#23-573-RELAY
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVm5UellBcVhFSHc@89.23.103.229:443#23-580-NL
     trojan://bpb-trojan@104.18.203.219:443?allowInsecure=1&sni=bpb.my79801.com#23-585-RELAY
@@ -82,17 +81,18 @@ Fork from TopFreeProxies.
     trojan://dac2d4dd-9a4d-4eb0-92a6-028532caed52@csgo.com:8443?allowInsecure=1&sni=cdn-node-oss-99.paofu.de&ws=1&wspath=%2525252Fprofile%2525252Ftelegram%25252540ssrsub#23-599-RELAY
     trojan://dac2d4dd-9a4d-4eb0-92a6-028532caed52@fastcup.net:8443?allowInsecure=1&sni=cdn-node-oss-99.paofu.de&ws=1&wspath=%2525252Fprofile%2525252Ftelegram%25252540ssrsub#23-600-RELAY
     trojan://dac2d4dd-9a4d-4eb0-92a6-028532caed52@pubg.ac:8443?allowInsecure=1&sni=cdn-node-oss-99.paofu.de&ws=1&wspath=%2525252Fprofile%2525252Ftelegram%25252540ssrsub#23-601-RELAY
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.164:8080#23-606-LT
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `156`
+合并节点总数: `141`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `156`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `141`
 
 
 ## 仓库声明
