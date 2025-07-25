@@ -54,7 +54,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-001-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: a6681bbf-6f22-30b3-97ac-c4d006842fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-002-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: a6681bbf-6f22-30b3-97ac-c4d006842fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: a6681bbf-6f22-30b3-97ac-c4d006842fd5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-005-NOWHERE, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56323, type: trojan, password: 885774a7-1bcb-3512-8509-0fd34a974d64, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
@@ -86,6 +85,7 @@ proxies:
   - {name: 05-142-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: ae6e933b-8874-4bf4-a384-0de216ef2bf4, udp: true}
   - {name: 09-266-NOWHERE, server: stirring-parakeet.shiner427.skin, port: 443, type: trojan, password: !<str> 74260628090146500, skip-cert-verify: true, udp: true}
   - {name: 09-376-RELAY, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: tyep.esslh.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: tyep.esslh.filegear-sg.me}}, udp: true}
+  - {name: 14-528-KR, server: 43.203.117.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-529-CN, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
   - {name: 14-530-RELAY, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}, udp: true}
   - {name: 14-531-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
@@ -99,7 +99,6 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 04-001-JP
       - 04-002-NOWHERE
       - 04-004-NOWHERE
       - 04-005-NOWHERE
@@ -131,6 +130,7 @@ proxy-groups:
       - 05-142-PL
       - 09-266-NOWHERE
       - 09-376-RELAY
+      - 14-528-KR
       - 14-529-CN
       - 14-530-RELAY
       - 14-531-RU
@@ -149,7 +149,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-001-JP
       - 04-006-NOWHERE
       - 04-111-RELAY
       - 04-116-CN
@@ -180,6 +179,7 @@ proxy-groups:
       - 04-113-RELAY
       - 04-118-CN
       - 04-123-NOWHERE
+      - 14-528-KR
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
