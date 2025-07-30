@@ -80,13 +80,13 @@ proxies:
   - {name: 04-0125-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: f83cec21-0c3e-3915-b386-7a52e28f43ab, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 05-0170-IN, server: 20.235.105.146, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ttfang.fange.me}}, udp: true}
   - {name: 05-0171-CN, server: pro.airport-wifi6.com, port: 3264, type: vmess, uuid: 455f9e3b-3cde-3007-8b58-739b7f63e9d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 05-0172-IN, server: x1-india-amazon-v2-n67m9.devefun.org, port: 1935, type: trojan, password: 5fPC693gll, sni: x1-india-amazon-v2-n67m9.devefun.org, skip-cert-verify: true, udp: true}
   - {name: 09-0381-RELAY, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: tyep.esslh.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: tyep.esslh.filegear-sg.me}}, udp: true}
   - {name: 14-0520-HK, server: d1b35237-sz8sg0-t0opzi-19xg1.hk.p5pv.com, port: 80, type: vmess, uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d1b35237-sz8sg0-t0opzi-19xg1.hk.p5pv.com}}, udp: true}
   - {name: 14-0521-HK, server: 1c4a9afd-sv2sg0-t1k8ya-1erqr.hk.p5pv.com, port: 80, type: vmess, uuid: f3961816-505d-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1c4a9afd-sv2sg0-t1k8ya-1erqr.hk.p5pv.com}}, udp: true}
   - {name: 14-0522-HK, server: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com, port: 80, type: vmess, uuid: 7c129766-8656-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com}}, udp: true}
   - {name: 14-0523-HK, server: 130b8183-sv0xs0-td5fm5-4dl0.hk.p5pv.com, port: 80, type: vmess, uuid: 56b05600-e140-11ec-a3de-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 130b8183-sv0xs0-td5fm5-4dl0.hk.p5pv.com}}, udp: true}
   - {name: 14-0524-HK, server: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com, port: 80, type: vmess, uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com}}, udp: true}
+  - {name: 14-0525-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-0526-HK, server: 4ef4bb29-szan40-t0r7zu-17z95.hk.p5pv.com, port: 80, type: vmess, uuid: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4ef4bb29-szan40-t0r7zu-17z95.hk.p5pv.com}}, udp: true}
   - {name: 14-0527-HK, server: 245b0bbb-sunz40-t5bgb3-l4nv.hk.p5pv.com, port: 80, type: vmess, uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 245b0bbb-sunz40-t5bgb3-l4nv.hk.p5pv.com}}, udp: true}
   - {name: 14-0528-HK, server: acbd7ff2-sv6hs0-szj6wo-8f7h.hk.p5pv.com, port: 80, type: vmess, uuid: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acbd7ff2-sv6hs0-szj6wo-8f7h.hk.p5pv.com}}, udp: true}
@@ -215,13 +215,13 @@ proxy-groups:
       - 04-0125-CN
       - 05-0170-IN
       - 05-0171-CN
-      - 05-0172-IN
       - 09-0381-RELAY
       - 14-0520-HK
       - 14-0521-HK
       - 14-0522-HK
       - 14-0523-HK
       - 14-0524-HK
+      - 14-0525-MD
       - 14-0526-HK
       - 14-0527-HK
       - 14-0528-HK
@@ -365,7 +365,6 @@ proxy-groups:
       - 04-0112-RELAY
       - 04-0117-CN
       - 04-0122-NOWHERE
-      - 05-0172-IN
       - 14-0522-HK
       - 14-0527-HK
       - 14-0532-HK
@@ -455,6 +454,7 @@ proxy-groups:
       - 04-0125-CN
       - 05-0170-IN
       - 14-0520-HK
+      - 14-0525-MD
       - 14-0530-HK
       - 14-0535-HK
       - 14-0540-HK
