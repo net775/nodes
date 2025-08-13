@@ -129,6 +129,7 @@ proxies:
   - {name: 06-0284-RELAY, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0285-RELAY, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0286-RELAY, server: 172.67.77.127, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
+  - {name: 08-0419-CN, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0420-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0421-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0458-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -297,12 +298,13 @@ proxies:
   - {name: 09-1195-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1196-GB, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1197-GB, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-1198-US, server: 107.173.159.106, port: 16083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 09-1201-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1202-RELAY, server: 156.238.18.112, port: 2087, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
   - {name: 09-1203-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1207-PR, server: 185.47.255.22, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-1208-GB, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-1209-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 09-1210-GB, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1211-RELAY, server: 104.21.65.31, port: 80, type: vmess, uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cG5dtVKOSrHwPit2OdWk0KwirdY}, udp: true}
   - {name: 09-1212-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-1216-RELAY, server: 172.67.209.79, port: 80, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf}, udp: true}
@@ -501,17 +503,12 @@ proxies:
   - {name: 09-1500-TW, server: 220.135.202.250, port: 81, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ttfang.fange.me}}, udp: true}
   - {name: 09-1501-US, server: 64.81.39.212, port: 20086, type: vmess, uuid: a3efc510-c175-4b74-bc04-fe1d110a62bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1502-NL, server: 141.98.4.67, port: 52952, type: ss, cipher: chacha20-ietf-poly1305, password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj, udp: true}
+  - {name: 09-1503-KR, server: 211.198.136.117, port: 50000, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 09-1504-US, server: 64.81.30.225, port: 20086, type: vmess, uuid: 7f499074-3408-4840-b55b-91142735d2cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1505-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 23-1521-RELAY, server: 162.159.138.112, port: 443, type: trojan, password: blue2024, sni: hb.lii2010.us.kg, skip-cert-verify: true, udp: true}
-  - {name: 23-1522-TR, server: 103.215.218.73, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v%2523NSFP_LG_bJ, udp: true}
-  - {name: 23-1523-RELAY, server: 172.67.110.232, port: 443, type: trojan, password: blue2024, sni: tb.promote.icu, skip-cert-verify: true, udp: true}
-  - {name: 23-1524-RELAY, server: 104.18.246.149, port: 443, type: trojan, password: blue2024, sni: hb.lii2010.us.kg, skip-cert-verify: true, udp: true}
-  - {name: 23-1525-RELAY, server: 104.21.104.93, port: 443, type: trojan, password: blue2024, sni: hb.lii2010.us.kg, skip-cert-verify: true, udp: true}
-  - {name: 23-1543-DE, server: 57.129.25.22, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 23-1558-NL, server: 194.87.216.218, port: 52571, type: ss, cipher: chacha20-ietf-poly1305, password: ytyDsafkORMxiBdfrdR1kU, udp: true}
-  - {name: 23-1559-RELAY, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: vpn.stupidworld.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: vpn.stupidworld.web.id}}, udp: true}
-  - {name: 23-1567-LT, server: 45.87.175.170, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 23-1509-TR, server: 103.215.218.73, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v%2523NSFP_LG_bJ, udp: true}
+  - {name: 23-1524-DE, server: 57.129.25.22, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 23-1552-DE, server: 57.129.15.177, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-astrovpn_official-de, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -597,6 +594,7 @@ proxy-groups:
       - 06-0284-RELAY
       - 06-0285-RELAY
       - 06-0286-RELAY
+      - 08-0419-CN
       - 09-0420-US
       - 09-0421-US
       - 09-0458-US
@@ -765,12 +763,13 @@ proxy-groups:
       - 09-1195-GB
       - 09-1196-GB
       - 09-1197-GB
+      - 09-1198-US
       - 09-1201-GB
       - 09-1202-RELAY
       - 09-1203-GB
       - 09-1207-PR
       - 09-1208-GB
-      - 09-1209-GB
+      - 09-1210-GB
       - 09-1211-RELAY
       - 09-1212-NL
       - 09-1216-RELAY
@@ -969,17 +968,12 @@ proxy-groups:
       - 09-1500-TW
       - 09-1501-US
       - 09-1502-NL
+      - 09-1503-KR
       - 09-1504-US
       - 09-1505-GB
-      - 23-1521-RELAY
-      - 23-1522-TR
-      - 23-1523-RELAY
-      - 23-1524-RELAY
-      - 23-1525-RELAY
-      - 23-1543-DE
-      - 23-1558-NL
-      - 23-1559-RELAY
-      - 23-1567-LT
+      - 23-1509-TR
+      - 23-1524-DE
+      - 23-1552-DE
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1089,7 +1083,6 @@ proxy-groups:
       - 09-1491-LV
       - 09-1496-SE
       - 09-1501-US
-      - 23-1521-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1180,8 +1173,7 @@ proxy-groups:
       - 09-1492-BO
       - 09-1497-TW
       - 09-1502-NL
-      - 23-1522-TR
-      - 23-1567-LT
+      - 23-1552-DE
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1239,6 +1231,7 @@ proxy-groups:
       - 09-1183-NOWHERE
       - 09-1188-RELAY
       - 09-1193-GB
+      - 09-1198-US
       - 09-1203-GB
       - 09-1208-GB
       - 09-1218-GB
@@ -1283,9 +1276,7 @@ proxy-groups:
       - 09-1488-IN
       - 09-1493-HK
       - 09-1498-US
-      - 23-1523-RELAY
-      - 23-1543-DE
-      - 23-1558-NL
+      - 09-1503-KR
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1308,6 +1299,7 @@ proxy-groups:
       - 06-0274-RELAY
       - 06-0279-US
       - 06-0284-RELAY
+      - 08-0419-CN
       - 09-0469-US
       - 09-0489-RELAY
       - 09-0629-RELAY
@@ -1338,7 +1330,6 @@ proxy-groups:
       - 09-1114-NOWHERE
       - 09-1144-CA
       - 09-1189-RELAY
-      - 09-1209-GB
       - 09-1224-RELAY
       - 09-1229-NL
       - 09-1234-NL
@@ -1379,8 +1370,8 @@ proxy-groups:
       - 09-1494-VN
       - 09-1499-RELAY
       - 09-1504-US
-      - 23-1524-RELAY
-      - 23-1559-RELAY
+      - 23-1509-TR
+      - 23-1524-DE
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1435,6 +1426,7 @@ proxy-groups:
       - 09-1185-US
       - 09-1190-RELAY
       - 09-1195-GB
+      - 09-1210-GB
       - 09-1230-RELAY
       - 09-1235-LT
       - 09-1240-LT
@@ -1472,7 +1464,6 @@ proxy-groups:
       - 09-1490-KR
       - 09-1500-TW
       - 09-1505-GB
-      - 23-1525-RELAY
   - name: 广告拦截
     type: select
     proxies:
