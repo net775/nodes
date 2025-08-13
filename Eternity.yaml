@@ -227,9 +227,9 @@ proxies:
   - {name: 09-1014-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1017-RELAY, server: 104.21.42.93, port: 443, type: trojan, password: a96cb093-b164-4bc6-bd27-deb0e385de07, sni: uuuUuuUuJ.999864.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FCNLtVWdiKPpIlRig3qizHXb", headers: {Host: uuuUuuUuJ.999864.Xyz}}, udp: true}
   - {name: 09-1020-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-1021-US, server: 104.238.162.76, port: 20086, type: vmess, uuid: 6cf93fe6-0062-4212-95aa-2aabca8b11bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1022-RELAY, server: 104.25.254.4, port: 2087, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
   - {name: 09-1026-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-1028-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1030-RELAY, server: 104.21.72.109, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: vpn.stupidworld.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FStupid-World%25252F103.106.228.126-2053", headers: {Host: vpn.stupidworld.web.id}}, udp: true}
   - {name: 09-1038-RELAY, server: 156.238.18.220, port: 8443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
   - {name: 09-1045-RELAY, server: 154.83.2.125, port: 2087, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
@@ -310,8 +310,8 @@ proxies:
   - {name: 09-1210-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-1211-GB, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1212-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 09-1213-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1214-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-1215-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 09-1216-NL, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD, udp: true}
   - {name: 09-1217-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-1218-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
@@ -381,6 +381,7 @@ proxies:
   - {name: 09-1294-US, server: 4.242.243.5, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 09-1295-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-1298-US, server: 170.106.152.78, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
+  - {name: 09-1300-US, server: 23.94.240.202, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 09-1301-DE, server: 46.165.194.90, port: 20086, type: vmess, uuid: f2a9f149-cb6a-4669-9097-2d8cb2d4ea7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1304-DE, server: 46.165.194.96, port: 20086, type: vmess, uuid: 01b1efee-6677-4cdb-a0f1-0f3dff2d8176, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1305-BG, server: 37.19.203.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -496,10 +497,9 @@ proxies:
   - {name: 09-1493-KR, server: 183.109.131.75, port: 20086, type: vmess, uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1494-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-1495-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 23-1504-RELAY, server: 5.182.85.93, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
-  - {name: 23-1505-NL, server: 185.26.236.196, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: hvce9IJx3AVhMgstYwBD4i, udp: true}
-  - {name: 23-1519-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 23-1527-TR, server: 103.215.218.73, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v%2523NSFP_LG_bJ, udp: true}
+  - {name: 23-1505-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 23-1506-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 23-1530-TR, server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: jdYYOSuDuVptoIQ9goNwOw, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -683,9 +683,9 @@ proxy-groups:
       - 09-1014-US
       - 09-1017-RELAY
       - 09-1020-US
-      - 09-1021-US
       - 09-1022-RELAY
       - 09-1026-US
+      - 09-1028-US
       - 09-1030-RELAY
       - 09-1038-RELAY
       - 09-1045-RELAY
@@ -766,8 +766,8 @@ proxy-groups:
       - 09-1210-NL
       - 09-1211-GB
       - 09-1212-FR
+      - 09-1213-GB
       - 09-1214-NL
-      - 09-1215-NL
       - 09-1216-NL
       - 09-1217-GB
       - 09-1218-GB
@@ -837,6 +837,7 @@ proxy-groups:
       - 09-1294-US
       - 09-1295-FR
       - 09-1298-US
+      - 09-1300-US
       - 09-1301-DE
       - 09-1304-DE
       - 09-1305-BG
@@ -952,10 +953,9 @@ proxy-groups:
       - 09-1493-KR
       - 09-1494-LT
       - 09-1495-GB
-      - 23-1504-RELAY
-      - 23-1505-NL
-      - 23-1519-CA
-      - 23-1527-TR
+      - 23-1505-CA
+      - 23-1506-CA
+      - 23-1530-TR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1010,7 +1010,6 @@ proxy-groups:
       - 09-0981-RELAY
       - 09-1006-US
       - 09-1011-CA
-      - 09-1021-US
       - 09-1026-US
       - 09-1061-RELAY
       - 09-1111-RELAY
@@ -1065,6 +1064,7 @@ proxy-groups:
       - 09-1481-VN
       - 09-1486-NL
       - 09-1491-KR
+      - 23-1506-CA
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1157,7 +1157,6 @@ proxy-groups:
       - 09-1467-TR
       - 09-1477-KR
       - 09-1492-US
-      - 23-1527-TR
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1193,6 +1192,7 @@ proxy-groups:
       - 09-0943-KZ
       - 09-0948-RELAY
       - 09-0993-RELAY
+      - 09-1028-US
       - 09-1038-RELAY
       - 09-1093-RELAY
       - 09-1103-RELAY
@@ -1209,6 +1209,7 @@ proxy-groups:
       - 09-1183-RELAY
       - 09-1203-GB
       - 09-1208-GB
+      - 09-1213-GB
       - 09-1218-GB
       - 09-1223-US
       - 09-1228-RELAY
@@ -1336,8 +1337,6 @@ proxy-groups:
       - 09-1479-SI
       - 09-1489-KR
       - 09-1494-LT
-      - 23-1504-RELAY
-      - 23-1519-CA
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1398,7 +1397,6 @@ proxy-groups:
       - 09-1185-RELAY
       - 09-1205-GB
       - 09-1210-NL
-      - 09-1215-NL
       - 09-1220-LT
       - 09-1225-FR
       - 09-1230-NL
@@ -1415,6 +1413,7 @@ proxy-groups:
       - 09-1285-US
       - 09-1290-SE
       - 09-1295-FR
+      - 09-1300-US
       - 09-1305-BG
       - 09-1310-ES
       - 09-1335-CO
@@ -1436,7 +1435,8 @@ proxy-groups:
       - 09-1480-ID
       - 09-1485-US
       - 09-1495-GB
-      - 23-1505-NL
+      - 23-1505-CA
+      - 23-1530-TR
   - name: 广告拦截
     type: select
     proxies:
