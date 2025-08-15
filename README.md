@@ -26,14 +26,13 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `71`
+高速节点数量: `70`
 <details>
   <summary>展开复制节点</summary>
 
     trojan://Aimer@199.34.228.50:2053?allowInsecure=1&sni=t.hongkong6.qzz.io&ws=1&wspath=%2525252F#05-0010-RELAY
     trojan://tg-fq521free@45.67.215.95:443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%2525252F#05-0015-RU
-    trojan://Aimer@47.79.38.17:443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%2525252F#05-0016-US
-    ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@23.251.121.242:8080#05-0037-US
+    trojan://tg-fq521free@216.24.57.30:443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%2525252F#05-0016-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDUtMDA0Ni1DTiIsImFkZCI6InYzNy5oZWR1aWFuLmxpbmsiLCJwb3J0IjoiMzA4MzciLCJ0eXBlIjoibm9uZSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii9vb29vIiwiaG9zdCI6InYzNy5oZWR1aWFuLmxpbmsiLCJ0bHMiOiIifQ==
     trojan://Aimer@188.164.159.18:443?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#06-0054-RELAY
     trojan://Aimer@188.164.159.107:2096?allowInsecure=1&sni=epgb.aimercc.dpdns.org&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#06-0055-RELAY
@@ -106,11 +105,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `73`
+合并节点总数: `353`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `73`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `353`
 
 
 ## 仓库声明
