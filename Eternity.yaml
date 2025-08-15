@@ -56,8 +56,7 @@ sniffer:
 proxies:
   - {name: 05-0010-RELAY, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: t.hongkong6.qzz.io, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: t.hongkong6.qzz.io}}, udp: true}
   - {name: 05-0015-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 05-0016-US, server: 47.79.38.17, port: 443, type: trojan, password: Aimer, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 05-0037-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 05-0016-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 05-0046-CN, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v37.heduian.link}}, udp: true}
   - {name: 06-0054-RELAY, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0055-RELAY, server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
@@ -137,7 +136,6 @@ proxy-groups:
       - 05-0010-RELAY
       - 05-0015-RU
       - 05-0016-US
-      - 05-0037-US
       - 05-0046-CN
       - 06-0054-RELAY
       - 06-0055-RELAY
@@ -238,7 +236,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 05-0037-US
       - 06-0057-RELAY
       - 06-0102-KR
       - 06-0107-KR
