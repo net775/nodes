@@ -147,9 +147,8 @@ proxies:
   - {name: 09-0355-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0356-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0357-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0358-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0359-US, server: 104.238.162.76, port: 20086, type: vmess, uuid: 6cf93fe6-0062-4212-95aa-2aabca8b11bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0360-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0361-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0362-US, server: 137.175.124.167, port: 20086, type: vmess, uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0363-US, server: 82.29.132.9, port: 20086, type: vmess, uuid: b2c61f53-a359-429c-900e-255f02def6be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0364-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
@@ -166,6 +165,7 @@ proxies:
   - {name: 09-0375-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 09-0376-LT, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 09-0377-NL, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 09-0378-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 09-0379-NL, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 09-0380-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 09-0381-NL, server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -559,9 +559,8 @@ proxy-groups:
       - 09-0355-US
       - 09-0356-US
       - 09-0357-US
-      - 09-0358-US
+      - 09-0359-US
       - 09-0360-US
-      - 09-0361-GB
       - 09-0362-US
       - 09-0363-US
       - 09-0364-NL
@@ -578,6 +577,7 @@ proxy-groups:
       - 09-0375-FR
       - 09-0376-LT
       - 09-0377-NL
+      - 09-0378-NL
       - 09-0379-NL
       - 09-0380-LT
       - 09-0381-NL
@@ -902,7 +902,6 @@ proxy-groups:
       - 09-0346-US
       - 09-0351-US
       - 09-0356-US
-      - 09-0361-GB
       - 09-0366-LT
       - 09-0371-AE
       - 09-0376-LT
@@ -1073,10 +1072,10 @@ proxy-groups:
       - 06-0338-RELAY
       - 09-0348-US
       - 09-0353-US
-      - 09-0358-US
       - 09-0363-US
       - 09-0368-FR
       - 09-0373-AE
+      - 09-0378-NL
       - 09-0383-LT
       - 09-0388-LT
       - 09-0393-GB
@@ -1154,6 +1153,7 @@ proxy-groups:
       - 08-0344-CN
       - 09-0349-US
       - 09-0354-CA
+      - 09-0359-US
       - 09-0364-NL
       - 09-0369-LT
       - 09-0374-LT
