@@ -54,8 +54,10 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 05-0003-US, server: 38.99.248.180, port: 20521, type: vmess, uuid: 365a5b17-b906-4b34-b485-faa40b87f18f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 05-0005-CN, server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.57.90989#08-0033-BR, server: cadacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcorcad.outline360bot.com, port: 80, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 7YGEcbGc73cA2AOeS5i9O/Z9nBwePRcDOcwmz8iFYTM%253D%253AVvXHtnK2VyBO4KCqshktRc%252BlX/UY2jDzT%252BwPhsI/A7M%253D, udp: true}
+  - {name: 05-0006-HK, server: 103.149.182.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#08-0033-NL, server: cadacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcorcad.outline360bot.com, port: 80, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 7YGEcbGc73cA2AOeS5i9O/Z9nBwePRcDOcwmz8iFYTM%253D%253AVvXHtnK2VyBO4KCqshktRc%252BlX/UY2jDzT%252BwPhsI/A7M%253D, udp: true}
   - {name: 05-0008-RELAY, server: 73E42019-c820-A66a-011E-f11937232ec1.89890604.XYz, port: 443, type: vmess, uuid: c2633560-5acb-4dd3-9c22-9a6c2fd212e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 73E42019-c820-A66a-011E-f11937232ec1.89890604.XYz}}, udp: true}
   - {name: 05-0009-RELAY, server: hhhju89.890603.xyz, port: 443, type: vmess, uuid: dc2f5557-6fc4-4ff7-989a-c2cf98c08029, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Qxh31nnaaZyYUIu7137, headers: {Host: hhhju89.890603.xyz}}, udp: true}
   - {name: 05-0010-RELAY, server: s1.db-link.in, port: 80, type: vmess, uuid: 003ef206-46b6-3701-ab77-b03debe7511f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in3e44a6f24f4f40dbd1a1b3a34c340af7, headers: {Host: s1.db-link.in}}, udp: true}
@@ -76,9 +78,8 @@ proxies:
   - {name: 23-0039-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
   - {name: 23-0040-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
   - {name: 23-0043-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
-  - {name: 23-0045-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
+  - {name: 23-0045-JPss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106989#23-0051-US, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 23-0049-CH, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: PtHv4bO4jPtBsHWSl1n5Qd, udp: true}
-  - {name: 23-0051-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0068-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 23-0069-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 9lcCvzNxpNsnINyaYfzc8e, udp: true}
   - {name: 23-0070-TR, server: 62.60.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9dVLaccGBqFx, udp: true}
@@ -94,8 +95,10 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 05-0003-US
       - 05-0005-CN
-      - 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.57.90989#08-0033-BR
+      - 05-0006-HK
+      - 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#08-0033-NL
       - 05-0008-RELAY
       - 05-0009-RELAY
       - 05-0010-RELAY
@@ -116,9 +119,8 @@ proxy-groups:
       - 23-0039-AT
       - 23-0040-FR
       - 23-0043-DE
-      - 23-0045-JP
+      - 23-0045-JPss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106989#23-0051-US
       - 23-0049-CH
-      - 23-0051-US
       - 23-0068-NL
       - 23-0069-AT
       - 23-0070-TR
@@ -139,16 +141,17 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 05-0006-HK
       - 05-0011-RELAY
       - 06-0021-RU
       - 06-0031-VN
-      - 23-0051-US
+      - 23-0045-JPss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106989#23-0051-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.57.90989#08-0033-BR
+      - 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#08-0033-NL
       - 06-0012-CN
       - 06-0017-HK
       - 08-0032-KR
@@ -159,7 +162,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.57.90989#08-0033-BR
+      - 05-0003-US
+      - 05-0007-CAss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#08-0033-NL
       - 05-0008-RELAY
       - 06-0013-CN
       - 23-0038-AT
@@ -188,7 +192,7 @@ proxy-groups:
       - 06-0030-VN
       - 23-0035-AT
       - 23-0040-FR
-      - 23-0045-JP
+      - 23-0045-JPss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106989#23-0051-US
       - 23-0070-TR
   - name: 广告拦截
     type: select
