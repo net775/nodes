@@ -57,6 +57,7 @@ proxies:
   - {name: 05-0001-CN, server: yd-03.paofunlink.com, port: 1055, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
   - {name: 05-0002-HK, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
   - {name: 05-0003-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+  - {name: 05-0004-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 05-0005-RELAY, server: qqqqqqqqqqqqaaaa.www890604.dpdns.org, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: qqqqqqqqqqqqaaaa.www890604.dpdns.org}}, udp: true}
   - {name: 05-0017-DE, server: 91.98.83.114, port: 8585, type: vmess, uuid: 9ec1ebd0-34e2-40b0-a681-3cb0c2d51953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-0021-CN, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v6.heduian.link}}, udp: true}
@@ -67,8 +68,9 @@ proxies:
   - {name: 06-0039-VN, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0040-VN, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0041-VN, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0042-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#05-0004-NL, server: 38.68.135.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 08-0042-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1718080#23-0094-LT, server: 38.68.135.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 08-0043-SA, server: 154.205.134.132, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: g8BWaY8FYhKfVMOT9N0IIB, udp: true}
+  - {name: 08-0044-VN, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0103-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0104-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 23-0045-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
@@ -84,7 +86,6 @@ proxies:
   - {name: 23-0080-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 9lcCvzNxpNsnINyaYfzc8e, udp: true}
   - {name: 23-0081-TR, server: 62.60.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9dVLaccGBqFx, udp: true}
   - {name: 23-0083-NL, server: macintosh.outlinekeys.net, port: 19609, type: ss, cipher: chacha20-ietf-poly1305, password: UKvyixKRdTSw28Qp87keER, udp: true}
-  - {name: 23-0094-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -98,6 +99,7 @@ proxy-groups:
       - 05-0001-CN
       - 05-0002-HK
       - 05-0003-HK
+      - 05-0004-NL
       - 05-0005-RELAY
       - 05-0017-DE
       - 06-0021-CN
@@ -108,8 +110,9 @@ proxy-groups:
       - 06-0039-VN
       - 06-0040-VN
       - 06-0041-VN
-      - 08-0042-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#05-0004-NL
+      - 08-0042-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1718080#23-0094-LT
       - 08-0043-SA
+      - 08-0044-VN
       - 08-0103-KR
       - 08-0104-VN
       - 23-0045-AT
@@ -125,7 +128,6 @@ proxy-groups:
       - 23-0080-AT
       - 23-0081-TR
       - 23-0083-NL
-      - 23-0094-LT
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -157,7 +159,7 @@ proxy-groups:
       - 05-0002-HK
       - 05-0017-DE
       - 06-0022-CN
-      - 08-0042-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#05-0004-NL
+      - 08-0042-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1718080#23-0094-LT
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -173,14 +175,15 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 05-0004-NL
       - 06-0024-FR
       - 06-0039-VN
-      - 08-0042-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#05-0004-NL
+      - 08-0042-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.1718080#23-0094-LT
+      - 08-0044-VN
       - 08-0104-VN
       - 23-0049-AT
       - 23-0054-DE
       - 23-0079-NL
-      - 23-0094-LT
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
