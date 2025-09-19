@@ -67,11 +67,11 @@ proxies:
   - {name: 06-0029-LT, server: ltnl15.saint.ydns.eu, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 06-0032-PY, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0035-TW, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0039-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 08-0041-VN, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0042-KR, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
-  - {name: 08-0102-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0103-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+  - {name: 08-0039-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
+  - {name: 08-0040-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 08-0041-GR, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0101-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0103-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0104-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 08-0105-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 23-0043-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
@@ -87,7 +87,6 @@ proxies:
   - {name: 23-0078-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 9lcCvzNxpNsnINyaYfzc8e, udp: true}
   - {name: 23-0079-TR, server: 62.60.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9dVLaccGBqFx, udp: true}
   - {name: 23-0081-NL, server: macintosh.outlinekeys.net, port: 19609, type: ss, cipher: chacha20-ietf-poly1305, password: UKvyixKRdTSw28Qp87keER, udp: true}
-  - {name: 23-0092-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -111,11 +110,11 @@ proxy-groups:
       - 06-0029-LT
       - 06-0032-PY
       - 06-0035-TW
-      - 08-0039-VN
-      - 08-0041-VN
-      - 08-0042-KR
-      - 08-0102-MD
-      - 08-0103-HK
+      - 08-0039-HK
+      - 08-0040-VN
+      - 08-0041-GR
+      - 08-0101-NL
+      - 08-0103-MD
       - 08-0104-HK
       - 08-0105-CA
       - 23-0043-AT
@@ -131,7 +130,6 @@ proxy-groups:
       - 23-0078-AT
       - 23-0079-TR
       - 23-0081-NL
-      - 23-0092-LT
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -148,7 +146,8 @@ proxy-groups:
     interval: 60
     proxies:
       - 05-0016-RELAY
-      - 08-0041-VN
+      - 08-0041-GR
+      - 08-0101-NL
       - 23-0046-AT
       - 23-0081-NL
   - name: 测速2分组
@@ -159,12 +158,9 @@ proxy-groups:
       - 05-0002-FR
       - 06-0027-KR
       - 06-0032-PY
-      - 08-0042-KR
-      - 08-0102-MD
       - 23-0047-AT
       - 23-0052-DE
       - 23-0077-NL
-      - 23-0092-LT
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -174,7 +170,7 @@ proxy-groups:
       - 05-0008-HKss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106989#23-0060-US
       - 06-0023-BR
       - 06-0028-LT
-      - 08-0103-HK
+      - 08-0103-MD
       - 23-0043-AT
       - 23-0048-AT
       - 23-0058-CH
@@ -187,7 +183,7 @@ proxy-groups:
       - 05-0014-DE
       - 06-0024-CN
       - 06-0029-LT
-      - 08-0039-VN
+      - 08-0039-HK
       - 08-0104-HK
       - 23-0044-AT
       - 23-0049-FR
@@ -201,6 +197,7 @@ proxy-groups:
       - 05-0008-HKss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106989#23-0060-US
       - 05-0020-RELAY
       - 06-0035-TW
+      - 08-0040-VN
       - 08-0105-CA
   - name: 广告拦截
     type: select
