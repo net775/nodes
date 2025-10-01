@@ -191,6 +191,7 @@ proxies:
   - {name: 08-0360-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0361-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0362-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 08-0363-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 08-0364-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 08-0365-NL, server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0366-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -201,7 +202,6 @@ proxies:
   - {name: 08-0371-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0372-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0373-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 08-0374-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0375-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 08-0376-AE, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 08-0377-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -233,8 +233,8 @@ proxies:
   - {name: 08-0406-LT, server: 45.87.175.185, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 08-0408-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 08-0410-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 08-0411-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0412-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 08-0413-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0414-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0415-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0416-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -717,6 +717,7 @@ proxy-groups:
       - 08-0360-AE
       - 08-0361-LT
       - 08-0362-LT
+      - 08-0363-FR
       - 08-0364-LT
       - 08-0365-NL
       - 08-0366-NL
@@ -727,7 +728,6 @@ proxy-groups:
       - 08-0371-LT
       - 08-0372-LT
       - 08-0373-LT
-      - 08-0374-FR
       - 08-0375-AE
       - 08-0376-AE
       - 08-0377-NL
@@ -759,8 +759,8 @@ proxy-groups:
       - 08-0406-LT
       - 08-0408-NL
       - 08-0410-US
+      - 08-0411-US
       - 08-0412-US
-      - 08-0413-US
       - 08-0414-US
       - 08-0415-US
       - 08-0416-US
@@ -1147,6 +1147,7 @@ proxy-groups:
       - 08-0391-LT
       - 08-0401-NL
       - 08-0406-LT
+      - 08-0411-US
       - 08-0416-US
       - 08-0421-US
       - 08-0426-US
@@ -1357,6 +1358,7 @@ proxy-groups:
       - 08-0348-CA
       - 08-0353-LT
       - 08-0358-NL
+      - 08-0363-FR
       - 08-0368-AE
       - 08-0373-LT
       - 08-0378-NL
@@ -1365,7 +1367,6 @@ proxy-groups:
       - 08-0393-NL
       - 08-0398-LT
       - 08-0408-NL
-      - 08-0413-US
       - 08-0418-US
       - 08-0423-US
       - 08-0428-US
@@ -1473,7 +1474,6 @@ proxy-groups:
       - 08-0359-NL
       - 08-0364-LT
       - 08-0369-LT
-      - 08-0374-FR
       - 08-0379-LT
       - 08-0384-NL
       - 08-0389-LT
