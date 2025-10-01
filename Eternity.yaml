@@ -240,8 +240,9 @@ proxies:
   - {name: 08-0415-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0416-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0417-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 08-0418-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 08-0418-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#08-0359-NL, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0419-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
+  - {name: 08-0420-US, server: vps.my-youth.asia, port: 17891, type: vmess, uuid: 8f2d400c-0879-4076-9b87-2302f00a135b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.my-youth.asia}}, udp: true}
   - {name: 08-0421-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 08-0422-US, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 08-0423-US, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -767,8 +768,9 @@ proxy-groups:
       - 08-0415-US
       - 08-0416-US
       - 08-0417-US
-      - 08-0418-US
+      - 08-0418-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#08-0359-NL
       - 08-0419-US
+      - 08-0420-US
       - 08-0421-US
       - 08-0422-US
       - 08-0423-US
@@ -1370,7 +1372,7 @@ proxy-groups:
       - 08-0398-LT
       - 08-0408-NL
       - 08-0413-US
-      - 08-0418-US
+      - 08-0418-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#08-0359-NL
       - 08-0423-US
       - 08-0428-US
       - 08-0433-US
@@ -1484,6 +1486,7 @@ proxy-groups:
       - 08-0399-LT
       - 08-0404-LT
       - 08-0414-US
+      - 08-0418-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#08-0359-NL
       - 08-0419-US
       - 08-0424-US
       - 08-0429-US
@@ -1587,6 +1590,7 @@ proxy-groups:
       - 08-0405-LT
       - 08-0410-US
       - 08-0415-US
+      - 08-0420-US
       - 08-0425-US
       - 08-0430-US
       - 08-0435-US
