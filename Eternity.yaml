@@ -200,7 +200,6 @@ proxies:
   - {name: 08-0369-LT, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 08-0370-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 08-0371-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 08-0372-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0373-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0374-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0375-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -225,6 +224,7 @@ proxies:
   - {name: 08-0394-NL, server: 77.238.224.29, port: 55702, type: ss, cipher: chacha20-ietf-poly1305, password: S2QudBxi0vRySw4YRLloPq, udp: true}
   - {name: 08-0395-NL, server: 5.255.103.217, port: 37757, type: trojan, password: XWnVX2ASHl, sni: moshali.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fmoshaliplus", headers: {Host: moshali.arshiacomplus.dpdns.org}}, udp: true}
   - {name: 08-0398-LT, server: 45.87.175.22, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 08-0399-LT, server: 45.87.175.165, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 08-0400-NL, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: Fzf5vaXFs7oCY3Xb33aZ945xkhvFt2rrxdRBY9D3dQecNQKEXysBXb2eVPzDVb9iqM3iBhwJHEi5eWhzAXJXEP2vUwWCpZXD, udp: true}
   - {name: 08-0401-NL, server: 193.29.139.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0402-NL, server: 193.29.139.177, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -726,7 +726,6 @@ proxy-groups:
       - 08-0369-LT
       - 08-0370-LT
       - 08-0371-LT
-      - 08-0372-LT
       - 08-0373-LT
       - 08-0374-FR
       - 08-0375-AE
@@ -751,6 +750,7 @@ proxy-groups:
       - 08-0394-NL
       - 08-0395-NL
       - 08-0398-LT
+      - 08-0399-LT
       - 08-0400-NL
       - 08-0401-NL
       - 08-0402-NL
@@ -1250,7 +1250,6 @@ proxy-groups:
       - 08-0357-NL
       - 08-0362-LT
       - 08-0367-NL
-      - 08-0372-LT
       - 08-0377-NL
       - 08-0382-LT
       - 08-0387-NL
@@ -1478,6 +1477,7 @@ proxy-groups:
       - 08-0384-NL
       - 08-0389-LT
       - 08-0394-NL
+      - 08-0399-LT
       - 08-0404-LT
       - 08-0414-US
       - 08-0419-US
