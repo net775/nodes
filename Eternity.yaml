@@ -54,11 +54,11 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-0000-HK, server: 103.219.195.237, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0000-HK, server: 103.219.195.237, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 06-0018-CN, server: 106.126.3.24, port: 1321, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
   - {name: 06-0019-CN, server: 36.151.194.31, port: 1435, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
   - {name: 06-0020-CN, server: hneyoxqhenuf.dnsfailover.org, port: 1397, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
@@ -200,13 +200,13 @@ proxies:
   - {name: 07-0223-CA, server: 15.235.85.156, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 07-0224-CA, server: 148.113.153.113, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 07-0225-CA, server: 158.51.121.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
+  - {name: 07-0227-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0228-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0229-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0230-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0231-US, server: 34.201.50.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0232-US, server: 52.87.250.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0233-US, server: 54.84.99.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 07-0234-US, server: 54.242.126.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0235-US, server: 3.85.144.122, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
   - {name: 07-0236-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0237-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -276,6 +276,7 @@ proxies:
   - {name: 07-0331-NL, server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 07-0332-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0333-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 07-0334-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 07-0335-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 07-0336-NL, server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 07-0337-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -289,7 +290,6 @@ proxies:
   - {name: 07-0346-HK, server: 203.23.128.33, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0347-HK, server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 07-0348-PA, server: 138.186.142.80, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 07-0349-GB, server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, udp: true}
   - {name: 07-0350-GB, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0351-GB, server: 94.156.250.122, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 07-0352-GB, server: 77.91.101.132, port: 43458, type: ss, cipher: chacha20-ietf-poly1305, password: SSh5aoQdcX0nZXCAH5yF75, udp: true}
@@ -406,7 +406,7 @@ proxies:
   - {name: 08-0468-TW, server: 118.170.196.147, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
   - {name: 08-0469-TW, server: 36.234.107.120, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
   - {name: 08-0470-TW, server: 36.234.126.119, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
-  - {name: 08-0471-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#07-0227-US, server: 36.232.121.189, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 08-0471-TWss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.242.126.43443#07-0234-US, server: 36.232.121.189, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
   - {name: 08-0472-TW, server: 1.165.70.117, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
   - {name: 08-0473-TW, server: 1.165.99.50, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
   - {name: 08-0474-TW, server: 125.230.12.229, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
@@ -614,13 +614,13 @@ proxy-groups:
       - 07-0223-CA
       - 07-0224-CA
       - 07-0225-CA
+      - 07-0227-US
       - 07-0228-US
       - 07-0229-US
       - 07-0230-US
       - 07-0231-US
       - 07-0232-US
       - 07-0233-US
-      - 07-0234-US
       - 07-0235-US
       - 07-0236-US
       - 07-0237-US
@@ -690,6 +690,7 @@ proxy-groups:
       - 07-0331-NL
       - 07-0332-NL
       - 07-0333-LT
+      - 07-0334-LT
       - 07-0335-NL
       - 07-0336-NL
       - 07-0337-LT
@@ -703,7 +704,6 @@ proxy-groups:
       - 07-0346-HK
       - 07-0347-HK
       - 07-0348-PA
-      - 07-0349-GB
       - 07-0350-GB
       - 07-0351-GB
       - 07-0352-GB
@@ -820,7 +820,7 @@ proxy-groups:
       - 08-0468-TW
       - 08-0469-TW
       - 08-0470-TW
-      - 08-0471-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#07-0227-US
+      - 08-0471-TWss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.242.126.43443#07-0234-US
       - 08-0472-TW
       - 08-0473-TW
       - 08-0474-TW
@@ -956,7 +956,7 @@ proxy-groups:
       - 07-0456-AE
       - 08-0461-TW
       - 08-0466-TW
-      - 08-0471-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#07-0227-US
+      - 08-0471-TWss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.242.126.43443#07-0234-US
       - 08-0476-TW
       - 08-0481-TW
       - 08-0486-TW
@@ -1001,6 +1001,7 @@ proxy-groups:
       - 07-0212-DE
       - 07-0217-DE
       - 07-0222-CA
+      - 07-0227-US
       - 07-0232-US
       - 07-0237-US
       - 07-0242-US
@@ -1041,7 +1042,6 @@ proxy-groups:
       - 08-0457-TW
       - 08-0462-TW
       - 08-0467-TW
-      - 08-0471-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#07-0227-US
       - 08-0472-TW
       - 08-0477-TW
       - 08-0482-TW
@@ -1174,7 +1174,6 @@ proxy-groups:
       - 07-0219-CA
       - 07-0224-CA
       - 07-0229-US
-      - 07-0234-US
       - 07-0239-US
       - 07-0244-US
       - 07-0254-RELAY
@@ -1188,9 +1187,9 @@ proxy-groups:
       - 07-0319-AE
       - 07-0324-LT
       - 07-0329-LT
+      - 07-0334-LT
       - 07-0339-LT
       - 07-0344-LT
-      - 07-0349-GB
       - 07-0354-IT
       - 07-0359-FR
       - 07-0364-JP
@@ -1215,6 +1214,7 @@ proxy-groups:
       - 08-0459-TW
       - 08-0464-TW
       - 08-0469-TW
+      - 08-0471-TWss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.242.126.43443#07-0234-US
       - 08-0474-TW
       - 08-0479-TW
       - 08-0484-TW
