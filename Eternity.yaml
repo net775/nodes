@@ -313,6 +313,7 @@ proxies:
   - {name: 17-0406-LV, server: 46.183.217.204, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0407-IN, server: id.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 17-0408-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 17-0411-NL, server: 193.29.139.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 17-0422-GB, server: 89.185.84.185, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: k1su9PMjKy4KQCPAkkBq0K, udp: true}
   - {name: 17-0423-PL, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7115Q0ojojBF7mc2F7KLkN, udp: true}
   - {name: 17-0425-ES, server: 194.87.45.189, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: uFiYu7SpjpkmO6ZYaO16xz, udp: true}
@@ -328,7 +329,6 @@ proxies:
   - {name: 17-0455-CN, server: 39.104.68.204, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 6hVowjcc82p6Nu9UvOXhhF, udp: true}
   - {name: 17-0457-FI, server: 185.193.102.7, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 17-0462-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1%252BihlfKg826H, udp: true}
-  - {name: 17-0467-LT, server: 45.87.175.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 17-0471-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 17-0473-DE, server: 213.108.198.158, port: 8441, type: trojan, password: tunnel-astrovpn_official103, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir, skip-cert-verify: true, udp: true}
   - {name: 17-0474-NL, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
@@ -603,6 +603,7 @@ proxy-groups:
       - 17-0406-LV
       - 17-0407-IN
       - 17-0408-NL
+      - 17-0411-NL
       - 17-0422-GB
       - 17-0423-PL
       - 17-0425-ES
@@ -618,7 +619,6 @@ proxy-groups:
       - 17-0455-CN
       - 17-0457-FI
       - 17-0462-CH
-      - 17-0467-LT
       - 17-0471-LT
       - 17-0473-DE
       - 17-0474-NL
@@ -696,6 +696,7 @@ proxy-groups:
       - 09-0341-VN
       - 16-0381-JP
       - 17-0406-LV
+      - 17-0411-NL
       - 17-0436-RELAY
       - 17-0441-LT
       - 17-0446-ZA
@@ -760,7 +761,6 @@ proxy-groups:
       - 17-0442-DE
       - 17-0457-FI
       - 17-0462-CH
-      - 17-0467-LT
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
